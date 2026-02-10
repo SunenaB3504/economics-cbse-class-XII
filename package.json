@@ -1,0 +1,31 @@
+{
+  "name": "economics-master-cbse-class-12",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^0.563.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-markdown": "^9.0.3",
+    "remark-gfm": "^4.0.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.3.0",
+    "@tailwindcss/typography": "^0.5.10"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5",
+    "vite": "^6.2.0"
+  }
+}
