@@ -1,4 +1,3 @@
-
 import { SQPQuestion } from '../../types';
 
 export const SQP_QUESTIONS: SQPQuestion[] = [
@@ -89,20 +88,25 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     question: 'Evaluate the importance of "Liberty Indicators" in comparing the development of nations.',
     markingScheme: '1. Beyond Data: Growth/HDI don\'t show if people are free.\n2. Participation: Freedom of speech and political participation are vital for human dignity.\n3. Comparison: India and Pakistan, despite lower HDI, score higher on Liberty than China.\n4. Conclusion: True development includes both economic prosperity and individual freedom.',
     aiExplanation: 'Teacher\'s Voice: Would you rather be rich and silent, or average and free? Liberty indicators ask exactly that. They are the "Soul" of development metrics.'
-  }
-];
-    questionNumber: 'Q32.',
+  },
+  {
+    id: 'u8-q9-sqp-2026-q32',
+    year: '2025-26',
+    paperType: 'SQP',
+    marks: 4,
+    type: 'SA',
+    questionNumber: '32.',
     question: 'Explain the "Commune System" of farming in China and its impact on the agricultural sector.',
     markingScheme: '1. **Meaning**: Started in 1958 during GLF, individuals cultivated land collectively as part of a "Commune".\n2. **Scale**: By 1958, there were 26,000 communes covering almost all farm households.\n3. **Transition**: It moved the focus from individual to collective productivity, though it later faced challenges in incentive management.',
     aiExplanation: 'Teacher\'s Voice: Think of a commune as a huge "joint family" farm where thousands of people worked together and shared the results.'
   },
   {
-    id: 'u8-q10-sqp-2026',
+    id: 'u8-q10-sqp-2026-q31',
     year: '2025-26',
     paperType: 'SQP',
     marks: 3,
     type: 'SA',
-    questionNumber: 'Q31.',
+    questionNumber: '31.',
     question: 'How did "Special Economic Zones" (SEZs) play a pivotal role in China\'s growth story post-1978?',
     markingScheme: '1. **Purpose**: Areas with liberal laws and tax breaks to attract Foreign Direct Investment (FDI).\n2. **Result**: Transformed China into an export-led economy and global manufacturing hub.\n3. **Development**: Promoted modern technology and created massive employment in coastal regions.',
     aiExplanation: 'Teacher\'s Voice: SEZs were like "Economic Magnets" that pulled in foreign money and technology to build modern China.'
