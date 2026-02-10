@@ -1,82 +1,81 @@
-
 import { SQPQuestion } from '../../types';
 
 export const SQP_QUESTIONS: SQPQuestion[] = [
   {
-    id: 'u6-q1-sqp-22-23-q18',
+    id: 'u6-q1-sqp-22-23-q19',
     year: '2022-23',
     paperType: 'SQP',
-    marks: 1,
-    type: 'MCQ',
-    questionNumber: '18.',
-    question: 'The abolition of intermediaries and fixing the maximum size of land which could be owned by an individual were two main features of __________.',
-    markingScheme: 'Land Reforms (Land Ceiling). Aimed at giving ownership rights to actual tillers.',
-    aiExplanation: 'Teacher\'s Voice: These were the basic agrarian reforms to remove the exploitative Zamindari system.'
-  },
-  {
-    id: 'u6-q2-sqp-22-23-q34',
-    year: '2022-23',
-    paperType: 'SQP',
-    marks: 6,
-    type: 'LA',
-    questionNumber: '34.',
-    question: 'The Green Revolution necessitated a resource-intensive process but was helpful in the creation of buffer stocks. Discuss.',
-    markingScheme: '1. Resource Intensive: Required HYV seeds, chemical fertilizers, and assured irrigation.\n2. Buffer Stocks: Massive increase in production allowed the government to procure surplus for food security.\n3. Marketed Surplus: Farmers sold a large part of their produce in the market.',
-    aiExplanation: 'While expensive to implement, it made India "Atmanirbhar" (self-reliant) in food for the first time.'
-  },
-  {
-    id: 'u6-q3-sqp-23-24-q24',
-    year: '2023-24',
-    paperType: 'SQP',
-    marks: 3,
-    type: 'SA',
-    questionNumber: '24.',
-    question: '“Outsourcing is one of the important outcomes of the globalisation process.” Justify the statement.',
-    markingScheme: '1. Definition: Hiring regular service from external sources, mostly from other countries.\n2. Rise: Due to growth of IT and communication, services like BPO, accounting, and banking are outsourced to India.\n3. Advantage: Cost-effectiveness and availability of skilled manpower in India.',
-    aiExplanation: 'India became the "back-office" of the world thanks to cheap internet and English-speaking talent.'
-  },
-  {
-    id: 'u6-q4-sqp-23-24-q34',
-    year: '2023-24',
-    paperType: 'SQP',
-    marks: 6,
-    type: 'LA',
-    questionNumber: '34.',
-    question: 'Critically evaluate the impact of the 1991 reforms on the agricultural sector.',
-    markingScheme: '1. Negative Impact: Public investment in agriculture declined.\n2. Subsidy Removal: Increased production costs for small farmers.\n3. Shift to Cash Crops: Globalization led to a shift from food grains to export-oriented crops.\n4. Result: Stagnation in agricultural growth compared to other sectors.',
-    aiExplanation: 'Teacher\'s Voice: While services boomed, agriculture felt left behind because the focus shifted to global markets.'
-  },
-  {
-    id: 'u6-q5-sqp-24-25-q18',
-    year: '2024-25',
-    paperType: 'SQP',
-    marks: 3,
-    type: 'SA',
-    questionNumber: '18.',
-    question: 'India\'s foreign trade during colonial rule resulted in a large export surplus. How was this surplus used?',
-    markingScheme: '1. Drain of Wealth: The surplus was not used for Indian development.\n2. Expenses: Used to meet administrative expenses of the British Govt.\n3. War costs: Used to finance wars fought by the British.\n4. Invisibles: Payment for import of invisible services.',
-    aiExplanation: 'This is the "Drain of Wealth" theory popularized by Dadabhai Naoroji. Our profit was Britain\'s gain.'
-  },
-  {
-    id: 'u6-q6-sqp-24-25-q34',
-    year: '2024-25',
-    paperType: 'SQP',
-    marks: 6,
-    type: 'LA',
-    questionNumber: '34.',
-    question: 'The system of industrial licensing was introduced to promote regional equality. Comment on the role of IPR 1956.',
-    markingScheme: '1. Categorisation: Schedule A (State-owned), B (State-led), C (Private).\n2. Licensing: No new industry allowed without a license; expansion also needed a license.\n3. Regional Parity: Licenses were easier to get for setting up industries in backward regions.\n4. Tax Benefits: Concessions were given for units in rural areas.',
-    aiExplanation: 'The license wasn\'t just for control, it was a steering wheel to drive investment into poor states.'
-  },
-  {
-    id: 'u6-q7-sqp-25-26-q19',
-    year: '2025-26',
-    paperType: 'SQP',
-    marks: 3,
+    marks: 4,
     type: 'SA',
     questionNumber: '19.',
-    question: 'Why was "Self-reliance" considered an important goal in the first seven five-year plans?',
-    markingScheme: '1. Independence: To avoid foreign interference by reducing dependence on imports.\n2. Food Security: Initial dependence on US (PL-480) for food grains was seen as a risk.\n3. Domestic Capactiy: To build a strong indigenous industrial and technological base.',
+    question: '“The Green Revolution was a double-edged sword.” Justify.',
+    markingScheme: '1. Success: Achieved food self-sufficiency and high yields through HYV seeds.\n2. Risk: Created regional disparities (Punjab vs others) and increased inequality between rich/poor farmers.\n3. Subsidy: Govt provided subsidies to make seeds affordable, but it became a fiscal burden later.',
+    aiExplanation: 'Teacher\'s Voice: It solved hunger, but created "class walls" and environmental issues. That\'s why it\'s a double-edged sword.'
+  },
+  {
+    id: 'u6-q2-sqp-22-23-q31',
+    year: '2022-23',
+    paperType: 'SQP',
+    marks: 6,
+    type: 'LA',
+    questionNumber: '31.',
+    question: 'Explain the Industrial Policy Resolution (IPR) 1956 and its three-fold classification.',
+    markingScheme: '1. Category 1: Industries exclusively owned by the State (e.g., Arms, Atomic).\n2. Category 2: Industries where State would take lead but private sector could supplement.\n3. Category 3: Remaining industries open to private sector (but regulated via licenses).',
+    aiExplanation: 'IPR 1956 was the "Economic Constitution" of the public sector. It ensured the govt held the "commanding heights" of the economy.'
+  },
+  {
+    id: 'u6-q3-sqp-23-24-q22',
+    year: '2023-24',
+    paperType: 'SQP',
+    marks: 4,
+    type: 'SA',
+    questionNumber: '22.',
+    question: 'Discuss the impact of the Suez Canal opening on the Indian economy.',
+    markingScheme: '1. Date: 1869.\n2. Impact: Reduced cost of transport between Britain and India significantly.\n3. Result: Intensified British control over Indian foreign trade, leading to faster "Drain of Wealth".',
+    aiExplanation: 'The Suez Canal transformed India into a "Feeder Economy" for British factories by making shipment easier and cheaper.'
+  },
+  {
+    id: 'u6-q4-sqp-23-24-q28',
+    year: '2023-24',
+    paperType: 'SQP',
+    marks: 6,
+    type: 'LA',
+    questionNumber: '28.',
+    question: 'Analyse the reasons for the New Economic Policy (1991).',
+    markingScheme: '1. BoP Crisis: Foreign exchange reserves fell to a level barely enough for two weeks of imports.\n2. Inflation: Prices of essential goods were rising sharply (~17%).\n3. Fiscal Deficit: Govt spending far exceeded revenue.\n4. Poor PSU Performance: Public sector was making huge losses.',
+    aiExplanation: 'Teacher\'s Voice: 1991 was India’s "Emergency Exit". We had no money left to pay for oil or imports, so we had to open the doors of the economy.'
+  },
+  {
+    id: 'u6-q5-sqp-24-25-q22',
+    year: '2024-25',
+    paperType: 'SQP',
+    marks: 3,
+    type: 'SA',
+    questionNumber: '22.',
+    question: 'Distinguish between "Tariffs" and "Quotas". Why were they used?',
+    markingScheme: '1. Tariffs: Taxes on imported goods (makes them expensive).\n2. Quotas: Quantity limits on imports (restricts volume).\n3. Purpose: To protect "Infant Industries" in India from global competition.',
+    aiExplanation: 'Think of them as "Economic Shields". Tariffs are the price shield, and Quotas are the volume shield.'
+  },
+  {
+    id: 'u6-q6-sqp-24-25-q32',
+    year: '2024-25',
+    paperType: 'SQP',
+    marks: 6,
+    type: 'LA',
+    questionNumber: '32.',
+    question: 'Critically evaluate the performance of India\'s industrial sector from 1950 to 1990.',
+    markingScheme: '1. Contribution: Industry share in GDP rose from 11.8% to 24.6%.\n2. Diversity: Expanded beyond textiles into chemicals, electronics, etc.\n3. Weakness: "License Raj" led to corruption and lack of innovation; inefficient PSUs drained resources.',
+    aiExplanation: 'Teacher\'s Voice: We built the foundation, but we locked it with too many keys (licensing). It grew, but it wasn\'t competitive.'
+  },
+  {
+    id: 'u6-q7-sqp-25-26-q22',
+    year: '2025-26',
+    paperType: 'SQP',
+    marks: 4,
+    type: 'SA',
+    questionNumber: '22.',
+    question: 'Why was "Self-reliance" a key goal of planning in India?',
+    markingScheme: '1. Dependency: To reduce reliance on foreign countries for food and essential items.\n2. Sovereignty: To avoid foreign interference in our policies (as often happens with aid).\n3. Promotion: To encourage the growth of domestic industry and agriculture.',
     aiExplanation: 'They used the phrase "Self-reliance" to mean "Don\'t let foreign powers hold your food supply hostage".'
   },
   {
@@ -89,26 +88,25 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     question: 'Privatisation through disinvestment was primarily intended to __________.',
     markingScheme: 'Improve the performance of Public Sector Undertakings (PSUs) by bringing in private capital and management efficiency.',
     aiExplanation: 'Disinvestment means "selling equity". The logic is that private shareholders will demand better performance than the government did.'
-  }
-];
+  },
   {
-    id: 'u6-q9-sqp-2026',
+    id: 'u6-q9-sqp-2026-q24',
     year: '2025-26',
     paperType: 'SQP',
     marks: 4,
     type: 'SA',
-    questionNumber: 'Q24.',
+    questionNumber: '24.',
     question: 'Explain the role of the "Karve Committee" in the development of the Indian industrial sector between 1950 and 1990.',
     markingScheme: '1. **Name**: Also known as the Village and Small-scale Industries Committee (1955).\n2. **Perspective**: It highlighted that small-scale industries (SSI) are more "labor-intensive" and thus better for generating employment.\n3. **Recommendation**: Promoted the use of SSIs for rural development and to achieve the goal of "equity" by spreading industrialization to backward areas.',
     aiExplanation: 'Teacher\'s Voice: Think of the Karve Committee as the champion of small businesses. They believed that big factories alone couldn\'t solve India\'s unemployment problem.'
   },
   {
-    id: 'u6-q10-board-2026',
+    id: 'u6-q10-board-2026-q19',
     year: '2025-26',
     paperType: 'SQP',
     marks: 3,
     type: 'SA',
-    questionNumber: 'Q19.',
+    questionNumber: '19.',
     question: 'What was the core objective of "Land Ceilings" and why did it face significant hurdles during implementation?',
     markingScheme: '1. **Objective**: To reduce the concentration of land ownership in a few hands and ensure equity in the agricultural sector.\n2. **Hurdles**: Big landlords used "loopholes" in the law (like registering land in the names of relatives) and delayed implementation through long legal battles in courts.',
     aiExplanation: 'Teacher\'s Voice: Land Ceiling was a perfect idea on paper, but the powerful landlords found many clever ways to pretend they followed the rules while keeping their land.'
