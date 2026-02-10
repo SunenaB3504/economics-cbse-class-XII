@@ -42,3 +42,6 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
       '**Accommodating Items:** "Below the line" - done to cover BoP gap (e.g., ORT, IMF loans).',
       '**Visible Trade:** Only merchandise (physical goods).',
       '**Unilateral Transfers:** One-way flows like gifts and remittances.'
+    ]
+  }
+];
