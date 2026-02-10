@@ -22,7 +22,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '10.',
     question: 'A rise in the price of foreign currency will lead to a rise in exports. Explain the logic.',
     markingScheme: '1. Logic: Rise in the price of foreign currency (Depreciation of domestic currency) makes domestic goods cheaper for foreigners.\n2. Result: Increase in demand for domestic goods abroad leads to a rise in exports.',
-    aiExplanation: 'Think about it: If $1 was ₹70 and becomes ₹80, a $100 Indian shirt now costs a foreigner only $1.25 (approx) less in their currency terms? No, wait. If $1 buys more rupees, then Indian goods priced in rupees cost fewer dollars. This makes our goods "on sale" for the world!'
+    aiExplanation: 'Teacher\'s Voice: Think about the math: If $1 used to buy ₹70 and now buys ₹80, a shirt worth ₹700 used to cost a foreigner $10, but now it costs them only $8.75. Since the price in their currency has fallen, their demand for our goods (exports) will rise!'
   },
   {
     id: 'u5-q3-sqp-23-24-q4',
@@ -33,7 +33,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '4.',
     question: 'Net external commercial borrowings to India are recorded as an outflow in the Balance of Payments when there is a repayment. True/False?',
     markingScheme: 'True. Repayment of borrowings leads to an outflow of foreign exchange and is recorded as a debit item in the **Capital Account**.',
-    aiExplanation: 'Borrowing money is an inflow (Credit), but paying it back is an outflow (Debit). Since it affects our liabilities, it belongs in the Capital Account.'
+    aiExplanation: 'Teacher\'s Voice: Borrowing money is an inflow (Credit), but paying it back is an outflow (Debit). Since it affects our future liabilities and assets, it belongs in the Capital Account.'
   },
   {
     id: 'u5-q4-sqp-23-24-q13',
@@ -44,7 +44,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '13.',
     question: 'Explain the impact of a rise in foreign exchange rate on National Income.',
     markingScheme: '1. Impact: A rise in exchange rate (Depreciation) makes exports cheaper and imports costlier.\n2. Effect: Net Exports (X - M) increase.\n3. Result: Since National Income (Y) = C + I + G + (X - M), an increase in Net Exports leads to a rise in National Income.',
-    aiExplanation: 'Teacher\'s Voice: When the Dollar gets expensive, we sell more to the world and buy less from them. This increases the total production and income within India.'
+    aiExplanation: 'Teacher\'s Voice: This is a direct link between Units 3 and 5. Formula: $$Y = C + I + G + (X - M)$$. When the exchange rate rises (Depreciation), our goods become cheaper for foreigners (X rises) and foreign goods become expensive for us (M falls). Thus, Net Exports $$(X - M)$$ increase, which directly boosts the National Income ($Y$).'
   },
   {
     id: 'u5-q5-sqp-24-25-q4',
@@ -89,5 +89,42 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     question: 'Distinguish between Devaluation and Depreciation of a currency.',
     markingScheme: '| Feature | Devaluation | Depreciation |\n|---|---|---|\n| System | Fixed Exchange Rate System. | Flexible Exchange Rate System. |\n| Source | Done by Government/Central Bank. | Caused by Market Forces (Demand/Supply). |\n| Nature | Official administrative act. | Automatic market adjustment. |',
     aiExplanation: 'Teacher\'s Voice: In Devaluation, the government "cuts" the price. In Depreciation, the market "drifts" the price down.'
+  },
+  {
+    id: 'u5-q9-sqp-2026',
+    year: '2025-26',
+    paperType: 'SQP',
+    marks: 4,
+    type: 'SA',
+    questionNumber: '32.',
+    question: 'Enumerate any four sources which contribute to the Demand for Foreign Exchange.',
+    markingScheme: '1. Imports of goods and services.\n2. Unilateral transfers sent abroad (Gifts/Grants).\n3. Purchase of assets abroad (FDI/FPI).\n4. Speculative activities (buying forex for gain).',
+    aiExplanation: 'Teacher\'s Voice: Demand comes from whenever money needs to leave the country. If you want to buy a Tesla from the US, you *demand* dollars.'
+  },
+  {
+    id: 'u5-q10-sqp-2026',
+    year: '2025-26',
+    paperType: 'SQP',
+    marks: 3,
+    type: 'SA',
+    questionNumber: '29.',
+    question: 'Distinguish between "Autonomous" and "Accommodating" items in the Balance of Payments.',
+    markingScheme: '1. **Autonomous**: Items motivated by profit (trading, investment) - "Above the line".\n2. **Accommodating**: Items intended to cover the surplus/deficit in autonomous items - "Below the line".\n3. **Nature**: Autonomous causes imbalance; Accommodating fixes it.',
+    aiExplanation: 'Teacher\'s Voice: Autonomous items happen because of business ("Profit motive"). Accommodating items happen because of the BOP ("Equilibrium motive").'
+  },
+  {
+    id: 'u5-q11-sqp-2026',
+    year: '2025-26',
+    paperType: 'SQP',
+    marks: 1,
+    type: 'MCQ',
+    questionNumber: '10.',
+    question: 'The trade under current account during January 2024 reflects a _________ of USD _____ billion.',
+    optionA: 'Surplus, 0.74',
+    optionB: 'Surplus, 3.85',
+    optionC: 'Deficit, 0.74',
+    optionD: 'Deficit, 3.85',
+    answer: 'C',
+    aiExplanation: 'Teacher\'s Voice: This question refers to the data table provided in the 2024-25 SQP. A deficit occurs when "Receipts < Payments" on the trade/services account. The calculated value here is 0.74 billion USD.'
   }
 ];

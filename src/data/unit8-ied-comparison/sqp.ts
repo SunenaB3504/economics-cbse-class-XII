@@ -21,7 +21,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '31.',
     question: '“The Great Leap Forward (GLF) campaign was a failure in China.” Discuss.',
     markingScheme: '1. Success: It industrialised backyards and laid the foundation for manufacturing.\n2. Failure: It led to a massive famine (killing millions) and was interrupted by political instability.\n3. Result: Though it had high human costs, it moved China away from a purely agrarian economy.',
-    aiExplanation: 'Teacher\'s Voice: GLF was "High Risk, High Reward". It tried to do 50 years of work in 5 years, which caused huge suffering but broke the old stagnant system.'
+    aiExplanation: 'Teacher\'s Voice: GLF was "High Risk, High Reward". Mao Zedong wanted to do 50 years of industrialization in just 5 years. It moved furnaces into backyards and farms into collective communes. While it laid the foundation for modern manufacturing, the social cost was a horrific famine. It was a brutal but effective break from China\'s agrarian past.'
   },
   {
     id: 'u8-q3-sqp-23-24-q23',
@@ -32,7 +32,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '23.',
     question: '“China\'s rapid industrial growth can be traced back to its SEZ policy.” Justify.',
     markingScheme: '1. SEZs: Special Economic Zones were created to attract FDI through tax breaks and infrastructure.\n2. FDI: These zones became hubs for global manufacturing companies.\n3. Exports: They drove China’s export-led growth model.',
-    aiExplanation: 'SEZs were like "Economic Laboratories". China tested capitalism in these small zones before opening the whole country.'
+    aiExplanation: 'Teacher\'s Voice: Think of SEZs as "Economic Laboratories". China didn\'t open the whole country to capitalism at once. They tested it in these small zones (like Shenzhen) first. Once they saw the massive flow of Foreign Direct Investment (FDI) and technology, they expanded the model, making China the "World\'s Factory".'
   },
   {
     id: 'u8-q4-sqp-23-24-q28',
@@ -43,7 +43,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '28.',
     question: 'Discuss the reasons for the slow growth and re-emergence of poverty in Pakistan.',
     markingScheme: '1. Instability: Frequent changes in government and political unrest.\n2. Dependence: High reliance on foreign aid and remittances rather than domestic production.\n3. Agriculture: Stagnation in agricultural productivity after the initial Green Revolution.\n4. Low Investment: Low expenditure on education and health compared to military.',
-    aiExplanation: 'Teacher\'s Voice: Pakistan’s economy is often called "Remittance-driven". If the workers abroad stop sending money, the economy struggles because there is little local industry.'
+    aiExplanation: 'Teacher\'s Voice: Pakistan’s economy is often called "Consumption-driven" and "Remittance-dependent". Because they didn\'t invest in local manufacturing or human capital (education/health) as much as India or China, they remain vulnerable to political shocks and global aid fluctuations.'
   },
   {
     id: 'u8-q5-sqp-24-25-q22',
@@ -54,7 +54,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '22.',
     question: 'Analyse the Human Development Indicators of India, China, and Pakistan.',
     markingScheme: '1. HDI Rank: China (High) > India (Medium) > Pakistan (Low-Medium).\n2. Metrics: China leads in life expectancy and literacy.\n3. Health: China has the lowest IMR and MMR among the three.',
-    aiExplanation: 'China invested heavily in basic education and health in the 1950s-70s, which gave them a head start in human development.'
+    aiExplanation: 'Teacher\'s Voice: China’s high HDI is the result of their "Socialist" investments in basic education and health during the 1950s-70s. This healthy and literate workforce then powered their "Capitalist" manufacturing boom after 1978.'
   },
   {
     id: 'u8-q6-sqp-24-25-q32',
@@ -65,7 +65,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '32.',
     question: 'Compare the timing and approach of economic reforms in India and China.',
     markingScheme: '1. Timing: China (1978) was 13 years ahead of India (1991).\n2. Approach: China used a "Phased Approach" (Agri first); India used a "Suddent Package" (LPG) due to crisis.\n3. Implementation: China used "Economic Zones"; India focused on "Service Sector" deregulation.',
-    aiExplanation: 'Teacher\'s Voice: China chose the path, while India was forced onto it by a bankruptcy crisis. This is why China’s manufacturing is so much stronger.'
+    aiExplanation: 'Teacher\'s Voice: This is the "Thrift vs Crisis" comparison. China (1978) chose to reform when they were stable, starting with agriculture. India (1991) was forced to reform by a bankruptcy crisis, starting with the industrial sector. That 13-year head start is a major reason why China’s economy is so much larger today.'
   },
   {
     id: 'u8-q7-sqp-25-26-q22',

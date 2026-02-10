@@ -10,7 +10,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '19.',
     question: '“The Green Revolution was a double-edged sword.” Justify.',
     markingScheme: '1. Success: Achieved food self-sufficiency and high yields through HYV seeds.\n2. Risk: Created regional disparities (Punjab vs others) and increased inequality between rich/poor farmers.\n3. Subsidy: Govt provided subsidies to make seeds affordable, but it became a fiscal burden later.',
-    aiExplanation: 'Teacher\'s Voice: It solved hunger, but created "class walls" and environmental issues. That\'s why it\'s a double-edged sword.'
+    aiExplanation: 'Teacher\'s Voice: The Green Revolution solved India’s "Ship-to-Mouth" crisis (depending on US food aid), but it created a divide between rich and poor farmers and between developed regions like Punjab/Haryana and the rest of India. That is why historians call it a "Double-edged sword"—it cut through hunger but left scars on equality.'
   },
   {
     id: 'u6-q2-sqp-22-23-q31',
@@ -21,7 +21,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '31.',
     question: 'Explain the Industrial Policy Resolution (IPR) 1956 and its three-fold classification.',
     markingScheme: '1. Category 1: Industries exclusively owned by the State (e.g., Arms, Atomic).\n2. Category 2: Industries where State would take lead but private sector could supplement.\n3. Category 3: Remaining industries open to private sector (but regulated via licenses).',
-    aiExplanation: 'IPR 1956 was the "Economic Constitution" of the public sector. It ensured the govt held the "commanding heights" of the economy.'
+    aiExplanation: 'Teacher\'s Voice: Think of IPR 1956 as the "Commanding Heights" policy. The Government decided that "Mother Industries" (Steel, Atomic Energy, etc.) must be under State control so that the private sector only supplements the public sector, not vice-versa. It also introduced the "License Raj" for the third category.'
   },
   {
     id: 'u6-q3-sqp-23-24-q22',
@@ -32,7 +32,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '22.',
     question: 'Discuss the impact of the Suez Canal opening on the Indian economy.',
     markingScheme: '1. Date: 1869.\n2. Impact: Reduced cost of transport between Britain and India significantly.\n3. Result: Intensified British control over Indian foreign trade, leading to faster "Drain of Wealth".',
-    aiExplanation: 'The Suez Canal transformed India into a "Feeder Economy" for British factories by making shipment easier and cheaper.'
+    aiExplanation: 'Teacher\'s Voice: Opened in 1869, the Suez Canal was a game-changer for the British. It bypassed the long journey around Africa, making it much easier and cheaper to ship raw materials out of India and dump British machine-made goods into Indian markets. It was the "Industrial Pipeline" of the 19th century.'
   },
   {
     id: 'u6-q4-sqp-23-24-q28',
@@ -43,7 +43,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '28.',
     question: 'Analyse the reasons for the New Economic Policy (1991).',
     markingScheme: '1. BoP Crisis: Foreign exchange reserves fell to a level barely enough for two weeks of imports.\n2. Inflation: Prices of essential goods were rising sharply (~17%).\n3. Fiscal Deficit: Govt spending far exceeded revenue.\n4. Poor PSU Performance: Public sector was making huge losses.',
-    aiExplanation: 'Teacher\'s Voice: 1991 was India’s "Emergency Exit". We had no money left to pay for oil or imports, so we had to open the doors of the economy.'
+    aiExplanation: 'Teacher\'s Voice: 1991 was India’s "Financial Emergency". Our foreign exchange reserves were so low (just enough for 2 weeks of imports) that we had to pledge our gold to the Bank of England to get a loan. This crisis forced us to adopt LPG: Liberalisation, Privatisation, and Globalisation.'
   },
   {
     id: 'u6-q5-sqp-24-25-q22',

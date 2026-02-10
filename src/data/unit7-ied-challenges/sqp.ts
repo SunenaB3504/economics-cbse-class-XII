@@ -11,7 +11,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '24.',
     question: '“Investment in education and health... leads to higher economic growth.” Justify the statement.',
     markingScheme: '1. Skills: Education improves skills and productivity.\n2. Efficiency: Health reduces loss of production due to illness and increases efficiency.\n3. Human Capital: Both contribute to building a stronger human capital stock.',
-    aiExplanation: 'Teacher\'s Voice: Think of people as assets. If they are smarter (educated) and stronger (healthy), they produce more, which grows the GDP!'
+    aiExplanation: 'Teacher\'s Voice: Human Capital Formation is like upgrading a machine. An educated and healthy person is like a high-end computer—fast, efficient, and capable of complex tasks. This increased productivity (higher output per person) is what ultimately grows the GDP!'
   },
   {
     id: 'u7-q2-sqp-22-23-q27',
@@ -22,7 +22,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '27.',
     question: 'Discuss the role of "Self-Help Groups (SHGs)" in rural credit.',
     markingScheme: '1. Micro-credit: SHGs provide small loans with minimal documentation.\n2. Empowerment: Especially helps women become financially independent.\n3. Interest: Lower interest compared to money lenders.\n4. Saving Habit: Encourages people to pool their small savings.',
-    aiExplanation: 'SHGs are like tiny banks run by neighbors. They help each other avoid the trap of high-interest money lenders.'
+    aiExplanation: 'Teacher\'s Voice: SHGs are like tiny banks run by neighbors. By pooling their small savings, they create a fund that members can borrow from in emergencies at fair rates, helping them escape the "debt trap" of local money lenders.'
   },
   {
     id: 'u7-q3-sqp-23-24-q22',
@@ -33,7 +33,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '22.',
     question: 'Define sustainable development and explain the concept of "Absorptive Capacity".',
     markingScheme: '1. Definition: Development that meets present needs without compromising future generations.\n2. Absorptive Capacity: The limited ability of the environment to handle pollution and waste without significant damage.',
-    aiExplanation: 'If we put more trash in the bin than the bin can hold, it overflows. The bin is the "Absorptive Capacity" of the environment.'
+    aiExplanation: 'Teacher\'s Voice: If we put more trash in the bin than the bin can hold, it overflows. The bin’s size is the "Absorptive Capacity" of the environment. Sustainable development means living within these "bin limits" (carrying capacity) so future generations also have a bin to use!'
   },
   {
     id: 'u7-q4-sqp-23-24-q25',
@@ -44,7 +44,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '25.',
     question: '“Distinguish between the Labour Force and the Workforce”.',
     markingScheme: '1. Labour Force: People who are actually working + People who are available/seeking work.\n2. Workforce: People who are actually working at a given time.\n3. Formula: Unemployed = Labour Force - Workforce.',
-    aiExplanation: 'Teacher\'s Voice: Labour force is the "Potential" group, while Workforce is the "Active" group.'
+    aiExplanation: 'Teacher\'s Voice: Think of a cricket team. The 11 players on the field are the **Workforce**. The 11 players + the bench strength (players waiting for a turn) are the **Labour Force**. Formula: $$\\text{Unemployed} = \\text{Labour Force} - \\text{Workforce}$$.'
   },
   {
     id: 'u7-q5-sqp-24-25-q24',

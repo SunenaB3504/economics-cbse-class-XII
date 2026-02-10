@@ -56,7 +56,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '6.',
     question: 'If the Initial Deposit is ₹1,000 and the Reserve Ratio is 20%, calculate the total credit created and show the credit creation table for three rounds.',
     markingScheme: '1. Money Multiplier = 1/0.2 = 5.\n2. Total Credit = 1000 * 5 = 5000.\n3. Table: R1: 1000 Dep / 200 Res / 800 Loan. R2: 800 Dep / 160 Res / 640 Loan. R3: 640 Dep / 128 Res / 512 Loan.',
-    aiExplanation: 'Teacher\'s Voice: In each round, the loan from the previous round becomes a new deposit. This is the heart of banking logic!'
+    aiExplanation: 'Teacher\'s Voice: This is the magic of banking! Formula: $$\text{Total Credit Creation} = \text{Initial Deposit} \times \frac{1}{\text{Legal Reserve Ratio (LRR)}}$$. Here, $$1,000 \times \frac{1}{0.2} = 5,000$$. In each round, banks keep 20% and lend the remaining 80%. Round 1: Deposit 1000 → Reserve 200, Loan 800. Round 2: Deposit 800 → Reserve 160, Loan 640... until the initial 1000 is fully "reserved".'
   },
   {
     id: 'u2-q5-sqp-2024',
@@ -67,7 +67,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '15.',
     question: 'Discuss the "Banker\'s Bank and Supervisor" function of the Central Bank.',
     markingScheme: '1. Custodian of Cash Reserves: Commercial banks keep part of deposits with RBI.\n2. Clearing House: Settles inter-bank claims.\n3. Supervision: Regulates licensing, expansions, and compliance.',
-    aiExplanation: 'Teacher\'s Voice: RBI acts as the "Top Cop" and "Head Accountant" for all other banks in India.'
+    aiExplanation: 'Teacher\'s Voice: Think of the RBI as the "Top Cop" and "Head Accountant". Just as you keep money in a bank, banks keep money in the RBI (CRR). This allows the RBI to control how much they can lend and ensure they follow all safety rules.'
   },
   {
     id: 'u1-q25-sqp-2025',
@@ -82,7 +82,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     optionC: 'Printing',
     optionD: 'Holding',
     answer: 'B',
-    aiExplanation: 'Teacher\'s Voice: Purchasing securities puts cash into the hands of the public, stimulating spending to fight deflation.'
+    aiExplanation: 'Teacher\'s Voice: Open Market Operations (OMO). Purchasing securities puts cash into the hands of the public and banks. More cash → More spending and lending → Aggregate Demand rises to close the deflationary gap.'
   },
   {
     id: 'u2-q6-sqp-2025',
@@ -116,9 +116,20 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     paperType: 'SQP',
     marks: 3,
     type: 'SA',
-    questionNumber: '12.',
-    question: '“Reserve Ratio acts as a limit to credit creation.” Justify the statement.',
-    markingScheme: '1. Banks must keep RR portion from deposits.\n2. Lending is limited to (1 - RR) * Deposit.\n3. Higher RR = Lower Money Multiplier (1/RR).',
-    aiExplanation: 'Teacher\'s Voice: If RR is 100%, banks can create 0 credit. If it is 0%, credit could be infinite. Thus, RR is the "brake" of the banking system.'
+    questionNumber: '12. (OR A)',
+    question: '“The statutory requirement of the Reserve Ratio (RR) acts as a limit to the amount of credit that banks can create.” Justify the given statement with the valid explanation.',
+    markingScheme: '1. **Definition**: Reserve Ratio is the legal fraction of deposits banks must keep as reserves (with themselves/RBI).\n2. **Constraint**: Banks cannot lend the entire deposit; they must hold the RR portion, lending only the remainder.\n3. **Control Mechanism**: This ratio is fixed by the Central Bank to prevent "over-lending". It restricts the money multiplier (1/RR), capping total credit generation.',
+    aiExplanation: 'Teacher\'s Voice: This question is verbatim from the 2025-26 SQP. The relationship is inverse. Formula: $$\text{Money Multiplier} = \frac{1}{\text{LRR}}$$. If LRR is high (say 50%), the multiplier is low (2). If LRR is low (say 10%), the multiplier is high (10). Thus, LRR acts as the "bottleneck" or "brake" for credit expansion.'
+  },
+  {
+    id: 'u2-q9-sqp-2026',
+    year: '2025-26',
+    paperType: 'SQP',
+    marks: 3,
+    type: 'SA',
+    questionNumber: '12. (OR B)',
+    question: '“The Reserve Bank of India (RBI) provides several banking services to the Government.” Do you agree with the given statement? Give valid explanation in support of your answer.',
+    markingScheme: '1. **Agreement**: Yes, I agree.\n2. **Managing Accounts**: RBI manages govt accounts, receives deposits, and processes payments.\n3. **Banking Operations**: Facilitates exchanges/remittances for the state.\n4. **Crisis Management**: Provides credit to govt during financial crises to ensure smooth state functioning.',
+    aiExplanation: 'Teacher\'s Voice: Think of RBI as the Government\'s personal bank. Just as HDFC or SBI provides you with accounts, cheque books, and loans, the RBI does the same for the Government of India!'
   }
 ];
