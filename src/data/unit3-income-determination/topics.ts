@@ -45,7 +45,7 @@ export const TOPICS: TheoryTopic[] = [
         id: 'v-ad-curve',
         title: 'Figure 4.1: Aggregate Demand Curve',
         type: 'image',
-        data: { src: '/assets/images/ncert/leec104_p7_i2.png', alt: 'Aggregate Demand Curve' },
+        data: { src: '/assets/images/ncert/unit3_fig_4_1_ad_curve.png', alt: 'Aggregate Demand Curve' },
         aiExplanation: [
           'Step 1: The X-axis represents National Income (Y), and the Y-axis holds the Aggregate Demand (C + I).',
           'Step 2: Notice the blue AD line does not start at zero. It starts higher on the Y-axis at (C_bar + I_bar). This is the autonomous spending that happens even at zero income.',
@@ -56,7 +56,7 @@ export const TOPICS: TheoryTopic[] = [
         id: 'v-45-line',
         title: 'Figure 4.2: The 45-Degree Line (Aggregate Supply)',
         type: 'image',
-        data: { src: '/assets/images/ncert/leec104_p8_i1.png', alt: '45-Degree Output Line' },
+        data: { src: '/assets/images/ncert/unit3_fig_4_2_45_degree_line.png', alt: '45-Degree Output Line' },
         aiExplanation: [
           'Step 1: The 45-degree line represents Aggregate Supply (AS) or total output in the economy.',
           'Step 2: Geometrically, any point on a 45-degree line has equal X and Y coordinates. This perfectly illustrates how the value of total output (AS) strictly equals National Income (Y).',
@@ -94,7 +94,7 @@ export const TOPICS: TheoryTopic[] = [
         id: 'v-ad-as-equilibrium',
         title: 'Figure 4.6: Equilibrium Income Determination (AD = AS)',
         type: 'image',
-        data: { src: '/assets/images/ncert/leec104_p12_i10.png', alt: 'Macroeconomic Equilibrium Graph' },
+        data: { src: '/assets/images/ncert/unit3_fig_4_6_equilibrium.png', alt: 'Macroeconomic Equilibrium Graph' },
         aiExplanation: [
           'Step 1: The solid red line is the Aggregate Demand (AD) and the dashed line is the 45-degree Aggregate Supply (AS) reference line.',
           'Step 2: Locate point \'E\'. This is the Equilibrium point where the AD curve exactly crosses the 45-degree line. At this point, everything produced in the economy is planned to be bought.',

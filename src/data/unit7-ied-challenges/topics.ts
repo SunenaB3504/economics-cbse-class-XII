@@ -160,7 +160,7 @@ Enacted to provide a 100-day wage employment guarantee to rural households.
         id: 'u7-v3-c1',
         title: 'Chart 6.1: Distribution of Employment by Gender (%)',
         type: 'image',
-        data: { src: '/assets/images/ncert/keec106_p6_i0.png', alt: 'Employment by Gender Pie Charts' },
+        data: { src: '/assets/images/ncert/unit7_chart_6_1_gender.png', alt: 'Employment by Gender Pie Charts' },
         aiExplanation: [
           'Step 1: Compare the Male workers (left) with the Female workers (right).',
           'Step 2: Notice that for both genders, "Self-Employed" is the largest single category (over 50%). This highlights how many Indians work in their own small farms or businesses rather than formal jobs.',
@@ -171,7 +171,7 @@ Enacted to provide a 100-day wage employment guarantee to rural households.
         id: 'u7-v3-c2',
         title: 'Chart 6.2: Distribution of Employment by Region (%)',
         type: 'image',
-        data: { src: '/assets/images/ncert/keec106_p7_i0.png', alt: 'Employment by Region Pie Charts' },
+        data: { src: '/assets/images/ncert/unit7_chart_6_2_region.png', alt: 'Employment by Region Pie Charts' },
         aiExplanation: [
           'Step 1: Look at the Rural workers chart. A massive 58% are Self-Employed. This is Because most rural families own small pieces of land and farm it themselves.',
           'Step 2: Look at the Urban workers chart. Here, the "Regular Salaried" slice is the biggest (47%). Urban areas have more factories, offices, and formal institutions that offer regular paychecks.',
@@ -182,7 +182,7 @@ Enacted to provide a 100-day wage employment guarantee to rural households.
         id: 'u7-v3-c3',
         title: 'Chart 6.3: Growth of Employment and GDP',
         type: 'image',
-        data: { src: '/assets/images/ncert/keec106_p10_i0.png', alt: 'GDP vs Employment Growth Line Graph' },
+        data: { src: '/assets/images/ncert/unit7_chart_6_3_growth.png', alt: 'GDP vs Employment Growth Line Graph' },
         aiExplanation: [
           'Step 1: The solid line represents GDP growth percentage, and the dashed line represents Employment growth percentage over the decades.',
           'Step 2: Notice how the GDP line fluctuates but generally climbs higher, reaching over 8% in certain periods.',
@@ -194,7 +194,7 @@ Enacted to provide a 100-day wage employment guarantee to rural households.
         id: 'u7-v3-c4',
         title: 'Chart 6.4: Workers in Formal vs Informal Sectors',
         type: 'image',
-        data: { src: '/assets/images/ncert/keec106_p13_i1.png', alt: 'Formal vs Informal Sector Bar Chart' },
+        data: { src: '/assets/images/ncert/unit7_chart_6_4_formal_informal.png', alt: 'Formal vs Informal Sector Bar Chart' },
         aiExplanation: [
           'Step 1: The chart drastically highlights the informalisation of the Indian workforce. The blue columns denote Male workers and the red columns Female workers.',
           'Step 2: Compare the total height of the "Formal" block (around 30 million) to the monumental "Informal" block (over 400 million).',
