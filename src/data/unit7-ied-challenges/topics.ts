@@ -162,9 +162,10 @@ Enacted to provide a 100-day wage employment guarantee to rural households.
         type: 'image',
         data: { src: '/assets/images/ncert/unit7_chart_6_1_gender.png', alt: 'Employment by Gender Pie Charts' },
         aiExplanation: [
-          'Step 1: Compare the Male workers (left) with the Female workers (right).',
-          'Step 2: Notice that for both genders, "Self-Employed" is the largest single category (over 50%). This highlights how many Indians work in their own small farms or businesses rather than formal jobs.',
-          'Step 3: Look at the "Casual Wage Labour" piece. It is slightly larger for women than men, indicating that women are often forced into unstable daily-wage jobs when regular employment isn\'t available.'
+          '**What:** Two pie charts comparing the distribution of employment statuses (Self-Employed, Regular Salaried, Casual Wage) between Male and Female workers.',
+          '**Why:** To understand the gender differences in the nature of employment and the degree of job security.',
+          '**How to understand:** Compare the Male workers (left) with the Female workers (right). Notice that for both genders, "Self-Employed" is the largest single category (over 50%). Then, look at the "Casual Wage Labour" piece. It is slightly larger for women than men, while "Regular Salaried" is lower for women.',
+          '**Importance in daily life:** It highlights how many Indians rely on their own small businesses (farms, shops) rather than formal jobs. It also exposes how women are more frequently pushed into unstable, daily-wage jobs when regular employment isn\'t available.'
         ]
       },
       {
@@ -173,9 +174,10 @@ Enacted to provide a 100-day wage employment guarantee to rural households.
         type: 'image',
         data: { src: '/assets/images/ncert/unit7_chart_6_2_region.png', alt: 'Employment by Region Pie Charts' },
         aiExplanation: [
-          'Step 1: Look at the Rural workers chart. A massive 58% are Self-Employed. This is Because most rural families own small pieces of land and farm it themselves.',
-          'Step 2: Look at the Urban workers chart. Here, the "Regular Salaried" slice is the biggest (47%). Urban areas have more factories, offices, and formal institutions that offer regular paychecks.',
-          'Step 3: Compare Casual Wage Labour. It\'s almost double in rural areas (29%) compared to urban (15%), showing the lack of stable job opportunities in villages.'
+          '**What:** Two pie charts comparing how employment statuses are distributed between Urban and Rural areas.',
+          '**Why:** To analyze how geography and local infrastructure dictate the types of jobs available to citizens.',
+          '**How to understand:** Look at the Rural workers chart. A massive 58% are Self-Employed. Then look at the Urban workers chart, where the "Regular Salaried" slice is the biggest (47%). Finally, compare Casual Wage Labour, which is almost double in rural areas compared to urban.',
+          '**Importance in daily life:** This explains rural-to-urban migration. Rural workers are largely self-employed because they own small family farms. Urban areas have more factories and offices offering regular paychecks. The high rural casual labor rate shows a severe lack of stable job opportunities in villages.'
         ]
       },
       {
@@ -184,10 +186,10 @@ Enacted to provide a 100-day wage employment guarantee to rural households.
         type: 'image',
         data: { src: '/assets/images/ncert/unit7_chart_6_3_growth.png', alt: 'GDP vs Employment Growth Line Graph' },
         aiExplanation: [
-          'Step 1: The solid line represents GDP growth percentage, and the dashed line represents Employment growth percentage over the decades.',
-          'Step 2: Notice how the GDP line fluctuates but generally climbs higher, reaching over 8% in certain periods.',
-          'Step 3: Now look at the Employment line. It stays relatively flat and low, usually around 1-2%, and even drops toward the end.',
-          'Step 4: This widening gap is what economists call "Jobless Growth"—the economy is producing more value, but it is not creating a proportionate number of new jobs.'
+          '**What:** A line graph tracking the annual growth rates of both GDP and total Employment over several decades.',
+          '**Why:** To evaluate whether economic growth is actually translating into job creation for the population.',
+          '**How to understand:** The solid line represents GDP growth percentage, and the dashed line represents Employment growth percentage. Notice how the GDP line fluctuates but generally climbs higher, reaching over 8%. In contrast, the Employment line stays flat and low (around 1-2%) and even drops toward the end.',
+          '**Importance in daily life:** This widening gap illustrates "Jobless Growth." It means the economy is producing more monetary value (often through automation or high-tech sectors), but it is failing to create a proportionate number of new jobs for everyday people entering the workforce.'
         ]
       },
       {
@@ -196,9 +198,10 @@ Enacted to provide a 100-day wage employment guarantee to rural households.
         type: 'image',
         data: { src: '/assets/images/ncert/unit7_chart_6_4_formal_informal.png', alt: 'Formal vs Informal Sector Bar Chart' },
         aiExplanation: [
-          'Step 1: The chart drastically highlights the informalisation of the Indian workforce. The blue columns denote Male workers and the red columns Female workers.',
-          'Step 2: Compare the total height of the "Formal" block (around 30 million) to the monumental "Informal" block (over 400 million).',
-          'Step 3: Notice the gender disparity in the Formal sector—women make up a very tiny fraction of formal, secure jobs compared to men. However, in the informal sector, female participation is much more visible, albeit without social security.'
+          '**What:** A bar chart comparing the absolute number of workers (in millions) employed in the Formal sector versus the Informal sector, split by gender.',
+          '**Why:** To starkly visualize the extreme informalisation of the Indian workforce and the lack of social security for the vast majority.',
+          '**How to understand:** Compare the total height of the "Formal" block (around 30 million) to the monumental "Informal" block (over 400 million). Notice the blue columns (Male) vs red columns (Female). Women make up a tiny fraction of formal jobs compared to men, but have much higher relative participation in the informal sector.',
+          '**Importance in daily life:** Over 90% of India\'s workforce has no pension, no paid leave, and no job security. This informalisation means the majority of workers are highly vulnerable to economic shocks, illness, or sudden unemployment.'
         ]
       }
     ]

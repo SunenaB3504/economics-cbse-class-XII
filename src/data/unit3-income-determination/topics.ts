@@ -47,9 +47,10 @@ export const TOPICS: TheoryTopic[] = [
         type: 'image',
         data: { src: '/assets/images/ncert/context_1_fig_4_4_aggregate_demand.png', alt: 'Aggregate Demand Curve' },
         aiExplanation: [
-          'Step 1: The X-axis represents National Income (Y), and the Y-axis holds the Aggregate Demand (C + I).',
-          'Step 2: Notice the blue AD line (C+I). It is obtained by vertically adding the Consumption (C) curve and the constant Investment (I = I_bar) line.',
-          'Step 3: The upward slope of the AD line mirrors the slope of the consumption curve, which represents the Marginal Propensity to Consume (MPC).'
+          '**What:** The Aggregate Demand (AD) curve shows the total planned spending on domestic goods and services at different levels of national income.',
+          '**Why:** To understand how much households (Consumption) and firms (Investment) intend to spend in the economy, which ultimately determines the production output.',
+          '**How to understand:** Look at the X-axis (National Income, Y) and the Y-axis (Aggregate Demand, C + I). Notice the blue AD line doesn\'t start at zero; it starts higher on the Y-axis at autonomous spending (C_bar + I_bar). The upward slope shows that as income increases, people spend more based on their Marginal Propensity to Consume (MPC).',
+          '**Importance in daily life:** It reflects collective consumer behavior. When we feel confident and spend more (buying cars, houses, appliances), AD increases, signaling businesses to produce more and hire more people, driving economic growth.'
         ]
       },
       {
@@ -58,9 +59,10 @@ export const TOPICS: TheoryTopic[] = [
         type: 'image',
         data: { src: '/assets/images/ncert/context_2_fig_4_5_aggregate_supply.png', alt: 'Aggregate Supply 45-Degree Line' },
         aiExplanation: [
-          'Step 1: The 45-degree line represents Aggregate Supply (AS) or total output in the economy.',
-          'Step 2: Geometrically, any point on a 45-degree line has equal X and Y coordinates. This illustrates how the value of total output (AS) strictly equals National Income (Y).',
-          'Step 3: Any point where a demand curve crosses this 45-degree line is a point where planned spending exactly equals total output (AD = Y).'
+          '**What:** The 45-degree line represents Aggregate Supply (AS)—the total output produced in the economy.',
+          '**Why:** It serves as a visual reference tool. By geometric rules, any point on a 45-degree line from the origin has equal X and Y coordinates. Therefore, on this line, Aggregate Supply exactly equals National Income (Y).',
+          '**How to understand:** Imagine any point along that line and draw lines down to the X-axis and across to the Y-axis. The distances will be identical. This line visually plots the macroeconomic identity: whatever is produced (output) becomes someone\'s income.',
+          '**Importance in daily life:** It\'s the "break-even" baseline of the economy. It helps economists gauge exactly where the economy is in balance. Without it, visualizing equilibrium would be practically impossible.'
         ]
       }
     ]
@@ -96,10 +98,10 @@ export const TOPICS: TheoryTopic[] = [
         type: 'image',
         data: { src: '/assets/images/ncert/context_3_fig_4_6_equilibrium.png', alt: 'Macroeconomic Equilibrium Graph' },
         aiExplanation: [
-          'Step 1: The solid line is the Aggregate Demand (AD) and the line originating from the origin is the 45-degree reference line.',
-          'Step 2: Locate point \'E\'. This is the Equilibrium point where the AD curve exactly crosses the 45-degree line. At this point, everything produced in the economy is planned to be bought.',
-          'Step 3: Look to the left of E: AD is physically higher than the 45-degree line. People are buying faster than factories produce. Inventories fall, triggering producers to boost output.',
-          'Step 4: Look to the right of E: The 45-degree line is higher than AD. Output exceeds planned spending. Inventories pile up, forcing producers to cut back production.'
+          '**What:** This graph displays the point of Macroeconomic Equilibrium (Point E).',
+          '**Why:** To find the optimal level of national income where there is neither excess production nor shortages. It\'s where the economy wants to settle.',
+          '**How to understand:** Find the intersection (E) of the AD curve and the 45-degree AS line. At this exact point, total planned spending exactly matches total production. To the left of E (Income < Y*), demand is higher than supply (inventories drop, stimulating production). To the right of E, supply exceeds demand (inventories pile up, halting production).',
+          '**Importance in daily life:** This is the underlying mechanism that causes economic booms and busts. If factories overproduce (right of E), they will eventually lay off workers until demand catches up, leading to a recession.'
         ]
       },
       {
@@ -108,10 +110,10 @@ export const TOPICS: TheoryTopic[] = [
         type: 'image',
         data: { src: '/assets/images/ncert/context_4_fig_4_7_equilibrium_fixed.png', alt: 'Changes in Equilibrium with shift in AD' },
         aiExplanation: [
-          'Step 1: An initial equilibrium exists at E1, where AD1 intersects the 45-degree line at income level Y1*.',
-          'Step 2: Suppose there is an autonomous increase in investment (ΔI). The entire AD curve shifts upwards parallel to itself, from AD1 to AD2.',
-          'Step 3: The new equilibrium is established at E2, yielding a much higher national income Y2*.',
-          'Step 4: This perfectly illustrates the Investment Multiplier effect—the final increase in income (from Y1* to Y2*) is far greater than the initial vertical jump in investment (ΔI).'
+          '**What:** The Fixed Price Model illustrates the Investment Multiplier effect when demand increases.',
+          '**Why:** To demonstrate how a small initial injection of investment (ΔI) leads to a much larger final increase in national income (from Y1* to Y2*).',
+          '**How to understand:** Look at the initial equilibrium E1. Now imagine firms decide to invest more (ΔI), shifting the AD1 curve straight up to AD2. The new intersection is now way out at E2. Notice that the horizontal distance between Y1* and Y2* is much longer than the vertical jump (ΔI) between the AD curves.',
+          '**Importance in daily life:** This explains why governments spend billions on infrastructure during a recession. That initial spending creates jobs, those workers spend their new wages at local businesses, those business owners spend their profits, and the economy grows by a multiple of the initial investment.'
         ]
       },
       {
@@ -158,10 +160,10 @@ export const TOPICS: TheoryTopic[] = [
         type: 'image',
         data: { src: '/assets/images/ncert/context_5_fig_4_8_paradox_thrift.png', alt: 'Paradox of Thrift Graph' },
         aiExplanation: [
-          'Step 1: The economy is initially in equilibrium at E1 where the AD1 line crosses the 45-degree line at income level Y1.',
-          'Step 2: People suddenly decide to be thrifty and save more. This means they consume less, causing the slope of the AD curve (the MPC) to become flatter. The curve swings downwards from AD1 to AD2.',
-          'Step 3: This downward shift creates a new equilibrium at E2, which corresponds to a lower national income Y2.',
-          'Step 4: The Paradox: By trying to save *more*, people reduce total demand. Factories produce less, incomes fall, until total absolute savings actually end up dropping or staying identical at a much poorer income level!'
+          '**What:** A downward shift of the AD curve, demonstrating the Paradox of Thrift.',
+          '**Why:** It exposes a counter-intuitive economic reality: when *everyone* tries to save exactly at the same time, the economy shrinks and total savings might not actually increase at all.',
+          '**How to understand:** Start at E1. Suddenly, the public becomes fearful of the future and saves more (consuming less). The Marginal Propensity to Consume drops, making the AD curve flatter (AD1 swings down to AD2). The new equilibrium (E2) is established at a much lower national income (Y2*).',
+          '**Importance in daily life:** It teaches us that what makes sense for an individual (saving money during tough times) can be disastrous if society as a whole does it simultaneously. If nobody spends, businesses close, people lose their jobs, and overall incomes fall so far that absolute savings decline.'
         ]
       }
     ]
