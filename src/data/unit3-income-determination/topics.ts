@@ -43,24 +43,24 @@ export const TOPICS: TheoryTopic[] = [
       },
       {
         id: 'v-ad-curve',
-        title: 'Figure 4.1: Aggregate Demand Curve',
+        title: 'Figure 4.4: Aggregate Demand Curve',
         type: 'image',
-        data: { src: '/assets/images/ncert/unit3_fig_4_1_ad_curve.png', alt: 'Aggregate Demand Curve' },
+        data: { src: '/assets/images/ncert/context_1_fig_4_4_aggregate_demand.png', alt: 'Aggregate Demand Curve' },
         aiExplanation: [
           'Step 1: The X-axis represents National Income (Y), and the Y-axis holds the Aggregate Demand (C + I).',
-          'Step 2: Notice the blue AD line does not start at zero. It starts higher on the Y-axis at (C_bar + I_bar). This is the autonomous spending that happens even at zero income.',
-          'Step 3: The upward slope of the AD line demonstrates the Marginal Propensity to Consume (MPC)—as income goes up, people spend a constant fraction of that new income.'
+          'Step 2: Notice the blue AD line (C+I). It is obtained by vertically adding the Consumption (C) curve and the constant Investment (I = I_bar) line.',
+          'Step 3: The upward slope of the AD line mirrors the slope of the consumption curve, which represents the Marginal Propensity to Consume (MPC).'
         ]
       },
       {
         id: 'v-45-line',
-        title: 'Figure 4.2: The 45-Degree Line (Aggregate Supply)',
+        title: 'Figure 4.5: Aggregate Supply Curve (45-Degree Line)',
         type: 'image',
-        data: { src: '/assets/images/ncert/unit3_fig_4_2_45_degree_line.png', alt: '45-Degree Output Line' },
+        data: { src: '/assets/images/ncert/context_2_fig_4_5_aggregate_supply.png', alt: 'Aggregate Supply 45-Degree Line' },
         aiExplanation: [
           'Step 1: The 45-degree line represents Aggregate Supply (AS) or total output in the economy.',
-          'Step 2: Geometrically, any point on a 45-degree line has equal X and Y coordinates. This perfectly illustrates how the value of total output (AS) strictly equals National Income (Y).',
-          'Step 3: Economists use this reference line to find equilibrium. Any point where a demand curve crosses this 45-degree line is a point where planned spending exactly equals total output (AD = Y)!'
+          'Step 2: Geometrically, any point on a 45-degree line has equal X and Y coordinates. This illustrates how the value of total output (AS) strictly equals National Income (Y).',
+          'Step 3: Any point where a demand curve crosses this 45-degree line is a point where planned spending exactly equals total output (AD = Y).'
         ]
       }
     ]
@@ -94,12 +94,24 @@ export const TOPICS: TheoryTopic[] = [
         id: 'v-ad-as-equilibrium',
         title: 'Figure 4.6: Equilibrium Income Determination (AD = AS)',
         type: 'image',
-        data: { src: '/assets/images/ncert/unit3_fig_4_6_equilibrium.png', alt: 'Macroeconomic Equilibrium Graph' },
+        data: { src: '/assets/images/ncert/context_3_fig_4_6_equilibrium.png', alt: 'Macroeconomic Equilibrium Graph' },
         aiExplanation: [
-          'Step 1: The solid red line is the Aggregate Demand (AD) and the dashed line is the 45-degree Aggregate Supply (AS) reference line.',
+          'Step 1: The solid line is the Aggregate Demand (AD) and the line originating from the origin is the 45-degree reference line.',
           'Step 2: Locate point \'E\'. This is the Equilibrium point where the AD curve exactly crosses the 45-degree line. At this point, everything produced in the economy is planned to be bought.',
-          'Step 3: Look to the left of E (Income < Y*): AD is physically higher than the 45-degree line. People are buying faster than factories produce. Inventories fall, triggering producers to boost output.',
-          'Step 4: Look to the right of E (Income > Y*): The 45-degree line is higher than AD. Output exceeds planned spending. Inventories pile up, forcing producers to cut back production until income settles back down to Y*.'
+          'Step 3: Look to the left of E: AD is physically higher than the 45-degree line. People are buying faster than factories produce. Inventories fall, triggering producers to boost output.',
+          'Step 4: Look to the right of E: The 45-degree line is higher than AD. Output exceeds planned spending. Inventories pile up, forcing producers to cut back production.'
+        ]
+      },
+      {
+        id: 'v-fixed-price-model',
+        title: 'Figure 4.7: Equilibrium Output in Fixed Price Model',
+        type: 'image',
+        data: { src: '/assets/images/ncert/context_4_fig_4_7_equilibrium_fixed.png', alt: 'Changes in Equilibrium with shift in AD' },
+        aiExplanation: [
+          'Step 1: An initial equilibrium exists at E1, where AD1 intersects the 45-degree line at income level Y1*.',
+          'Step 2: Suppose there is an autonomous increase in investment (ΔI). The entire AD curve shifts upwards parallel to itself, from AD1 to AD2.',
+          'Step 3: The new equilibrium is established at E2, yielding a much higher national income Y2*.',
+          'Step 4: This perfectly illustrates the Investment Multiplier effect—the final increase in income (from Y1* to Y2*) is far greater than the initial vertical jump in investment (ΔI).'
         ]
       },
       {
@@ -138,6 +150,18 @@ export const TOPICS: TheoryTopic[] = [
           { title: 'Negative Intercept', description: 'Saving starts at -C_bar (Dissaving at zero income).' },
           { title: 'Slope', description: 'Determined by Marginal Propensity to Save (MPS).' },
           { title: 'Break-Even', description: 'S = 0 when C = Y. Corresponds to the point where C-curve crosses 45° line.' }
+        ]
+      },
+      {
+        id: 'v-paradox-thrift',
+        title: 'Figure 4.8: Paradox of Thrift',
+        type: 'image',
+        data: { src: '/assets/images/ncert/context_5_fig_4_8_paradox_thrift.png', alt: 'Paradox of Thrift Graph' },
+        aiExplanation: [
+          'Step 1: The economy is initially in equilibrium at E1 where the AD1 line crosses the 45-degree line at income level Y1.',
+          'Step 2: People suddenly decide to be thrifty and save more. This means they consume less, causing the slope of the AD curve (the MPC) to become flatter. The curve swings downwards from AD1 to AD2.',
+          'Step 3: This downward shift creates a new equilibrium at E2, which corresponds to a lower national income Y2.',
+          'Step 4: The Paradox: By trying to save *more*, people reduce total demand. Factories produce less, incomes fall, until total absolute savings actually end up dropping or staying identical at a much poorer income level!'
         ]
       }
     ]
