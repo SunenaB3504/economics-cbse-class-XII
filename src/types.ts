@@ -1,18 +1,19 @@
 
-export type VisualType = 'table' | 'flow' | 'grid' | 'steps' | 'list' | 'tree' | 'process';
+export type VisualType = 'table' | 'flow' | 'grid' | 'steps' | 'list' | 'tree' | 'process' | 'image';
 
 export interface VisualTreeNode {
   name: string;
   children?: VisualTreeNode[];
 }
 
-export type VisualData = 
+export type VisualData =
   | { headers: string[]; rows: string[][] } // for 'table'
   | { label: string; desc: string }[]      // for 'grid'
   | string[]                               // for 'steps', 'list'
-  | { nodes: {id: string, label: string}[], edges: {from: string, to: string, label?: string}[] } // for 'flow' (graph)
+  | { nodes: { id: string, label: string }[], edges: { from: string, to: string, label?: string }[] } // for 'flow' (graph)
   | { root: string; children: VisualTreeNode[] } // for 'tree'
-  | { title: string; description: string }[]; // for 'process'
+  | { title: string; description: string }[]     // for 'process'
+  | { src: string; alt: string };                // for 'image'
 
 export interface Visualization {
   id: string;
@@ -21,6 +22,7 @@ export interface Visualization {
   caption?: string;
   formula?: string;
   data: VisualData;
+  aiExplanation?: string[];
 }
 
 export interface TheoryTopic {
@@ -45,7 +47,7 @@ export interface SQPQuestion {
   marks: number;
   type: 'MCQ' | 'SA' | 'LA' | 'Case' | 'Assertion-Reason';
   question: string;
-  answer?: string; 
+  answer?: string;
   markingScheme?: string;
   aiExplanation: string;
   questionNumber?: string;

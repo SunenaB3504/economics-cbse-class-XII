@@ -42,13 +42,25 @@ export const TOPICS: TheoryTopic[] = [
         }
       },
       {
-        id: 'v-ad-as',
-        title: 'Aggregate Demand & 45° Line',
-        type: 'grid',
-        data: [
-          { label: 'AD Curve', desc: 'Parallel to C-curve, shifted up by I (Autonomous Investment).' },
-          { label: '45° Reference Line', desc: 'Line passing through origin where Y = AD (represents Aggregate Supply).' },
-          { label: 'Ex-Ante AD', desc: 'Planned spending vs actual realized spending (Ex-Post).' }
+        id: 'v-ad-curve',
+        title: 'Figure 4.1: Aggregate Demand Curve',
+        type: 'image',
+        data: { src: '/assets/images/ncert/leec104_p7_i2.png', alt: 'Aggregate Demand Curve' },
+        aiExplanation: [
+          'Step 1: The X-axis represents National Income (Y), and the Y-axis holds the Aggregate Demand (C + I).',
+          'Step 2: Notice the blue AD line does not start at zero. It starts higher on the Y-axis at (C_bar + I_bar). This is the autonomous spending that happens even at zero income.',
+          'Step 3: The upward slope of the AD line demonstrates the Marginal Propensity to Consume (MPC)—as income goes up, people spend a constant fraction of that new income.'
+        ]
+      },
+      {
+        id: 'v-45-line',
+        title: 'Figure 4.2: The 45-Degree Line (Aggregate Supply)',
+        type: 'image',
+        data: { src: '/assets/images/ncert/leec104_p8_i1.png', alt: '45-Degree Output Line' },
+        aiExplanation: [
+          'Step 1: The 45-degree line represents Aggregate Supply (AS) or total output in the economy.',
+          'Step 2: Geometrically, any point on a 45-degree line has equal X and Y coordinates. This perfectly illustrates how the value of total output (AS) strictly equals National Income (Y).',
+          'Step 3: Economists use this reference line to find equilibrium. Any point where a demand curve crosses this 45-degree line is a point where planned spending exactly equals total output (AD = Y)!'
         ]
       }
     ]
@@ -77,6 +89,18 @@ export const TOPICS: TheoryTopic[] = [
             ['400', '380', 'AD < AS', 'Inventories rise, Output falls']
           ]
         }
+      },
+      {
+        id: 'v-ad-as-equilibrium',
+        title: 'Figure 4.6: Equilibrium Income Determination (AD = AS)',
+        type: 'image',
+        data: { src: '/assets/images/ncert/leec104_p12_i10.png', alt: 'Macroeconomic Equilibrium Graph' },
+        aiExplanation: [
+          'Step 1: The solid red line is the Aggregate Demand (AD) and the dashed line is the 45-degree Aggregate Supply (AS) reference line.',
+          'Step 2: Locate point \'E\'. This is the Equilibrium point where the AD curve exactly crosses the 45-degree line. At this point, everything produced in the economy is planned to be bought.',
+          'Step 3: Look to the left of E (Income < Y*): AD is physically higher than the 45-degree line. People are buying faster than factories produce. Inventories fall, triggering producers to boost output.',
+          'Step 4: Look to the right of E (Income > Y*): The 45-degree line is higher than AD. Output exceeds planned spending. Inventories pile up, forcing producers to cut back production until income settles back down to Y*.'
+        ]
       },
       {
         id: 'v-multiplier',

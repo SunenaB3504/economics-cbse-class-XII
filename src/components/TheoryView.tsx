@@ -27,9 +27,9 @@ export const TheoryView: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
           <div className="bg-white rounded-3xl p-8 shadow-sm border border-gray-100">
             <h2 className="text-3xl font-black text-gray-900 mb-4">{selectedTopic.title}</h2>
             <div className="prose prose-indigo max-w-none mb-8">
-               <ReactMarkdown remarkPlugins={[remarkGfm]}>{selectedTopic.description}</ReactMarkdown>
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>{selectedTopic.description}</ReactMarkdown>
             </div>
-            
+
             <div className="grid gap-6">
               {Array.isArray(selectedTopic.content) ? (
                 selectedTopic.content.map((p, i) => (
@@ -77,7 +77,7 @@ export const TheoryView: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
                     </div>
                   ) : vis.type === 'grid' && Array.isArray(vis.data) && typeof vis.data[0] !== 'string' ? (
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      {(vis.data as {label: string; desc: string}[]).map((item, i: number) => (
+                      {(vis.data as { label: string; desc: string }[]).map((item, i: number) => (
                         <div key={i} className="bg-white p-5 rounded-2xl border border-indigo-100 shadow-sm">
                           <p className="text-indigo-900 font-black text-sm mb-1 uppercase tracking-tight">{item.label}</p>
                           <p className="text-gray-600 text-sm font-medium">{item.desc}</p>
@@ -94,7 +94,7 @@ export const TheoryView: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
                     </div>
                   ) : vis.type === 'process' && Array.isArray(vis.data) ? (
                     <div className="grid grid-cols-1 gap-4">
-                      {(vis.data as {title: string; description: string}[]).map((item, i: number) => (
+                      {(vis.data as { title: string; description: string }[]).map((item, i: number) => (
                         <div key={i} className="bg-white p-5 rounded-2xl border border-indigo-100 shadow-sm flex items-center gap-4">
                           <div className="h-8 w-8 rounded-full bg-indigo-900 text-white flex items-center justify-center font-black flex-shrink-0 text-xs">
                             {i + 1}
@@ -105,6 +105,10 @@ export const TheoryView: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
                           </div>
                         </div>
                       ))}
+                    </div>
+                  ) : vis.type === 'image' && 'src' in vis.data && 'alt' in vis.data ? (
+                    <div className="flex flex-col items-center">
+                      <img src={(vis.data as { src: string, alt: string }).src} alt={(vis.data as { src: string, alt: string }).alt} className="max-w-full h-auto rounded-xl shadow-sm border border-indigo-100" />
                     </div>
                   ) : (
                     <div className="flex flex-wrap items-center gap-3">
@@ -119,12 +123,38 @@ export const TheoryView: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
                       ))}
                     </div>
                   )}
+
+                  {/* AI Explanation Box */}
+                  {
+                    vis.aiExplanation && vis.aiExplanation.length > 0 && (
+                      <div className="mt-6 bg-amber-50 rounded-2xl p-6 border border-amber-200 shadow-sm relative overflow-hidden">
+                        <div className="absolute top-0 left-0 w-1 h-full bg-amber-400"></div>
+                        <h6 className="font-black text-amber-900 mb-3 flex items-center gap-2 text-sm uppercase tracking-wide">
+                          <Zap className="w-4 h-4 text-amber-500 fill-amber-500" />
+                          AI Teacher's Breakdown
+                        </h6>
+                        <div className="grid gap-3">
+                          {vis.aiExplanation.map((step, idx) => (
+                            <div key={idx} className="flex gap-3 items-start">
+                              <span className="flex-shrink-0 flex items-center justify-center w-5 h-5 rounded-full bg-amber-200 text-amber-800 text-xs font-bold mt-0.5">
+                                {idx + 1}
+                              </span>
+                              <p className="text-gray-700 text-sm font-medium leading-relaxed">
+                                {step}
+                              </p>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )
+                  }
+
                 </div>
               ))}
             </div>
           </div>
         )}
       </div>
-    </div>
+    </div >
   );
 };
