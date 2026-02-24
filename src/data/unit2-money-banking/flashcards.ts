@@ -59,7 +59,7 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u2-fc10',
     question: 'What is the Money Multiplier formula?',
-    answer: 'Money Multiplier = $1 / \Legal Reserve Ratio (LRR)$.',
+    answer: 'Money Multiplier = 1 / Legal Reserve Ratio (LRR).',
     category: 'Calculation'
   },
   {
@@ -167,7 +167,7 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u2-fc28',
     question: 'If the LRR is 20%, what is the value of the Money Multiplier?',
-    answer: 'Money Multiplier = $1 / 0.20 = 5$.',
+    answer: 'Money Multiplier = 1 / 0.20 = 5.',
     category: 'Calculation'
   },
   {
@@ -317,7 +317,7 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u2-fc54',
     question: 'What is the relationship between the Purchasing Power of Money and the Price Level?',
-    answer: 'Inverse relationship ($1/P$). As prices rise, the value of money falls.',
+    answer: 'Inverse relationship (1/P). As prices rise, the value of money falls.',
     category: 'Equations'
   },
   {

@@ -63,7 +63,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '12.',
     question: 'On the basis of given data, estimate the value of Domestic Income (NDP at FC): \nCompensation of Employees: 2000\nOperating Surplus: 1000\nMixed Income: 500',
     markingScheme: 'NDP at FC = COE + OS + MI = 2000 + 1000 + 500 = 3500.',
-    aiExplanation: 'Teacher\'s Voice: Under the Income Method, we sum up all payments made to factors of production. Formula: NDP_{FC} = Compensation of Employees + Operating Surplus + Mixed Income. Here, $2000 + 1000 + 500 = 3500$. Remember that Operating Surplus includes Rent, Interest, and Profit!'
+    aiExplanation: 'Teacher\'s Voice: Under the Income Method, we sum up all payments made to factors of production. Formula: NDP_{FC} = Compensation of Employees + Operating Surplus + Mixed Income. Here, 2000 + 1000 + 500 = 3500. Remember that Operating Surplus includes Rent, Interest, and Profit!'
   },
   {
     id: 'u1-q6-sqp-2024',
@@ -104,7 +104,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '11.',
     question: 'Estimate Domestic Income using Gross Business Fixed Capital Formation (300) and Inventory Investment (50) and Depreciation (20).',
     markingScheme: 'Net Investment = (300 + 50) - 20 = 330.',
-    aiExplanation: 'Teacher\'s Voice: Total investment has two parts: what we spend on fixed assets and what we keep as stock. Formula: Gross Investment = Gross Fixed Capital Formation + Change in Stock. Here, $300 + 50 = 350$. To get the Net value used in Domestic Income, we subtract Depreciation: $350 - 20 = 330$.'
+    aiExplanation: 'Teacher\'s Voice: Total investment has two parts: what we spend on fixed assets and what we keep as stock. Formula: Gross Investment = Gross Fixed Capital Formation + Change in Stock. Here, 300 + 50 = 350. To get the Net value used in Domestic Income, we subtract Depreciation: 350 - 20 = 330.'
   },
   {
     id: 'u1-q9-sqp-2025',
@@ -115,7 +115,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '17.',
     question: 'Calculate % change in Real GDP if Nominal GDP rose from 100 to 140 and Price Index rose from 100 to 120.',
     markingScheme: 'Old Real = 100. New Real = (140/120) * 100 = 116.67. % Change = 16.67%.',
-    aiExplanation: 'Teacher\'s Voice: First, find the New Real GDP using the formula: Real GDP = (Nominal GDP) / (Price Index) × 100. New Real GDP = (140 / 120) × 100 = 116.67. Since the old Real GDP was 100 (at the base year), the percentage increase is exactly $16.67\%$.'
+    aiExplanation: 'Teacher\'s Voice: First, find the New Real GDP using the formula: Real GDP = (Nominal GDP) / (Price Index) × 100. New Real GDP = (140 / 120) × 100 = 116.67. Since the old Real GDP was 100 (at the base year), the percentage increase is exactly 16.67%.'
   },
   {
     id: 'u1-q10-sqp-2026',

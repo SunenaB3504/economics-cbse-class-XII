@@ -44,7 +44,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '13.',
     question: 'Explain the impact of a rise in foreign exchange rate on National Income.',
     markingScheme: '1. Impact: A rise in exchange rate (Depreciation) makes exports cheaper and imports costlier.\n2. Effect: Net Exports (X - M) increase.\n3. Result: Since National Income (Y) = C + I + G + (X - M), an increase in Net Exports leads to a rise in National Income.',
-    aiExplanation: 'Teacher\'s Voice: This is a direct link between Units 3 and 5. Formula: Y = C + I + G + (X - M). When the exchange rate rises (Depreciation), our goods become cheaper for foreigners (X rises) and foreign goods become expensive for us (M falls). Thus, Net Exports (X - M) increase, which directly boosts the National Income ($Y$).'
+    aiExplanation: 'Teacher\'s Voice: This is a direct link between Units 3 and 5. Formula: Y = C + I + G + (X - M). When the exchange rate rises (Depreciation), our goods become cheaper for foreigners (X rises) and foreign goods become expensive for us (M falls). Thus, Net Exports (X - M) increase, which directly boosts the National Income (Y).'
   },
   {
     id: 'u5-q5-sqp-24-25-q4',

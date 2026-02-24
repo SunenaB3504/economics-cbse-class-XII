@@ -8,7 +8,7 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
       '**Purchasing Power of Money:** V_m = 1/P (where P is the price level).',
       '**Velocity of Circulation (V):** V = PY / M (Relation between Money Supply and Total Spending).',
       '**Transaction Demand (M^T_d):** M^T_d = k \cdot PY or v \cdot M = P \cdot Y.',
-      '**Money Multiplier:** $1 / LRR$ (or $1 / (CRR + SLR)$).',
+      '**Money Multiplier:** 1 / LRR (or 1 / (CRR + SLR)).',
       '**Total Credit Creation:** Initial Deposit × (1 / LRR).',
       '**Present Value of a Bond (P):** P = Coupon / i (Shows inverse relation between P and interest rate).'
     ]
