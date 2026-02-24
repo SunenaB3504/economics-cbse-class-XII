@@ -145,5 +145,24 @@ export const TOPICS: TheoryTopic[] = [
         formula: 'Net National Product at Factor Cost = Gross Value Added at Market Price - Depreciation - Net Indirect Taxes + Net Factor Income from Abroad'
       }
     ]
+  },
+  {
+    id: 'gdp-welfare',
+    title: 'GDP and Welfare',
+    description: 'Understanding the limitations of using GDP as an index of welfare of a country.',
+    content: [
+      'Distribution of GDP: If the GDP growth is concentrated in the hands of a few, it may not reflect the true welfare of the masses.',
+      'Non-monetary Exchanges: Many activities in an economy are not evaluated in monetary terms (e.g., domestic services), leading to underestimation of GDP.',
+      'Externalities: Unintended benefits (positive) or harms (negative) a firm or individual causes to another without paying or being penalised. E.g., pollution (negative) reduces welfare but is not deducted from GDP.',
+      'Composition of GDP: Increase in GDP may be due to production of defence goods or harmful goods which does not necessarily increase welfare of people.'
+    ],
+    visualizations: [
+      {
+        id: 'v5',
+        title: 'Limitations of GDP as Welfare Index',
+        type: 'list',
+        data: ['Distribution of Income', 'Non-monetary Exchanges', 'Externalities', 'Composition of GDP']
+      }
+    ]
   }
 ];
