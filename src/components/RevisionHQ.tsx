@@ -33,7 +33,7 @@ export const RevisionHQ: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
         {activeTab === 'flashcards' && (
           <div className="flex flex-col items-center">
             <div className="w-full max-w-xl perspective-1000 mt-10">
-              <div 
+              <div
                 onClick={() => setIsFlipped(!isFlipped)}
                 className={`relative w-full h-[350px] transition-all duration-500 preserve-3d cursor-pointer ${isFlipped ? 'rotate-y-180' : ''}`}
               >
@@ -53,7 +53,7 @@ export const RevisionHQ: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
               </div>
             </div>
             <div className="flex items-center gap-8 mt-12">
-              <button 
+              <button
                 disabled={currentCardIdx === 0}
                 onClick={() => { setCurrentCardIdx(i => i - 1); setIsFlipped(false); }}
                 className="p-4 rounded-full bg-white border border-gray-100 text-indigo-900 shadow-sm disabled:opacity-30 disabled:cursor-not-allowed hover:bg-indigo-50 transition-all"
@@ -62,7 +62,7 @@ export const RevisionHQ: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
                 <ChevronRight className="w-6 h-6 rotate-180" />
               </button>
               <span className="text-sm font-black text-gray-500 tracking-widest">{currentCardIdx + 1} / {chapter.flashcards.length}</span>
-              <button 
+              <button
                 disabled={currentCardIdx === chapter.flashcards.length - 1}
                 onClick={() => { setCurrentCardIdx(i => i + 1); setIsFlipped(false); }}
                 className="p-4 rounded-full bg-white border border-gray-100 text-indigo-900 shadow-sm disabled:opacity-30 disabled:cursor-not-allowed hover:bg-indigo-50 transition-all"
@@ -79,7 +79,7 @@ export const RevisionHQ: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
             {chapter.cheatSheet.map((section, i) => (
               <div key={i} className="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm">
                 <h5 className="text-lg font-black text-indigo-900 mb-6 flex items-center gap-3">
-                   <div className="h-2 w-2 rounded-full bg-indigo-500" />
+                  <div className="h-2 w-2 rounded-full bg-indigo-500" />
                   {section.title}
                 </h5>
                 {Array.isArray(section.points || section.content) ? (
@@ -102,9 +102,9 @@ export const RevisionHQ: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
         )}
 
         {activeTab === 'mindmap' && (
-          <div className="bg-white p-12 rounded-[3rem] border border-gray-100 shadow-sm flex justify-center">
-            <div className="w-full max-w-2xl">
-               <MindMapNodeView node={chapter.mindMap} isRoot />
+          <div className="bg-white p-12 rounded-[3rem] border border-gray-100 shadow-sm flex overflow-x-auto min-h-[400px]">
+            <div className="w-full min-w-max">
+              <MindMapNodeView node={chapter.mindMap} depth={0} />
             </div>
           </div>
         )}
@@ -113,18 +113,55 @@ export const RevisionHQ: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
   );
 };
 
-const MindMapNodeView: React.FC<{ node: any; isRoot?: boolean }> = ({ node, isRoot }) => {
+const MindMapNodeView: React.FC<{ node: any; depth?: number }> = ({ node, depth = 0 }) => {
+  const hasChildren = node.children && node.children.length > 0;
+  // Auto-expand root and first-level children by default
+  const [isExpanded, setIsExpanded] = useState(depth <= 1);
+
+  // Determine styling based on depth
+  let nodeClasses = "rounded-2xl font-bold shadow-sm border transition-all relative flex items-center justify-between ";
+  if (depth === 0) {
+    nodeClasses += "bg-indigo-900 text-white border-indigo-800 text-lg px-8 py-5";
+  } else if (depth === 1) {
+    nodeClasses += "bg-indigo-50 text-indigo-900 border-indigo-200 text-base px-6 py-4 hover:border-indigo-400";
+  } else {
+    nodeClasses += "bg-white text-gray-700 border-gray-200 text-sm px-5 py-3 hover:border-indigo-300";
+  }
+
   return (
-    <div className={`flex flex-col items-center ${isRoot ? '' : 'mt-6'}`}>
-      <div className={`px-8 py-4 rounded-2xl font-black text-sm shadow-sm border transition-all ${isRoot ? 'bg-indigo-900 text-white border-indigo-800 scale-110 mb-8' : 'bg-white text-indigo-900 border-indigo-50 hover:bg-indigo-50'}`}>
-        {node.label}
+    <div className="flex items-start">
+      {/* Node Itself */}
+      <div className="relative group flex items-center py-2">
+        <button
+          onClick={() => hasChildren && setIsExpanded(!isExpanded)}
+          className={`${nodeClasses} ${hasChildren ? 'cursor-pointer' : 'cursor-default'} z-10 w-full md:w-auto text-left`}
+        >
+          <span>{node.label}</span>
+
+          {hasChildren && (
+            <span className={`ml-4 w-6 h-6 rounded-full flex items-center justify-center transition-colors text-xs font-black ${depth === 0 ? 'bg-indigo-800 text-white' : 'bg-white border border-indigo-100 text-indigo-500'
+              }`}>
+              {isExpanded ? '-' : '+'}
+            </span>
+          )}
+        </button>
+
+        {/* Horizontal Connector pointing to children (if expanded) */}
+        {hasChildren && isExpanded && (
+          <div className="w-8 h-px bg-indigo-200 absolute right-[-2rem] top-1/2" />
+        )}
       </div>
-      {node.children && (
-        <div className="flex flex-wrap justify-center gap-x-12 relative w-full pt-8">
-           <div className="absolute top-0 left-1/2 -content-[ ] w-px h-8 bg-indigo-100" />
-           {node.children.map((child: any) => (
-             <MindMapNodeView key={child.id} node={child} />
-           ))}
+
+      {/* Children Container (Vertical Stack with connecting border) */}
+      {hasChildren && isExpanded && (
+        <div className="flex flex-col ml-8 pl-8 border-l-2 border-indigo-100 relative py-2 gap-4">
+          {node.children.map((child: any, index: number) => (
+            <div key={child.id} className="relative">
+              {/* Horizontal line from the vertical border to the child node */}
+              <div className="absolute w-8 h-px bg-indigo-200 -left-8 top-1/2" />
+              <MindMapNodeView node={child} depth={depth + 1} />
+            </div>
+          ))}
         </div>
       )}
     </div>
