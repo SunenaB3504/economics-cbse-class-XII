@@ -77,14 +77,46 @@ China's industrialization was driven by state-led massive campaigns:
     `,
     visualizations: [
       {
-        id: 'u8-v2',
-        title: 'Development Snapshot',
-        type: 'grid',
-        data: [
-          { label: 'HDI Lead', desc: 'China leads in Life Expectancy and Literacy.' },
-          { label: 'Manufacturing', desc: 'China is the "World\'s Workshop".' },
-          { label: 'Growth', desc: 'India is currently the fastest growing major economy.' }
-        ]
+        id: 'u8-v2-t1',
+        title: 'Table 8.1: Demographic Indicators (approx. 2017-18)',
+        type: 'table',
+        data: {
+          headers: ['Indicator', 'India', 'China', 'Pakistan'],
+          rows: [
+            ['Population (in millions)', '1352', '1393', '212'],
+            ['Annual Growth of Population (%)', '1.03', '0.46', '2.05'],
+            ['Density (per sq. km)', '455', '148', '275'],
+            ['Sex/1000 Males', '924', '949', '943'],
+            ['Fertility Rate', '2.2', '1.7', '3.6'],
+            ['Urbanisation (%)', '34', '59', '37']
+          ]
+        }
+      },
+      {
+        id: 'u8-v2-t2',
+        title: 'Table 8.2 / 8.3: GDP Growth & Sectoral Share (GVA)',
+        type: 'table',
+        data: {
+          headers: ['Sector', 'India (GVA %)', 'China (GVA %)', 'Pak (GVA %)'],
+          rows: [
+            ['Agriculture', '16', '7', '24'],
+            ['Industry', '30', '41', '19'],
+            ['Services', '54', '52', '57']
+          ]
+        }
+      },
+      {
+        id: 'u8-v2-t3',
+        title: 'Table 8.4: Sectoral Share of Employment (%)',
+        type: 'table',
+        data: {
+          headers: ['Sector', 'India', 'China', 'Pakistan'],
+          rows: [
+            ['Agriculture', '43', '26', '41'],
+            ['Industry', '25', '28', '24'],
+            ['Services', '32', '46', '35']
+          ]
+        }
       }
     ]
   },
@@ -114,6 +146,23 @@ Unlike **Human Development Indicators** (which measure literacy, health, and inc
 - India's path highlights the potential of technology and services.
     `,
     visualizations: [
+      {
+        id: 'u8-v3-t1',
+        title: 'Table 8.5: Selected Indicators of Human Development',
+        type: 'table',
+        data: {
+          headers: ['Indicator', 'India', 'China', 'Pakistan'],
+          rows: [
+            ['HDI Value', '0.645', '0.761', '0.557'],
+            ['Rank', '130', '87', '154'],
+            ['Life Expectancy at Birth (years)', '69.4', '76.9', '67.3'],
+            ['Mean years of Schooling', '6.5', '8.1', '5.2'],
+            ['Infant Mortality Rate (per 1000)', '29.9', '7.4', '57.2'],
+            ['Maternal Mortality Rate (per 1 Lakh)', '133', '29', '140'],
+            ['Pop. below poverty line (%)', '21.9', '0.0', '24.3']
+          ]
+        }
+      },
       {
         id: 'u8-v3',
         title: 'Strategy Summary',

@@ -37,6 +37,22 @@ export const TOPICS: TheoryTopic[] = [
     ],
     visualizations: [
       {
+        id: 'u4-v2-t1',
+        title: 'Table 5.1: Components of Government Budget',
+        type: 'table',
+        data: {
+          headers: ['Budget Component', 'Items Included'],
+          rows: [
+            ['Revenue Receipts', 'Tax Revenue (Net), Non-Tax Revenue'],
+            ['Capital Receipts', 'Recoveries of Loans, Disinvestments, Borrowings'],
+            ['Total Receipts', 'Revenue Receipts + Capital Receipts'],
+            ['Revenue Expenditure', 'Interest Payments, Subsidies, Grants'],
+            ['Capital Expenditure', 'Creation of structural assets, Loans given'],
+            ['Total Expenditure', 'Revenue Expenditure + Capital Expenditure']
+          ]
+        }
+      },
+      {
         id: 'u4-budget-chart',
         title: 'The Government Budget Structure',
         type: 'process',

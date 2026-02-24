@@ -27,6 +27,21 @@ export const TOPICS: TheoryTopic[] = [
         ]
       },
       {
+        id: 'u3-v1-t1',
+        title: 'Table 4.1: Aggregate Demand Schedule (C + I)',
+        type: 'table',
+        data: {
+          headers: ['Income (Y)', 'Consumption (C)', 'Investment (I)', 'AD (C+I)'],
+          rows: [
+            ['0', '40', '20', '60'],
+            ['100', '120', '20', '140'],
+            ['200', '200', '20', '220'],
+            ['300', '280', '20', '300'],
+            ['400', '360', '20', '380']
+          ]
+        }
+      },
+      {
         id: 'v-ad-as',
         title: 'Aggregate Demand & 45° Line',
         type: 'grid',
@@ -49,6 +64,20 @@ export const TOPICS: TheoryTopic[] = [
       'Multiplier Working: Initial $\Delta I$ creates $\Delta Y$, which triggers induced $\Delta C$, which becomes another person\'s income, continuing the cycle.'
     ],
     visualizations: [
+      {
+        id: 'u3-v2-t1',
+        title: 'Table 4.2: Macroeconomic Equilibrium (AD = AS)',
+        type: 'table',
+        data: {
+          headers: ['Income/AS (Y)', 'AD (C+I)', 'Trend', 'Adjustment'],
+          rows: [
+            ['100', '140', 'AD > AS', 'Inventories fall, Output rises'],
+            ['200', '220', 'AD > AS', 'Inventories fall, Output rises'],
+            ['300', '300', 'AD = AS', 'Equilibrium (No change)'],
+            ['400', '380', 'AD < AS', 'Inventories rise, Output falls']
+          ]
+        }
+      },
       {
         id: 'v-multiplier',
         title: 'The Multiplier Chain Reaction',
