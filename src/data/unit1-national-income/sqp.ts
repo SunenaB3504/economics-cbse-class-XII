@@ -26,7 +26,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '11.',
     question: 'In a hypothetical economy with two firms A and B, firm A sells goods worth ₹100 to firm B and ₹50 to households. Firm B sells goods worth ₹200 to households. Calculate NDP at MP if depreciation is ₹20.',
     markingScheme: '1. VA(A) = 150 - 0 = 150\n2. VA(B) = 200 - 100 = 100\n3. GDP(MP) = 250\n4. NDP(MP) = 250 - 20 = 230.',
-    aiExplanation: 'Teacher\'s Voice: We use the Value Added Method here. Formula: $$GVA_{MP} = \text{Value of Output} - \text{Intermediate Consumption}$$. Firm A adds ₹150 (sales to B + households). Firm B adds ₹100 (₹200 sales - ₹100 purchase from A). Total $GDP_{MP}$ is ₹250. To find $NDP_{MP}$, we subtract Depreciation: $$NDP_{MP} = GDP_{MP} - \text{Depreciation} = 250 - 20 = 230$$.'
+    aiExplanation: 'Teacher\'s Voice: We use the Value Added Method here. Formula: GVA_{MP} = Value of Output - Intermediate Consumption. Firm A adds ₹150 (sales to B + households). Firm B adds ₹100 (₹200 sales - ₹100 purchase from A). Total GDP_{MP} is ₹250. To find NDP_{MP}, we subtract Depreciation: NDP_{MP} = GDP_{MP} - Depreciation = 250 - 20 = 230.'
   },
   {
     id: 'u1-q3-sqp-2023',
@@ -37,7 +37,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '16.',
     question: 'Define GDP Deflator and discuss its importance.',
     markingScheme: 'GDP Deflator = (Nominal GDP / Real GDP) x 100. It measures the average price change of all goods/services produced in the economy.',
-    aiExplanation: 'Teacher\'s Voice: The formula is simple but powerful: $$\text{GDP Deflator} = \frac{\text{Nominal GDP}}{\text{Real GDP}} \times 100$$. It is a better measure of inflation than CPI because it accounts for all goods and services produced in the country, not just a fixed basket of consumer goods.'
+    aiExplanation: 'Teacher\'s Voice: The formula is simple but powerful: GDP Deflator = (Nominal GDP) / (Real GDP) × 100. It is a better measure of inflation than CPI because it accounts for all goods and services produced in the country, not just a fixed basket of consumer goods.'
   },
   {
     id: 'u1-q4-sqp-2024',
@@ -52,7 +52,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     optionC: 'GDP = GNP',
     optionD: 'GDP = NNP',
     answer: 'C',
-    aiExplanation: 'Teacher\'s Voice: In a closed economy, there is no interaction with the rest of the world, meaning NFIA is zero. Since $$GNP = GDP + NFIA$$, when NFIA is 0, they become equal.'
+    aiExplanation: 'Teacher\'s Voice: In a closed economy, there is no interaction with the rest of the world, meaning NFIA is zero. Since GNP = GDP + NFIA, when NFIA is 0, they become equal.'
   },
   {
     id: 'u1-q5-sqp-2024',
@@ -63,7 +63,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '12.',
     question: 'On the basis of given data, estimate the value of Domestic Income (NDP at FC): \nCompensation of Employees: 2000\nOperating Surplus: 1000\nMixed Income: 500',
     markingScheme: 'NDP at FC = COE + OS + MI = 2000 + 1000 + 500 = 3500.',
-    aiExplanation: 'Teacher\'s Voice: Under the Income Method, we sum up all payments made to factors of production. Formula: $$NDP_{FC} = \text{Compensation of Employees} + \text{Operating Surplus} + \text{Mixed Income}$$. Here, $2000 + 1000 + 500 = 3500$. Remember that Operating Surplus includes Rent, Interest, and Profit!'
+    aiExplanation: 'Teacher\'s Voice: Under the Income Method, we sum up all payments made to factors of production. Formula: NDP_{FC} = Compensation of Employees + Operating Surplus + Mixed Income. Here, $2000 + 1000 + 500 = 3500$. Remember that Operating Surplus includes Rent, Interest, and Profit!'
   },
   {
     id: 'u1-q6-sqp-2024',
@@ -93,7 +93,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     optionC: 'NFIA',
     optionD: 'Depreciation',
     answer: 'A',
-    aiExplanation: 'Teacher\'s Voice: Remember the tax hierarchy: $$\text{GVA at factor cost} + \text{Net Production Taxes} = \text{GVA at Basic Prices}$$; then, $$\text{GVA at Basic Price} + \text{Net Product Taxes} = \text{GVA at Market Price}$$.'
+    aiExplanation: 'Teacher\'s Voice: Remember the tax hierarchy: GVA at factor cost + Net Production Taxes = GVA at Basic Prices; then, GVA at Basic Price + Net Product Taxes = GVA at Market Price.'
   },
   {
     id: 'u1-q8-sqp-2025',
@@ -104,7 +104,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '11.',
     question: 'Estimate Domestic Income using Gross Business Fixed Capital Formation (300) and Inventory Investment (50) and Depreciation (20).',
     markingScheme: 'Net Investment = (300 + 50) - 20 = 330.',
-    aiExplanation: 'Teacher\'s Voice: Total investment has two parts: what we spend on fixed assets and what we keep as stock. Formula: $$\text{Gross Investment} = \text{Gross Fixed Capital Formation} + \text{Change in Stock}$$. Here, $300 + 50 = 350$. To get the Net value used in Domestic Income, we subtract Depreciation: $350 - 20 = 330$.'
+    aiExplanation: 'Teacher\'s Voice: Total investment has two parts: what we spend on fixed assets and what we keep as stock. Formula: Gross Investment = Gross Fixed Capital Formation + Change in Stock. Here, $300 + 50 = 350$. To get the Net value used in Domestic Income, we subtract Depreciation: $350 - 20 = 330$.'
   },
   {
     id: 'u1-q9-sqp-2025',
@@ -115,7 +115,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '17.',
     question: 'Calculate % change in Real GDP if Nominal GDP rose from 100 to 140 and Price Index rose from 100 to 120.',
     markingScheme: 'Old Real = 100. New Real = (140/120) * 100 = 116.67. % Change = 16.67%.',
-    aiExplanation: 'Teacher\'s Voice: First, find the New Real GDP using the formula: $$\text{Real GDP} = \frac{\text{Nominal GDP}}{\text{Price Index}} \times 100$$. New Real GDP = $(140 / 120) \times 100 = 116.67$. Since the old Real GDP was 100 (at the base year), the percentage increase is exactly $16.67\%$.'
+    aiExplanation: 'Teacher\'s Voice: First, find the New Real GDP using the formula: Real GDP = (Nominal GDP) / (Price Index) × 100. New Real GDP = (140 / 120) × 100 = 116.67. Since the old Real GDP was 100 (at the base year), the percentage increase is exactly $16.67\%$.'
   },
   {
     id: 'u1-q10-sqp-2026',
@@ -130,7 +130,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     optionC: '170%',
     optionD: '58%',
     answer: 'A',
-    aiExplanation: 'Teacher\'s Voice: Apply the formula: $$\text{GDP Deflator} = \frac{\text{Nominal GDP}}{\text{Real GDP}} \times 100$$. Plugging in: $(295.36 / 173.82) \times 100 = 169.92$, which rounds to 170. This signifies a 70% rise in the price level.'
+    aiExplanation: 'Teacher\'s Voice: Apply the formula: GDP Deflator = (Nominal GDP) / (Real GDP) × 100. Plugging in: (295.36 / 173.82) × 100 = 169.92, which rounds to 170. This signifies a 70% rise in the price level.'
   },
   {
     id: 'u1-q11-sqp-2026',
@@ -200,7 +200,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '11. (A)',
     question: 'On the basis of the given data, estimate the value of Domestic Income (NDPFC):\ni. Household Consumption Expenditure: 800\niv. Government Final Consumption Expenditure: 170\nii. Gross Business Fixed Capital Formation: 150\niii. Gross Residential Construction Investment: 120\nvii. Gross Public Investment: 500\nvi. Inventory Investment: 140\nv. Excess of Imports over Exports: 20\nx. Consumption of Fixed Capital: 40\nviii. Net Indirect Taxes: 70\n(Amount in ₹ crore)',
     markingScheme: '1. Formula: NDPFC = PFCE + GFCE + GDCF - Net Imports - Dep - NIT.\n2. GDCF = GBFCF + GRCI + GPI + Inv. Inv = 150 + 120 + 500 + 140 = 910.\n3. NDPFC = 800 + 170 + 910 - 20 - 40 - 70 = ₹ 1,750 crore.',
-    aiExplanation: 'Teacher\'s Voice: This uses the Expenditure Method. Total expenditure ($$GDP_{MP}$$) is PFCE + GFCE + Gross Investment + Net Exports. Here, we are given "Excess of Imports over Exports" (Net Imports = 20), so we subtract it. Gross Investment comprises four components here: fixed capital, residential construction, public investment, and inventory. Finally, to reach $$NDP_{FC}$$, we subtract Depreciation (to get Net) and Net Indirect Taxes (to reach Factor Cost).'
+    aiExplanation: 'Teacher\'s Voice: This uses the Expenditure Method. Total expenditure (GDP_{MP}) is PFCE + GFCE + Gross Investment + Net Exports. Here, we are given "Excess of Imports over Exports" (Net Imports = 20), so we subtract it. Gross Investment comprises four components here: fixed capital, residential construction, public investment, and inventory. Finally, to reach NDP_{FC}, we subtract Depreciation (to get Net) and Net Indirect Taxes (to reach Factor Cost).'
   },
   {
     id: 'u1-q17-sqp-2026',
@@ -211,6 +211,6 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '17. (A)',
     question: 'Calculate the percentage change in Real GDP in the year 2023 using 2020 as base year:\n2020: Nominal GDP = 3000, Real GDP = 4000\n2023: Nominal GDP = 4000, Real GDP = 4500',
     markingScheme: '1. Real GDP 2020 = 4000.\n2. Real GDP 2023 = 4500.\n3. Change in Real GDP = 4500 - 4000 = 500.\n4. % Change = (500 / 4000) * 100 = 12.5%.',
-    aiExplanation: 'Teacher\'s Voice: Always use the *Real* GDP values for this calculation, never Nominal. Formula: $$\\text{Percentage Change} = \\frac{\\text{New Real} - \\text{Old Real}}{\\text{Old Real}} \\times 100$$. Here, $$\\frac{4500 - 4000}{4000} \\times 100 = 12.5\\%$$.'
+    aiExplanation: 'Teacher\'s Voice: Always use the *Real* GDP values for this calculation, never Nominal. Formula: \Percentage Change = \(\New Real - \Old Real) / (\Old Real) \× 100. Here, \(4500 - 4000) / (4000) \× 100 = 12.5\\%.'
   }
 ];

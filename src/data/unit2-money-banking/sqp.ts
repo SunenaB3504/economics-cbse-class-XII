@@ -56,7 +56,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '6.',
     question: 'If the Initial Deposit is ₹1,000 and the Reserve Ratio is 20%, calculate the total credit created and show the credit creation table for three rounds.',
     markingScheme: '1. Money Multiplier = 1/0.2 = 5.\n2. Total Credit = 1000 * 5 = 5000.\n3. Table: R1: 1000 Dep / 200 Res / 800 Loan. R2: 800 Dep / 160 Res / 640 Loan. R3: 640 Dep / 128 Res / 512 Loan.',
-    aiExplanation: 'Teacher\'s Voice: This is the magic of banking! Formula: $$\text{Total Credit Creation} = \text{Initial Deposit} \times \frac{1}{\text{Legal Reserve Ratio (LRR)}}$$. Here, $$1,000 \times \frac{1}{0.2} = 5,000$$. In each round, banks keep 20% and lend the remaining 80%. Round 1: Deposit 1000 → Reserve 200, Loan 800. Round 2: Deposit 800 → Reserve 160, Loan 640... until the initial 1000 is fully "reserved".'
+    aiExplanation: 'Teacher\'s Voice: This is the magic of banking! Formula: Total Credit Creation = Initial Deposit × (1) / (Legal Reserve Ratio (LRR)). Here, 1,000 × (1) / (0.2) = 5,000. In each round, banks keep 20% and lend the remaining 80%. Round 1: Deposit 1000 → Reserve 200, Loan 800. Round 2: Deposit 800 → Reserve 160, Loan 640... until the initial 1000 is fully "reserved".'
   },
   {
     id: 'u2-q5-sqp-2024',
@@ -119,7 +119,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '12. (OR A)',
     question: '“The statutory requirement of the Reserve Ratio (RR) acts as a limit to the amount of credit that banks can create.” Justify the given statement with the valid explanation.',
     markingScheme: '1. **Definition**: Reserve Ratio is the legal fraction of deposits banks must keep as reserves (with themselves/RBI).\n2. **Constraint**: Banks cannot lend the entire deposit; they must hold the RR portion, lending only the remainder.\n3. **Control Mechanism**: This ratio is fixed by the Central Bank to prevent "over-lending". It restricts the money multiplier (1/RR), capping total credit generation.',
-    aiExplanation: 'Teacher\'s Voice: This question is verbatim from the 2025-26 SQP. The relationship is inverse. Formula: $$\text{Money Multiplier} = \frac{1}{\text{LRR}}$$. If LRR is high (say 50%), the multiplier is low (2). If LRR is low (say 10%), the multiplier is high (10). Thus, LRR acts as the "bottleneck" or "brake" for credit expansion.'
+    aiExplanation: 'Teacher\'s Voice: This question is verbatim from the 2025-26 SQP. The relationship is inverse. Formula: Money Multiplier = (1) / (LRR). If LRR is high (say 50%), the multiplier is low (2). If LRR is low (say 10%), the multiplier is high (10). Thus, LRR acts as the "bottleneck" or "brake" for credit expansion.'
   },
   {
     id: 'u2-q9-sqp-2026',

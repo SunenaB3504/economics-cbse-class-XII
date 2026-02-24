@@ -5,8 +5,8 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
     id: 'u3-cs1',
     title: 'Functional Formulas',
     points: [
-      '**Consumption Function:** $C = \bar{C} + bY$ (where $\bar{C} = \text{Autonomous Consumption}$, $b = \text{MPC}$)',
-      '**Saving Function:** $S = -\bar{C} + (1-b)Y$ (where $-\bar{C} = \text{Autonomous Saving}$, $1-b = \text{MPS}$)',
+      '**Consumption Function:** C = C_bar + bY (where C_bar = Autonomous Consumption, b = MPC)',
+      '**Saving Function:** S = -C_bar + (1-b)Y (where -C_bar = Autonomous Saving, 1-b = MPS)',
       '**MPC + MPS = 1**; **APC + APS = 1**',
       '**APC = C/Y**; **APS = S/Y**'
     ]
@@ -29,7 +29,7 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
       '**AD = AS** (Aggregation Demand equals Aggregate Supply).',
       '**S = I** (Planned Saving equals Planned Investment).',
       '**Break-Even Point:** Level of income where **C = Y** and **S = 0**.',
-      '**Equilibrium Y:** Calculated using $Y = \bar{C} + bY + I$ (solve for Y).'
+      '**Equilibrium Y:** Calculated using Y = C_bar + bY + I (solve for Y).'
     ]
   },
   {
@@ -38,7 +38,7 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
     points: [
       '**Ex-Ante:** Planned or intended values (the basis for equilibrium models).',
       '**Ex-Post:** Actual or realized values measured at end of year.',
-      '**Induced vs Autonomous:** Induced depends on income (bY); Autonomous does not ($\bar{C}, I$).',
+      '**Induced vs Autonomous:** Induced depends on income (bY); Autonomous does not (C_bar, I).',
       '**Deflationary Gap:** Shortfall of AD relative to AS at full employment level.',
       '**Inflationary Gap:** Excess of AD over AS at full employment level.'
     ]

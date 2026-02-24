@@ -33,7 +33,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: 'Q21.',
     question: 'Explain the implication of a "Zero Primary Deficit". What does it tell us about the government\'s current fiscal health?',
     markingScheme: '1. **Definition**: Primary Deficit = Fiscal Deficit - Interest Payments.\n2. **Implication**: If Primary Deficit is Zero, it means Fiscal Deficit = Interest Payments.\n3. **Conclusion**: The government is borrowing only to clear past interest obligations. Current year expenditure is perfectly managed within current year receipts.',
-    aiExplanation: 'Teacher\'s Voice: This is the "Treading Water" scenario. Formula: $$\text{Primary Deficit} = \text{Fiscal Deficit} - \text{Interest Payments}$$. If it is zero, it means every rupee borrowed this year is going exactly towards paying off interest on old loans. You aren\'t digging a "new" hole for current spending, but you are still stuck in the "old" one.'
+    aiExplanation: 'Teacher\'s Voice: This is the "Treading Water" scenario. Formula: Primary Deficit = Fiscal Deficit - Interest Payments. If it is zero, it means every rupee borrowed this year is going exactly towards paying off interest on old loans. You aren\'t digging a "new" hole for current spending, but you are still stuck in the "old" one.'
   },
   {
     id: 'u4-q4-board-2024',
@@ -66,7 +66,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '26.',
     question: "Define \"Primary Deficit\". What does a zero primary deficit indicate?",
     markingScheme: 'Definition: Primary Deficit = Fiscal Deficit - Interest Payments.\nSignificance: It measures how much the government needs to borrow to meet expenses other than interest payments.\nZero Primary Deficit: It means the government needs to borrow *only* to pay off interest on previous loans. No new borrowings are needed for current year expenditure.',
-    aiExplanation: 'Teacher\'s Voice: Think of Primary Deficit as "Today\'s Overspending". Formula: $$\\text{Primary Deficit} = \\text{Fiscal Deficit} - \\text{Interest Payments}$$. If it is zero, you are only borrowing to pay for yesterday\'s mistakes (past loans), while your current year bills are otherwise balanced.'
+    aiExplanation: 'Teacher\'s Voice: Think of Primary Deficit as "Today\'s Overspending". Formula: \Primary Deficit = \Fiscal Deficit - \Interest Payments. If it is zero, you are only borrowing to pay for yesterday\'s mistakes (past loans), while your current year bills are otherwise balanced.'
   },
   {
     id: 'u4-q7-board-2024',
@@ -92,6 +92,6 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     optionC: 'Budgetary',
     optionD: 'Primary',
     answer: 'B',
-    aiExplanation: 'Teacher\'s Voice: Fiscal Deficit = Total Expenditure - Total Receipts excluding borrowings. Here, $$45 - 27.2 = 17.8$$. This represents the total borrowing requirement of the government!'
+    aiExplanation: 'Teacher\'s Voice: Fiscal Deficit = Total Expenditure - Total Receipts excluding borrowings. Here, 45 - 27.2 = 17.8. This represents the total borrowing requirement of the government!'
   }
 ];

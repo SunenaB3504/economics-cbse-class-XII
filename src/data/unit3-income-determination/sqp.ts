@@ -26,7 +26,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '6.',
     question: 'In an economy, the Marginal Propensity to Consume (MPC) is 75%. Calculate the required increase in investment if the final income is to increase by ₹ 2,000 Crore.',
     markingScheme: '1. k = 1 / (1 - MPC) = 1 / (1 - 0.75) = 4.\n2. k = ΔY / ΔI -> 4 = 2000 / ΔI.\n3. ΔI = 2000 / 4 = ₹ 500 Crore.',
-    aiExplanation: 'Teacher\'s Voice: We use the Investment Multiplier ($k$) concept here. Formula: $$k = \frac{1}{1-MPC}$$. Since MPC is 0.75, $$k = \frac{1}{1-0.75} = 4$$. Now use the second formula: $$k = \frac{\Delta Y}{\Delta I}$$. To get an income increase ($\Delta Y$) of 2,000, we need $$\Delta I = \frac{2000}{4} = 500$$ Crores. One injection leads to four times more income!'
+    aiExplanation: 'Teacher\'s Voice: We use the Investment Multiplier (k) concept here. Formula: k = (1) / (1-MPC). Since MPC is 0.75, k = (1) / (1-0.75) = 4. Now use the second formula: k = (Δ Y) / (Δ I). To get an income increase (Δ Y) of 2,000, we need Δ I = (2000) / (4) = 500 Crores. One injection leads to four times more income!'
   },
   {
     id: 'u3-q3-sqp-2024',
@@ -41,7 +41,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     optionC: 'Saving is positive',
     optionD: 'MPC > 1',
     answer: 'A',
-    aiExplanation: 'Teacher\'s Voice: This happens at low income levels (before the break-even point) where people spend more than they earn by using past savings or borrowing. Formula: $$APC = \frac{C}{Y}$$. If $C > Y$, then $APC > 1$.'
+    aiExplanation: 'Teacher\'s Voice: This happens at low income levels (before the break-even point) where people spend more than they earn by using past savings or borrowing. Formula: APC = (C) / (Y). If C > Y, then APC > 1.'
   },
   {
     id: 'u3-q4-sqp-2024',
@@ -52,7 +52,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '9.',
     question: 'Calculate the Equilibrium level of Income (Y) if C = 100 + 0.8Y and I = ₹ 500.',
     markingScheme: '1. Y = C + I -> Y = 100 + 0.8Y + 500.\n2. Y - 0.8Y = 600.\n3. 0.2Y = 600 -> Y = 3,000.',
-    aiExplanation: 'Teacher\'s Voice: In equilibrium, total output ($Y$) must match planned spending ($AD$). Since $$AD = C + I$$, we set: $$Y = 100 + 0.8Y + 500$$. Solving for $Y$: $$Y - 0.8Y = 600 \implies 0.2Y = 600$$, so $$Y = \frac{600}{0.2} = 3,000$$. This is the level where everything produced is exactly bought.'
+    aiExplanation: 'Teacher\'s Voice: In equilibrium, total output (Y) must match planned spending (AD). Since AD = C + I, we set: Y = 100 + 0.8Y + 500. Solving for Y: Y - 0.8Y = 600 => 0.2Y = 600, so Y = (600) / (0.2) = 3,000. This is the level where everything produced is exactly bought.'
   },
   {
     id: 'u3-q5-sqp-2024',
@@ -115,7 +115,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '15.',
     question: 'Assuming MPS as 20%, explain the working process of an increase in investment (ΔI) of ₹ 1,000 crore on National Income using a numerical illustration.',
     markingScheme: '1. Assumption: One’s expenditure is another’s income.\n2. MPC = 1 - MPS = 1 - 0.2 = 0.8.\n3. Table:\n   - R1: ΔI=1000 -> ΔY=1000 -> ΔC=800 -> ΔS=200\n   - R2: ΔY=800 -> ΔC=640 -> ΔS=160\n   - Totals: ΔY = 5000, ΔC = 4000, ΔS = 1000.\n4. Calculation: k = 1/MPS = 1/0.2 = 5. Total ΔY = k * ΔI = 5 * 1000 = ₹ 5,000 crore.',
-    aiExplanation: 'Teacher\'s Voice: This is the Investment Multiplier concept. Since people spend 80% (MPC=0.8) of their new income, every round of spending creates new income for someone else. This cycle continues until the total new savings (leaks) match the initial investment (injection). Formula: $$k = \frac{1}{MPS} = \frac{1}{0.2} = 5$$. So, total increase in income = $$5 \times 1,000 = 5,000$$.'
+    aiExplanation: 'Teacher\'s Voice: This is the Investment Multiplier concept. Since people spend 80% (MPC=0.8) of their new income, every round of spending creates new income for someone else. This cycle continues until the total new savings (leaks) match the initial investment (injection). Formula: k = (1) / (MPS) = (1) / (0.2) = 5. So, total increase in income = 5 × 1,000 = 5,000.'
   },
   {
     id: 'u3-q12-sqp-2026',
@@ -126,7 +126,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '14. (B)',
     question: 'For two hypothetical economies A and B, MPC is 0.6 and 0.8 respectively. For both, Autonomous Consumption (c̅) = ₹ 40 cr and Investment (I) = ₹ 100 cr. Calculate:\n(I) Break-even income for Economy A\n(II) Equilibrium income for Economy B',
     markingScheme: '1. **Economy A (Break-even)**: Y = C -> Y = 40 + 0.6Y -> 0.4Y = 40 -> Y = ₹ 100 crore.\n2. **Economy B (Equilibrium)**: Y = C + I -> Y = 40 + 0.8Y + 100 -> 0.2Y = 140 -> Y = ₹ 700 crore.',
-    aiExplanation: 'Teacher\'s Voice: At "Break-even", you spend exactly what you earn ($Y=C$). For Economy A: $$Y = 40 + 0.6Y \implies 0.4Y = 40 \implies Y = 100$$. At "Equilibrium", total output matches total spending ($Y=C+I$). For Economy B: $$Y = 40 + 0.8Y + 100 \implies 0.2Y = 140 \implies Y = 700$$.'
+    aiExplanation: 'Teacher\'s Voice: At "Break-even", you spend exactly what you earn (Y=C). For Economy A: Y = 40 + 0.6Y => 0.4Y = 40 => Y = 100. At "Equilibrium", total output matches total spending (Y=C+I). For Economy B: Y = 40 + 0.8Y + 100 => 0.2Y = 140 => Y = 700.'
   },
   {
     id: 'u3-q10-sqp-2026',

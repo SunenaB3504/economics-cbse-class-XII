@@ -12,7 +12,7 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u1-fc2',
     question: 'Difference between Gross and Net investment?',
-    answer: 'Gross Investment includes depreciation, while Net Investment excludes it ($Net = Gross - Depreciation$).',
+    answer: 'Gross Investment includes depreciation, while Net Investment excludes it (Net = Gross - Depreciation).',
     category: 'Basic Concepts'
   },
   {
@@ -271,7 +271,7 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u1-fc45',
     question: 'What is "Propensity to Consume"?',
-    answer: 'The ratio of consumption to income ($C/Y$).',
+    answer: 'The ratio of consumption to income (C/Y).',
     category: 'Theory'
   },
   {
@@ -301,7 +301,7 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u1-fc50',
     question: 'What is the sum of GVA of all firms?',
-    answer: 'Gross Domestic Product at Market Price ($GDP_{MP}$).',
+    answer: 'Gross Domestic Product at Market Price (GDP_{MP}).',
     category: 'Calculation'
   },
   {
@@ -331,7 +331,7 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u1-fc55',
     question: 'Formula for GDP Deflator?',
-    answer: '$\\text{GDP Deflator} = \\frac{\\text{Nominal GDP}}{\\text{Real GDP}} \\times 100$.',
+    answer: '\GDP Deflator = \(\Nominal GDP) / (\Real GDP) \× 100.',
     category: 'Calculation'
   }
 ];

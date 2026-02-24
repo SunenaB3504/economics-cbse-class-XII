@@ -8,10 +8,10 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
       '**Revenue Deficit** = Revenue Expenditure - Revenue Receipts.',
       '**Fiscal Deficit** = Total Expenditure - (Revenue Receipts + Non-debt Capital Receipts). (Signifies total borrowing requirement).',
       '**Primary Deficit** = Fiscal Deficit - Interest Payments. (Shows current year borrowing excluding past interest).',
-      '**Govt Expenditure Multiplier ($k_g$):** $1 / (1 - c)$ (where $c$ is MPC).',
-      '**Tax Multiplier ($k_t$):** $-c / (1 - c)$.',
+      '**Govt Expenditure Multiplier (k_g):** $1 / (1 - c)$ (where c is MPC).',
+      '**Tax Multiplier (k_t):** -c / (1 - c).',
       '**Balanced Budget Multiplier:** Always equals 1.',
-      '**Total Tax Receipts ($T$):** $T = T + tY$ (Lump-sum + Proportional components).'
+      '**Total Tax Receipts (T):** T = T + tY (Lump-sum + Proportional components).'
     ]
   },
   {

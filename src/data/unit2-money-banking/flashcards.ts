@@ -59,13 +59,13 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u2-fc10',
     question: 'What is the Money Multiplier formula?',
-    answer: 'Money Multiplier = $1 / \\text{Legal Reserve Ratio (LRR)}$.',
+    answer: 'Money Multiplier = $1 / \Legal Reserve Ratio (LRR)$.',
     category: 'Calculation'
   },
   {
     id: 'u2-fc11',
     question: 'How is Total Credit Creation calculated?',
-    answer: 'Total Credit Creation = Initial Deposit $\\times$ $(1 / LRR)$.',
+    answer: 'Total Credit Creation = Initial Deposit \× (1 / LRR).',
     category: 'Calculation'
   },
   {
@@ -239,7 +239,7 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u2-fc40',
     question: 'Calculate Total Credit if Initial Deposit = ₹ 2,000 and LRR = 10%.',
-    answer: 'Total Credit = ₹ 2,000 $\\times$ $(1 / 0.10) = ₹ 2,000 \\times 10 = ₹ 20,000$.',
+    answer: 'Total Credit = ₹ 2,000 \× (1 / 0.10) = ₹ 2,000 \× 10 = ₹ 20,000.',
     category: 'Calculation'
   },
   {

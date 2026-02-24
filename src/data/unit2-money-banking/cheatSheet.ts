@@ -5,12 +5,12 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
     id: 'u2-cs-formulas',
     title: 'Money & Banking Numerical Logic',
     points: [
-      '**Purchasing Power of Money:** $V_m = 1/P$ (where $P$ is the price level).',
-      '**Velocity of Circulation (V):** $V = PY / M$ (Relation between Money Supply and Total Spending).',
-      '**Transaction Demand ($M^T_d$):** $M^T_d = k \cdot PY$ or $v \cdot M = P \cdot Y$.',
+      '**Purchasing Power of Money:** V_m = 1/P (where P is the price level).',
+      '**Velocity of Circulation (V):** V = PY / M (Relation between Money Supply and Total Spending).',
+      '**Transaction Demand (M^T_d):** M^T_d = k \cdot PY or v \cdot M = P \cdot Y.',
       '**Money Multiplier:** $1 / LRR$ (or $1 / (CRR + SLR)$).',
-      '**Total Credit Creation:** Initial Deposit $\times$ $(1 / LRR)$.',
-      '**Present Value of a Bond ($P$):** $P = \text{Coupon} / i$ (Shows inverse relation between $P$ and interest rate).'
+      '**Total Credit Creation:** Initial Deposit × (1 / LRR).',
+      '**Present Value of a Bond (P):** P = Coupon / i (Shows inverse relation between P and interest rate).'
     ]
   },
   {
@@ -27,17 +27,17 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
     id: 'u2-cs2',
     title: 'Quantitative Tools (Volume Control)',
     points: [
-      '**Bank Rate/Repo Rate:** Increase $\rightarrow$ Expensive borrowing $\rightarrow$ Decrease Money Supply.',
-      '**CRR/SLR:** Increase $\rightarrow$ Lower loanable funds $\rightarrow$ Decrease Money Supply.',
-      '**OMO (Sale):** RBI sells bonds $\rightarrow$ Absorbs cash $\rightarrow$ Decrease Money Supply.',
-      '**OMO (Purchase):** RBI buys bonds $\rightarrow$ Injects cash $\rightarrow$ Increase Money Supply.'
+      '**Bank Rate/Repo Rate:** Increase -> Expensive borrowing -> Decrease Money Supply.',
+      '**CRR/SLR:** Increase -> Lower loanable funds -> Decrease Money Supply.',
+      '**OMO (Sale):** RBI sells bonds -> Absorbs cash -> Decrease Money Supply.',
+      '**OMO (Purchase):** RBI buys bonds -> Injects cash -> Increase Money Supply.'
     ]
   },
   {
     id: 'u2-cs3',
     title: 'Qualitative Tools (Directional Control)',
     points: [
-      '**Margin Requirement:** Difference between collateral value and loan amount. Increase $\rightarrow$ Lower credit.',
+      '**Margin Requirement:** Difference between collateral value and loan amount. Increase -> Lower credit.',
       '**Moral Suasion:** Persuasion/Directive by RBI to banks to restrict/expand credit.',
       '**Selective Credit Control:** Directing credit to productive sectors and away from speculative ones.'
     ]

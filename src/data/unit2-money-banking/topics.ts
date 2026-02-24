@@ -29,7 +29,7 @@ export const TOPICS: TheoryTopic[] = [
     title: 'Demand for Money',
     description: 'Why individuals and firms choose to hold liquid cash instead of interest-earning assets.',
     content: [
-      'Transaction Motive: People hold money to bridge the gap between receipt of income and daily expenditures. It is positively related to the level of income ($M^T_d = k.PY$).',
+      'Transaction Motive: People hold money to bridge the gap between receipt of income and daily expenditures. It is positively related to the level of income (M^T_d = k.PY).',
       'Speculative Motive: Holding money as an alternative to assets like bonds. This demand depends on expectations of future interest rates. When interest rates are high, speculative demand is low (as people buy bonds).',
       'Inverse Relationship: There is an inverse relationship between the market rate of interest and the speculative demand for money.',
       'Liquidity Trap: A situation where the interest rate is at its historical minimum (floor rate). At this point, everyone expects interest rates to rise, making money demand infinitely elastic (the curve becomes horizontal).'

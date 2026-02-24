@@ -12,7 +12,7 @@ export const FLASHCARDS: Flashcard[] = [
     id: 'u6-fc2',
     question: 'Define the Zamindari System.',
     answer: 'A land settlement system where landlords (Zamindars) collected fixed rent from farmers and paid it to the British government, leading to farmer exploitation.',
-    aiExplanation: 'It created a triangular relationship: Government $\\rightarrow$ Zamindar $\\rightarrow$ Tiller.'
+    aiExplanation: 'It created a triangular relationship: Government \-> Zamindar \-> Tiller.'
   },
   {
     id: 'u6-fc3',

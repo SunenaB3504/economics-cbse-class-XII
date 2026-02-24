@@ -107,7 +107,7 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u4-fc18',
     question: 'Define Revenue Deficit.',
-    answer: 'The excess of Revenue Expenditure over Revenue Receipts ($RD = RE - RR$).',
+    answer: 'The excess of Revenue Expenditure over Revenue Receipts (RD = RE - RR).',
     category: 'Definition'
   },
   {
@@ -131,7 +131,7 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u4-fc22',
     question: 'Define Primary Deficit.',
-    answer: 'The difference between Fiscal Deficit and Interest Payments on previous loans ($PD = FD - Interest$).',
+    answer: 'The difference between Fiscal Deficit and Interest Payments on previous loans (PD = FD - Interest).',
     category: 'Definition'
   },
   {
@@ -203,19 +203,19 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u4-fc34',
     question: 'Calculate RD if RE = 500 and RR = 400.',
-    answer: '$RD = 500 - 400 = 100$.',
+    answer: 'RD = 500 - 400 = 100.',
     category: 'Calculation'
   },
   {
     id: 'u4-fc35',
     question: 'Calculate FD if Total Exp = 1000 and Revenue Rec = 600 and Disinvestment = 100.',
-    answer: '$FD = 1000 - (600 + 100) = 300$.',
+    answer: 'FD = 1000 - (600 + 100) = 300.',
     category: 'Calculation'
   },
   {
     id: 'u4-fc36',
     question: 'Calculate PD if FD = 200 and Interest = 150.',
-    answer: '$PD = 200 - 150 = 50$.',
+    answer: 'PD = 200 - 150 = 50.',
     category: 'Calculation'
   },
   {
@@ -317,25 +317,25 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u4-fc53',
     question: 'State the Government Expenditure Multiplier formula.',
-    answer: '$k_g = 1 / (1 - c)$ (where $c$ is the Marginal Propensity to Consume).',
+    answer: 'k_g = 1 / (1 - c) (where c is the Marginal Propensity to Consume).',
     category: 'Master'
   },
   {
     id: 'u4-fc54',
     question: 'State the Tax Multiplier formula.',
-    answer: '$k_t = -c / (1 - c)$ (where $c$ is the Marginal Propensity to Consume).',
+    answer: 'k_t = -c / (1 - c) (where c is the Marginal Propensity to Consume).',
     category: 'Master'
   },
   {
     id: 'u4-fc55',
     question: 'Why is the Tax Multiplier smaller than the Expenditure Multiplier?',
-    answer: 'Because a tax cut increases consumption by only a fraction ($c$) of the tax change, whereas spending impacts demand directly.',
+    answer: 'Because a tax cut increases consumption by only a fraction (c) of the tax change, whereas spending impacts demand directly.',
     category: 'Master'
   },
   {
     id: 'u4-fc56',
     question: 'What is the Balanced Budget Multiplier?',
-    answer: 'It measures the effect of an equal increase in $G$ and $T$. Its value is always 1 ($k_g + k_t = 1$).',
+    answer: 'It measures the effect of an equal increase in G and T. Its value is always 1 (k_g + k_t = 1).',
     category: 'Master'
   },
   {
@@ -347,7 +347,7 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u4-fc58',
     question: 'How do proportional taxes act as "Automatic Stabilisers"?',
-    answer: 'They reduce the size of the multiplier ($k = 1 / [1-c(1-t)]$), making the economy less sensitive to shocks.',
+    answer: 'They reduce the size of the multiplier (k = 1 / [1-c(1-t)]), making the economy less sensitive to shocks.',
     category: 'Master'
   },
   {

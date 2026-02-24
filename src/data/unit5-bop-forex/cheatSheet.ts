@@ -17,8 +17,8 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
     id: 'u5-cs2',
     title: 'Exchange Rate Dynamics',
     points: [
-      '**Depreciation:** Fall in domestic currency value (Flexible) $\\rightarrow$ Exports $\\uparrow$, Imports $\\downarrow$.',
-      '**Appreciation:** Rise in domestic currency value (Flexible) $\\rightarrow$ Exports $\\downarrow$, Imports $\\uparrow$.',
+      '**Depreciation:** Fall in domestic currency value (Flexible) \-> Exports \↑, Imports \↓.',
+      '**Appreciation:** Rise in domestic currency value (Flexible) \-> Exports \↓, Imports \↑.',
       '**Devaluation:** Deliberate reduction in currency value by Govt (Fixed).',
       '**Managed Floating:** "Dirty Float" - market determined with RBI intervention.',
       '**NEER vs REER:** NEER is trade-weighted nominal; REER is price/inflation adjusted.'

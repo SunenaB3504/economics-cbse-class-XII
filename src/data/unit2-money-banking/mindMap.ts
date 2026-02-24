@@ -18,8 +18,8 @@ export const MIND_MAP: MindMapNode = {
       id: 'u2-demand',
       label: 'Demand for Money',
       children: [
-        { id: 'u2-d1', label: 'Transaction Motive ($M^T_d$)' },
-        { id: 'u2-d2', label: 'Speculative Motive ($M^S_d$)' },
+        { id: 'u2-d1', label: 'Transaction Motive (M^T_d)' },
+        { id: 'u2-d2', label: 'Speculative Motive (M^S_d)' },
         { id: 'u2-d3', label: 'Liquidity Trap' }
       ]
     },

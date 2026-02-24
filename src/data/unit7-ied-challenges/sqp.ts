@@ -44,7 +44,7 @@ export const SQP_QUESTIONS: SQPQuestion[] = [
     questionNumber: '25.',
     question: '“Distinguish between the Labour Force and the Workforce”.',
     markingScheme: '1. Labour Force: People who are actually working + People who are available/seeking work.\n2. Workforce: People who are actually working at a given time.\n3. Formula: Unemployed = Labour Force - Workforce.',
-    aiExplanation: 'Teacher\'s Voice: Think of a cricket team. The 11 players on the field are the **Workforce**. The 11 players + the bench strength (players waiting for a turn) are the **Labour Force**. Formula: $$\\text{Unemployed} = \\text{Labour Force} - \\text{Workforce}$$.'
+    aiExplanation: 'Teacher\'s Voice: Think of a cricket team. The 11 players on the field are the **Workforce**. The 11 players + the bench strength (players waiting for a turn) are the **Labour Force**. Formula: \Unemployed = \Labour Force - \Workforce.'
   },
   {
     id: 'u7-q5-sqp-24-25-q24',

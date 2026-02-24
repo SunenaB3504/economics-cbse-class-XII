@@ -23,37 +23,37 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u3-fc4',
     question: 'What is the "Consumption Function"?',
-    answer: 'The functional relationship between consumption and the level of national income ($C = f(Y)$).',
+    answer: 'The functional relationship between consumption and the level of national income (C = f(Y)).',
     category: 'Theory'
   },
   {
     id: 'u3-fc5',
-    question: 'Define Autonomous Consumption ($\bar{c}$).',
+    question: 'Define Autonomous Consumption (c_bar).',
     answer: 'It is the minimum level of consumption that is independent of income, i.e., consumption at zero level of income.',
     category: 'Calculation'
   },
   {
     id: 'u3-fc6',
     question: 'What is Average Propensity to Consume (APC)?',
-    answer: 'It is the ratio of total consumption to total income ($APC = C / Y$).',
+    answer: 'It is the ratio of total consumption to total income (APC = C / Y).',
     category: 'Definition'
   },
   {
     id: 'u3-fc7',
     question: 'What is Marginal Propensity to Consume (MPC)?',
-    answer: 'It is the ratio of change in consumption to change in income ($MPC = \Delta C / \Delta Y$).',
+    answer: 'It is the ratio of change in consumption to change in income (MPC = Δ C / Δ Y).',
     category: 'Definition'
   },
   {
     id: 'u3-fc8',
     question: 'State the relationship between MPC and MPS.',
-    answer: 'The sum of MPC and MPS is always equal to one ($MPC + MPS = 1$).',
+    answer: 'The sum of MPC and MPS is always equal to one (MPC + MPS = 1).',
     category: 'Technical'
   },
   {
     id: 'u3-fc9',
     question: 'State the relationship between APC and APS.',
-    answer: 'The sum of APC and APS is always equal to one ($APC + APS = 1$).',
+    answer: 'The sum of APC and APS is always equal to one (APC + APS = 1).',
     category: 'Technical'
   },
   {
@@ -71,19 +71,19 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u3-fc12',
     question: 'Define Average Propensity to Save (APS).',
-    answer: 'It is the ratio of total saving to total income ($APS = S / Y$).',
+    answer: 'It is the ratio of total saving to total income (APS = S / Y).',
     category: 'Definition'
   },
   {
     id: 'u3-fc13',
     question: 'What is the Break-even Point?',
-    answer: 'The level of income where consumption is exactly equal to income ($C = Y$) and saving is zero ($S = 0$).',
+    answer: 'The level of income where consumption is exactly equal to income (C = Y) and saving is zero (S = 0).',
     category: 'Theory'
   },
   {
     id: 'u3-fc14',
     question: 'Define Marginal Propensity to Save (MPS).',
-    answer: 'It is the ratio of change in saving to the change in income ($MPS = \Delta S / \Delta Y$).',
+    answer: 'It is the ratio of change in saving to the change in income (MPS = Δ S / Δ Y).',
     category: 'Definition'
   },
   {
@@ -95,7 +95,7 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u3-fc16',
     question: 'State the linear Saving Function equation.',
-    answer: '$S = -\bar{c} + (1 - b)Y$, where $-\bar{c}$ is autonomous saving and $(1 - b)$ is MPS.',
+    answer: 'S = -c_bar + (1 - b)Y, where -c_bar is autonomous saving and (1 - b) is MPS.',
     category: 'Technical'
   },
   {
@@ -113,19 +113,19 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u3-fc19',
     question: 'Define Investment Multiplier (k).',
-    answer: 'It refers to the ratio of change in national income ($\Delta Y$) to a given change in initial investment ($\Delta I$).',
+    answer: 'It refers to the ratio of change in national income (Δ Y) to a given change in initial investment (Δ I).',
     category: 'Definition'
   },
   {
     id: 'u3-fc20',
     question: 'State the formula for Investment Multiplier in terms of MPC.',
-    answer: '$Multiplier (k) = 1 / (1 - MPC)$.',
+    answer: 'Multiplier (k) = 1 / (1 - MPC).',
     category: 'Calculation'
   },
   {
     id: 'u3-fc21',
     question: 'What is the relationship between the Multiplier and MPS?',
-    answer: 'They are inversely related. $k = 1 / MPS$.',
+    answer: 'They are inversely related. k = 1 / MPS.',
     category: 'Technical'
   },
   {
@@ -215,7 +215,7 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u3-fc36',
     question: 'If MPC = 0.5, what is the value of the Multiplier?',
-    answer: '$k = 1 / (1 - 0.5) = 1 / 0.5 = 2$.',
+    answer: 'k = 1 / (1 - 0.5) = 1 / 0.5 = 2.',
     category: 'Calculation'
   },
   {
@@ -233,13 +233,13 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u3-fc39',
     question: 'What is "Dissaving"?',
-    answer: 'Negative saving, which occurs when consumption expenditure exceeds national income ($C > Y$).',
+    answer: 'Negative saving, which occurs when consumption expenditure exceeds national income (C > Y).',
     category: 'Technical'
   },
   {
     id: 'u3-fc40',
     question: 'If MPS = 0.2, what is the value of the Multiplier?',
-    answer: '$k = 1 / 0.2 = 5$.',
+    answer: 'k = 1 / 0.2 = 5.',
     category: 'Calculation'
   },
   {
@@ -263,7 +263,7 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u3-fc44',
     question: 'If the Initial Investment increase is ₹ 100 Crore and MPC is 0.8, what is the total increase in Income?',
-    answer: 'Multiplier $k = 1 / 0.2 = 5$. Increase in income = $k \\times \\Delta I = 5 \\times 100 = ₹ 500$ Crore.',
+    answer: 'Multiplier k = 1 / 0.2 = 5. Increase in income = k × ΔI = 5 × 100 = ₹ 500 Crore.',
     category: 'Calculation'
   },
   {
@@ -323,7 +323,7 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'u3-fc54',
     question: 'What is Induced Consumption?',
-    answer: 'That part of consumption which varies directly with the level of income ($bY$).',
+    answer: 'That part of consumption which varies directly with the level of income (bY).',
     category: 'Consumption'
   },
   {
