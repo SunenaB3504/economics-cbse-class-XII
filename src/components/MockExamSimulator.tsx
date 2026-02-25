@@ -32,9 +32,9 @@ export const MockExamSimulator: React.FC<{ onBack: () => void }> = ({ onBack }) 
             [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
         }
 
-        // A realistic test length of 34 questions
+        // Present all 140+ available questions
         setTimeout(() => {
-            setQuestions(shuffled.slice(0, 34));
+            setQuestions(shuffled);
             setIsAnimating(false);
         }, 300);
     };
@@ -76,7 +76,7 @@ export const MockExamSimulator: React.FC<{ onBack: () => void }> = ({ onBack }) 
                         Mock Exam <span className="text-indigo-600">Simulator</span>
                     </h1>
                     <p className="text-gray-500 font-medium mt-2 max-w-2xl text-sm md:text-base leading-relaxed">
-                        Ready to test your instincts? This engine randomly synthesizes realistic 34-question board papers drawn from over 140 historic SQP scenarios spanning all 8 units.
+                        Ready to test your instincts? This engine randomizes the entire archive of over 140 historic SQP scenarios spanning all 8 units to create ultimate, unpredictable mock papers.
                     </p>
                 </div>
 
@@ -96,7 +96,7 @@ export const MockExamSimulator: React.FC<{ onBack: () => void }> = ({ onBack }) 
                 </div>
                 <div className="flex gap-2 overflow-x-auto pb-2 md:pb-0 scrollbar-hide">
                     {[
-                        { id: 'all', label: 'Complete Paper (34 Qs)' },
+                        { id: 'all', label: 'Entire Archive (All Qs)' },
                         { id: 'mcq', label: 'Entrance MCQs Only' },
                         { id: 'subjective', label: 'Subjective Only' }
                     ].map(f => (
@@ -104,8 +104,8 @@ export const MockExamSimulator: React.FC<{ onBack: () => void }> = ({ onBack }) 
                             key={f.id}
                             onClick={() => setFilter(f.id as any)}
                             className={`px-6 py-2.5 rounded-xl text-xs md:text-sm font-black transition-all whitespace-nowrap ${filter === f.id
-                                    ? 'bg-indigo-900 text-white shadow-md'
-                                    : 'bg-gray-50 text-gray-600 hover:bg-indigo-50 border border-gray-100'
+                                ? 'bg-indigo-900 text-white shadow-md'
+                                : 'bg-gray-50 text-gray-600 hover:bg-indigo-50 border border-gray-100'
                                 }`}
                         >
                             {f.label}
