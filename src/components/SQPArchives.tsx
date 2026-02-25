@@ -50,7 +50,7 @@ export const SQPArchives: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
 
             {q.imageUrl && (
               <div className="mb-6 rounded-xl overflow-hidden border border-gray-100 bg-white inline-block">
-                <img src={q.imageUrl} alt="Question Figure" className="max-w-full h-auto object-contain" />
+                <img src={q.imageUrl.startsWith('/') ? `${import.meta.env.BASE_URL}${q.imageUrl.slice(1)}` : q.imageUrl} alt="Question Figure" className="max-w-full h-auto object-contain" />
               </div>
             )}
             {(q.optionA || q.optionB || q.optionC || q.optionD) && (

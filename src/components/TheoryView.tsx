@@ -108,7 +108,11 @@ export const TheoryView: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
                     </div>
                   ) : vis.type === 'image' && 'src' in vis.data && 'alt' in vis.data ? (
                     <div className="flex flex-col items-center">
-                      <img src={(vis.data as { src: string, alt: string }).src} alt={(vis.data as { src: string, alt: string }).alt} className="max-w-full h-auto rounded-xl shadow-sm border border-indigo-100" />
+                      <img
+                        src={(vis.data as { src: string }).src.startsWith('/') ? `${import.meta.env.BASE_URL}${(vis.data as { src: string }).src.slice(1)}` : (vis.data as { src: string }).src}
+                        alt={(vis.data as { alt: string }).alt}
+                        className="max-w-full h-auto rounded-xl shadow-sm border border-indigo-100"
+                      />
                     </div>
                   ) : (
                     <div className="flex flex-wrap items-center gap-3">
