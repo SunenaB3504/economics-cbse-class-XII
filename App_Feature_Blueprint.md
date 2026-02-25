@@ -61,6 +61,10 @@ This document outlines the core architectural logic, functionality implementatio
     *   **State Management:** Built natively in React hooks (`useState` for storing selected answers, `isSubmitted` boolean lock).
     *   **Interactive MCQ UI:** Options map directly onto dynamic interactive `<button>` tags. Selecting an option updates state (turns Indigo).
     *   **Auto-Grading Engine:** Upon clicking "Submit Exam", the component computes total scores by validating user state against the hardcoded `answer: 'D'` properties embedded securely in the `sqp.ts` data records. 
+    *   **Comprehensive AI Explanations (Mark-Based):** 
+        *   Every single question (MCQ or Subjective) must contain a detailed `aiExplanation` securely embedded alongside the question data.
+        *   These explanations must rigidly reflect the *marks weightage* of the question (e.g., a 6-mark subjective question requires a deeply fleshed-out, step-by-step breakdown directly mirroring the CBSE Marking Scheme).
+        *   The explanations are dynamically revealed only *after* the user submits their answer or clicks an explicit "Reveal Answer" toggle for subjective questions.
     *   **Color-Coded Feedback View:**
         *   Selected correct answer = Emerald Green (`CheckCircle` icon).
         *   Selected incorrect answer = Red (`XCircle` icon).
