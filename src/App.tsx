@@ -8,6 +8,7 @@ import { ChapterCard } from './components/ChapterCard';
 import { TheoryView } from './components/TheoryView';
 import { RevisionHQ } from './components/RevisionHQ';
 import { SQPArchives } from './components/SQPArchives';
+import { MockExamSimulator } from './components/MockExamSimulator';
 
 export default function App() {
   const [activeView, setActiveView] = useState('dashboard');
@@ -25,31 +26,43 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gray-50 pb-20 font-sans">
-      <Navbar 
-        activeView={activeView} 
-        setActiveView={setActiveView} 
-        isDashboard={activeView === 'dashboard'} 
+      <Navbar
+        activeView={activeView}
+        setActiveView={setActiveView}
+        isDashboard={activeView === 'dashboard'}
       />
-      
+
       <main className="max-w-7xl mx-auto px-6 pt-10">
         {activeView === 'dashboard' ? (
           <>
             <div className="mb-12 animate-in fade-in slide-in-from-top-4 duration-700">
-              <h1 className="text-4xl md:text-5xl font-black text-gray-900 tracking-tight leading-tight">
-                Premium Exam Prep <br />
-                <span className="text-indigo-700">CBSE Class 12 Economics</span>
-              </h1>
-              <p className="mt-4 text-lg text-gray-500 font-medium max-w-2xl">
-                Master Macroeconomics and Indian Economic Development with visual theory, verified sample papers, and AI-driven insights.
-              </p>
+              <div className="flex flex-col lg:flex-row lg:items-start justify-between gap-8">
+                <div>
+                  <h1 className="text-4xl md:text-5xl font-black text-gray-900 tracking-tight leading-tight">
+                    Premium Exam Prep <br />
+                    <span className="text-indigo-700">CBSE Class 12 Economics</span>
+                  </h1>
+                  <p className="mt-4 text-lg text-gray-500 font-medium max-w-2xl">
+                    Master Macroeconomics and Indian Economic Development with visual theory, verified sample papers, and AI-driven insights.
+                  </p>
+                </div>
+
+                <button
+                  onClick={() => setActiveView('simulator')}
+                  className="w-full lg:w-auto flex-shrink-0 flex items-center justify-center gap-3 bg-gradient-to-r from-indigo-900 to-indigo-700 hover:from-indigo-800 hover:to-indigo-600 text-white px-8 py-5 rounded-2xl font-black shadow-lg shadow-indigo-200 transition-all group lg:self-center"
+                >
+                  <Star className="w-6 h-6 text-amber-400 group-hover:rotate-12 transition-transform" />
+                  Launch Mock Exam Simulator
+                </button>
+              </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {ALL_UNITS.map(unit => (
-                <ChapterCard 
-                  key={unit.id} 
-                  chapter={unit} 
-                  onClick={() => handleChapterSelect(unit)} 
+                <ChapterCard
+                  key={unit.id}
+                  chapter={unit}
+                  onClick={() => handleChapterSelect(unit)}
                 />
               ))}
             </div>
@@ -58,7 +71,7 @@ export default function App() {
           <div>
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-10 border-b border-gray-200 pb-8 animate-in fade-in slide-in-from-left-4 duration-500">
               <div>
-                <button 
+                <button
                   onClick={handleBackToDashboard}
                   className="text-[10px] font-black text-indigo-700 hover:text-indigo-900 transition-colors flex items-center gap-1 mb-2 uppercase tracking-widest"
                 >
@@ -81,7 +94,11 @@ export default function App() {
               </div>
             </div>
 
-            {selectedChapter && (
+            {activeView === 'simulator' && (
+              <MockExamSimulator onBack={handleBackToDashboard} />
+            )}
+
+            {selectedChapter && activeView !== 'simulator' && (
               <div className="min-h-[60vh]">
                 {activeView === 'theory' && <TheoryView chapter={selectedChapter} />}
                 {activeView === 'revision' && <RevisionHQ chapter={selectedChapter} />}
