@@ -26,7 +26,26 @@ This document outlines the core architectural logic, functionality implementatio
 
 ## 2. Core Functional Features
 
-### 2.1 The Exam Morning Cheat Sheet
+### 2.1 Theory Dashboard Integration
+*   **Purpose:** To present chapter-level concepts logically and linearly before the student attempts the SQP mock test. 
+*   **Implementation Architecture:**
+    *   Theory is categorized strictly according to NCERT syllabus structures.
+    *   No external generative AI summarization. All paragraphs must be exact excerpts.
+    *   Important keywords must be visually highlighted using Tailwind classes (e.g., `text-indigo-600 font-bold`).
+    *   Important visual charts/diagrams from the textbook must be recreated identically using either native HTML/CSS grids or exactly encoded Mermaid diagrams if structural.
+
+### 2.2 Interactive Revision Suite (Flashcards & Mindmaps)
+*   **Purpose:** Rapid active recall and structural memory association prior to attempting exams or the final Morning Cheat Sheet.
+*   **Implementation Architecture:**
+    *   **Interactive Flashcards:** Built using CSS 3D transforms (`rotateY`) for a physical card-flipping experience.
+        *   The front handles the term/concept. The back contains the exact verbatim definition.
+        *   Must include smooth `transition-all` animations to feel tactile.
+    *   **Mindmap Integration:** 
+        *   Uses `mermaid.js` embedded directly within the React component.
+        *   Maps must strictly trace the hierarchical layout of the NCERT textbook chapters without adding extraneous external nodes.
+        *   Nodes should be styled (`classDef`) to match the primary application aesthetic (Indigo/Teal/Rose).
+
+### 2.3 The Exam Morning Cheat Sheet
 *   **Purpose:** A highly dense, color-coded, physical-friendly revision document designed strictly for the 24 hours preceding the final exam.
 *   **Implementation Architecture:**
     *   Built purely with CSS Grid/Flexbox in absolute dimensions (A4 optimizations).
@@ -36,7 +55,7 @@ This document outlines the core architectural logic, functionality implementatio
         *   Contains `page-break-inside: avoid;` on conceptual blocks to prevent sentences from being sliced in half across pages.
     *   **Direct PDF Download Engine:** The document is captured natively on the device using `html2pdf.bundle.min.js`. The export button instantly converts the DOM precisely keeping all CSS printing constraints intact and saves the lightweight PDF instantaneously without triggering the user's OS print dialog.
 
-### 2.2 The Interactive Mock Exam Simulator
+### 2.4 The Interactive Mock Exam Simulator
 *   **Purpose:** A diagnostic tool enabling users to test their knowledge securely against actual past-year SQP Multiple Choice Questions and Subjective prompts.
 *   **Implementation Architecture:**
     *   **State Management:** Built natively in React hooks (`useState` for storing selected answers, `isSubmitted` boolean lock).
@@ -48,7 +67,7 @@ This document outlines the core architectural logic, functionality implementatio
         *   Unselected correct answer highlights in Gray for transparency.
     *   **Diagnostic Unit-wise Dashboard:** A `useMemo` computation array runs at the end tallying total correct vs total attempted questions securely categorized by overarching overarching Unit/Chapter names, explicitly highlighting weak units that require direct revision.
 
-### 2.3 Dashboard State Preservation and Filtering
+### 2.5 Dashboard State Preservation and Filtering
 *   **Purpose:** Allowing users to seamlessly toggle between "All Categories", "Entrance MCQs", or "Subjective Long-Form" without losing layout consistency.
 *   **Implementation Architecture:**
     *   A dynamic `category` filter prop loops through the static TS array and dynamically renders exactly only the selected components.
