@@ -6,7 +6,7 @@ import { ALL_UNITS } from '../data';
 
 export const MockExamSimulator: React.FC<{ onBack: () => void }> = ({ onBack }) => {
     const [questions, setQuestions] = useState<any[]>([]);
-    const [filter, setFilter] = useState<'all' | 'mcq' | 'subjective'>('all');
+    const [filter, setFilter] = useState<'all' | 'mcq' | 'subjective' | 'numerical'>('all');
     const [revealed, setRevealed] = useState<Set<string>>(new Set());
     const [isAnimating, setIsAnimating] = useState(false);
 
@@ -56,8 +56,11 @@ export const MockExamSimulator: React.FC<{ onBack: () => void }> = ({ onBack }) 
     const filteredQuestions = useMemo(() => {
         return questions.filter(q => {
             const isMcq = !!(q.optionA || q.optionB || q.optionC || q.optionD);
+            const isNumerical = /(?:calculate|compute|estimate|derive|value of|₹|crore|lakh|C\s*=|Y\s*=)/i.test(q.question);
+
             if (filter === 'mcq') return isMcq;
             if (filter === 'subjective') return !isMcq;
+            if (filter === 'numerical') return isNumerical;
             return true;
         });
     }, [questions, filter]);
@@ -98,7 +101,8 @@ export const MockExamSimulator: React.FC<{ onBack: () => void }> = ({ onBack }) 
                     {[
                         { id: 'all', label: 'Entire Archive (All Qs)' },
                         { id: 'mcq', label: 'Entrance MCQs Only' },
-                        { id: 'subjective', label: 'Subjective Only' }
+                        { id: 'subjective', label: 'Subjective Only' },
+                        { id: 'numerical', label: 'Numerical Drill' }
                     ].map(f => (
                         <button
                             key={f.id}
