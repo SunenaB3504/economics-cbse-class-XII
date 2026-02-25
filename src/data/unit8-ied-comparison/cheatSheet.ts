@@ -42,5 +42,25 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
       '**Human Development**: China leads in life expectancy and lowest IMR/MMR.',
       '**Trade**: China is the "World\'s Workshop"; India is the "Global BPO hub".'
     ]
+  },
+  {
+    id: 'u8-cs-acronyms',
+    title: '📚 Essential Acronyms for Quick Recall',
+    points: [
+      '**HDI (Human Development Index):** A vital composite statistical index measuring life expectancy, access to education, and per capita income.',
+      '**IMR (Infant Mortality Rate):** Tragic count of infant deaths (under 1 year of age) precisely per 1,000 live births.',
+      '**MMR (Maternal Mortality Rate):** Tragic count of maternal deaths resulting from childbirth per 1,00,000 live births.',
+      '**SEZ (Special Economic Zone):** Specially designated geographical areas heavily equipped with tax holidays and relaxed labor laws to ruthlessly attract FDI.',
+      '**BPO (Business Process Outsourcing):** Strategically contracting non-primary business activities to specific third-party providers (A sector where India is a global hub).',
+      '**GLF (Great Leap Forward - 1958):** China\'s exceptionally aggressive Maoist campaign to rapidly industrialize the rural countryside using backyard furnaces.'
+    ]
+  },
+  {
+    id: 'u8-cs5',
+    title: '🎯 SQP Traps: Comparative Development',
+    points: [
+      '**Demographic Trap:** China has the largest population but effectively the **lowest** population density due to its massive geographic area. Pakistan has the **highest** population growth rate.',
+      '**Sectoral Contribution Trap (The "Impatient Leap" Rule):** China strictly followed the classical model (Agriculture → Manufacturing → Services). India and Pakistan were impatient and completely skipped the middleman, leaping directly from Agriculture straight to Services.'
+    ]
   }
 ];

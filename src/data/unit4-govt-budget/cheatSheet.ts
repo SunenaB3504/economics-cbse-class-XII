@@ -42,5 +42,23 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
       '**Curb Inflation:** Decrease Govt Spending (G) or Increase Taxes (T).',
       '**Curb Deflation:** Increase Govt Spending (G) or Decrease Taxes (T).'
     ]
+  },
+  {
+    id: 'u4-cs-acronyms',
+    title: '📚 Essential Acronyms for Quick Recall',
+    points: [
+      '**RD (Revenue Deficit):** Shortfall of revenue receipts against revenue expenditure (indicating structural imbalances).',
+      '**FD (Fiscal Deficit):** The absolute total borrowing requirement of the government for the fiscal year.',
+      '**PD (Primary Deficit):** Current year overspending, strictly calculated by excluding past interest obligations.',
+      '**GST (Goods and Services Tax):** A comprehensive, destination-based indirect tax that unified indirect taxation.'
+    ]
+  },
+  {
+    id: 'u4-cs5',
+    title: '🎯 SQP Traps: Government Budget',
+    points: [
+      '**Formula Trap (Fiscal Deficit):** A frequently tested alternative formula is `Fiscal Deficit = Revenue Deficit + Capital Expenditure - Non-debt Capital Receipts`.',
+      '**Primary Deficit Trap (The "Sins of the Past" Rule):** It purely measures "current year overspending". Always vividly remember to aggressively subtract past debt burdens: `Primary Deficit = Fiscal Deficit - Interest Payments`.'
+    ]
   }
 ];

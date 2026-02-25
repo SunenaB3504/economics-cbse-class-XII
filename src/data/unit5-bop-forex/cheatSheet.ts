@@ -43,5 +43,24 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
       '**Visible Trade:** Only merchandise (physical goods).',
       '**Unilateral Transfers:** One-way flows like gifts and remittances.'
     ]
+  },
+  {
+    id: 'u5-cs-acronyms',
+    title: '📚 Essential Acronyms for Quick Recall',
+    points: [
+      '**BoP (Balance of Payments):** Comprehensive systematic record of all economic transactions with the rest of the world.',
+      '**BoT (Balance of Trade):** Monetary difference between export and import of physical, visible goods only.',
+      '**FDI (Foreign Direct Investment):** Long-term foreign investment giving the investor operational control over the asset.',
+      '**FPI (Foreign Portfolio Investment):** Short-term fluid investment in financial assets purely for returns (No active control).',
+      '**ORT (Official Reserve Transactions):** Dedicated transactions by the central bank to settle BoP deficits or absorb surpluses.',
+      '**NEER & REER:** Nominal and Real Effective Exchange Rates (trade-weighted multifaceted indices for currency valuation).'
+    ]
+  },
+  {
+    id: 'u5-cs5',
+    title: '🎯 SQP Traps: BoP & Forex',
+    points: [
+      '**Currency Decoding (The "Apple" Rule):** Treat the Dollar like an Apple. If ₹82 = $1 becomes ₹83 = $1, you are paying *more* Rupees per Apple. The intrinsic value of the Rupee has fallen. The Rupee has **Depreciated** (or Devalued if pegged), directly promoting Indian Exports!'
+    ]
   }
 ];

@@ -1,114 +1,123 @@
 import { SQPQuestion } from '../../types';
 
 export const SQP_QUESTIONS: SQPQuestion[] = [
+  // ------------------------------------------------------------------
+  // 2022-23 SQP
+  // ------------------------------------------------------------------
   {
-    id: 'u8-q1-sqp-22-23-q22',
+    id: 'u8-q24-sqp-2023',
     year: '2022-23',
     paperType: 'SQP',
-    marks: 4,
-    type: 'SA',
-    questionNumber: '22.',
-    question: 'Compare India and China on the basis of Demographic Indicators.',
-    markingScheme: '1. Population: Both are most populous; China has lower growth rate due to One-child policy.\n2. Density: China has lower density due to vast land area.\n3. Urbanisation: China has higher urbanisation compared to India.\n4. Sex Ratio: Both have skewed ratios, but China is more affected by One-child policy.',
-    aiExplanation: 'Teacher\'s Voice: While India is catching up in size, China’s demographic profile is "older" because of its strict population control in the 80s.'
+    marks: 1,
+    type: 'MCQ',
+    questionNumber: '24',
+    question: 'Read the following statements carefully.\nStatement 1: Both India and Pakistan initiated their economic reforms without any external pressures.\nStatement 2: Pakistan has successfully implemented the SEZ policy and reaped its benefits using the Export Promotion policy.',
+    optionA: 'Statement 1 is true and statement 2 is false',
+    optionB: 'Statement 1 is false and statement 2 is true',
+    optionC: 'Both statements 1 and 2 are true',
+    optionD: 'Both statements 1 and 2 are false',
+    answer: 'D',
+    aiExplanation: 'Teacher\'s Voice: **Both of these are historical fact checks!**\n- **Statement 1:** False! India was forced into 1991 reforms by the World Bank/IMF due to a severe BoP crisis. Pakistan also initiated reforms in 1988 largely under external pressure from international agencies.\n- **Statement 2:** False! Special Economic Zones (SEZs) and aggressive Export Promotion were famously the core strategy of **China** since the 1980s, definitely not Pakistan.'
   },
   {
-    id: 'u8-q2-sqp-22-23-q31',
+    id: 'u8-q27-sqp-2023',
     year: '2022-23',
     paperType: 'SQP',
-    marks: 6,
-    type: 'LA',
-    questionNumber: '31.',
-    question: '“The Great Leap Forward (GLF) campaign was a failure in China.” Discuss.',
-    markingScheme: '1. Success: It industrialised backyards and laid the foundation for manufacturing.\n2. Failure: It led to a massive famine (killing millions) and was interrupted by political instability.\n3. Result: Though it had high human costs, it moved China away from a purely agrarian economy.',
-    aiExplanation: 'Teacher\'s Voice: GLF was "High Risk, High Reward". Mao Zedong wanted to do 50 years of industrialization in just 5 years. It moved furnaces into backyards and farms into collective communes. While it laid the foundation for modern manufacturing, the social cost was a horrific famine. It was a brutal but effective break from China\'s agrarian past.'
+    marks: 1,
+    type: 'Assertion-Reason',
+    questionNumber: '27',
+    question: 'Assertion (A): In the late 1970s, China’s population growth rate had sharply declined.\nReason(R): China has witnessed an increase in the proportion of elderly people owing to stringent family planning programmes.',
+    optionA: 'Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).',
+    optionB: 'Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of Assertion (A).',
+    optionC: 'Assertion (A) is true but Reason (R) is false.',
+    optionD: 'Assertion (A) is false but Reason (R) is true.',
+    answer: 'A',
+    aiExplanation: 'Teacher\'s Voice: **The long-term effects of forced policy.**\nAssertion is true: China introduced the extremely strict One-Child Policy in the late 1970s precisely to crush their high population growth rate.\nReason is also true *and* explains the Assertion\'s long-term consequence: Because birth rates plummeted (from the One-Child Policy), fewer youths exist today to replace older generations, leading to a massive increase in the proportion of the elderly population.'
   },
+
+  // ------------------------------------------------------------------
+  // 2023-24 SQP
+  // ------------------------------------------------------------------
   {
-    id: 'u8-q3-sqp-23-24-q23',
+    id: 'u8-q30-sqp-2024',
     year: '2023-24',
     paperType: 'SQP',
     marks: 4,
     type: 'SA',
-    questionNumber: '23.',
-    question: '“China\'s rapid industrial growth can be traced back to its SEZ policy.” Justify.',
-    markingScheme: '1. SEZs: Special Economic Zones were created to attract FDI through tax breaks and infrastructure.\n2. FDI: These zones became hubs for global manufacturing companies.\n3. Exports: They drove China’s export-led growth model.',
-    aiExplanation: 'Teacher\'s Voice: Think of SEZs as "Economic Laboratories". China didn\'t open the whole country to capitalism at once. They tested it in these small zones (like Shenzhen) first. Once they saw the massive flow of Foreign Direct Investment (FDI) and technology, they expanded the model, making China the "World\'s Factory".'
+    questionNumber: '30',
+    question: '“In the late 1970s, China introduced the One-child policy that led to arrest in the population growth, coupled with skewed sex ratio.”\nJustify the given statement with valid arguments in support of your answer.',
+    markingScheme: '1. Implementation: China, being the most populous country, saw extremely high annual population growth. Thus, the One-child norm was explicitly introduced in the late 1970s.\n2. Population Arrest: It was highly successful as the major reason for the rapid fall in the population growth rate.\n3. Skewed Sex Ratio: However, this draconian measure, combined with a deeply entrenched cultural preference for sons, led to horrific consequences like female foeticide, drastically declining the sex ratio (approximately 949 females per 1000 males in China).',
+    aiExplanation: 'Teacher\'s Voice: **Here is how to lock in your 4 M!**\n- Explain the "Arrest" (2 marks): State why they did it (booming population) and how strictly it was enforced (One Child Norm of 1979), successfully bringing population growth to a near halt.\n- Explain the "Skewed Sex Ratio" (2 marks): Because families were legally restricted to one child, the traditional bias for a male heir meant female babies were often aborted or abandoned. This physically warped their demographic pyramid, creating millions of "missing women."'
   },
+
+  // ------------------------------------------------------------------
+  // 2024-25 SQP
+  // ------------------------------------------------------------------
   {
-    id: 'u8-q4-sqp-23-24-q28',
-    year: '2023-24',
+    id: 'u8-q24-sqp-2025',
+    year: '2024-25',
     paperType: 'SQP',
-    marks: 6,
-    type: 'LA',
-    questionNumber: '28.',
-    question: 'Discuss the reasons for the slow growth and re-emergence of poverty in Pakistan.',
-    markingScheme: '1. Instability: Frequent changes in government and political unrest.\n2. Dependence: High reliance on foreign aid and remittances rather than domestic production.\n3. Agriculture: Stagnation in agricultural productivity after the initial Green Revolution.\n4. Low Investment: Low expenditure on education and health compared to military.',
-    aiExplanation: 'Teacher\'s Voice: Pakistan’s economy is often called "Consumption-driven" and "Remittance-dependent". Because they didn\'t invest in local manufacturing or human capital (education/health) as much as India or China, they remain vulnerable to political shocks and global aid fluctuations.'
+    marks: 1,
+    type: 'MCQ',
+    questionNumber: '24',
+    question: 'China\'s demographic problem of 4-2-1, resulted in a higher proportion of elderly individuals compared to the younger population. This was primarily due to the implementation of ______.',
+    optionA: 'Great Leap Forward Campaign',
+    optionB: 'Great Proletarian Cultural Revolution',
+    optionC: 'One Child Norm',
+    optionD: 'Special Economic Zones',
+    answer: 'C',
+    aiExplanation: 'Teacher\'s Voice: **The 4-2-1 Crisis.**\nThe "4-2-1" problem means that one youth (1) has to eventually support their two parents (2) and four grandparents (4)—all by themselves. This crushing dependency ratio was created singularly by the strict **One Child Norm**, which eliminated siblings.'
   },
   {
-    id: 'u8-q5-sqp-24-25-q22',
+    id: 'u8-q30-sqp-2025',
     year: '2024-25',
     paperType: 'SQP',
     marks: 4,
     type: 'SA',
-    questionNumber: '22.',
-    question: 'Analyse the Human Development Indicators of India, China, and Pakistan.',
-    markingScheme: '1. HDI Rank: China (High) > India (Medium) > Pakistan (Low-Medium).\n2. Metrics: China leads in life expectancy and literacy.\n3. Health: China has the lowest IMR and MMR among the three.',
-    aiExplanation: 'Teacher\'s Voice: China’s high HDI is the result of their "Socialist" investments in basic education and health during the 1950s-70s. This healthy and literate workforce then powered their "Capitalist" manufacturing boom after 1978.'
+    questionNumber: '30',
+    question: '‘The reform process implemented in the late 1970s, commonly known as China’s open door policy, encompassed a wide range of reforms across sectors like agriculture, investment, industry etc. These reforms played a pivotal role in driving the rapid growth of the Chinese economy over subsequent decades.’\nIn the light of the given text, discuss any two reforms responsible for the rapid economic growth of China.',
+    markingScheme: '1. Phase 1 (Agriculture): Commune lands were radically divided into small plots allocated to individual households. They were incredibly allowed to keep all income from the land after paying stipulated taxes.\n2. Phase 2 (Industry): Private sector firms and township/village enterprises were aggressively permitted to produce goods. State Owned Enterprises (SOEs) were forced to face legitimate competition.',
+    aiExplanation: 'Teacher\'s Voice: **China\'s Two-Phase Masterplan!**\nUnlike Soviet Russia, China transitioned to Capitalism intelligently.\n- **Reform 1 (Agriculture):** They disbanded collective farming. Farmers were given personal plots and told, "Pay a fixed tax, keep all the extra profit." This instantly motivated millions to produce record harvests.\n- **Reform 2 (Industry):** They allowed local villages to build private "Township Enterprises" that acted like capitalist firms, competing ruthlessly with the lazy, government-run State Owned Enterprises, sparking an industrial boom.'
   },
+
+  // ------------------------------------------------------------------
+  // 2025-26 SQP
+  // ------------------------------------------------------------------
   {
-    id: 'u8-q6-sqp-24-25-q32',
-    year: '2024-25',
-    paperType: 'SQP',
-    marks: 6,
-    type: 'LA',
-    questionNumber: '32.',
-    question: 'Compare the timing and approach of economic reforms in India and China.',
-    markingScheme: '1. Timing: China (1978) was 13 years ahead of India (1991).\n2. Approach: China used a "Phased Approach" (Agri first); India used a "Suddent Package" (LPG) due to crisis.\n3. Implementation: China used "Economic Zones"; India focused on "Service Sector" deregulation.',
-    aiExplanation: 'Teacher\'s Voice: This is the "Thrift vs Crisis" comparison. China (1978) chose to reform when they were stable, starting with agriculture. India (1991) was forced to reform by a bankruptcy crisis, starting with the industrial sector. That 13-year head start is a major reason why China’s economy is so much larger today.'
-  },
-  {
-    id: 'u8-q7-sqp-25-26-q22',
+    id: 'u8-q27-sqp-2026',
     year: '2025-26',
     paperType: 'SQP',
-    marks: 4,
-    type: 'SA',
-    questionNumber: '22.',
-    question: 'Compare and contrast the GDP growth rates of India and China in the last decade.',
-    markingScheme: '1. China: Slowing down from double digits to ~6% ("The New Normal").\n2. India: Fast growing major economy, often overtaking China\'s growth percentage in some years.\n3. Structure: China’s growth is manufacturing-led; India’s is service-led.',
-    aiExplanation: 'India has the "Catch-up" advantage now. China is already a mature economy, so its growth rate will naturally become smaller.'
+    marks: 1,
+    type: 'MCQ',
+    questionNumber: '27',
+    question: 'Read the following statements carefully:\nStatement 1: Great Leap Forward (GLF) campaign met with many problems like severe drought, conflict with Russia etc.\nStatement 2: Under agricultural reforms, commune lands were allocated to individual households for ownership, who were allowed to keep all post-tax income.',
+    optionA: 'Statement 1 is true and Statement 2 is false.',
+    optionB: 'Statement 1 is false and Statement 2 is true.',
+    optionC: 'Both Statements 1 and 2 are true.',
+    optionD: 'Both Statements 1 and 2 are false.',
+    answer: 'A',
+    aiExplanation: 'Teacher\'s Voice: **A tricky detail about Chinese agriculture!**\n- **Statement 1:** True! Mao\'s GLF (1958) was a disaster because of a severe drought (killing 30 million) and Russia unexpectedly withdrawing all its technical experts following a border conflict.\n- **Statement 2:** False! While commune lands were allocated to individual households to *farm*, the farmers never received legal **ownership** of the land. The State still owned the physical land; the farmers merely leased it for private profit.'
   },
   {
-    id: 'u8-q8-sqp-25-26-q34',
-    year: '2025-26',
-    paperType: 'SQP',
-    marks: 6,
-    type: 'LA',
-    questionNumber: '34.',
-    question: 'Evaluate the importance of "Liberty Indicators" in comparing the development of nations.',
-    markingScheme: '1. Beyond Data: Growth/HDI don\'t show if people are free.\n2. Participation: Freedom of speech and political participation are vital for human dignity.\n3. Comparison: India and Pakistan, despite lower HDI, score higher on Liberty than China.\n4. Conclusion: True development includes both economic prosperity and individual freedom.',
-    aiExplanation: 'Teacher\'s Voice: Would you rather be rich and silent, or average and free? Liberty indicators ask exactly that. They are the "Soul" of development metrics.'
-  },
-  {
-    id: 'u8-q9-sqp-2026-q32',
-    year: '2025-26',
-    paperType: 'SQP',
-    marks: 4,
-    type: 'SA',
-    questionNumber: '32.',
-    question: 'Explain the "Commune System" of farming in China and its impact on the agricultural sector.',
-    markingScheme: '1. **Meaning**: Started in 1958 during GLF, individuals cultivated land collectively as part of a "Commune".\n2. **Scale**: By 1958, there were 26,000 communes covering almost all farm households.\n3. **Transition**: It moved the focus from individual to collective productivity, though it later faced challenges in incentive management.',
-    aiExplanation: 'Teacher\'s Voice: Think of a commune as a huge "joint family" farm where thousands of people worked together and shared the results.'
-  },
-  {
-    id: 'u8-q10-sqp-2026-q31',
+    id: 'u8-q28-sqp-2026',
     year: '2025-26',
     paperType: 'SQP',
     marks: 3,
     type: 'SA',
-    questionNumber: '31.',
-    question: 'How did "Special Economic Zones" (SEZs) play a pivotal role in China\'s growth story post-1978?',
-    markingScheme: '1. **Purpose**: Areas with liberal laws and tax breaks to attract Foreign Direct Investment (FDI).\n2. **Result**: Transformed China into an export-led economy and global manufacturing hub.\n3. **Development**: Promoted modern technology and created massive employment in coastal regions.',
-    aiExplanation: 'Teacher\'s Voice: SEZs were like "Economic Magnets" that pulled in foreign money and technology to build modern China.'
+    questionNumber: '28',
+    question: '“Pakistan was maintaining a healthy economic growth momentum of 6.3% till 1990s, however it lost its track of economic growth falling to 5.3% between 2015-17.”\nDo you agree with the given statement? Justify your answer with valid arguments.',
+    markingScheme: 'Yes. Pakistan maintained healthy growth till the 1990s owing to the introduction of policies like the Green Revolution and import substitution.\nHowever, it faced a slowdown later due to several interconnected factors:\n1. Agricultural supply relied entirely on favourable weather rather than structural technological advancement.\n2. Chronic political instability.\n3. Excessive reliance on foreign aid and foreign remittances.',
+    aiExplanation: 'Teacher\'s Voice: **Why did Pakistan stall?**\nState that you agree with the data. Initially, their Green Revolution mimicked India\'s success.\nBut they hit a wall because their growth wasn\'t fundamentally sound:\n- **No Tech:** They relied entirely on good weather for farming, not modernized tech.\n- **No Stability:** Constant military/political turmoil scared away permanent factories and Foreign Direct Investment (FDI).\n- **Borrowing:** They relied almost entirely on begging for foreign loans (IMF aid) and workers sending money from Dubai (remittances), rather than building strong domestic export factories.'
+  },
+  {
+    id: 'u8-q31-sqp-2026',
+    year: '2025-26',
+    paperType: 'SQP',
+    marks: 3,
+    type: 'SA',
+    questionNumber: '31 (I)',
+    question: '“India has been a part of many regional and global economic groupings such as G20, SAARC, BRICS etc.”\nIn the light of the given statement, briefly explain the importance of regional and global economic groupings.',
+    markingScheme: '1. Developmental Understanding: It helps developing nations understand the developmental processes pursued by their neighbouring nations and strictly comprehend their own strengths and weaknesses vis-à-vis their neighbours.\n2. Shared Environment: In the highly competitive unfolding process of globalisation, participating in such groupings inherently helps developing nations to optimally flourish in a shared, protected environment rather than facing advanced developed nations entirely alone.',
+    aiExplanation: 'Teacher\'s Voice: **There is strength in numbers!**\nDeveloping countries form alliances like BRICS/SAARC for two main reasons:\n1. **Learning:** By trading directly, India can practically study China\'s manufacturing secrets or Brazil\'s agricultural methods to fix its own structural weaknesses.\n2. **Bargaining Power:** Rather than a small country getting crushed in trade deals by mega-powers like the USA or EU, these regional blocs combine their economic weight, forcing fairer trade terms globally.'
   }
 ];

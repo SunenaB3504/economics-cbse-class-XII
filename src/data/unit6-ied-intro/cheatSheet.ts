@@ -44,5 +44,22 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
       '**Equity**: Ensuring growth benefits reach the poor.',
       '**Disinvestment**: Privatisation tool (selling PSU equity).'
     ]
+  },
+  {
+    id: 'u6-cs-acronyms',
+    title: '📚 Essential Acronyms for Quick Recall',
+    points: [
+      '**IPR (Industrial Policy Resolution - 1956):** The governing framework that strictly gave the state the leading monopolistic role in industrialization.',
+      '**HYV (High Yielding Variety):** Innovative \'Miracle seeds\' dynamically used during the Green Revolution to massively boost agrarian yields.',
+      '**LPG (Liberalisation, Privatisation, Globalisation):** The three sweeping core pillars defining the dramatic 1991 structural reform.',
+      '**NEP (New Economic Policy - 1991):** The major paradigm-shifting stabilization and structural reform aggressively opening up the Indian economy.'
+    ]
+  },
+  {
+    id: 'u6-cs5',
+    title: '🎯 SQP Traps: IED Chronology',
+    points: [
+      '**Chronology Trap:** Memorize the Great Leap Forward violently began in China (1958) drastically *before* Economic Reforms formally started (China 1978, Pakistan 1988, India 1991).'
+    ]
   }
 ];

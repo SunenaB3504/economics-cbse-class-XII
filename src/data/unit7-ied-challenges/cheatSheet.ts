@@ -40,5 +40,23 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
       '**Opportunity Cost**: Economic loss from health issues/disasters caused by pollution.',
       '**SD Strategies**: Solar/Wind, traditional knowledge, Biogas, Biocomposting.'
     ]
+  },
+  {
+    id: 'u7-cs-acronyms',
+    title: '📚 Essential Acronyms for Quick Recall',
+    points: [
+      '**HCF vs HD (Human Capital Formation vs Human Development):** HCF practically treats humans as productive capital resources; HD holistically treats well-being and capability as the ultimate societal goal.',
+      '**AYUSH:** The recognized traditional healthcare systems (Ayurveda, Yoga/Naturopathy, Unani, Siddha, Homoeopathy).',
+      '**MSP (Minimum Support Price):** A rigid floor price legally guaranteed by the government to actively protect farmers from open market price crashes.',
+      '**MGNREGA (2005):** Mahatma Gandhi National Rural Employment Guarantee Act (Statutorily guarantees 100 days of unskilled wage work).',
+      '**NABARD:** National Bank for Agriculture and Rural Development (The absolute apex coordinating body for rural credit architecture).'
+    ]
+  },
+  {
+    id: 'u7-cs5',
+    title: '🎯 SQP Traps: IED Challenges',
+    points: [
+      '**Informalisation of Workforce:** Vigorously spot this keyword if you see millions forcefully drifting away from formal structured factories heavily into absolute informal wage labor without secure social protections.'
+    ]
   }
 ];

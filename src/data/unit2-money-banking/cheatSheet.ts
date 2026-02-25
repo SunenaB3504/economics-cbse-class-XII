@@ -41,5 +41,23 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
       '**Moral Suasion:** Persuasion/Directive by RBI to banks to restrict/expand credit.',
       '**Selective Credit Control:** Directing credit to productive sectors and away from speculative ones.'
     ]
+  },
+  {
+    id: 'u2-cs-acronyms',
+    title: '📚 Essential Acronyms for Quick Recall',
+    points: [
+      '**RBI (Reserve Bank of India):** The central bank responsible for monetary policy and currency issuance.',
+      '**LRR (Legal Reserve Ratio):** The minimum fraction of total deposits legally required to be kept as reserves.',
+      '**CRR (Cash Reserve Ratio):** Fraction of deposits commercial banks must strictly keep as cash balance *with the RBI*.',
+      '**SLR (Statutory Liquidity Ratio):** Fraction of deposits banks must maintain *with themselves* in designated liquid assets.',
+      '**OMO (Open Market Operations):** Buying and selling of government securities by the central bank to control liquidity.'
+    ]
+  },
+  {
+    id: 'u2-cs4',
+    title: '🎯 SQP Traps: Money & Banking',
+    points: [
+      '**Inverse Relation Trap (The "Leakage" Rule):** Savings (MPS) and Reserves (LRR) are leakages. Higher Legal Reserve Ratio (LRR) logically means *Lower* Credit Creation, simply because Multiplier = 1 / LRR. Don\'t fall for tricky phrasing in MCQs!'
+    ]
   }
 ];

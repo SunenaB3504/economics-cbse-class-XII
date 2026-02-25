@@ -9,10 +9,10 @@ export const SQPArchives: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
   const [filterYear, setFilterYear] = useState('All');
   const [expandedQuestions, setExpandedQuestions] = useState<Set<string>>(new Set());
   const years: string[] = ['All', ...Array.from(new Set(chapter.sqp.map(q => q.year)))];
-  
-  const filteredQuestions = useMemo(() => 
+
+  const filteredQuestions = useMemo(() =>
     filterYear === 'All' ? chapter.sqp : chapter.sqp.filter(q => q.year === filterYear)
-  , [filterYear, chapter.sqp]);
+    , [filterYear, chapter.sqp]);
 
   const toggleExpand = (questionId: string) => {
     const newExpanded = new Set(expandedQuestions);
@@ -46,8 +46,13 @@ export const SQPArchives: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
               <span className="px-3 py-1 bg-amber-100 text-amber-700 text-[10px] font-black rounded-full uppercase tracking-widest">{q.paperType} {q.year}</span>
               <span className="px-3 py-1 bg-indigo-100 text-indigo-700 text-[10px] font-black rounded-full uppercase tracking-widest">{q.type} | {q.marks} MARKS</span>
             </div>
-            <h3 className="text-lg font-bold text-gray-900 mb-6 leading-snug">{q.questionNumber} {q.question}</h3>
-            
+            <h3 className="text-lg font-bold text-gray-900 mb-6 leading-snug whitespace-pre-wrap">{q.questionNumber} {q.question}</h3>
+
+            {q.imageUrl && (
+              <div className="mb-6 rounded-xl overflow-hidden border border-gray-100 bg-white inline-block">
+                <img src={q.imageUrl} alt="Question Figure" className="max-w-full h-auto object-contain" />
+              </div>
+            )}
             {(q.optionA || q.optionB || q.optionC || q.optionD) && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6">
                 {[q.optionA, q.optionB, q.optionC, q.optionD].map((opt, i) => opt && (
@@ -60,7 +65,7 @@ export const SQPArchives: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
                 ))}
               </div>
             )}
-            
+
             {expandedQuestions.has(q.id) ? (
               <div className="grid md:grid-cols-2 gap-8 animate-in fade-in duration-300">
                 <button

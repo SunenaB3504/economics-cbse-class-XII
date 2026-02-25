@@ -42,5 +42,22 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
       '**Deflationary Gap:** Shortfall of AD relative to AS at full employment level.',
       '**Inflationary Gap:** Excess of AD over AS at full employment level.'
     ]
+  },
+  {
+    id: 'u3-cs-acronyms',
+    title: '📚 Essential Acronyms for Quick Recall',
+    points: [
+      '**AD & AS:** Aggregate Demand (total planned macroeconomic expenditure) and Aggregate Supply (total planned output).',
+      '**C, I, S, Y:** Standard notations for Consumption, Investment, Savings, and National Income respectively.',
+      '**MPC & MPS:** Marginal Propensity to Consume / Save (representing the change in C or S due to a given change in Y).',
+      '**APC & APS:** Average Propensity to Consume / Save (the pure ratio of total C or S to total Y).'
+    ]
+  },
+  {
+    id: 'u3-cs5',
+    title: '🎯 SQP Traps: Income Determination',
+    points: [
+      '**Investment Multiplier Trap (The "Leakage" Rule):** Higher Marginal Propensity to Save (MPS) drastically means a *Lower* Investment Multiplier (k = 1 / MPS). Always remember the inverse relationship.'
+    ]
   }
 ];

@@ -60,5 +60,32 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
       '**Excluded:** Intermediate Goods, Transfer Payments (Old age pension, scholarships), Windfall Gains (Lottery), Sale of Second-hand goods (value already counted), Capital Gains.',
       '**Included:** Self-consumption of goods (e.g., farmer keeping wheat), Brokerage on second-hand sales (new service), Imputed rent of owner-occupied houses.'
     ]
+  },
+  {
+    id: 'cs-acronyms',
+    title: '📚 Essential Acronyms for Quick Recall',
+    points: [
+      '**GDP (Gross Domestic Product):** Total market value of all final goods produced within the domestic territory.',
+      '**NDP (Net Domestic Product):** GDP minus Depreciation (wear and tear of fixed assets).',
+      '**GNP (Gross National Product):** Total value added by normal residents (GDP + NFIA).',
+      '**NFIA (Net Factor Income from Abroad):** Factor income earned from abroad minus factor income paid abroad.',
+      '**NIT (Net Indirect Taxes):** Indirect taxes minus subsidies. It is the bridge between Market Price and Factor Cost.',
+      '**GVA (Gross Value Added):** Value of Output minus Intermediate Consumption.',
+      '**CoE (Compensation of Employees):** Wages, salaries, and employer contributions to social security.',
+      '**OS (Operating Surplus):** Income from property and entrepreneurship (Rent + Interest + Profit).',
+      '**MI (Mixed Income):** Income of self-employed individuals where wages and profits cannot be cleanly separated.',
+      '**PFCE & GFCE:** Private and Government Final Consumption Expenditures.',
+      '**GDCF (Gross Domestic Capital Formation):** Total gross investment in the economy (Fixed Capital + Change in Stock).'
+    ]
+  },
+  {
+    id: 'cs7',
+    title: '🎯 SQP Traps: National Income',
+    points: [
+      '**The Assertion-Reasoning Master Hack (T/F First Rule):** Treat Assertion (A) and Reason (R) strictly as two isolated True/False statements. If ONE is false, answer is C or D. Only if BOTH are true, mentally insert "BECAUSE" between them. If it flows logically, it\'s A; otherwise B.',
+      '**Stock vs Flow Trap:** If it is measured "over a period of time" (Investment, Income, Depreciation), it is a **Flow**. If it is measured "at a specific point in time" (Capital, Wealth, Money Supply), it is a **Stock**.',
+      '**Intermediate Trap (The Fixed Asset Rule):** Never include the purchase of machinery or fixed assets in intermediate consumption! Intermediate goods are single-use raw materials.',
+      '**Phase Mappings:** Generation Phase = Output. Distribution Phase = Income. Disposition Phase = Expenditure.'
+    ]
   }
 ];

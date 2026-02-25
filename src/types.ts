@@ -47,6 +47,7 @@ export interface SQPQuestion {
   marks: number;
   type: 'MCQ' | 'SA' | 'LA' | 'Case' | 'Assertion-Reason';
   question: string;
+  imageUrl?: string;
   answer?: string;
   markingScheme?: string;
   aiExplanation: string;
