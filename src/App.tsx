@@ -47,13 +47,23 @@ export default function App() {
                   </p>
                 </div>
 
-                <button
-                  onClick={() => setActiveView('simulator')}
-                  className="w-full lg:w-auto flex-shrink-0 flex items-center justify-center gap-3 bg-gradient-to-r from-indigo-900 to-indigo-700 hover:from-indigo-800 hover:to-indigo-600 text-white px-8 py-5 rounded-2xl font-black shadow-lg shadow-indigo-200 transition-all group lg:self-center"
-                >
-                  <Star className="w-6 h-6 text-amber-400 group-hover:rotate-12 transition-transform" />
-                  Launch Mock Exam Simulator
-                </button>
+                <div className="flex flex-col gap-3 w-full lg:w-auto lg:self-center">
+                  <button
+                    onClick={() => setActiveView('simulator')}
+                    className="w-full flex-shrink-0 flex items-center justify-center gap-3 bg-gradient-to-r from-indigo-900 to-indigo-700 hover:from-indigo-800 hover:to-indigo-600 text-white px-8 py-5 rounded-2xl font-black shadow-lg shadow-indigo-200 transition-all group"
+                  >
+                    <Star className="w-6 h-6 text-amber-400 group-hover:rotate-12 transition-transform" />
+                    Launch Mock Exam Simulator
+                  </button>
+                  <a
+                    href={`${import.meta.env.BASE_URL}Exam_Morning_Eco_Cheat_Sheet.html`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full flex items-center justify-center gap-2 bg-white hover:bg-indigo-50 text-indigo-900 border-2 border-indigo-100 font-bold px-6 py-3 rounded-xl transition-colors"
+                  >
+                    🖨️ Print Exam Morning Cheat Sheet
+                  </a>
+                </div>
               </div>
             </div>
 
