@@ -1,5 +1,5 @@
-
 import { TheoryTopic } from '../../types';
+import { MASTER_INTERRELATIONSHIPS_TOPIC } from './masterTable';
 
 export const TOPICS: TheoryTopic[] = [
   {
@@ -65,11 +65,11 @@ export const TOPICS: TheoryTopic[] = [
     title: 'Circular Flow of Income (Two-Sector)',
     description: 'The continuous flow of production, income, and expenditure in an economy.',
     content: [
-       'Phase of Production: Firms produce goods and services with help of factor services.',
-       'Phase of Income (Distribution): Flow of factor income (Rent, Wages, Interest, Profit) from firms to households.',
-       'Phase of Expenditure (Disposition): Households spend income on goods and services produced by firms.',
-       'Real Flow: Physical flow of goods, services, and factor services between sectors.',
-       'Money Flow: Monetary flow of payments and expenditures between sectors.'
+      'Phase of Production: Firms produce goods and services with help of factor services.',
+      'Phase of Income (Distribution): Flow of factor income (Rent, Wages, Interest, Profit) from firms to households.',
+      'Phase of Expenditure (Disposition): Households spend income on goods and services produced by firms.',
+      'Real Flow: Physical flow of goods, services, and factor services between sectors.',
+      'Money Flow: Monetary flow of payments and expenditures between sectors.'
     ],
     visualizations: [
       {
@@ -164,5 +164,6 @@ export const TOPICS: TheoryTopic[] = [
         data: ['Distribution of Income', 'Non-monetary Exchanges', 'Externalities', 'Composition of GDP']
       }
     ]
-  }
+  },
+  MASTER_INTERRELATIONSHIPS_TOPIC
 ];

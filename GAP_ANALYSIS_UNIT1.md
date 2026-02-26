@@ -29,6 +29,7 @@
 2. **Formula Expansion**: ✅ Done (Full terminology used throughout).
 3. **SQP Exhaustiveness**: ✅ Done (Added questions from 2025-26, 2024-25, and 2023-24).
 4. **Numerical Illustrations**: Insert detailed calculation steps for the "Expenditure Method" and "Income Method".
+5. **Master Interrelationships Table**: ✅ Done (Added comprehensive 67-row glossary and "Master Chain" guide to TheoryView).
 
 ---
 
