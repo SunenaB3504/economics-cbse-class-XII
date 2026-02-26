@@ -143,6 +143,28 @@ export const TOPICS: TheoryTopic[] = [
           ]
         },
         formula: 'Net National Product at Factor Cost = Gross Value Added at Market Price - Depreciation - Net Indirect Taxes + Net Factor Income from Abroad'
+      },
+      {
+        id: 'v4-income',
+        title: 'Income Method Calculation Steps',
+        type: 'steps',
+        data: [
+          'Step 1: Calculate Net Domestic Product at Factor Cost (NDP at FC) = Compensation of Employees + Operating Surplus + Mixed Income of Self-Employed.',
+          'Step 2: Note that Operating Surplus = Rent + Interest + Profit.',
+          'Step 3: Calculate National Income (NNP at FC) = NDP at FC + Net Factor Income from Abroad (NFIA).'
+        ],
+        formula: 'National Income = Compensation of Employees + Operating Surplus + Mixed Income + NFIA'
+      },
+      {
+        id: 'v4-expenditure',
+        title: 'Expenditure Method Calculation Steps',
+        type: 'steps',
+        data: [
+          'Step 1: Calculate Gross Domestic Product at Market Price (GDP at MP) = Private Final Consumption Expenditure + Government Final Consumption Expenditure + Gross Domestic Capital Formation + Net Exports.',
+          'Step 2: Note that Gross Domestic Capital Formation = Gross Fixed Capital Formation + Change in Stock.',
+          'Step 3: Calculate National Income (NNP at FC) = GDP at MP - Depreciation - Net Indirect Taxes + NFIA.'
+        ],
+        formula: 'National Income = GDP at MP - Depreciation - NIT + NFIA'
       }
     ]
   },

@@ -1,5 +1,5 @@
-
 import { TheoryTopic } from '../../types';
+import { MASTER_INTERRELATIONSHIPS_TOPIC } from './masterTable';
 
 export const TOPICS: TheoryTopic[] = [
   {
@@ -112,5 +112,6 @@ export const TOPICS: TheoryTopic[] = [
       'Open Market Operations (OMO): The purchase or sale of government securities. During deflation, RBI buys securities to inject liquidity.'
     ],
     visualizations: []
-  }
+  },
+  MASTER_INTERRELATIONSHIPS_TOPIC
 ];

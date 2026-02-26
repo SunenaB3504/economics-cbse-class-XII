@@ -1,5 +1,5 @@
-
 import { TheoryTopic } from '../../types';
+import { MASTER_INTERRELATIONSHIPS_TOPIC } from './masterTable';
 
 export const TOPICS: TheoryTopic[] = [
   {
@@ -167,5 +167,6 @@ export const TOPICS: TheoryTopic[] = [
         ]
       }
     ]
-  }
+  },
+  MASTER_INTERRELATIONSHIPS_TOPIC
 ];
