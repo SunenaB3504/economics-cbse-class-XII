@@ -1,5 +1,6 @@
 
 import { TheoryTopic } from '../../types';
+import { MASTER_INTERRELATIONSHIPS_TOPIC } from './masterTable';
 
 export const TOPICS: TheoryTopic[] = [
   {
@@ -136,5 +137,6 @@ Official Reserve Transactions are the "Below the line" (Accommodating) items thr
         ]
       }
     ]
-  }
+  },
+  MASTER_INTERRELATIONSHIPS_TOPIC
 ];
