@@ -1,4 +1,5 @@
 import { TheoryTopic } from '../../types';
+import { MASTER_INTERRELATIONSHIPS_TOPIC } from './masterTable';
 
 export const TOPICS: TheoryTopic[] = [
   {
@@ -177,5 +178,6 @@ Unlike **Human Development Indicators** (which measure literacy, health, and inc
         }
       }
     ]
-  }
+  },
+  MASTER_INTERRELATIONSHIPS_TOPIC
 ];
