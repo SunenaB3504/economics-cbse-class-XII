@@ -1,4 +1,5 @@
 import { TheoryTopic } from '../../types';
+import { MASTER_INTERRELATIONSHIPS_TOPIC } from './masterTable';
 
 export const TOPICS: TheoryTopic[] = [
   {
@@ -301,5 +302,6 @@ India has abundant natural resources (rich soil quality, hundreds of rivers, lus
 Poverty induces environmental degradation (e.g., cutting trees for firewood), while at the same time, affluent lifestyles and high rapid industrialisation cause pollution and resource depletion. Both ends of the economic spectrum contribute to the strain on the environment.
     `,
     visualizations: []
-  }
+  },
+  MASTER_INTERRELATIONSHIPS_TOPIC
 ];
