@@ -1,4 +1,5 @@
 import { TheoryTopic } from '../../types';
+import { MASTER_INTERRELATIONSHIPS_TOPIC } from './masterTable';
 
 export const TOPICS: TheoryTopic[] = [
     {
@@ -234,5 +235,6 @@ In the first seven plans, trade was characterised by an inward-looking trade str
 - **Rationale:** Permitting imports would only waste foreign exchange, and infant domestic industries needed protection to survive.
     `,
         visualizations: []
-    }
+    },
+    MASTER_INTERRELATIONSHIPS_TOPIC
 ];
