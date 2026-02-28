@@ -428,5 +428,250 @@ export const FLASHCARDS: Flashcard[] = [
     question: 'What is the largest segment of the Indian workforce by status?',
     answer: 'Self-employed (approx. 52%).',
     category: 'Master'
+  },
+  // --- NEW CARDS: HUMAN CAPITAL (CH. 4) ---
+  {
+    id: 'u7-fc71',
+    question: 'State two key differences between Human Capital and Physical Capital.',
+    answer: '(1) Human capital is intangible and inseparable from its owner; physical capital is tangible and separable. (2) Human capital creates both private and social (external) benefits; physical capital creates only private benefits.',
+    category: 'Theory'
+  },
+  {
+    id: 'u7-fc72',
+    question: 'What are "external benefits" of human capital?',
+    answer: 'Benefits of education and health that spill over to society beyond the individual — e.g., an educated person participates better in democracy, and a healthy person stops the spread of disease.',
+    category: 'Theory'
+  },
+  {
+    id: 'u7-fc73',
+    question: 'How does Human Capital differ from Physical Capital in terms of depreciation?',
+    answer: 'Physical capital depreciates with continuous use and becomes obsolete with new technology. Human capital depreciates with ageing, but this can be slowed by continuous investment in education and health, which also helps adapt to new technology.',
+    category: 'Theory'
+  },
+  {
+    id: 'u7-fc74',
+    question: 'What does the Education Commission (1964-66) recommend about education spending?',
+    answer: 'At least 6% of GDP should be spent on education to achieve a noticeable rate of growth in educational attainment.',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc75',
+    question: 'What is the "Right of Children to Free and Compulsory Education Act" and when was it enacted?',
+    answer: 'Enacted in 2009, it makes free education a fundamental right for all children aged 6–14 years.',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc76',
+    question: 'What is an "Education Cess" and what is it used for?',
+    answer: 'A 2% surcharge levied on all Union taxes, whose revenues are earmarked specifically for spending on elementary education.',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc77',
+    question: 'What are the three key indicators of educational attainment in a country?',
+    answer: '(1) Adult Literacy Rate, (2) Primary Completion Rate, (3) Youth Literacy Rate.',
+    category: 'Theory'
+  },
+  {
+    id: 'u7-fc78',
+    question: 'What is AICTE and what is its role?',
+    answer: 'All India Council of Technical Education — a statutory body that regulates and promotes technical and management education in India.',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc79',
+    question: 'What is ICMR and what is its role?',
+    answer: 'Indian Council for Medical Research — the apex body for formulating, coordinating, and promoting biomedical research in India.',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc80',
+    question: 'Why is expenditure on Migration considered a source of human capital formation?',
+    answer: 'People migrate from low-income to high-income areas in search of better jobs. The cost of transport, higher living costs, and psychic costs of migration are recovered through enhanced earnings in the destination, making it a net investment in productivity.',
+    category: 'Theory'
+  },
+  {
+    id: 'u7-fc81',
+    question: 'Why is expenditure on Information a source of human capital formation?',
+    answer: 'People spend money to acquire information about labour markets, educational institutions, and health services. This information enables efficient investment in human capital and its optimal utilisation.',
+    category: 'Theory'
+  },
+  {
+    id: 'u7-fc82',
+    question: 'What does the Seventh Five Year Plan say about human capital?',
+    answer: '"Human resources development has necessarily to be assigned a key role in any development strategy, particularly in a country with a large population. Trained and educated on sound lines, a large population can itself become an asset."',
+    category: 'Technical'
+  },
+  // --- NEW CARDS: RURAL DEVELOPMENT (CH. 5) ---
+  {
+    id: 'u7-fc83',
+    question: 'State the four key areas of government initiative to improve Agricultural Marketing.',
+    answer: '(1) Regulation of markets for transparency. (2) Provision of physical infrastructure (roads, cold storage, warehouses). (3) Cooperative marketing. (4) Policy instruments: MSP, buffer stocks by FCI, and PDS (Public Distribution System).',
+    category: 'Theory'
+  },
+  {
+    id: 'u7-fc84',
+    question: 'Name four examples of Alternate/Emerging Agricultural Marketing Channels.',
+    answer: 'Apni Mandi (Punjab/Haryana/Rajasthan), Hadaspar Mandi (Pune), Rythu Bazars (Andhra Pradesh/Telangana), and Uzhavar Sandies (Tamil Nadu).',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc85',
+    question: 'What is "Operation Flood" and what does it relate to?',
+    answer: 'A cooperative milk production and distribution system where farmers pool their milk (graded by quality), which is processed and sold to urban centres. It transformed India\'s dairy sector — milk production increased ~12 times between 1951 and 2021. Gujarat is the success story.',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc86',
+    question: 'What two aspects does Agricultural Diversification cover?',
+    answer: '(1) Change in the Cropping Pattern — shifting to different crops. (2) Shift of Workforce from agriculture to allied activities (livestock, fisheries, horticulture) and non-farm sectors.',
+    category: 'Theory'
+  },
+  {
+    id: 'u7-fc87',
+    question: 'What is the Horticulture sector\'s contribution to Indian GDP and agricultural value?',
+    answer: 'Horticulture contributes nearly one-third of the value of agricultural output and about 6% of India\'s GDP.',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc88',
+    question: 'Why is IT important for Rural Development?',
+    answer: 'IT can disseminate information about emerging technologies, market prices, weather, and soil conditions to farmers. It helps governments predict food insecurity ahead of time and generates new employment opportunities in rural BPO activities.',
+    category: 'Theory'
+  },
+  {
+    id: 'u7-fc89',
+    question: 'State two limitations of Organic Farming.',
+    answer: '(1) Yields are initially lower than conventional farming. (2) Organic produce may have more blemishes and shorter shelf life. (3) Choice of off-season crops is limited in organic farming. (4) Marketing of organic products is difficult.',
+    category: 'Theory'
+  },
+  {
+    id: 'u7-fc90',
+    question: 'What is Jan-Dhan Yojana and how does it help rural development?',
+    answer: 'A scheme encouraging every adult to open a bank account. Account holders receive ₹1-2 lakh accidental insurance, overdraft facility of ₹10,000, and can directly receive MGNREGA wages, pensions, and subsidies. Over 50 crore accounts were opened, mobilising over ₹2,00,000 crore.',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc91',
+    question: 'What is "Micro-credit" and how do SHGs enable it?',
+    answer: 'Micro-credit refers to tiny loans given to the poor without formal collateral. SHGs pool small savings from members and lend to needy members at reasonable interest rates in small installments — providing access to credit where banks fail.',
+    category: 'Definition'
+  },
+  {
+    id: 'u7-fc92',
+    question: 'State two problems of the rural credit/banking system.',
+    answer: '(1) Agriculture loan default rates are chronically high. (2) Other formal institutions (cooperatives, RRBs) fail to develop a culture of deposit mobilisation, lending, and effective loan recovery.',
+    category: 'Theory'
+  },
+  // --- NEW CARDS: EMPLOYMENT (CH. 6) ---
+  {
+    id: 'u7-fc93',
+    question: 'What is the definition of Unemployment as per National Statistical Office (NSO)?',
+    answer: 'A situation in which all those who, owing to lack of work, are not working but either seek work through employment exchanges/intermediaries or express their willingness to work under prevailing conditions.',
+    category: 'Definition'
+  },
+  {
+    id: 'u7-fc94',
+    question: 'What is a "Casual Wage Labourer"?',
+    answer: 'A worker casually engaged in others\' farms or enterprises who receives wages only for the duration of work done — with no job security or social security benefits.',
+    category: 'Definition'
+  },
+  {
+    id: 'u7-fc95',
+    question: 'What is a "Regular Salaried Employee"?',
+    answer: 'A worker engaged by an employer on a regular basis with fixed employment, who receives wages on a periodic (usually monthly) basis.',
+    category: 'Definition'
+  },
+  {
+    id: 'u7-fc96',
+    question: 'How are Formal and Informal Sector establishments defined?',
+    answer: 'Formal (Organised): All public sector establishments + private establishments with 10 or more hired workers. Informal (Unorganised): All other enterprises and their workers, including farmers, small enterprise owners, and non-farm casual wage labourers.',
+    category: 'Definition'
+  },
+  {
+    id: 'u7-fc97',
+    question: 'What percentage of India\'s workforce is in the informal sector (as of 2011-12)?',
+    answer: 'Approximately 94% — out of 473 million workers, only about 30 million (6%) were in the formal sector.',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc98',
+    question: 'What is the Worker-Population Ratio for India (2022-23)?',
+    answer: 'Overall: 41.1%, Rural: 42.3%, Urban: 37.7%. Men: 54.4%, Women: 27.0%.',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc99',
+    question: 'What are Two forms of Government Employment Generation?',
+    answer: 'Direct: Government employs people in departments, industries, transport companies. Indirect: Government enterprises\' increased output leads private companies to also increase output and employment (multiplier effect).',
+    category: 'Theory'
+  },
+  {
+    id: 'u7-fc100',
+    question: 'What is the total size of India\'s workforce as of 2022-23?',
+    answer: 'Approximately 545 million strong — with rural workers constituting about two-thirds of this total.',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc101',
+    question: 'How has the share of the Primary Sector in employment changed from 1972 to 2022?',
+    answer: 'It declined from 74.3% in 1972-73 to about 46.1% in 2022-23, showing a gradual shift toward secondary and service sectors.',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc102',
+    question: 'What is the significance of the Ahmedabad Textile Mill closures in the context of informalisation?',
+    answer: 'In the 1980s, Ahmedabad\'s textile mills closed over 10 years, throwing ~1,30,000 workers out of secure formal jobs into the informal sector, causing poverty, alcoholism, suicides, and child labour — a classic case study of informalisation\'s human cost.',
+    category: 'Theory'
+  },
+  // --- NEW CARDS: ENVIRONMENT & SUSTAINABLE DEVELOPMENT (CH. 7) ---
+  {
+    id: 'u7-fc103',
+    question: 'State two major causes of environmental degradation in India.',
+    answer: '(1) Over-use of fertilisers and toxic pesticides by conventional agriculture — depleting soil and polluting water. (2) Deforestation driven by poverty — people cut trees for firewood and fuel.',
+    category: 'Theory'
+  },
+  {
+    id: 'u7-fc104',
+    question: 'Define "Renewable" and "Non-renewable" Resources with examples.',
+    answer: 'Renewable: Resources that can regenerate naturally (solar energy, wind, water, forests if managed sustainably). Non-renewable: Resources that cannot be replenished once used (coal, petroleum, natural gas).',
+    category: 'Definition'
+  },
+  {
+    id: 'u7-fc105',
+    question: 'What are Greenhouse Gases (GHGs) and how do they cause Global Warming?',
+    answer: 'Greenhouse gases (CO₂, methane, CFCs) trap outgoing infrared radiation from the Earth\'s surface, preventing it from escaping into space and gradually raising the planet\'s average temperature — the "greenhouse effect".',
+    category: 'Theory'
+  },
+  {
+    id: 'u7-fc106',
+    question: 'What treaty/protocol is associated with reducing ozone-depleting substances?',
+    answer: 'The Montreal Protocol (1987), an international treaty that phased out the production of CFCs and other ozone-depleting substances.',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc107',
+    question: 'What are the two functions of the Environment in economic terms?',
+    answer: '(1) It supplies resources (natural inputs) for production. (2) It absorbs waste and pollution generated by economic activities (absorptive capacity).',
+    category: 'Theory'
+  },
+  {
+    id: 'u7-fc108',
+    question: 'What is "Biocomposting" and how does it support sustainable agriculture?',
+    answer: 'Converting organic waste (crop residue, kitchen waste) into nutrient-rich compost using biological agents (microbes, earthworms). It replaces chemical fertilisers, reduces waste, and restores soil fertility — a key organic farming technique.',
+    category: 'Definition'
+  },
+  {
+    id: 'u7-fc109',
+    question: 'India supports what share of world population on what share of world land?',
+    answer: 'About 17% of the world\'s population on only 2.4% of the world\'s land area.',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc110',
+    question: 'State the relationship between Poverty and Environmental Degradation.',
+    answer: 'Poverty forces people to over-exploit natural resources for immediate survival (cutting forests for fuel, over-grazing, over-fishing) — creating a vicious cycle where environmental degradation further deepens poverty.',
+    category: 'Theory'
   }
 ];
+
