@@ -391,5 +391,245 @@ export const FLASHCARDS: Flashcard[] = [
     question: 'Who is considered the architect of Indian Planning?',
     answer: 'Prasanta Chandra Mahalanobis.',
     aiExplanation: 'His model (Second Plan) focused on industrialization and heavy industries.'
+  },
+  {
+    id: 'u6-fc66',
+    question: 'What was India\'s occupational structure at the time of independence?',
+    answer: 'Agriculture accounted for 70–75% of the workforce; manufacturing and services together shared only 25–30%. Little change was observed during the colonial period.',
+    aiExplanation: 'Teacher\'s Voice: A high dependence on agriculture signals an underdeveloped economy.'
+  },
+  {
+    id: 'u6-fc67',
+    question: 'Name the notable economists who estimated India\'s per capita income during the colonial period.',
+    answer: 'Dadabhai Naoroji, William Digby, Findlay Shirras, V.K.R.V. Rao, and R.C. Desai.',
+    aiExplanation: 'V.K.R.V. Rao\'s estimates were considered the most significant despite varying results across estimators.'
+  },
+  {
+    id: 'u6-fc68',
+    question: 'What was the aggregate real output growth rate during the first half of the twentieth century under colonial rule?',
+    answer: 'Less than 2% per year for aggregate real output, and a meagre 0.5% growth in per capita output per year.',
+    aiExplanation: 'This near-stagnation proves the colonial economy was exploitative and not growth-oriented.'
+  },
+  {
+    id: 'u6-fc69',
+    question: 'What were the two main goals of Britain\'s de-industrialisation policy in India?',
+    answer: '(1) To reduce India to a mere exporter of raw materials for British industries. (2) To turn India into a large market for finished goods from British factories.',
+    aiExplanation: 'This was a deliberate two-fold strategy — extract inputs and sell outputs — at India\'s expense.'
+  },
+  {
+    id: 'u6-fc70',
+    question: 'What was the infant mortality rate in colonial India?',
+    answer: 'About 218 per thousand live births, compared to 28 per thousand today.',
+    aiExplanation: 'Extremely high infant mortality reflects poor health infrastructure and widespread poverty under colonial rule.'
+  },
+  {
+    id: 'u6-fc71',
+    question: 'What was the life expectancy in colonial India?',
+    answer: 'Approximately 32 years, compared to around 69 years today.',
+    aiExplanation: 'Low life expectancy is a direct consequence of poor healthcare, famines, and rampant disease.'
+  },
+  {
+    id: 'u6-fc72',
+    question: 'What was the primary purpose of British infrastructure (roads, railways) in India?',
+    answer: 'To mobilise the army, extract raw materials from the countryside to ports, and send them to Britain — NOT for the welfare of Indian people.',
+    aiExplanation: 'The railways helped commercialise agriculture and expand exports, but benefits accrued to Britain, not India.'
+  },
+  {
+    id: 'u6-fc73',
+    question: 'What was the "export surplus" characteristic of colonial India\'s foreign trade?',
+    answer: 'India consistently exported more goods than it imported, but the surplus did not result in any inflow of gold or silver. Instead, it was used to pay for British administrative expenses, wars, and loan interest — leading to a drain of wealth.',
+    aiExplanation: 'Export surplus without monetary return = pure extraction of wealth.'
+  },
+  {
+    id: 'u6-fc74',
+    question: 'What does "Modernisation" mean as a planning goal?',
+    answer: 'Not just adoption of new technology (e.g., HYV seeds, machines) but also progressive changes in social outlook — such as equal rights for women in the workplace and society.',
+    aiExplanation: 'Modernisation is both technological AND social transformation.'
+  },
+  {
+    id: 'u6-fc75',
+    question: 'What does "Self-Reliance" mean as a planning goal?',
+    answer: 'Avoiding dependence on imports for goods that can be produced domestically; reducing reliance on foreign food, technology, and capital to protect national sovereignty.',
+    aiExplanation: 'Post-colonial India feared that economic dependence could compromise political independence.'
+  },
+  {
+    id: 'u6-fc76',
+    question: 'What does "Equity" mean as a planning goal?',
+    answer: 'Ensuring that the benefits of economic growth reach all sections of society, especially the poor; reducing inequality in wealth distribution.',
+    aiExplanation: 'Growth + Equity = inclusive development. Without equity, growth only benefits the rich.'
+  },
+  {
+    id: 'u6-fc77',
+    question: 'What was the "land to the tiller" policy and why was it introduced?',
+    answer: 'A policy to transfer land ownership to the actual cultivators (tillers), abolishing zamindars as intermediaries. The rationale was that ownership gives farmers an incentive to invest in improving the land and increasing output.',
+    aiExplanation: 'Ownership → Incentive → Investment → Higher Output. This is the economic logic of land reforms.'
+  },
+  {
+    id: 'u6-fc78',
+    question: 'Why did land ceiling legislation face hurdles?',
+    answer: 'Big landlords challenged it in courts, delaying implementation; they registered lands in the names of relatives to escape the law; legislation had many loopholes that were exploited.',
+    aiExplanation: 'Land reforms were most successful in Kerala and West Bengal due to strong political commitment.'
+  },
+  {
+    id: 'u6-fc79',
+    question: 'How did the Green Revolution benefit food security?',
+    answer: 'HYV seeds drastically increased wheat and rice production, enabling India to achieve self-sufficiency in food grains and build buffer stocks for use during food shortages.',
+    aiExplanation: 'India transformed from a "begging bowl" (importing food from USA) to a "bread basket" (self-sufficient).'
+  },
+  {
+    id: 'u6-fc80',
+    question: 'State the risk of the Green Revolution technology.',
+    answer: 'HYV crops are more prone to pest attacks. Initially, only big farmers could afford the required inputs (fertiliser, water, pesticides), risking increased inequality between large and small farmers.',
+    aiExplanation: 'Government subsidies and low-interest loans to small farmers helped equalise access to HYV technology.'
+  },
+  {
+    id: 'u6-fc81',
+    question: 'What is the "debate over agricultural subsidies"?',
+    answer: 'One view: subsidies should be phased out once technology is adopted, as they burden government finances and largely benefit the fertiliser industry and rich farmers. Counter-view: farming remains risky and poor farmers cannot afford inputs without subsidies, so removing them worsens inequality.',
+    aiExplanation: 'Both sides find subsidies imperfect — the debate is about who benefits and whether they should continue.'
+  },
+  {
+    id: 'u6-fc82',
+    question: 'What were the three categories of industries under IPR 1956?',
+    answer: 'Category A: Exclusively owned by the government (e.g., defence, railways). Category B: Joint sector — private could supplement public efforts, but government started new units. Category C: Remaining industries open to the private sector.',
+    aiExplanation: 'IPR 1956 formed the basis of the Second Five Year Plan (Mahalanobis model).'
+  },
+  {
+    id: 'u6-fc83',
+    question: 'How did the licence system restrict industrial expansion?',
+    answer: 'Every entrepreneur needed government permission to start, close, or expand a firm, and to decide the quantity of goods to produce. Existing industries also needed a licence to diversify production.',
+    aiExplanation: 'The licence system was meant to control monopolies and promote balanced regional development, but became a tool for corruption.'
+  },
+  {
+    id: 'u6-fc84',
+    question: 'What was the sectoral contribution to GDP in 1950-51 vs 1990-91?',
+    answer: '1950-51: Agriculture 59%, Industry 13%, Services 28%. 1990-91: Agriculture 34.9%, Industry 24.6%, Services 40.5%.',
+    aiExplanation: 'The rise of the service sector to 40.5% of GDP by 1990 was unusually fast for a developing country.'
+  },
+  {
+    id: 'u6-fc85',
+    question: 'Name the industries from which industrial licensing was NOT abolished after 1991.',
+    answer: 'Alcohol, cigarettes, hazardous chemicals, industrial explosives, electronics, aerospace, and drugs and pharmaceuticals.',
+    aiExplanation: 'These sectors retained licensing due to health, safety, or strategic concerns.'
+  },
+  {
+    id: 'u6-fc86',
+    question: 'Which industries remain reserved exclusively for the public sector after 1991?',
+    answer: 'Atomic energy generation and certain core activities in railway transport.',
+    aiExplanation: 'These are considered strategic sectors where private participation is not permitted.'
+  },
+  {
+    id: 'u6-fc87',
+    question: 'What are "Stabilisation Measures" in the context of the 1991 reforms?',
+    answer: 'Short-term measures to correct the balance of payments crisis and control inflation — specifically, maintaining adequate foreign exchange reserves and keeping prices of essential goods in check.',
+    aiExplanation: 'Stabilisation = fire-fighting. They address the immediate crisis.'
+  },
+  {
+    id: 'u6-fc88',
+    question: 'What are "Structural Reform Measures" in the context of the 1991 reforms?',
+    answer: 'Long-term measures aimed at improving the efficiency and international competitiveness of the economy by removing rigidities in various segments.',
+    aiExplanation: 'Structural reforms = rebuilding. LPG (Liberalisation, Privatisation, Globalisation) are structural reforms.'
+  },
+  {
+    id: 'u6-fc89',
+    question: 'What is IBRD (International Bank for Reconstruction and Development)?',
+    answer: 'Popularly known as the World Bank, it is an international financial institution that provides loans and grants to developing countries for capital programs.',
+    aiExplanation: 'India borrowed $7 billion from the World Bank and IMF during the 1991 crisis, with conditions of reform.'
+  },
+  {
+    id: 'u6-fc90',
+    question: 'What are "Foreign Institutional Investors (FIIs)"?',
+    answer: 'Foreign entities such as merchant bankers, mutual funds, and pension funds that invest in the financial markets of another country.',
+    aiExplanation: 'Post-1991, FIIs were allowed to invest in Indian financial markets as part of financial sector reforms.'
+  },
+  {
+    id: 'u6-fc91',
+    question: 'What is the GST (Goods and Services Tax) and when was it introduced?',
+    answer: 'A unified indirect tax that replaced multiple central and state taxes, creating a common national market with the principle of "one nation, one tax, one market". Introduced in India after the 2016 constitutional amendment.',
+    aiExplanation: 'GST is expected to generate additional revenue, reduce tax evasion, and simplify the tax structure.'
+  },
+  {
+    id: 'u6-fc92',
+    question: 'What was GATT and when was it established?',
+    answer: 'General Agreement on Tariffs and Trade (GATT), established in 1948 with 23 countries. It was the predecessor to the WTO and aimed to reduce trade barriers among nations.',
+    aiExplanation: 'GATT → WTO (1948 → 1995). The WTO is far larger, with binding dispute settlement mechanisms.'
+  },
+  {
+    id: 'u6-fc93',
+    question: 'Distinguish between "Strategic sale" and "Minority sale" in disinvestment.',
+    answer: 'Strategic sale: Selling a majority stake (>51%) in a PSU to a private buyer, transferring management control. Minority sale: Selling a small percentage of equity (usually <49%) to the public/private investors while the government retains control.',
+    aiExplanation: 'Minority sale keeps PSU in government hands but raises capital; strategic sale fully privatises management.'
+  },
+  {
+    id: 'u6-fc94',
+    question: 'What are "Non-Tariff Barriers" (NTBs)?',
+    answer: 'Restrictions on trade that are not in the form of a tax but instead use regulatory, procedural, or technical means — such as import licensing, quotas, quality standards, and sanitary regulations.',
+    aiExplanation: 'Even after tariff reduction, NTBs remain a major obstacle for Indian exporters in developed countries (e.g., textile quotas by USA).'
+  },
+  {
+    id: 'u6-fc95',
+    question: 'Why did India\'s industrial sector perform poorly in the reform period?',
+    answer: '(1) Cheaper imports reduced demand for domestically produced goods. (2) Inadequate investment in infrastructure such as power supply. (3) Developed countries impose non-tariff barriers restricting Indian exports.',
+    aiExplanation: 'Globalisation opened India to competition but did not ensure a level playing field.'
+  },
+  {
+    id: 'u6-fc96',
+    question: 'How did the 1991 reforms affect agriculture negatively?',
+    answer: '(1) Public investment in irrigation, roads, and research fell. (2) Partial removal of fertiliser subsidies raised production costs for small farmers. (3) Reduction of import duties on agricultural products exposed Indian farmers to international competition. (4) Export-oriented focus shifted production from food crops to cash crops, pressuring food prices.',
+    aiExplanation: 'Reforms freed industry but left agriculture vulnerable — a major criticism of LPG.'
+  },
+  {
+    id: 'u6-fc97',
+    question: 'Why are developed countries against outsourcing to India?',
+    answer: 'Because outsourcing shifts jobs from developed countries to cheaper destinations like India, causing unemployment among workers in those countries.',
+    aiExplanation: 'India\'s advantages: skilled English-speaking workforce, large talent pool, low wage rates, and strong IT infrastructure.'
+  },
+  {
+    id: 'u6-fc98',
+    question: 'State two arguments AGAINST globalisation from a developing country\'s perspective.',
+    answer: '(1) Developing countries are forced to open their markets but are not given reciprocal access to developed-country markets (e.g., USA keeps textile quotas on India). (2) Market-driven globalisation widens economic disparities and has only benefited select service sectors like IT, finance, and real estate — not agriculture or industry.',
+    aiExplanation: 'Critics argue globalisation is a strategy of developed countries to expand their markets in developing nations.'
+  },
+  {
+    id: 'u6-fc99',
+    question: 'What is "Jobless Growth" and why did it occur post-1991?',
+    answer: 'GDP grew rapidly after 1991, but insufficient employment was generated because growth was concentrated in capital-intensive industries and the service sector rather than in labour-intensive sectors like manufacturing or agriculture.',
+    aiExplanation: 'High GDP growth does not automatically create jobs — the type of growth matters.'
+  },
+  {
+    id: 'u6-fc100',
+    question: 'What is the "Miniratna" category of PSEs?',
+    answer: 'Profit-making Public Sector Enterprises (PSEs) that have been granted greater operational and financial autonomy, but to a lesser degree than Navratnas or Maharatnas.',
+    aiExplanation: 'Examples: BSNL (Bharat Sanchar Nigam Limited), Airport Authority of India, IRCTC.'
+  },
+  {
+    id: 'u6-fc101',
+    question: 'What is "Structural Composition of the Economy"?',
+    answer: 'The proportional contribution of each sector (Agriculture, Industry, Services) to the total GDP of a country, which changes as the country develops.',
+    aiExplanation: 'Agricultural share falls and service sector rises as development progresses — a global pattern India also followed.'
+  },
+  {
+    id: 'u6-fc102',
+    question: 'What was the growth rate of the Indian industrial sector between 1950 and 1990?',
+    answer: 'About 6% per annum, raising the industrial sector\'s share of GDP from 13% in 1950-51 to 24.6% in 1990-91.',
+    aiExplanation: 'This shows planning did achieve industrial diversification and growth despite the licence raj.'
+  },
+  {
+    id: 'u6-fc103',
+    question: 'Why was the public sector originally expanded significantly from 1950 to 1990?',
+    answer: '(1) Private capital was insufficient for large industrial ventures. (2) The domestic market was too small to attract private investment. (3) India\'s socialist framework required the state to control the "commanding heights" of the economy for equitable development.',
+    aiExplanation: 'Public sector expansion was a necessity, not just ideology — private capital simply wasn\'t available at that scale.'
+  },
+  {
+    id: 'u6-fc104',
+    question: 'What was the criticism of loss-making Public Sector Undertakings (PSUs)?',
+    answer: '(1) They continued to operate despite losses, draining limited national resources. (2) They monopolised sectors where the private sector could have performed better. (3) Industrialists misused licences to prevent competitors from entering the market.',
+    aiExplanation: 'The "Modern Bread" example in the NCERT shows the absurdity of PSUs in non-strategic sectors.'
+  },
+  {
+    id: 'u6-fc105',
+    question: 'What was the impact of 1991 reforms on India\'s foreign exchange reserves?',
+    answer: 'Foreign exchange reserves increased from about US $6 billion in 1990-91 to approximately US $413 billion in 2018-19, making India one of the largest forex reserve holders in the world.',
+    aiExplanation: 'Devaluation of the rupee in 1991 + liberalised FDI/FII flows + export growth drove this turnaround.'
   }
 ];
