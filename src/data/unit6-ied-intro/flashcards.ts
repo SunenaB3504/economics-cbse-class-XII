@@ -631,5 +631,78 @@ export const FLASHCARDS: Flashcard[] = [
     question: 'What was the impact of 1991 reforms on India\'s foreign exchange reserves?',
     answer: 'Foreign exchange reserves increased from about US $6 billion in 1990-91 to approximately US $413 billion in 2018-19, making India one of the largest forex reserve holders in the world.',
     aiExplanation: 'Devaluation of the rupee in 1991 + liberalised FDI/FII flows + export growth drove this turnaround.'
+  },
+  // --- GAP-FILLING CARDS ---
+  {
+    id: 'u6-fc106',
+    question: 'What is the Mahalwari System? Where did it operate?',
+    answer: 'A land revenue system in which the village headman collected revenue on behalf of the entire village unit (Mahal = village). Operated in Punjab, Agra, and Oudh. Revenue was periodically revised — less exploitative than Zamindari, but still burdensome.',
+    aiExplanation: 'Contrast: Zamindari (Bengal, landlord collects fixed amount) → Mahalwari (Punjab/Agra/Oudh, village headman collects for the village) → Ryotwari (Bombay/Madras, individual farmer deals directly with government).'
+  },
+  {
+    id: 'u6-fc107',
+    question: 'What is the Ryotwari System? Where did it operate?',
+    answer: 'A land revenue system in which individual farmers (Ryots) dealt DIRECTLY with the government — no intermediary landlord or village headman. Operated in Bombay and Madras Presidencies. Revenue was periodically revised but still very heavy.',
+    aiExplanation: 'Unlike Zamindari (intermediary = Zamindar) or Mahalwari (intermediary = village headman), Ryotwari had NO intermediary. However, the direct revenue demand was often still excessive, causing farmer indebtedness.'
+  },
+  {
+    id: 'u6-fc108',
+    question: 'What were Tenancy Reforms as part of post-independence land reforms?',
+    answer: 'Post-independence policies that: (1) provided security of tenure — tenant farmers could not be arbitrarily evicted; (2) fixed fair rent at a maximum of 1/4 to 1/5 of gross produce; (3) gave tenants the right to purchase the land they cultivated over time.',
+    aiExplanation: 'The three pillars of land reforms were: (1) Abolition of Zamindari, (2) Tenancy Reforms — fair rent + security, and (3) Land Ceiling — maximum land ownership limit. All three together aimed to dismantle the exploitative colonial land structure.'
+  },
+  {
+    id: 'u6-fc109',
+    question: 'What is the "Infant Industry Argument" and how did it justify India\'s import substitution?',
+    answer: 'The economic argument that new (infant) domestic industries cannot initially compete with established foreign firms. They need temporary tariff protection to learn, grow, and achieve cost efficiency. Once mature, protection should be withdrawn. India used this to justify high tariffs and quotas from 1950-1991.',
+    aiExplanation: 'The problem in India: protection became PERMANENT — infant industries never grew up because they had no competitive pressure. The protected industries remained inefficient, consumers paid high prices, and the "Hindu Rate of Growth" was the result.'
+  },
+  {
+    id: 'u6-fc110',
+    question: 'What is the "Hindu Rate of Growth" and who coined the term?',
+    answer: 'A phrase coined mockingly by economist Raj Krishna to describe India\'s sluggish ~3.5% annual GDP growth from the 1950s to the 1980s. Since India\'s population grew at ~2.2% annually, real per capita income barely grew. It reflected the inefficiency of the Licence Raj, import substitution, and public sector dominance.',
+    aiExplanation: 'Post-1991 LPG reforms broke this trap — GDP growth accelerated to 6-8%. The "Hindu Rate of Growth" is the benchmark against which post-reform success is measured. Per capita growth was only ~1.2-1.5% annually — nearly imperceptible improvement in living standards.'
+  },
+  {
+    id: 'u6-fc111',
+    question: 'What is NITI Aayog (National Institution for Transforming India) and when did it replace the Planning Commission?',
+    answer: 'NITI Aayog is a government policy think-tank established in January 2015 by the Modi government to replace the Planning Commission (1950). Unlike the Planning Commission, NITI Aayog does not allocate funds or formulate Five Year Plans — it acts as an advisory and strategy-making body focusing on cooperative federalism and long-term policy vision.',
+    aiExplanation: 'Key difference: Planning Commission ALLOCATED funds (top-down) → NITI Aayog ADVISES (bottom-up, state-driven). The 12th Five Year Plan (2012-17) was the last; there are no Five Year Plans under NITI Aayog.'
+  },
+  {
+    id: 'u6-fc112',
+    question: 'What is LERMS (Liberalised Exchange Rate Management System) and when was it introduced?',
+    answer: 'A dual exchange rate system introduced in 1992 as a transition step toward full market-determined exchange rates. Under LERMS: 40% of foreign exchange earnings were converted at the official (government-set) rate; 60% at the market rate. By 1993, India moved to a unified, fully market-determined exchange rate.',
+    aiExplanation: 'LERMS was India\'s halfway house between the old fixed exchange rate and the new market-determined rate. It was a pragmatic way to transition without a sudden shock — managing the rupee\'s adjustment after the 1991 devaluation.'
+  },
+  {
+    id: 'u6-fc113',
+    question: 'What is the MFN (Most Favoured Nation) Principle of WTO (World Trade Organisation)?',
+    answer: 'A core rule of the World Trade Organisation (WTO) that prohibits trade discrimination between member countries: any tariff rate or trade concession given to one WTO member must be extended equally to ALL other WTO members. No country can be given better (or worse) treatment than others.',
+    aiExplanation: 'Despite the name "Most Favoured Nation," it actually means EQUAL treatment for ALL — not special treatment for one. India\'s WTO membership committed it to phasing out selective import restrictions and applying MFN rates universally.'
+  },
+  {
+    id: 'u6-fc114',
+    question: 'What is MSP (Minimum Support Price) and how does the FCI (Food Corporation of India) use it?',
+    answer: 'MSP (Minimum Support Price) is a guaranteed minimum price announced by the government BEFORE the sowing season at which the government will purchase a farmer\'s produce. The FCI (Food Corporation of India) procures food grains (wheat, rice) at MSP, stores them as buffer stocks, and distributes them through the PDS (Public Distribution System) to the poor at subsidised prices. MSP prevents farmers from being forced into distress sales to exploitative middlemen when market prices fall.',
+    aiExplanation: 'MSP → FCI procures → Buffer stocks → PDS distribution. This chain protects farmers (MSP floor price) and consumers (subsidised rations through PDS). Created as part of the Green Revolution support system.'
+  },
+  {
+    id: 'u6-fc115',
+    question: 'What is AMUL and how does it exemplify the cooperative model?',
+    answer: 'AMUL (Anand Milk Union Limited) is a dairy cooperative based in Anand, Gujarat, founded in 1946. Farmers pool their milk (graded by fat content), it is processed centrally, and each farmer gets a fair price. AMUL\'s model powered Operation Flood (India\'s White Revolution), making India the world\'s largest milk producer. It proves cooperatives can solve three problems: fair farmer prices, eliminating middlemen exploitation, and market access for small producers.',
+    aiExplanation: 'AMUL is the gold standard of agricultural cooperatives in India — and a direct implementation of the Equity planning goal. Dr. Verghese Kurien ("the Milkman of India") was the architect of AMUL\'s national expansion.'
+  },
+  {
+    id: 'u6-fc116',
+    question: 'How did the Gulf War (1990-91) contribute to India\'s 1991 economic crisis?',
+    answer: 'The Gulf War of 1990-91 had two direct economic impacts on India: (1) Global oil prices spiked sharply, dramatically increasing India\'s oil import bill at a time when forex reserves were already dangerously low. (2) Remittances from Indian workers employed in Gulf countries fell significantly as workers returned home or sent less money during the conflict. Together, these two shocks worsened the Balance of Payments (BoP) crisis.',
+    aiExplanation: 'The 1991 crisis = pre-existing high fiscal deficit + high inflation + Gulf War oil shock + falling remittances → forex reserves fell to just 2 weeks of imports → India pledged gold to Bank of England → approached IMF for emergency loans → LPG reforms as conditions.'
+  },
+  {
+    id: 'u6-fc117',
+    question: 'What is the SAP (Structural Adjustment Programme) of the IMF (International Monetary Fund)?',
+    answer: 'A package of economic policy conditions (conditionalities) that the IMF and World Bank attach to emergency loans given to crisis-hit countries. India\'s SAP (1991) required: reducing fiscal deficit, trade liberalisation (cutting tariffs and removing quotas), devaluing the Rupee, and privatising public sector enterprises. Accepting SAP conditions was the price India paid for borrowing approximately USD 7 billion from the IMF and World Bank to avoid default.',
+    aiExplanation: 'SAP conditions = fiscal deficit reduction + trade libs + exchange rate flexibility + privatisation. Critics call SAP conditions "one-size-fits-all" policies dictated by rich countries (USA dominates IMF voting). Supporters say they force necessary discipline on mismanaged economies.'
   }
 ];
