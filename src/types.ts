@@ -38,6 +38,7 @@ export interface Flashcard {
   question: string;
   answer: string;
   category: 'Definition' | 'Classification' | 'Calculation' | 'True/False' | 'Theory' | 'Technical' | 'Application';
+  aiExplanation?: string;
 }
 
 export interface SQPQuestion {
