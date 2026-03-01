@@ -313,121 +313,121 @@ export const FLASHCARDS: Flashcard[] = [
     id: 'u7-fc51',
     question: 'What is "Absorptive Capacity" of the environment?',
     answer: 'The ability of the environment to absorb degradation and waste without causing permanent damage.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc52',
     question: 'Define "Carrying Capacity" of the environment.',
     answer: 'The maximum population size of a species that the environment can sustain indefinitely.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc53',
     question: 'What is "Brain Drain"?',
     answer: 'The migration of highly skilled and educated individuals from developing to developed countries.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc54',
     question: 'Define "On-the-job Training".',
     answer: 'Training provided to employees at the workplace while they are doing their actual work.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc55',
     question: 'What does "Golden Revolution" refer to?',
     answer: 'The period of high growth in the production of horticulture, honey, and fruits (1991-2003).',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc56',
     question: 'What is the "Blue Revolution"?',
     answer: 'The rapid increase in fish production and aquaculture.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc57',
     question: 'Define "Disguised Unemployment".',
     answer: 'A situation where more workers are employed than necessary, and their marginal productivity is zero.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc58',
     question: 'What is "Casualisation" of the workforce?',
     answer: 'A shift in the workforce pattern where the percentage of casual wage laborers increases over time.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc59',
     question: 'Define "Sustainable Development" as per the Brundtland Commission.',
     answer: 'Development that meets the needs of the present without compromising the ability of future generations to meet their own needs.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc60',
     question: 'What is "Organic Farming"?',
     answer: 'A method of farming that avoids chemical fertilizers and pesticides, using organic inputs instead.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc61',
     question: 'What is "Jobless Growth"?',
     answer: 'A situation where the economy grows (GDP increases) but the level of employment does not increase proportionately.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc62',
     question: 'In which year did the Education Commission recommend spending 6% of GDP on education?',
     answer: '1966.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc63',
     question: 'When were 14 major commercial banks nationalised in India?',
     answer: '1969.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc64',
     question: 'In which year was NABARD established?',
     answer: '1982.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc65',
     question: 'What is the full form of MGNREGA and when was it enacted?',
     answer: 'Mahatma Gandhi National Rural Employment Guarantee Act, enacted in 2005.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc66',
     question: 'When was the National Education Policy (NEP) introduced most recently?',
     answer: '2020.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc67',
     question: 'What does the acronym AYUSH stand for?',
     answer: 'Ayurveda, Yoga, Unani, Siddha, and Homoeopathy.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc68',
     question: 'What percentage of the world\'s population does India support on its land?',
     answer: 'Approximately 17% of the population on just 2.4% of the world\'s land area.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc69',
     question: 'Distinguish between Human Capital and Human Development.',
     answer: 'Human capital views education/health as a means to productivity; Human development views them as ends in themselves (Well-being).',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u7-fc70',
     question: 'What is the largest segment of the Indian workforce by status?',
     answer: 'Self-employed (approx. 52%).',
-    category: 'Master'
+    category: 'Theory'
   },
   // --- NEW CARDS: HUMAN CAPITAL (CH. 4) ---
   {
@@ -671,6 +671,67 @@ export const FLASHCARDS: Flashcard[] = [
     id: 'u7-fc110',
     question: 'State the relationship between Poverty and Environmental Degradation.',
     answer: 'Poverty forces people to over-exploit natural resources for immediate survival (cutting forests for fuel, over-grazing, over-fishing) — creating a vicious cycle where environmental degradation further deepens poverty.',
+    category: 'Theory'
+  },
+  // --- GAP-FILLING CARDS ---
+  {
+    id: 'u7-fc111',
+    question: 'What is the Kothari Commission and what was its key recommendation?',
+    answer: 'The Education Commission (1964–66) chaired by Dr. D.S. Kothari. Its landmark recommendation: India must spend at least 6% of its GDP on education to achieve a meaningful rate of growth in educational attainment. India still consistently falls short of this target — current spending is around 4% of GDP.',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc112',
+    question: 'What is the HDI (Human Development Index) and how is it calculated?',
+    answer: 'The Human Development Index (HDI) is a composite index created by the UNDP (United Nations Development Programme) to measure a country\'s achievement across three dimensions: (1) Long and healthy life — measured by Life Expectancy Index (LEI). (2) Knowledge — measured by Education Index (years of schooling + expected years of schooling). (3) Decent standard of living — measured by Income Index (GNI per capita). HDI = Average of the three index scores on a scale of 0 to 1.',
+    category: 'Definition'
+  },
+  {
+    id: 'u7-fc113',
+    question: 'What is the new school structure introduced by NEP 2020 (National Education Policy 2020) replacing the 10+2 system?',
+    answer: 'NEP 2020 replaced the old 10+2 structure with a new 5+3+3+4 system: (1) Foundational Stage — ages 3–8 (3 years pre-school + Classes 1–2). (2) Preparatory Stage — Classes 3–5, ages 8–11. (3) Middle Stage — Classes 6–8, ages 11–14. (4) Secondary Stage — Classes 9–12, ages 14–18. NEP 2020 also mandated mother-tongue instruction in early years and vocational education from Class 6.',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc114',
+    question: 'What is Priority Sector Lending (PSL) and how did bank nationalisation (1969) enforce it?',
+    answer: 'Priority Sector Lending (PSL) is a mandate by the Reserve Bank of India (RBI) requiring commercial banks to lend at least 40% of their total advances (loans) to "priority sectors" — agriculture, small and micro industries, education loans, housing for poor, and weaker sections. When 14 major commercial banks were nationalised in 1969, the government used this ownership to force urban-oriented banks to extend credit to rural India and the previously neglected sectors.',
+    category: 'Theory'
+  },
+  {
+    id: 'u7-fc115',
+    question: 'What are APMCs (Agricultural Produce Market Committees) and why were they controversial under the 2020 Farm Laws?',
+    answer: 'APMCs (Agricultural Produce Market Committees) are government-regulated wholesale markets for agricultural trade — designed to ensure transparent, rule-based transactions and prevent exploitation by intermediaries. However APMCs became monopolistic over time — farmers were legally forced to sell only within designated APMCs, restricting competition. The 2020 Farm Laws aimed to allow farmers to sell outside APMCs and to private buyers, but were repealed in 2021 after widespread farmer protests.',
+    category: 'Theory'
+  },
+  {
+    id: 'u7-fc116',
+    question: 'What is "Distress Sale" in agricultural marketing?',
+    answer: 'A distress sale occurs when farmers are forced to sell their produce immediately after the harvest at very low prices — far below the real market value. Causes: (1) No proper storage facilities — perishable crops must be sold quickly. (2) Loan repayment pressure — indebted farmers need cash immediately regardless of price. (3) Exploitation by middlemen who know the farmer\'s desperation. Solutions: MSP (Minimum Support Price), construction of warehouses, cold storage chains.',
+    category: 'Definition'
+  },
+  {
+    id: 'u7-fc117',
+    question: 'What are SDGs (Sustainable Development Goals) and who adopted them?',
+    answer: 'The Sustainable Development Goals (SDGs) are 17 universal goals adopted by all 193 UN member nations in September 2015, to be achieved by 2030. Key goals directly related to Unit 7: SDG 1 (No Poverty), SDG 2 (Zero Hunger), SDG 3 (Good Health), SDG 4 (Quality Education), SDG 8 (Decent Work and Economic Growth), SDG 13 (Climate Action), SDG 15 (Life on Land). The SDGs replaced the earlier MDGs (Millennium Development Goals, 2000–2015) and are more comprehensive — covering social, economic, and environmental sustainability together.',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc118',
+    question: 'What is "Intergenerational Equity" and why is it the core principle of Sustainable Development?',
+    answer: 'Intergenerational Equity is the principle that each generation has an equal right to the Earth\'s natural resources — the current generation must not use natural resources so rapidly or degrade the environment so severely that future generations are left with an impoverished planet. The Brundtland Commission (1987) embedded this in its definition: "Development that meets the needs of the present WITHOUT compromising the ability of future generations to meet their own needs." Think of natural resources as a loan from our children — not an inheritance from our parents.',
+    category: 'Theory'
+  },
+  {
+    id: 'u7-fc119',
+    question: 'What is PMKVY (Pradhan Mantri Kaushal Vikas Yojana) and how does it address unemployment?',
+    answer: 'PMKVY (Pradhan Mantri Kaushal Vikas Yojana — Prime Minister\'s Skill Development Scheme) is a flagship government scheme launched in 2015 under the Skill India Mission. It provides short-term skill training (typically 3–6 months) to youth in sectors like construction, electronics, food processing, and textile, linking them to industry and employment. It directly addresses Open/Structural Unemployment caused by mismatch between education and job-market skills.',
+    category: 'Technical'
+  },
+  {
+    id: 'u7-fc120',
+    question: 'What is "Traditional Knowledge" as a strategy for Sustainable Development? Give examples.',
+    answer: 'Traditional Knowledge refers to indigenous practices and wisdom accumulated over centuries for managing natural resources sustainably. Examples include: (1) Johad — traditional rainwater harvesting earthen check dams in Rajasthan, revived by Rajendra Singh. (2) Zabo — integrated water harvesting system in Nagaland combining forests, water, and agriculture. (3) Kul — irrigation channels in Himachal Pradesh. These low-cost, locally appropriate techniques are eco-friendly and have proven their effectiveness over generations — now promoted under sustainable development strategies as alternatives to expensive modern infrastructure.',
     category: 'Theory'
   }
 ];
