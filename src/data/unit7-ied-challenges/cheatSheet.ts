@@ -3,60 +3,108 @@ import { CheatSheetItem } from '../../types';
 export const CHEAT_SHEET: CheatSheetItem[] = [
   {
     id: 'u7-cs1',
-    title: 'HCF & State Intervention',
+    title: '🧠 Human Capital Formation (HCF)',
     points: [
-      '**HCF vs HD**: HCF views education/health as means to productivity; HD views them as ends in themselves (Well-being).',
-      '**Milestones**: 1966 Ed Commission (6% GDP target); 2020 NEP.',
-      '**Intervention Need**: Due to long-term impact and private information asymmetry in health/education.',
-      '**AYUSH**: Ayurveda, Yoga, Unani, Siddha, Homoeopathy (Traditional healthcare).'
+      '**Definition:** Stock of skills, expertise, and knowledge embodied in people at a point in time.',
+      '**HCF vs. Human Development:** **HCF** treats humans as means to productivity; **Human Development** treats well-being as the end goal.',
+      '**Sources of HCF:** Education, Health, On-the-job Training, Migration, and Information.',
+      '**Health Components:** Preventive (Vaccines), Curative (Treatment), and Social (Literacy) medicine.',
+      '**Education Target:** **1966 Commission** recommended **6% of GDP** (India still spends ~4-4.5%).',
+      '**Regulatory Bodies:** **UGC** (Higher Ed), **NCERT** (Schooling), **AICTE** (Technical), **ICMR** (Medical).',
+      '**Brain Drain:** Loss of skilled professionals to developed nations; a major challenge for HCF.'
     ]
   },
   {
     id: 'u7-cs2',
-    title: 'Rural Milestones & Credit',
+    title: '🚜 Rural Development & Credit',
     points: [
-      '**Institutionalization**: 1969 Bank Nationalisation (14 banks); 1982 NABARD setup.',
-      '**Diversification**: Shifting to Livestock, Fisheries (Blue), Horticulture (Golden), and IT.',
-      '**Organic Farming**: Sustainable alternative; maintains long-term soil health.',
-      '**Marketing Measures**: Regulated Markets, Infrastructure, MSP, and Buffer Stocks.'
+      '**Rural Credit Lifeline:** Shifting from moneylenders to Institutional sources (Banks, RRBs, Cooperatives).',
+      '**1969 Nationalisation:** 14 major banks nationalised to force credit flow into rural areas.',
+      '**NABARD (1982):** Apex body for coordinating and monitoring rural credit in India.',
+      '**SHGs (Self-Help Groups):** Focus on **Micro-Credit** for women; minimal documentation, high recovery.',
+      '**Jan-Dhan Yojana:** Financial inclusion via zero-balance accounts and direct subsidy transfers (DBT).',
+      '**Credit Defects:** High default rates and failure of cooperatives to mobilise deposits.'
     ]
   },
   {
     id: 'u7-cs3',
-    title: 'Employment Trends & Programs',
+    title: '🍎 Agricultural Marketing & Diversification',
     points: [
-      '**Participation**: Rural > Urban (due to poverty); Men > Women.',
-      '**Segments**: Self-Employed (52%) is the largest group in India.',
-      '**Informalisation**: Trend since 1990s; jobs without social security benefits.',
-      '**MGNREGA (2005)**: 100-day wage employment guarantee act.'
+      '**Marketing Process:** Assembling, storage, processing, transport, grading, and distribution.',
+      '**Govt Measures:** Regulated Markets, Infrastructure (Cold storage), MSP, FCI (Buffer Stocks), and PDS.',
+      '**Alternate Channels:** Apni Mandi, Rythu Bazars, Uzhavar Sandies (Direct farmer-to-consumer sales).',
+      '**Diversification:** Shifting from crops to **Livestock**, **Fisheries** (Blue), and **Horticulture** (Golden).',
+      '**Golden Revolution (1991-2003):** Surge in production of honey, fruits, and vegetables.',
+      '**Organic Farming:** Sustainable, non-chemical farming; improves soil health and food safety.'
     ]
   },
   {
     id: 'u7-cs4',
-    title: 'Environment & Absorptive Capacity',
+    title: '💼 Employment: Concepts & Trends',
     points: [
-      '**Absorptive Capacity**: Ability of environment to handle pollution/waste.',
-      '**India Land Burden**: ~17% world population on ~2.4% world land.',
-      '**Opportunity Cost**: Economic loss from health issues/disasters caused by pollution.',
-      '**SD Strategies**: Solar/Wind, traditional knowledge, Biogas, Biocomposting.'
-    ]
-  },
-  {
-    id: 'u7-cs-acronyms',
-    title: '📚 Essential Acronyms for Quick Recall',
-    points: [
-      '**HCF vs HD (Human Capital Formation vs Human Development):** HCF practically treats humans as productive capital resources; HD holistically treats well-being and capability as the ultimate societal goal.',
-      '**AYUSH:** The recognized traditional healthcare systems (Ayurveda, Yoga/Naturopathy, Unani, Siddha, Homoeopathy).',
-      '**MSP (Minimum Support Price):** A rigid floor price legally guaranteed by the government to actively protect farmers from open market price crashes.',
-      '**MGNREGA (2005):** Mahatma Gandhi National Rural Employment Guarantee Act (Statutorily guarantees 100 days of unskilled wage work).',
-      '**NABARD:** National Bank for Agriculture and Rural Development (The absolute apex coordinating body for rural credit architecture).'
+      '**Labour Force:** Persons working + Persons seeking work.',
+      '**Workforce:** Persons actually working (Excludes those seeking work).',
+      '**WPR (Worker-Population Ratio):** Indicator of employment levels; higher in rural areas due to poverty.',
+      '**Self-Employed (52%):** Largest segment of the Indian workforce (Farming, small shops).',
+      '**Casualisation:** Rising proportion of daily-wage labourers with no job security.',
+      '**Informalisation:** Growth of jobs in the informal sector **without** social security (Pension, PF).',
+      '**Jobless Growth:** When GDP grows due to technology but employment does not increase.'
     ]
   },
   {
     id: 'u7-cs5',
-    title: '🎯 SQP Traps: IED Challenges',
+    title: '🔍 Unemployment Types & Programs',
     points: [
-      '**Informalisation of Workforce:** Vigorously spot this keyword if you see millions forcefully drifting away from formal structured factories heavily into absolute informal wage labor without secure social protections.'
+      '**Disguised Unemployment:** Too many people on one task (Marginal Productivity = **Zero**). Common in Agri.',
+      '**Seasonal Unemployment:** Lack of work during specific harvest cycles.',
+      '**Open Unemployment:** Willing/able to work but finding **Zero** opportunities.',
+      '**MGNREGA (2005):** Statutory guarantee of **100 days** unskilled wage work to rural households.',
+      '**Skill India / PMKVY:** Addressing structural unemployment via industry-linked vocational training.'
+    ]
+  },
+  {
+    id: 'u7-cs6',
+    title: '🌱 Environment & Sustainable Development',
+    points: [
+      '**Functions:** Supplies resources, assimilates waste, sustains life (biodiversity), aesthetics.',
+      '**Carrying Capacity:** Resources extraction rate < regeneration rate; waste < absorptive capacity.',
+      '**Absorptive Capacity:** Environment\'s ability to handle waste without permanent damage.',
+      '**Opportunity Cost:** Spending on health/remediation rather than growth due to pollution.',
+      '**Global Warming:** Greenhouse effect (CO2, Methane, CFCs) raising average Earth temperature.',
+      '**Ozone Depletion:** Stratosphere thinning due to **CFCs**; regulated by **Montreal Protocol (1987)**.'
+    ]
+  },
+  {
+    id: 'u7-cs7',
+    title: '🇮🇳 India-Specific Environmental Context',
+    points: [
+      '**Land Burden:** Supports **17%** of world population on only **2.4%** of world land.',
+      '**Land Degradation:** Soil erosion, deforestation, and overgrazing are the biggest threats.',
+      '**Poverty-Environment Link:** Poor cut trees for fuel; degradation further worsens poverty.',
+      '**CPCB:** Central Pollution Control Board (Apex body for air/water pollution management).',
+      '**Chipko Movement:** Famous forest conservation movement in Uttarakhand; local action power.'
+    ]
+  },
+  {
+    id: 'u7-cs8',
+    title: '🛰️ Strategies for Sustainability',
+    points: [
+      '**Energy Shift:** Thermal/Hydro to Solar and Wind energy (Renewable transition).',
+      '**Mini-hydel Plants:** Small-scale mountain turbines to provide rural power without displacement.',
+      '**Traditional Knowledge:** Rainwater harvesting (Johads), traditional seeds, and eco-friendly farming.',
+      '**Biocomposting:** Converting organic waste to manure; essential for Organic Farming.',
+      '**Biopest Control:** Using Neem-based products or birds/animals to control pests naturally.'
+    ]
+  },
+  {
+    id: 'u7-cs9',
+    title: '🎯 SQP Exam Hacks: Quick Tips',
+    points: [
+      '**Intergenerational Equity:** Key principle that says resources belong to future generations too.',
+      '**Worker vs. Owner:** A factory owner is also a "Worker" in economics if they engage in the activity.',
+      '**AYUSH:** Acronym for Indian medical systems (Ayurveda, Yoga, Unani, Siddha, Homeopathy).',
+      '**Distress Sale:** Forced sale of crops at low prices due to lack of storage or debt pressure.',
+      '**Buffer Stock:** Grain stored by **FCI** (Food Corp of India) for price stability and the PDS.'
     ]
   }
 ];
