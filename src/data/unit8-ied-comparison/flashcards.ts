@@ -315,60 +315,121 @@ export const FLASHCARDS: Flashcard[] = [
     id: 'u8-fc51',
     question: 'What is the "Dual Pricing" system in China?',
     answer: 'A system where the state fixed prices for a specific quota of inputs/outputs, and anything above that was traded at market prices.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u8-fc52',
     question: 'Define "Liberty Indicators".',
     answer: 'Metrics that measure the extent of democratic participation, civil rights, and political freedom in a country.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u8-fc53',
     question: 'What was the "Great Proletarian Cultural Revolution"?',
     answer: 'A movement in China (1966-76) where students and professionals were sent to the countryside to learn from farmers and workers.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u8-fc54',
     question: 'How many Communes were established in China by 1958?',
     answer: 'About 26,000 communes.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u8-fc55',
     question: 'What is the "One-Child Policy"?',
     answer: 'A population control measures in China (1979) that restricted most families to having only one child.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u8-fc56',
     question: 'Which country skipped the industrialization phase and moved directly to services?',
     answer: 'India and Pakistan both showed a "bypass" of the industrial sector in favor of services.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u8-fc57',
     question: 'What are "Special Economic Zones" (SEZs)?',
     answer: 'Geographically delimited areas with liberal economic and tax laws designed to attract FDI and boost exports.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u8-fc58',
     question: 'Compare the HDI category of China and India.',
     answer: 'China is in the "High" HDI category, while India is in the "Medium" HDI category.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u8-fc59',
     question: 'What is the "Demographic Dividend"?',
     answer: 'The economic growth potential resulting from a shift in a population\'s age structure (more people in the productive age group).',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u8-fc60',
     question: 'Why did China reforms in 1978 succeed faster than India\'s 1991 reforms?',
     answer: 'China focused on the agricultural sector first, which provided a stable base and surplus for industrialization.',
-    category: 'Master'
+    category: 'Theory'
+  },
+  // --- GAP-FILLING CARDS ---
+  {
+    id: 'u8-fc61',
+    question: 'What is SAARC and when was it established?',
+    answer: 'SAARC (South Asian Association for Regional Cooperation) is a regional intergovernmental organisation established in 1985, with 8 member nations: India, Pakistan, Bangladesh, Sri Lanka, Nepal, Bhutan, Maldives, and Afghanistan. Its goal is to promote economic cooperation, cultural development, and regional integration among South Asian nations. Both India and Pakistan are SAARC members despite their political tensions.',
+    category: 'Technical'
+  },
+  {
+    id: 'u8-fc62',
+    question: 'What is the Household Responsibility System (HRS) introduced in China after 1978?',
+    answer: 'The Household Responsibility System (HRS) was China\'s 1978 reform that dismantled the Commune System by returning land-use rights to individual farming households. Each household contracted with the collective to cultivate a specific plot, deliver a fixed output quota at government prices, and could sell any surplus at market prices. This massively incentivised production — agricultural output surged — freeing surplus labour for the new manufacturing sector.',
+    category: 'Definition'
+  },
+  {
+    id: 'u8-fc63',
+    question: 'What was the Great Leap Forward Famine and what caused it?',
+    answer: 'During the Great Leap Forward (1958–62), Mao Zedong diverted millions of farmers from food production to backyard steel furnaces to rapidly industrialise China. The result was a catastrophic famine estimated to have killed 15–45 million people — the deadliest famine in human history. Cause: agricultural production collapsed when farmers abandoned fields, yet the government continued exporting grain and denied the famine. This tragedy justified Deng Xiaoping\'s pragmatic reforms of 1978.',
+    category: 'Theory'
+  },
+  {
+    id: 'u8-fc64',
+    question: 'Who were China\'s "Barefoot Doctors" and how do they explain China\'s very low Infant Mortality Rate (IMR)?',
+    answer: 'Barefoot Doctors were specially trained rural paramedical workers deployed by China in every village commune from the 1960s–70s. They received 1–2 years of basic medical training and provided vaccinations, first aid, family planning, and health education to all rural Chinese — free of cost. This programme gave China near-universal primary healthcare BEFORE it became wealthy, which explains why China\'s IMR is only 7.4 per 1,000 — compared to India\'s 29.9 and Pakistan\'s 57.2 — despite having similar income levels in the 1970s.',
+    category: 'Theory'
+  },
+  {
+    id: 'u8-fc65',
+    question: 'What is the "Service Sector Bypass" and which two countries exhibit it?',
+    answer: 'The "Service Sector Bypass" is the phenomenon where India and Pakistan moved directly from an agriculture-dominated economy to a services-dominated economy WITHOUT developing a large manufacturing phase — deviating from the classical path (Agriculture → Industry → Services) that China followed. Consequence: India\'s IT boom employs only high-skilled workers; low-skill rural labour was NOT absorbed into factories, creating persistent disguised unemployment and informalisation.',
+    category: 'Theory'
+  },
+  {
+    id: 'u8-fc66',
+    question: 'What is Amartya Sen\'s "Development as Freedom" argument and how does it explain Liberty Indicators?',
+    answer: 'Nobel laureate Amartya Sen argued in his 1999 book "Development as Freedom" that development must include expansion of human freedoms — political freedom, economic opportunity, social protection, transparency, and security — not just GDP or HDI. Key insight: NO famine has ever occurred in a functioning democracy with a free press, because accountability prevents governments from hiding food shortages. This challenges China\'s growth model (high HDI but no political freedom) and forms the theoretical basis for Liberty Indicators.',
+    category: 'Theory'
+  },
+  {
+    id: 'u8-fc67',
+    question: 'What is BRICS and which countries are its members?',
+    answer: 'BRICS is a grouping of five major emerging economies: Brazil, Russia, India, China, and South Africa — established formally in 2009. BRICS nations together represent ~41% of world population and ~24% of global GDP. Notably, both India and China are BRICS members despite their border tensions, reflecting that economic cooperation transcends political rivalry.',
+    category: 'Technical'
+  },
+  {
+    id: 'u8-fc68',
+    question: 'What is the Gender Development Index (GDI)?',
+    answer: 'The Gender Development Index (GDI) is a UNDP measure that calculates the Human Development Index (HDI) separately for males and females to capture gender inequality. GDI = Female HDI ÷ Male HDI. A score of 1.0 means perfect gender parity. All three countries — India, China, and Pakistan — have GDI below 1, meaning women have lower human development than men. Pakistan has the widest gender gap due to low female literacy and limited female labour force participation.',
+    category: 'Definition'
+  },
+  {
+    id: 'u8-fc69',
+    question: 'What is the scale of China\'s poverty reduction achievement since 1978?',
+    answer: 'China achieved the most dramatic poverty reduction in human history: ~88% of China\'s population lived in extreme poverty in 1981. By 2021, China officially eliminated extreme poverty — lifting over 800 million people in four decades. In contrast, India has ~21.9% and Pakistan ~24.3% of their populations still below the poverty line. China\'s success was driven by manufacturing-led export growth, SEZs attracting FDI, rural infrastructure, and universal social programmes.',
+    category: 'Technical'
+  },
+  {
+    id: 'u8-fc70',
+    question: 'Who was Deng Xiaoping and what were his key 1978 reforms?',
+    answer: 'Deng Xiaoping was China\'s paramount leader who launched China\'s "Reform and Opening Up" in 1978. His philosophy: "It doesn\'t matter whether a cat is black or white, as long as it catches mice." Key reforms: (1) Household Responsibility System (HRS) — individual farm holdings replacing communes. (2) Dual Pricing System — market prices for surplus output above quota. (3) Special Economic Zones (SEZs) — Shenzhen, Zhuhai, Xiamen opened to FDI. (4) Gradual, sequenced opening — agriculture first, then industry. These transformed China into the world\'s second-largest economy.',
+    category: 'Theory'
   }
 ];
