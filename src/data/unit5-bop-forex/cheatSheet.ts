@@ -22,7 +22,7 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
       '**Gold Standard (pre-1930s):** Currencies defined in fixed gold weights; freely convertible.',
       '**Bretton Woods (1944-71):** Currencies pegged to US Dollar; Dollar pegged to Gold ($35/oz).',
       '**Flexible (Floating):** Rate determined purely by **Market Forces** (Demand/Supply).',
-      '**Managed Floating (Dirty Float):** Market-driven but Central Bank intervenes to curb volatility.',
+      '**Managed Floating (Dirty Floating):** Market-driven but Central Bank intervenes to curb volatility and protect exporters.',
       '**Devaluation vs Revaluation:** Policy-driven changes under a **Fixed** system.',
       '**Depreciation vs Appreciation:** Market-driven changes under a **Flexible** system.'
     ]

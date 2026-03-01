@@ -109,6 +109,19 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
     ]
   },
   {
+    id: 'u6-cs11',
+    title: '🔥 The Chronology Master Trap',
+    points: [
+      '**1958:** China\'s **Great Leap Forward** (GLF).',
+      '**1978:** China starts **Economic Reforms** (early mover).',
+      '**1988:** Pakistan starts **Economic Reforms**.',
+      '**1991:** India starts **LPG Reforms** (New Economic Policy).',
+      '**1995:** WTO established (successor to GATT).',
+      '**2016:** Demonetization in India (curb black money).',
+      '**2017:** GST implementation (One Nation, One Tax).'
+    ]
+  },
+  {
     id: 'u6-cs10',
     title: '🎯 Exam Cheat: Key Terms',
     points: [

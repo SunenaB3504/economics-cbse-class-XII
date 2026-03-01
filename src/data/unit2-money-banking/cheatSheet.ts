@@ -6,6 +6,7 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
     title: '🪙 Money: Definition & Functions',
     points: [
       '**Money:** Anything generally accepted as a medium of exchange, measure of value, store of value, and standard of deferred payment.',
+      '**Primary Functions:** 1. **Medium of Exchange** (solves double coincidence of wants), 2. **Measure of Value** (unit of account).',
       '**Fiat Money:** Issued by govt order (Notes/Coins). No intrinsic value.',
       '**Fiduciary Money:** Based on trust (Cheques). Not legally binding to accept as tender.',
       '**Full-Bodied Money:** Commodity value = Money value (Gold coins).',
@@ -28,11 +29,12 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
     id: 'u2-cs3',
     title: '🏦 Credit Creation Process',
     points: [
+      '**Core Assumptions:** 1. Entire banking system is a single unit. 2. All transactions are routed via banks (no cash leakage).',
       '**Money Multiplier (k):** **1 / LRR**. (Legal Reserve Ratio).',
       '**Legal Reserve Ratio (LRR):** **CRR** + **SLR**. Sum of reserves banks must keep.',
       '**Total Credit Created:** **Initial Deposit** × **(1 / LRR)**.',
       '**Credit Multiplier Example:** If LRR is 10% (0.1), Multiplier = 10. ₹1000 deposit can create ₹10,000 credit.',
-      '**Inverse Relation:** Higher the LRR, Lower the Credit Creation.'
+      '**Inverse Relation Trap:** Higher the LRR, **Lower** the Credit Creation (Multiplier = 1/LRR).'
     ]
   },
   {

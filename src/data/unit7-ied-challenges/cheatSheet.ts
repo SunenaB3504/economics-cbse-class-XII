@@ -6,7 +6,7 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
     title: '🧠 Human Capital Formation (HCF)',
     points: [
       '**Definition:** Stock of skills, expertise, and knowledge embodied in people at a point in time.',
-      '**HCF vs. Human Development:** **HCF** treats humans as means to productivity; **Human Development** treats well-being as the end goal.',
+      '**HCF vs. Human Development:** **Human Capital** treats man as a **means** to an end (productivity); **Human Development** treats man as an **end** in himself (better life/well-being).',
       '**Sources of HCF:** Education, Health, On-the-job Training, Migration, and Information.',
       '**Health Components:** Preventive (Vaccines), Curative (Treatment), and Social (Literacy) medicine.',
       '**Education Target:** **1966 Commission** recommended **6% of GDP** (India still spends ~4-4.5%).',
@@ -46,8 +46,8 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
       '**Workforce:** Persons actually working (Excludes those seeking work).',
       '**WPR (Worker-Population Ratio):** Indicator of employment levels; higher in rural areas due to poverty.',
       '**Self-Employed (52%):** Largest segment of the Indian workforce (Farming, small shops).',
-      '**Casualisation:** Rising proportion of daily-wage labourers with no job security.',
-      '**Informalisation:** Growth of jobs in the informal sector **without** social security (Pension, PF).',
+      '**Casualisation:** Transition of workforce from regular salaried employment to casual wage work.',
+      '**Informalisation:** Moving from formal sector (organized) to informal (unorganized, no social security). 🎯 **SQP Trap Keyword!**',
       '**Jobless Growth:** When GDP grows due to technology but employment does not increase.'
     ]
   },

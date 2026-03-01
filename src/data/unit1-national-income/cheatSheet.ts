@@ -71,6 +71,7 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
     id: 'cs7',
     title: '🔄 Circular Flow & Basic Concepts',
     points: [
+      '**Phases of Circular Flow:** 1. **Generation Phase** (Value Added), 2. **Distribution Phase** (Factor Income), 3. **Disposition Phase** (Expenditure).',
       '**Real Flow:** Flow of **Factor Services** (Household to Firm) and **Goods/Services** (Firm to Household).',
       '**Money Flow:** Flow of **Factor Payments** and **Consumption Expenditure** between sectors.',
       '**Stock:** Measured at a **Point of Time** (Wealth, Capital, Money Supply).',
@@ -84,7 +85,7 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
     points: [
       '**Negative Externalities:** Harmful effects (Pollution) not reflected in market prices. GDP overstates welfare.',
       '**Positive Externalities:** Beneficial effects (Public Parks) not paid for. GDP understates welfare.',
-      '**Non-Monetary Exchanges:** Barter/Domestic services (Housewife) not counted in GDP.',
+      '**Non-Monetary Exchanges:** Barter systems and domestic services (Housewife) understate actual GDP welfare.',
       '**Distribution of Income:** If GDP grows but inequality increases, welfare may not rise.'
     ]
   },

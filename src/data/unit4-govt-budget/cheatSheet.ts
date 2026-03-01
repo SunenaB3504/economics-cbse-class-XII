@@ -101,6 +101,16 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
     ]
   },
   {
+    id: 'u4-cs11',
+    title: '🚨 The Primary Deficit "Sins of the Past" Trap',
+    points: [
+      '**Mnemonic:** Primary Deficit measures current year overspending **purely** without historical debt baggage.',
+      '**Formula:** **Fiscal Deficit - Interest Payments**.',
+      '**Significance:** If PD = 0, the govt is borrowing **only** to pay interest on old loans.',
+      '**Policy Implication:** A low Primary Deficit indicates better fiscal discipline by the current administration.'
+    ]
+  },
+  {
     id: 'u4-cs-acronyms',
     title: '📚 Essential Acronyms for Quick Recall',
     points: [

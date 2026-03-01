@@ -48,18 +48,20 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
   },
   {
     id: 'u8-cs5',
-    title: '🏗️ Sectoral Shift: The "Service Bypass"',
+    title: '🏗️ Sectoral Shift: The "Impatient Leap" Trap',
     points: [
-      '**Classical Path (China):** Agriculture → Industry (Manufacturing) → Services. China is the **"World\'s Workshop"**.',
-      '**Bypass Model (India/Pak):** These nations leapt directly from **Agriculture → Services**, skipping the intensive industrial phase.',
+      '**Classical Path (China):** Agriculture \-> Industry (Manufacturing) \-> Services. China is the **"World\'s Workshop"**.',
+      '**Impatient Leap (India/Pak)::** These nations leaped directly from **Agriculture \-> Services**, skipped the intensive industrial phase.',
+      '**Structural Concern:** Causes "Jobless Growth" as Services often require high skill not found in rural labor.',
       '**Employment vs GDP:** In India, **Agriculture** still employs ~42% of people but contributes only ~16% to GDP (low productivity).',
       '**GVA Leaders:** **Services** contribute over 50% of GDP for all three nations today.'
     ]
   },
   {
     id: 'u8-cs6',
-    title: '🌈 Human Development & Liberty',
+    title: '🌈 Human Development Index (HDI)',
     points: [
+      '**HDI Components:** 1. **Life Expectancy** (Health), 2. **Education** (Expected/Mean Years), 3. **GNI per Capita** (Income).',
       '**HDI Tiers:** **China (High)**, **India (Medium)**, **Pakistan (Medium-Low)**.',
       '**Health Metrics:** China has the lowest **IMR** (~7) and **MMR** (~29) due to early investment in primary healthcare (Barefoot Doctors).',
       '**Poverty:** China has officially eliminated extreme poverty; India/Pakistan still have ~20–25% below the poverty line.',
