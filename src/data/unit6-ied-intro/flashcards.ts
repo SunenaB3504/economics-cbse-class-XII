@@ -821,5 +821,61 @@ export const FLASHCARDS: Flashcard[] = [
     answer: 'A package of economic policy conditions (conditionalities) that the IMF and World Bank attach to emergency loans given to crisis-hit countries. India\'s SAP (1991) required: reducing fiscal deficit, trade liberalisation (cutting tariffs and removing quotas), devaluing the Rupee, and privatising public sector enterprises. Accepting SAP conditions was the price India paid for borrowing approximately USD 7 billion from the IMF and World Bank to avoid default.',
     category: 'Theory',
     aiExplanation: 'SAP conditions = fiscal deficit reduction + trade libs + exchange rate flexibility + privatisation. Critics call SAP conditions "one-size-fits-all" policies dictated by rich countries (USA dominates IMF voting). Supporters say they force necessary discipline on mismanaged economies.'
+  },
+  {
+    id: 'u6-fc118',
+    question: 'What is the Mahalanobis Model and why was it the basis of the Second Five Year Plan (1956–61)?',
+    answer: 'The Mahalanobis Model (by P.C. Mahalanobis) argued that India should invest heavily in capital goods industries (machines, heavy equipment) first. Capital goods production would then enable all other industries to grow, driving long-run sustained economic growth. This "heavy industry first" strategy became the core philosophy of IPR 1956 and the Second Five Year Plan.',
+    category: 'Theory',
+    aiExplanation: 'Chain logic: invest in capital goods → capital goods output rises → these machines are used to produce consumer goods, defence items, vehicles, chemicals → entire economy grows. Without machines (capital goods), you cannot produce anything else at scale.'
+  },
+  {
+    id: 'u6-fc119',
+    question: 'What was the PL-480 programme and what was India\'s position before the Green Revolution?',
+    answer: 'PL-480 (Public Law 480) was a US government programme under which India imported food grains (mainly wheat) from the United States at concessional rates during the 1950s and 1960s. India\'s food production was so insufficient that it was often described as coming to the table with a "begging bowl." The Green Revolution ending this dependence by making India self-sufficient in food grains.',
+    category: 'Theory',
+    aiExplanation: 'PL-480 = Food for Peace programme. It was humiliating for a newly independent nation to depend on food imports. The Green Revolution of the mid-1960s onwards was partly motivated by the urge to end this dependence — Self-Reliance was one of the four goals of Five Year Plans.'
+  },
+  {
+    id: 'u6-fc120',
+    question: 'What was the Bengal Famine of 1943 and what caused it?',
+    answer: 'The Bengal Famine of 1943 killed an estimated 3 million people in Bengal (then undivided). Its root causes included: (1) Commercialisation of agriculture — less food grown as cash crops replaced food crops. (2) Colonial wartime policies — food grains diverted to feed British troops in World War II. (3) Denial by British authorities that a famine existed — delayed relief efforts. (4) Market failures — traders hoarded grain causing prices to spike beyond what the poor could afford.',
+    category: 'Theory',
+    aiExplanation: 'Economist Amartya Sen (Nobel Prize 1998) argued in his "Poverty and Famines" (1981) that the Bengal Famine was not due to a food shortage but a failure of entitlements — poor people lost their ability to buy food even when it was present in the market. Food went to those who could pay, not those who needed it.'
+  },
+  {
+    id: 'u6-fc121',
+    question: 'What were the exact birth rate and death rate figures in colonial India on the eve of independence?',
+    answer: 'Colonial India had a birth rate of approximately 48 per 1,000 population and a death rate of approximately 40 per 1,000 population. The very small gap (only 8 per 1,000) meant population grew extremely slowly — high births were cancelled out by catastrophically high deaths. Life expectancy was only ~32 years and Infant Mortality Rate (IMR) was 218 per 1,000 live births.',
+    category: 'Theory',
+    aiExplanation: 'Contrast with modern India: birth rate ~20, death rate ~6 (gap of 14). Colonial India\'s 48 birth rate was driven by poverty (children as insurance for old age), lack of education, and no family planning. The 40 death rate was driven by disease, malnutrition, no healthcare, and famines. The "Year of Great Divide" was 1921 — when death rates began their long decline.'
+  },
+  {
+    id: 'u6-fc122',
+    question: 'What is SIDBI (Small Industries Development Bank of India) and what role does it play?',
+    answer: 'SIDBI (Small Industries Development Bank of India) is a specialised financial institution set up by the government to provide credit, equity support, and development services exclusively to Small Scale Industries (SSIs) and Micro, Small and Medium Enterprises (MSMEs). It acts as the principal financial institution for promotion, financing, and development of SSIs — offering subsidised interest rates that SSIs cannot access from commercial banks.',
+    category: 'Technical',
+    aiExplanation: 'SSIs need credit but are considered "risky" by commercial banks — so SIDBI fills the gap. It was established in 1990 under the SIDBI Act. It refinances banks that lend to SSIs, makes direct loans, and provides guarantees. It is owned by the government and other public institutions.'
+  },
+  {
+    id: 'u6-fc123',
+    question: 'What is KPO (Knowledge Process Outsourcing) and how is it different from BPO (Business Process Outsourcing)?',
+    answer: 'BPO (Business Process Outsourcing) involves outsourcing routine, process-based tasks such as customer service call centres, data entry, payroll processing, and back-office operations. KPO (Knowledge Process Outsourcing) involves outsourcing high-skill, knowledge-intensive work such as legal research, financial analysis, medical transcription, engineering design, R&D, and market research. KPO requires advanced domain expertise; BPO requires task execution. India excels in both due to its large English-speaking, technically educated workforce.',
+    category: 'Theory',
+    aiExplanation: 'BPO = volume, process, lower skill → e.g., call centres, data entry. KPO = expertise, analysis, higher skill → e.g., legal research, financial modelling. India moved up the value chain from BPO to KPO post-2000. This reflects Globalisation and its benefits for India.'
+  },
+  {
+    id: 'u6-fc124',
+    question: 'What is Current Account Convertibility of the Rupee and when was it achieved?',
+    answer: 'Current Account Convertibility means the Indian Rupee can be freely converted into any foreign currency for all trade-related transactions — imports, exports, tourism, and remittances — without government approval. India achieved Current Account Convertibility in 1994, following the transition from LERMS (Liberalised Exchange Rate Management System, 1992) to a unified market-determined exchange rate in 1993. Capital Account Convertibility (free conversion for investments) has NOT been fully achieved and remains partial.',
+    category: 'Technical',
+    aiExplanation: 'Distinction to remember: Current Account = trade in goods, services, remittances → India has full convertibility. Capital Account = investment flows (FDI, FPI) → India has partial convertibility only. Full Capital Account Convertibility is debated — it could expose India to volatile capital flight.'
+  },
+  {
+    id: 'u6-fc125',
+    question: 'What is FRBMA (Fiscal Responsibility and Budget Management Act) and how is it linked to agricultural neglect post-1991?',
+    answer: 'FRBMA (Fiscal Responsibility and Budget Management Act, 2003) mandated the government to reduce its fiscal deficit to 3% of GDP and eliminate the revenue deficit. To achieve this, the government cut public spending. One casualty was public investment in agriculture — irrigation, rural roads, warehousing, and agricultural R&D. This reduced agricultural productivity growth and widened the rural-urban income gap. Critics argue FRBMA-driven fiscal consolidation worsened farmer distress (as seen in Vidarbha suicides).',
+    category: 'Theory',
+    aiExplanation: 'Post-1991 contradiction: Liberalisation boosted industry and services but agriculture was starved of public investment. Private firms did not fill the gap as agriculture is risky and low-yielding for private capital. FRBMA fiscal targets restricted the government from using deficit spending to support agriculture — creating a structural neglect of the rural economy in the reform era.'
   }
 ];
