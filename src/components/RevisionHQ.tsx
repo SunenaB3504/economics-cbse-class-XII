@@ -76,28 +76,38 @@ export const RevisionHQ: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
 
         {activeTab === 'cheatsheet' && (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {chapter.cheatSheet.map((section, i) => (
-              <div key={i} className="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm">
-                <h5 className="text-lg font-black text-indigo-900 mb-6 flex items-center gap-3">
-                  <div className="h-2 w-2 rounded-full bg-indigo-500" />
-                  {section.title}
-                </h5>
-                {Array.isArray(section.points || section.content) ? (
-                  <ul className="grid gap-4">
-                    {((section.points || section.content) as string[]).map((point: string, j: number) => (
-                      <li key={j} className="flex gap-3 text-sm font-medium text-gray-600 bg-gray-50 p-4 rounded-2xl border border-gray-100">
-                        <span className="text-indigo-400 font-black">#</span>
-                        {point}
-                      </li>
-                    ))}
-                  </ul>
-                ) : (
-                  <div className="text-sm font-medium text-gray-600 bg-gray-50 p-6 rounded-2xl border border-gray-100 whitespace-pre-wrap">
-                    {section.content}
-                  </div>
-                )}
-              </div>
-            ))}
+            {chapter.cheatSheet.map((section, i) => {
+              const renderPoint = (text: string) => {
+                const parts = text.split(/\*\*(.*?)\*\*/g);
+                return parts.map((part, k) =>
+                  k % 2 === 1
+                    ? <strong key={k} className="text-indigo-700 font-bold">{part}</strong>
+                    : <span key={k}>{part}</span>
+                );
+              };
+              return (
+                <div key={i} className="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm">
+                  <h5 className="text-lg font-black text-indigo-900 mb-6 flex items-center gap-3">
+                    <div className="h-2 w-2 rounded-full bg-indigo-500" />
+                    {section.title}
+                  </h5>
+                  {Array.isArray(section.points || section.content) ? (
+                    <ul className="grid gap-4">
+                      {((section.points || section.content) as string[]).map((point: string, j: number) => (
+                        <li key={j} className="flex gap-3 text-sm font-medium text-gray-600 bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                          <span className="text-indigo-400 font-black mt-0.5">▸</span>
+                          <span>{renderPoint(point)}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <div className="text-sm font-medium text-gray-600 bg-gray-50 p-6 rounded-2xl border border-gray-100 whitespace-pre-wrap">
+                      {section.content}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
         )}
 
