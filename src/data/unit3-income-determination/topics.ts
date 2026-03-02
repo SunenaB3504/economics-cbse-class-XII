@@ -7,16 +7,55 @@ export const TOPICS: TheoryTopic[] = [
     title: 'Aggregate Demand, Aggregate Supply and Propensities',
     description: 'Core concepts of aggregate demand, aggregate supply, and the functional relationship between consumption, saving, and income.',
     content: [
-      'Aggregate Demand (AD) — Definition: Aggregate Demand refers to the total value of final goods and services that all sectors of an economy are PLANNING to buy at a given level of income during an accounting year. The key word is "planned" — it is an ex-ante (intended), not ex-post (realised) concept. In a two-sector model: AD = C + I. In a four-sector (open) economy: AD = C + I + G + (X − M), where C = Private Final Consumption Expenditure, I = Investment Expenditure, G = Government Final Consumption Expenditure, X = Exports, M = Imports.',
-      'Aggregate Supply (AS) — Definition: Aggregate Supply refers to the total money value of all final goods and services that all producers in an economy are willing and able to supply during an accounting year. Since everything that is produced generates income (wages, profits, rent, interest for the factors of production), Aggregate Supply is IDENTICAL to National Income (Y). Identity: AS = C + S (income is either consumed or saved). In equilibrium: AS = AD, which gives C + S = C + I, therefore S = I.',
-      'Ex-Ante vs Ex-Post Distinction — A Crucial Difference: EX-ANTE values are PLANNED (intended) values — what economic agents EXPECT or PLAN to do at the START of the accounting period. Example: Ex-ante Saving = planned saving; Ex-ante Investment = planned investment. EX-POST values are ACTUAL (realised) values — what actually happened at the END of the accounting period. KEY RULE: Ex-ante Saving need NOT equal Ex-ante Investment (the economy moves toward equilibrium). But Ex-post Saving ALWAYS equals Ex-post Investment (by accounting identity — what is not consumed is either saved or invested). Exam trap: "Saving is always equal to Investment" — TRUE only for ex-post; FALSE for ex-ante.',
-      'Consumption Function — The Core Equation: The Consumption Function describes the functional relationship between consumption (C) and income (Y). Linear Consumption Function: C = C̄ + bY, where C̄ = Autonomous Consumption (the intercept — consumption at zero income, financed by past savings/borrowing), b = Marginal Propensity to Consume (MPC — the slope), Y = National Income. AUTONOMOUS CONSUMPTION (C̄): Consumption that does NOT depend on income — even at zero income, people must eat, pay rent, etc. — they dis-save (draw from past savings or borrow). INDUCED CONSUMPTION (bY): Consumption that changes WITH income — as income rises, induced consumption rises proportionally at rate b (MPC).',
-      'Dissaving — Below the Break-Even Point: When national income (Y) is BELOW the break-even point, consumption (C) exceeds income (C > Y). This means saving is NEGATIVE — called DISSAVING. People finance this excess consumption by: (a) drawing on past savings (depleting wealth), or (b) borrowing from others.',
-      'Average Propensity to Consume (APC): APC = C/Y (ratio of total consumption to total income). Properties: (1) APC > 1 when C > Y (below break-even — dissaving occurs); (2) APC = 1 at the break-even point (C = Y, S = 0); (3) APC < 1 when C < Y (above break-even — saving is positive); (4) APC FALLS as income rises (because the autonomous component C̄ gets diluted over larger Y). APC cannot remain constant or rise indefinitely — it always falls as income rises.',
-      'Marginal Propensity to Consume (MPC): MPC = ΔC/ΔY (ratio of CHANGE in consumption to CHANGE in income). Properties: (1) MPC is always between 0 and 1 (0 ≤ MPC ≤ 1). It CANNOT be greater than 1 because you cannot consume more than you additionally earn. It CANNOT be negative because people always consume some fraction of extra income. (2) MPC is constant along a linear consumption function (it equals the slope \'b\'). (3) Higher MPC → steeper consumption curve → LARGER MULTIPLIER.',
-      'Saving Function — Derived from Consumption: Since Y = C + S → S = Y − C = Y − (C̄ + bY) = −C̄ + (1−b)Y. Saving Function: S = −C̄ + (1−b)Y = −C̄ + (MPS)Y, where −C̄ = autonomous saving (saving at zero income — negative, meaning dissaving), (1−b) = MPS = Marginal Propensity to Save (slope of saving function), Y = National Income. BREAK-EVEN POINT: Where S = 0 → −C̄ + MPS × Y = 0 → Y* = C̄/MPS.',
-      'Average Propensity to Save (APS): APS = S/Y. Properties: (1) APS can be NEGATIVE (when C > Y, saving is negative — dissaving); (2) APS = 0 at break-even point (C = Y); (3) APS > 0 above break-even; (4) APS RISES as income rises.',
-      'Marginal Propensity to Save (MPS): MPS = ΔS/ΔY. The slope of the saving function. Properties: (1) MPS = 1 − MPC; (2) MPS is always between 0 and 1; (3) Higher MPS → flatter consumption curve → SMALLER MULTIPLIER. IDENTITY: MPC + MPS = 1 (always — any additional income is either consumed or saved). Similarly: APC + APS = 1 (always).'
+      {
+        type: 'concept',
+        title: 'Aggregate Demand (AD)',
+        text: 'Total value of final goods and services that all sectors plan to buy at a given income level.',
+        points: [
+          '**Ex-ante concept**: Refers to planned/intended spending, not actual.',
+          '**Two-sector model**: AD = C + I.',
+          '**Four-sector model**: AD = C + I + G + (X − M).'
+        ],
+        tags: ['DEMAND']
+      },
+      {
+        type: 'concept',
+        title: 'Aggregate Supply (AS)',
+        text: 'Total money value of final goods and services producers are willing to supply. AS is identical to **National Income (Y)**.',
+        points: [
+          '**Components**: AS = C + S (Income is either consumed or saved).',
+          '**45° Line**: In a graph, AS is represented by a 45-degree line from the origin.'
+        ],
+        tags: ['SUPPLY']
+      },
+      {
+        type: 'comparison',
+        subPoints: [
+          { label: 'EX-ANTE', text: 'Planned or intended values at the start of the period.' },
+          { label: 'EX-POST', text: 'Actual or realised values at the end of the period. (Ex-post S always equals Ex-post I).' }
+        ]
+      },
+      {
+        type: 'concept',
+        title: 'Consumption Function',
+        text: 'Functional relationship between consumption (C) and income (Y).',
+        points: [
+          '**Equation**: C = C̄ + bY.',
+          '**C̄ (Autonomous)**: Consumption at zero income (dissaving).',
+          '**b (MPC)**: Marginal Propensity to Consume (slope of the curve).'
+        ],
+        tags: ['CONSUMPTION']
+      },
+      {
+        type: 'warning',
+        title: 'APC and MPC Properties',
+        points: [
+          '**APC (Average)**: C/Y. Falls as income rises; >1 during dissaving.',
+          '**MPC (Marginal)**: ΔC/ΔY. Always between 0 and 1.',
+          '**Identity**: APC + APS = 1 and MPC + MPS = 1.'
+        ],
+        tags: ['PROPENSITIES']
+      }
     ],
     visualizations: [
       {
@@ -92,14 +131,44 @@ export const TOPICS: TheoryTopic[] = [
     title: 'Equilibrium Income Determination and Investment Multiplier',
     description: 'How national income is determined, two approaches to equilibrium, and the mechanism and working of the Investment Multiplier.',
     content: [
-      'Equilibrium Income — The Concept: The equilibrium level of national income is the level at which the economy tends to settle — where there is no automatic tendency to change. At equilibrium, planned (ex-ante) spending equals planned output — so there is no accumulation or depletion of unintended inventories.',
-      'Approach 1 — AD = AS Approach: Equilibrium is reached where Aggregate Demand (AD) = Aggregate Supply (AS), i.e., C + I = C + S → I = S. At this point, what firms plan to produce equals what all sectors plan to spend — no involuntary inventory changes occur.',
-      'Approach 2 — Saving-Investment (S = I) Approach: Equilibrium is also determined where planned saving (ex-ante S) = planned investment (ex-ante I). If Ex-ante S > Ex-ante I: Aggregate Demand < Aggregate Supply → unsold goods pile up as UNINTENDED INVENTORIES → firms reduce production next period → income FALLS → saving falls → equilibrium restored when S = I. If Ex-ante S < Ex-ante I: Aggregate Demand > Aggregate Supply → inventories are depleted → firms increase production → income RISES → saving rises → equilibrium restored when S = I.',
-      'Effective Demand — Keynes\'s Key Concept: Effective Demand is the level of Aggregate Demand (AD) that actually becomes effective — because it is exactly matched by Aggregate Supply (AS). It is the equilibrium point. Keynes argued that the economy reaches equilibrium at the level of Effective Demand — which may be BELOW the full employment level. This is the key Keynesian insight: the economy can be trapped in equilibrium below full employment.',
-      'Autonomous Investment vs Induced Investment: AUTONOMOUS INVESTMENT: Investment that is INDEPENDENT of the level of national income — it does not change as income changes. It is made primarily for social welfare and public goods — by governments (schools, roads, hospitals). Autonomous investment is assumed CONSTANT in the basic model → shown as a horizontal line in the investment function. INDUCED INVESTMENT: Investment that VARIES WITH income — as income rises, firms invest more (expecting higher future demand). In the basic two-sector model, we assume all private investment is autonomous (horizontal line) for simplicity.',
-      'The Investment Multiplier (k) — Definition: The Investment Multiplier (k) measures the ratio of the change in equilibrium national income (ΔY) to the initial change in autonomous investment (ΔI) that caused it. Formula: k = ΔY / ΔI = 1 / (1 − MPC) = 1 / MPS. The multiplier tells us: for every ₹1 increase in autonomous investment, national income increases by ₹k. If MPC = 0.8 → k = 1/(1−0.8) = 1/0.2 = 5 → ₹100 crore investment → ₹500 crore income increase.',
-      'The Multiplier — Working through Rounds: The chain reaction by which a ₹1 investment becomes ₹k of income: Round 1: Government spends ₹100 crore → roads are built → workers and firms receive ₹100 crore as income → of this, MPC (0.8) fraction spent → ΔC = ₹80 crore. Round 2: The ₹80 crore becomes income for shop owners, cement sellers → they spend 0.8 × ₹80 = ₹64 crore. Round 3: ₹64 crore → ₹51.2 crore spent. … This is a geometric series: Total ΔY = ΔI × (1 + MPC + MPC² + MPC³ + …) = ΔI × 1/(1−MPC) = ΔI × k. The chain continues infinitely, with each round being smaller, until the total adds up to ΔI × k.',
-      'Multiplier Range: Minimum value of multiplier = 1 (when MPC = 0 — no induced spending — income does not propagate). Maximum value = ∞ (when MPC = 1 — all income is spent, none saved — chain never ends). In reality: 1 < k < ∞. Higher MPC → Higher multiplier → More powerful government spending effect. Direct relationship: Multiplier ↑ as MPC ↑. Inverse relationship: Multiplier ↑ as MPS ↓.'
+      {
+        type: 'concept',
+        title: 'Macroeconomic Equilibrium',
+        text: 'The level of income where planned spending equals planned output. Two equivalent approaches:',
+        points: [
+          '**AD = AS Approach**: Planned spending (C+I) equals planned production (Y).',
+          '**S = I Approach**: Planned saving equals planned investment.'
+        ],
+        tags: ['EQUILIBRIUM']
+      },
+      {
+        type: 'warning',
+        title: 'Adjustment Mechanism',
+        points: [
+          'If AD > AS → Inventories fall → Firms produce more → Income rises.',
+          'If AD < AS → Inventories pile up → Firms produce less → Income falls.'
+        ],
+        tags: ['INVENTORY']
+      },
+      {
+        type: 'concept',
+        title: 'Investment Multiplier (k)',
+        text: 'Ratio of change in income (ΔY) to initial change in investment (ΔI).',
+        points: [
+          '**Formula**: k = ΔY / ΔI = 1 / (1 − MPC) = 1 / MPS.',
+          '**Logic**: One person\'s spending is another person\'s income (Chain reaction).'
+        ],
+        tags: ['MULTIPLIER']
+      },
+      {
+        type: 'tip',
+        title: 'Multiplier Range',
+        text: 'The multiplier always lies between **1** and **Infinity**.',
+        points: [
+          'If MPC = 0 → k = 1 (Minimum).',
+          'If MPC = 1 → k = ∞ (Theoretical Maximum).'
+        ]
+      }
     ],
     visualizations: [
       {
@@ -178,16 +247,49 @@ export const TOPICS: TheoryTopic[] = [
     title: 'Employment, Demand Gaps and Policy Corrections',
     description: 'Full employment, types of unemployment, excess and deficient demand, and the fiscal and monetary tools to correct demand gaps.',
     content: [
-      'Full Employment — Keynesian Definition: Full Employment is a situation where ALL individuals who are able and willing to work at the prevailing wage rate can find employment without undue difficulty. KEY NUANCE: Full employment does NOT mean zero unemployment — even at full employment, some STRUCTURAL unemployment (people between jobs due to skill mismatches) and FRICTIONAL unemployment (people temporarily between jobs) can exist. What full employment ELIMINATES is INVOLUNTARY unemployment.',
-      'Involuntary Unemployment: A situation where workers are ABLE and WILLING to work at the prevailing wage rate but are UNABLE to find jobs — purely because there is insufficient Aggregate Demand in the economy. This is the type of unemployment Keynes explained — it arises from deficient demand, not from workers being lazy or unskilled. It is the main policy target of Keynesian economics.',
-      'Voluntary Unemployment: A situation where workers are NOT willing to work at the prevailing wage rate even though jobs are available — they prefer leisure or expect higher wages. Not a policy concern — it is a personal choice.',
-      'Excess Demand (Inflationary Gap): Excess Demand occurs when AD > AS at the FULL EMPLOYMENT level of output. Since the economy is already at full capacity (cannot produce more), the excess demand does NOT increase real output — instead it pushes UP the general PRICE LEVEL (Inflation). INFLATIONARY GAP = the amount by which actual AD exceeds the AD required to maintain full employment equilibrium. Causes: (1) Rise in government expenditure; (2) Rise in exports; (3) Reduction in taxes → more disposable income; (4) Rise in money supply → more spending.',
-      'Deficient Demand (Deflationary Gap): Deficient Demand occurs when AD < AS at the full employment level. There is insufficient demand to buy all the goods being produced → UNINTENDED INVENTORIES pile up → producers cut production → unemployment rises → income falls. DEFLATIONARY GAP = the amount by which actual AD is BELOW the AD needed for full employment. Causes: (1) Fall in private consumption; (2) Rise in taxes; (3) Fall in government spending; (4) Rise in saving (Paradox of Thrift); (5) Fall in exports.',
-      'Paradox of Thrift: If ALL households simultaneously decide to save MORE (spend less), the Aggregate Demand in the economy FALLS. This leads to: lower production → lower employment → lower income → LOWER total savings (despite each individual saving a higher fraction). The paradox: what is rational for an individual (saving more) is irrational for society as a whole (collective saving MORE reduces total income, and thus total savings may not rise). This was Keynes\'s argument for why government intervention is needed in a recession — if everyone is saving (not spending), the government must spend to fill the gap.',
-      'Measures to Correct Excess Demand (Over-heating/Inflation): FISCAL POLICY measures: (a) INCREASE TAXES — reduces household disposable income → reduces private consumption (C falls) → AD falls; (b) DECREASE GOVERNMENT EXPENDITURE (G) — directly reduces one component of AD; (c) REDUCE GOVERNMENT TRANSFER PAYMENTS (pensions, subsidies) — less income for households → less consumption. MONETARY POLICY measures: (d) INCREASE REPO RATE — banks borrow less from the Reserve Bank of India → bank lending rates rise → households and firms borrow less → investment (I) and consumption on credit (C) falls → AD falls; (e) INCREASE CASH RESERVE RATIO (CRR) / STATUTORY LIQUIDITY RATIO (SLR) — banks have less to lend → credit contracts → less spending; (f) OPEN MARKET OPERATIONS — Reserve Bank of India SELLS government securities → bank reserves fall → less lending → AD falls.',
-      'Measures to Correct Deficient Demand (Recession/Deflation): FISCAL POLICY measures: (a) DECREASE TAXES — more disposable income → higher consumption → AD rises; (b) INCREASE GOVERNMENT EXPENDITURE (G) — direct injection into AD with multiplier effect; (c) DEFICIT FINANCING — government borrows (or prints money) to fund spending beyond tax revenue; this is especially powerful in recession as it injects new purchasing power. MONETARY POLICY measures: (d) DECREASE REPO RATE — cheaper for banks to borrow → banks lower lending rates → more investment and consumption → AD rises; (e) DECREASE CASH RESERVE RATIO (CRR) / STATUTORY LIQUIDITY RATIO (SLR) — banks have more to lend → credit expands → more spending; (f) OPEN MARKET OPERATIONS — Reserve Bank of India BUYS government securities from banks → banks receive cash → more funds available for lending → credit expands → AD rises.',
-      'Deficit Financing — A Specific Fiscal Tool: Deficit Financing refers to the government financing its budget deficit by either (a) borrowing from the public (issuing government bonds — does not directly create new money but may crowd out private investment), or (b) printing new currency / borrowing from the Reserve Bank of India (creates new money directly — more inflationary but powerful in deep recessions). Deficit financing increases the money supply and injects purchasing power into the economy when private sector spending is inadequate. Used carefully during recessions; excess deficit financing causes inflation.',
-      'Fiscal Policy — Definition: Fiscal Policy is the government\'s deliberate use of its TAXATION, PUBLIC EXPENDITURE (government spending), and PUBLIC BORROWING to achieve macroeconomic objectives — stable prices, full employment, and economic growth. CONTRACTIONARY FISCAL POLICY (to fight inflation): Raise taxes + Reduce government spending (Budget Surplus). EXPANSIONARY FISCAL POLICY (to fight recession): Cut taxes + Raise government spending (Budget Deficit).'
+      {
+        type: 'comparison',
+        subPoints: [
+          { label: 'FULL EMPLOYMENT', text: 'All willing and able workers have jobs. Does not mean zero unemployment (Frictional/Structural exist).' },
+          { label: 'INVOLUNTARY UNEMPLOYMENT', text: 'Workers willing to work at prevailing wage but cannot find jobs due to low AD.' }
+        ]
+      },
+      {
+        type: 'concept',
+        title: 'Excess Demand (Inflationary Gap)',
+        text: 'When AD > AS at full employment. Leads to inflation without increasing real output.',
+        points: [
+          '**Gap**: Amount by which actual AD exceeds AD needed for full employment.',
+          '**Result**: Prices rise; no change in real output.'
+        ],
+        tags: ['INFLATION']
+      },
+      {
+        type: 'concept',
+        title: 'Deficient Demand (Deflationary Gap)',
+        text: 'When AD < AS at full employment. Leads to unintended inventories and unemployment.',
+        points: [
+          '**Gap**: Amount by which actual AD falls below AD needed for full employment.',
+          '**Result**: Output, income, and employment fall.'
+        ],
+        tags: ['DEFLATION']
+      },
+      {
+        type: 'warning',
+        title: 'Paradox of Thrift',
+        text: 'If everyone tries to save more, AD falls, leading to lower total income and potentially lower total savings.',
+        tags: ['KEYNESIAN PARADOX']
+      },
+      {
+        type: 'concept',
+        title: 'Policy Corrections',
+        points: [
+          '**Fiscal Policy**: Change Taxes (T) and Govt Spending (G). (Expansionary: ↓T, ↑G).',
+          '**Monetary Policy**: Change Repo Rate, CRR, OMO. (Expansionary: ↓Rates, Buy Securities).',
+          '**Deficit Financing**: Printing money or borrowing to fund spending during recession.'
+        ],
+        tags: ['CORRECTIVE MEASURES']
+      }
     ],
     visualizations: [
       {
@@ -245,6 +347,24 @@ export const TOPICS: TheoryTopic[] = [
         ]
       }
     ]
+  },
+  {
+    id: 'u3-m2',
+    title: 'Master Interrelationships — Income Determination',
+    description: 'The core connections between the Multiplier, MPC, and Demand gaps.',
+    content: [
+      {
+        type: 'concept',
+        title: 'The Multiplier-Gap Chain',
+        points: [
+          '**High MPC** → Higher Multiplier → Greater impact of govt spending on AD.',
+          '**Deficient Demand** → Use Expansionary Policy (↓T, ↑G) → Multiplier boosts final income.',
+          '**Excess Demand** → Use Contractionary Policy to close the Inflationary Gap.'
+        ],
+        tags: ['UNIT SUMMARY']
+      }
+    ],
+    visualizations: []
   },
   MASTER_INTERRELATIONSHIPS_TOPIC
 ];
