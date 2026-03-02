@@ -6,35 +6,65 @@ export const TOPICS: TheoryTopic[] = [
     id: 'u7-t1',
     title: 'Human Capital Formation in India',
     description: 'The process of developing human resources through education, health, and training.',
-    content: `
-# Human Capital Formation in India
-
-Human Capital refers to the stock of skills, expertise, education, and knowledge embodied in the people of a nation. It is a key driver of economic growth.
-
-### 1. Sources of Human Capital Formation
-- **Expenditure on Education:** The most significant source. India still spends significantly less than the 6% GDP target recommended by the **Education Commission in 1966**.
-- **Expenditure on Health:** A healthy worker is more productive. Includes preventive, curative, and social medicine. India promotes traditional systems through **AYUSH** (Ayurveda, Yoga, Unani, Siddha, Homoeopathy).
-- **On-the-job Training:** Improves efficiency as workers learn while earning.
-- **Expenditure on Migration:** Moving to areas with better job prospects.
-- **Information:** Spending on labor market data to make informed career choices.
-
-### 2. Human Capital vs. Human Development
-- **Human Capital** views education and health as a means to increase productivity.
-- **Human Development** views education and health as integral to human well-being and a basic human right.
-
-### 3. State Intervention
-The government must regulate education and health due to:
-- **Long-term impact:** Mistakes in these sectors cannot be easily corrected.
-- **Information Asymmetry:** Private providers may exploit lack of information.
-- **Equity:** Ensuring quality services for the poor.
-
-### 4. Important Milestones
-- **1966:** Recommendation to spend 6% of GDP on education.
-- **2020:** Introduction of the **National Education Policy (NEP)**.
-
-### 5. Education Regulatory Bodies
-- **UGC** (University Grants Commission), **NCERT**, and **AICTE**.
-    `,
+    content: [
+      {
+        type: 'concept',
+        title: 'What is Human Capital?',
+        text: 'Human Capital refers to the stock of skills, expertise, education, and knowledge embodied in the people of a nation. It is a key driver of economic growth.',
+        points: [
+          '**Productive Asset**: Just as a machine increases production, a skilled human increases the "productive capacity" of an economy.',
+          '**Return on Investment**: Spending on education and health pays off in the form of higher future incomes.'
+        ],
+        tags: ['DEFINITION']
+      },
+      {
+        type: 'concept',
+        title: 'Five Sources of Human Capital',
+        text: 'Human capital is built through strategic investments in several key areas:',
+        subPoints: [
+          { label: 'Education', text: 'The most significant source. Raises standard of living, stimulates innovations, and enables adoption of new tech.' },
+          { label: 'Health', text: 'Includes preventive (vaccines), curative (treatment), and social medicine (health literacy). A healthy worker saves on medical costs and is more productive.' },
+          { label: 'On-the-job Training', text: 'Workers learn while earning. The return (enhanced productivity) far outweighs the cost borne by the firm.' },
+          { label: 'Migration', text: 'People move in search of better salaries. The "human capital gain" happens when earnings > transport/living costs.' },
+          { label: 'Information', text: 'Spending on labor market data helps people make informed decisions about their productive potential.' }
+        ],
+        tags: ['SOURCES']
+      },
+      {
+        type: 'comparison',
+        title: 'Human Capital vs. Human Development',
+        text: 'While often used interchangeably, they represent two different philosophical approaches.',
+        headers: ['Feature', 'Human Capital', 'Human Development'],
+        rows: [
+          ['View of Education/Health', 'Means to an end (Productivity)', 'End in itself (Well-being/Right)'],
+          ['Core Focus', 'Economic Growth', 'Human Rights & Welfare'],
+          ['Investment Goal', 'Increasing GDP', 'Increasing human choices/freedoms']
+        ],
+        tags: ['DISTINCTION']
+      },
+      {
+        type: 'warning',
+        title: 'Why State Intervention is Mandatory',
+        text: 'The government must regulate and fund education/health because these markets are not perfect.',
+        points: [
+          '**Long-term Impact**: Mistakes in your school years cannot be easily fixed when you are 40.',
+          '**Information Asymmetry**: Patients/Students might be exploited by private providers due to lack of knowledge.',
+          '**Positive Externalities**: An educated population benefits everyone, not just the individual.'
+        ],
+        tags: ['REGULATION']
+      },
+      {
+        type: 'tip',
+        title: 'India\'s Education Milestones',
+        text: 'Historically, India has been a leader in knowledge, but modern targets remain a challenge.',
+        subPoints: [
+          { label: '1966 Target', text: 'Kothari Commission recommended spending 6% of GDP on education.' },
+          { label: 'Actual Status', text: 'India currently spends around 4-4.5% of GDP — still below the target.' },
+          { label: 'NEP 2020', text: 'Introduction of the 5+3+3+4 structure to modernize the learning experience.' }
+        ],
+        tags: ['MILESTONES']
+      }
+    ],
     visualizations: [
       {
         id: 'u7-v1',
@@ -67,30 +97,53 @@ The government must regulate education and health due to:
     id: 'u7-t2',
     title: 'Rural Development',
     description: 'Challenges of credit, marketing, and the need for diversification in rural India.',
-    content: `
-# Rural Development
-
-Rural development is a comprehensive process focusing on the social and economic improvement of rural lives.
-
-### 1. Rural Credit (The Lifeline)
-- **Institutional Sources:** Commercial Banks, **RRBs**, and Cooperatives.
-- **Nationalisation (1969):** 14 major commercial banks were nationalised to boost rural credit and reduce dependence on moneylenders.
-- **NABARD (1982):** National Bank for Agriculture and Rural Development. The apex body for rural credit.
-- **Self-Help Groups (SHGs):** Focus on micro-credit for women and the marginalized.
-
-### 2. Diversification
-Shifting from crop farming to:
-- **Livestock:** Cattle, goats, poultry.
-- **Fisheries:** Blue Revolution.
-- **Horticulture:** Golden Revolution.
-- **IT-enabled Services:** Information as a tool for crop management.
-
-### 3. Organic Farming
-A sustainable alternative to chemical-based farming. Maintains long-term soil health and produces chemical-free food.
-
-### 4. Agricultural Marketing
-Assembling, storage, processing, and distribution of farm products. Measures include regulated markets, infrastructure, and buffer stocks (FCI).
-    `,
+    content: [
+      {
+        type: 'concept',
+        title: 'What is Rural Development?',
+        text: 'A comprehensive process focusing on the social and economic improvement of rural lives. It is more than just agricultural growth.',
+        points: [
+          '**Infrastructure**: Electrification, roads, and irrigation.',
+          '**Social Justice**: Land reforms and equity for the marginalized.',
+          '**Human Capital**: Education and health in villages.'
+        ],
+        tags: ['OVERVIEW']
+      },
+      {
+        type: 'concept',
+        title: 'The Rural Credit Chain',
+        text: 'Credit is the lifeline of rural growth. India moved from moneylender dependence to institutional credit.',
+        subPoints: [
+          { label: 'NABARD (1982)', text: 'The apex body that coordinates all rural credit institutions.' },
+          { label: 'Institutional Sources', text: 'Commercial Banks, Regional Rural Banks (RRBs), and Cooperatives.' },
+          { label: 'Self-Help Groups (SHGs)', text: 'Focus on micro-credit for women, building a culture of saving.' }
+        ],
+        tags: ['CREDIT']
+      },
+      {
+        type: 'warning',
+        title: 'Obstacles in Marketing',
+        text: 'Farmers often lose out due to poor infrastructure and market manipulation.',
+        points: [
+          '**Distress Sale**: Selling at low prices due to lack of storage.',
+          '**Middlemen**: Taking a large share of the consumer\'s rupee.',
+          '**Faulty Weighing**: Lack of transparent standards in local markets.'
+        ],
+        tags: ['BOTTLENECKS']
+      },
+      {
+        type: 'tip',
+        title: 'The Success of Amul',
+        text: 'The **Milk Cooperative movement** in Gujarat transformed India into the world\'s largest milk producer through collective bargaining power.',
+        tags: ['COOPERATIVES']
+      },
+      {
+        type: 'concept',
+        title: 'Organic Farming',
+        text: 'A sustainable alternative to chemical-intensive farming that restores soil health and commands premium global prices.',
+        tags: ['SUSTAINABILITY']
+      }
+    ],
     visualizations: [
       {
         id: 'u7-v2',
@@ -123,27 +176,47 @@ Assembling, storage, processing, and distribution of farm products. Measures inc
     id: 'u7-t3',
     title: 'Employment: Growth, Informalisation and Challenges',
     description: 'Understanding the structure of the labor force and the problem of unemployment.',
-    content: `
-# Employment: Growth and Informalisation
-
-### 1. Basic Concepts
-- **Worker:** Anyone engaged in economic activity.
-- **Labour Force:** Persons working + Persons seeking/available for work.
-- **Workforce:** Persons actually working.
-- **Participation Rate:** Higher for men than women; higher in rural areas than urban (due to poverty-induced work).
-
-### 2. Trends
-- **Informalisation:** Trend of moving from secure formal sector jobs to insecure informal sector work without social security.intensified since the **1990s**.
-- **Self-Employed:** Major segment of the Indian workforce (~52%).
-
-### 3. Unemployment Types
-- **Disguised:** Productivity is zero (e.g., in agriculture).
-- **Seasonal:** Work during specific cycles.
-- **Open:** Willing and able but no work.
-
-### 4. MGNREGA (2005)
-Enacted to provide a 100-day wage employment guarantee to rural households.
-    `,
+    content: [
+      {
+        type: 'concept',
+        title: 'Labour Force vs. Workforce',
+        text: 'Understanding who is actually available and working in the economy.',
+        points: [
+          '**Labour Force**: People working + People seeking/available for work.',
+          '**Workforce**: The actual number of people currently employed.',
+          '**Unemployed**: Labour Force minus Workforce.'
+        ],
+        tags: ['BASIC CONCEPTS']
+      },
+      {
+        type: 'warning',
+        title: 'The Informalisation Trend',
+        text: 'Since the **1990s**, more workers have moved to the informal sector, which lacks security and social benefits.',
+        points: [
+          '**Insecurity**: No permanent contracts or social security.',
+          '**Low Productivity**: Informal units often lack tech and capital.',
+          '**Casualisation**: Large-scale hiring of daily-wage laborers who can be fired easily.'
+        ],
+        tags: ['CHALLENGES']
+      },
+      {
+        type: 'concept',
+        title: 'Types of Unemployment',
+        text: 'India faces specific structural unemployment patterns:',
+        subPoints: [
+          { label: 'Disguised', text: 'Where more people work than needed; marginal productivity is zero (common in agriculture).' },
+          { label: 'Seasonal', text: 'Work available only during harvest/sowing cycles.' },
+          { label: 'Open', text: 'Willing and able workers who find no work at all.' }
+        ],
+        tags: ['TYPES']
+      },
+      {
+        type: 'tip',
+        title: 'MGNREGA 2005',
+        text: 'A landmark act guaranteeing **100 days of unskilled wage employment** to rural households. It serves as a safety net during lean agricultural seasons.',
+        tags: ['GOVT INITIATIVE']
+      }
+    ],
     visualizations: [
       {
         id: 'u7-v3',
@@ -163,30 +236,41 @@ Enacted to provide a 100-day wage employment guarantee to rural households.
     id: 'u7-t4',
     title: 'Environment and Sustainable Development',
     description: 'The impact of economic growth on the environment and the concept of sustainability.',
-    content: `
-# Environment and Sustainable Development
-
-### 1. Functions of Environment
-- Supplies resources (Renewable and Non-renewable).
-- Assimilates waste.
-- Sustains life (Biodiversity).
-- Provides aesthetic services.
-
-### 2. Environmental Challenges
-- **Absorptive Capacity:** Ability to handle waste. Crisis occurs when waste > absorptive capacity.
-- **Global Warming:** Temperature Rise.
-- **Ozone Depletion:** CFCs impact.
-- **India Specific:** Land degradation. India supports ~17% of world population on ~2.4% world land.
-
-### 3. Sustainable Development
-Meeting present needs without compromising future generations.
-
-### 4. Strategies
-- Use of Solar/Wind energy.
-- Traditional knowledge.
-- Biocomposting and Biopest control.
-- Biogas usage in rural areas.
-    `,
+    content: [
+      {
+        type: 'concept',
+        title: 'Functions of the Environment',
+        text: 'The environment is not just a backdrop; it performs four vital economic functions.',
+        subPoints: [
+          { label: 'Resource Supply', text: 'Provides renewable (forests) and non-renewable (minerals) inputs.' },
+          { label: 'Waste Assimilation', text: 'Absorbs the byproducts of production and consumption.' },
+          { label: 'Life Sustenance', text: 'Provides the genetic and biological diversity needed for survival.' },
+          { label: 'Aesthetic Services', text: 'The intrinsic beauty of nature (mountains, lakes).' }
+        ],
+        tags: ['FUNCTIONS']
+      },
+      {
+        type: 'warning',
+        title: 'The Absorptive Capacity Crisis',
+        text: 'An environmental crisis occurs when the rate of waste generation exceeds the environment\'s ability to neutralize it.',
+        points: [
+          '**Global Warming**: The gradual rise in Earth\'s temperature due to GHGs.',
+          '**Ozone Depletion**: The thinning of the protective ozone layer by CFCs.',
+          '**Resource Depletion**: Using resources faster than they can regenerate.'
+        ],
+        tags: ['CRISIS']
+      },
+      {
+        type: 'concept',
+        title: 'Sustainable Development',
+        text: 'Defined by the **Brundtland Commission (1987)** as "meeting present needs without compromising future generations."',
+        points: [
+          '**Equity**: Ensuring resources are shared fairly between the rich and the poor.',
+          '**Conservation**: Avoiding the "environmental debt" for the next generation.'
+        ],
+        tags: ['SUSTAINABILITY']
+      }
+    ],
     visualizations: [
       {
         id: 'u7-v4',
@@ -198,78 +282,102 @@ Meeting present needs without compromising future generations.
   },
   {
     id: 'u7-t5',
-    title: 'Sources of Human Capital and Education Sector in India',
-    description: 'Detailed analysis of education, health, and on-the-job training as sources of human capital.',
-    content: `
-# Sources of Human Capital and Education Sector
-
-### 1. Sources of Human Capital Formation
-- **Expenditure on Education:** The most significant source as education raises the standard of living, earns higher income, and stimulates innovations.
-- **Expenditure on Health:** Includes preventive medicine (vaccines), curative medicine (medical intervention), social medicine (health literacy), and provision of clean drinking water and sanitation.
-- **On-the-job Training:** Firms spend on workers' training either on the campus or off the campus. It is a source of human capital formation as the return on such expenditure in the form of enhanced labor productivity is more than the cost of it.
-- **Migration:** People migrate in search of jobs that fetch them higher salaries. Though it involves cost of transport and living, the enhanced earnings far outweigh the costs.
-- **Expenditure on Information:** Information relating to the labor market and other markets enables people to make better decisions regarding their productive potential.
-
-### 2. State of the Education Sector in India
-- **Growth in Govt. Expenditure:** Expressed both as a percentage of total government expenditure and as a percentage of GDP, it has increased over the decades but remains inadequate compared to the recommended 6% of GDP.
-- **Disparities:** Significant differences exist between states (e.g., Himachal Pradesh vs Bihar) in per capita education expenditure.
-- **Future Prospects:**
-  - Need for education for all, still a distant dream.
-  - Gender equity is improving but female literacy is still lower, necessitating special focus on women's education.
-  - Higher education has limited takers, leading to a shortage of skilled professionals globally.
-    `,
+    title: 'State of the Education Sector in India',
+    description: 'Detailed analysis of India\'s education spending, gender equity, and future challenges.',
+    content: [
+      {
+        type: 'concept',
+        title: 'Education Expenditure Trends',
+        text: 'How much the government spends indicates its commitment to human capital formation.',
+        points: [
+          '**% of Govt Expenditure**: Shows the priority of education in the budget.',
+          '**% of GDP**: Shows the scale compared to the whole economy (India is at ~4%).',
+          '**Disparity**: Expenditure per capita varies greatly (e.g., high in HP/Delhi vs lower in Bihar).'
+        ],
+        tags: ['EXPENDITURE']
+      },
+      {
+        type: 'tip',
+        title: 'Critical Success: Female Literacy',
+        text: 'Gender equity is improving, but the gap between male and female literacy still needs closing.',
+        tags: ['EQUITY']
+      },
+      {
+        type: 'warning',
+        title: 'The Challenge of Higher Education',
+        text: 'While primary schooling is expanding, higher education still has limited takers, leading to a "skilled talent shortage".',
+        tags: ['CHALLENGES']
+      }
+    ],
     visualizations: []
   },
   {
     id: 'u7-t6',
-    title: 'Credit and Marketing in Rural Areas',
-    description: 'In-depth look into rural banking and the agricultural market system.',
-    content: `
-# Credit and Marketing in Rural Areas
-
-### 1. Rural Banking - A Critical Appraisal
-Rapid expansion of the banking system had a positive effect on rural farm and non-farm output, income, and employment.
-- **Issues:** Except commercial banks, other formal institutions failed to develop a culture of deposit mobilization. Default rates have been chronically high.
-- **Reforms Needed:** Banks need to change their approach from just being lenders to building relationships with borrowers.
-
-### 2. Agricultural Market System
-Agricultural marketing is a process that involves assembling, storage, processing, transportation, packaging, grading, and distribution of agricultural commodities.
-- **Obstacles:** Farmers suffered from faulty weighing, manipulation of accounts, and lacked proper storage facilities (leading to distress sale).
-- **Government Intervention:**
-  - **Regulated Markets:** Created to establish orderly, transparent, and regulated conditions for trade.
-  - **Infrastructure:** Provision of physical infrastructure facilities like roads, railways, warehouses, godowns, and cold storages.
-  - **Cooperative Marketing:** E.g., The success of milk cooperatives in Gujarat (Amul).
-  - **Policy Instruments:** 
-    - Minimum Support Price (MSP)
-    - Maintenance of buffer stocks of wheat and rice by Food Corporation of India (FCI)
-    - Public Distribution System (PDS)
-    `,
+    title: 'Agricultural Market System & Diversification',
+    description: 'Government interventions in marketing and the push towards non-farm employment.',
+    content: [
+      {
+        type: 'concept',
+        title: 'Diversification Areas',
+        text: 'To reduce risk and increase income, farmers must move beyond food grains.',
+        subPoints: [
+          { label: 'Livestock', text: 'White Revolution; provides a stable off-season income.' },
+          { label: 'Fisheries', text: 'The Blue Revolution; India is the 3rd largest producer.' },
+          { label: 'Horticulture', text: 'Golden Revolution; high-value fruits, veggies, and spices.' }
+        ],
+        tags: ['DIVERSIFICATION']
+      },
+      {
+        type: 'warning',
+        title: 'The Problem of Rural Debt',
+        text: 'Despite the banking boom, high default rates and a lack of "deposit culture" remain systemic issues.',
+        tags: ['BANKING']
+      },
+      {
+        type: 'concept',
+        title: 'Policy Instruments',
+        text: 'The government uses various tools to stabilize agriculture markets:',
+        points: [
+          '**MSP**: Minimum Support Price as a safety net.',
+          '**Buffer Stocks**: Managed by Food Corporation of India (FCI).',
+          '**PDS**: Public Distribution System for food security.'
+        ],
+        tags: ['GOVT POLICY']
+      }
+    ],
     visualizations: []
   },
   {
     id: 'u7-t7',
-    title: 'Employment: Sectoral Breakdown and Government Initiatives',
-    description: 'Sectoral participation rates and state policies to generate employment.',
-    content: `
-# Employment: Details and Initiatives
-
-### 1. Sectoral Participation of the Workforce
-The occupational structure signifies the distribution of the workforce across different sectors (Primary, Secondary, Tertiary):
-- **Primary Sector (Agriculture):** Still the main source of employment, absorbing most of the rural workforce in India.
-- **Secondary Sector (Manufacturing & Construction):** Provides employment to around a quarter of the workforce.
-- **Tertiary Sector (Services):** Has taken a leading role in absorbing the growing workforce, especially in urban areas.
-*Self-employment is a major source of livelihood for both men and women, but casual wage work has emerged as the second major source.*
-
-### 2. Government and Employment Generation
-The Union and State governments play a direct and indirect role in generating employment:
-- **Direct Employment:** Government employs people in various departments for administrative purposes or runs its own industries/hotels/transport companies.
-- **Indirect Employment:** When output of government enterprises increases, private enterprises supplying materials to them also increase output and employment.
-- **Poverty Alleviation Programmes:** Many programs focus on employment generation. For instance, the **Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) 2005**, which guarantees 100 days of wage employment to every rural household whose adult members volunteer to do unskilled manual work.
-    `,
+    title: 'Workforce Structure & Sectoral Trends',
+    description: 'Breakdown of employment across Primary, Secondary, and Tertiary sectors.',
+    content: [
+      {
+        type: 'concept',
+        title: 'Occupational Structure',
+        text: 'The distribution of workers as India transforms from an agrarian to a service economy.',
+        subPoints: [
+          { label: 'Primary Sector', text: 'Still the largest employer, especially for the rural workforce.' },
+          { label: 'Secondary Sector', text: 'Manufacturing and Construction; employs about 24% of the nation.' },
+          { label: 'Tertiary Sector', text: 'Services; the fastest-growing sector in terms of output contribution.' }
+        ],
+        tags: ['SECTORS']
+      },
+      {
+        type: 'concept',
+        title: 'Govt Employment Generation',
+        text: 'The government creates jobs through two routes:',
+        points: [
+          '**Direct**: Hiring in departments like Railways, Defence, and Administration.',
+          '**Indirect**: Public spending on projects creates demand for private materials and labor (e.g., road construction).'
+        ],
+        tags: ['STRATEGY']
+      }
+    ],
     visualizations: [
       {
         id: 'u7-v7-t1',
-        title: 'Table 6.1/6.2: Workforce Distribution by Region & Gender (Approx %)',
+        title: 'Table 6.1/6.2: Workforce Distribution (Approx %)',
         type: 'table',
         data: {
           headers: ['Sector', 'Rural Male', 'Rural Female', 'Urban Male', 'Urban Female'],
@@ -284,23 +392,33 @@ The Union and State governments play a direct and indirect role in generating em
   },
   {
     id: 'u7-t8',
-    title: "State of India's Environment",
-    description: 'Specific environmental challenges and land degradation issues in India.',
-    content: `
-# State of India's Environment
-
-India has abundant natural resources (rich soil quality, hundreds of rivers, lush forests, mineral deposits). However, developmental activities have resulted in pressure on its finite natural resources.
-
-### 1. Major Environmental Concerns in India
-- **Land Degradation:** Key factors include soil erosion (due to wind and water), deforestation, overgrazing, shifting cultivation, mismanagement of forest resources, extraction of groundwater, and non-adoption of adequate soil conservation measures.
-- **Biodiversity Loss:** Due to habitat destruction.
-- **Air Pollution:** Especially severe in urban areas due to vehicular emissions and industrial smoke (e.g., problems managed by Central Pollution Control Board).
-- **Management of Fresh Water:** Depletion of groundwater tables due to over-extraction.
-- **Solid Waste Management:** Growing urbanisation has led to severe waste disposal challenges.
-
-### 2. The Dichotomy of India's Environment Problem
-Poverty induces environmental degradation (e.g., cutting trees for firewood), while at the same time, affluent lifestyles and high rapid industrialisation cause pollution and resource depletion. Both ends of the economic spectrum contribute to the strain on the environment.
-    `,
+    title: "India's Environmental Challenges",
+    description: 'The dichotomy of poverty-induced vs. affluence-induced degradation.',
+    content: [
+      {
+        type: 'warning',
+        title: 'Primary Concerns in India',
+        text: 'India faces a unique double burden: the environmental damage from poverty and from rapid industrial growth.',
+        points: [
+          '**Land Degradation**: Soil erosion and deforestation affect 147 million hectares.',
+          '**Biodiversity Loss**: Habitat destruction threatens India\'s "mega-diverse" status.',
+          '**Air Pollution**: Urban centers often exceed safe PM2.5 levels significantly.'
+        ],
+        tags: ['INDIA SPECIFIC']
+      },
+      {
+        type: 'concept',
+        title: 'Sustainable Strategies',
+        text: 'Moving from "Exploitation" to "Stewardship" using modern and traditional tools.',
+        subPoints: [
+          { label: 'Renewable Energy', text: 'Shifting to Solar and Wind to reduce the carbon footprint.' },
+          { label: 'Traditional Knowledge', text: 'Ancient water harvesting and biopest control methods.' },
+          { label: 'Biogas & LPG', text: 'Reducing the "firewood burden" on forests and households.' },
+          { label: 'Biocomposting', text: 'Recycling organic waste back into the soil.' }
+        ],
+        tags: ['SOLUTIONS']
+      }
+    ],
     visualizations: []
   },
   MASTER_INTERRELATIONSHIPS_TOPIC
