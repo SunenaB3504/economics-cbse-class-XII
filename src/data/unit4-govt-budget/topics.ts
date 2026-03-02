@@ -7,14 +7,54 @@ export const TOPICS: TheoryTopic[] = [
     title: 'Meaning, Objectives and Types of Government Budget',
     description: 'Definition of the annual budget, its primary socio-economic functions, and the three types of budget based on deficit/surplus.',
     content: [
-      'Government Budget — Definition: The Government Budget is an annual financial statement showing item-wise estimates of expected REVENUE (receipts) and anticipated EXPENDITURE (spending) of the government during a fiscal year (April 1 to March 31 in India). It is presented in the Parliament (Union Budget) or State Legislature. The budget is not just an accounting document — it is the government\'s primary instrument of Fiscal Policy.',
-      'Fiscal Year in India: April 1 to March 31 of the following year. Example: Fiscal Year 2024-25 runs from April 1, 2024 to March 31, 2025.',
-      'Objective 1 — Reallocation of Resources (Allocation Function): The free market allocates resources based on profit motive — it provides goods/services that are profitable. But some goods (PUBLIC GOODS like national defence, streetlights, lighthouses) are NEVER provided by private firms because they are NON-EXCLUDABLE and NON-RIVALROUS. The government budget fills this gap by allocating resources to public goods through taxation and government expenditure. Additionally, the government uses subsidies to encourage socially desirable but less profitable activities (e.g., subsidised fertilisers for farmers) and heavy taxes to DISCOURAGE harmful activities (e.g., high excise on tobacco, alcohol — "sin taxes").',
-      'Public Goods — Non-Rivalrous and Non-Excludable: PUBLIC GOODS have two special characteristics that make markets fail: (1) NON-RIVALROUS: One person\'s consumption does NOT reduce the amount available for others. Example: A lighthouse — one ship using its signal does not reduce its signal for other ships. (2) NON-EXCLUDABLE: Once provided, it is IMPOSSIBLE to prevent non-payers from benefiting. Example: National defence — once the military defends the nation, it defends ALL citizens, including those who pay no taxes.',
-      'The Free Rider Problem: Because public goods are non-excludable, rational individuals will try to consume them WITHOUT PAYING — hoping others will fund them. This is the FREE RIDER PROBLEM. If everyone free rides, no one pays, and the good is not provided at all. This is a classic MARKET FAILURE — private markets will UNDER-PROVIDE or not provide public goods. Solution: Government provides public goods funded by compulsory taxation.',
-      'Objective 2 — Redistribution of Income and Wealth: Unregulated markets tend to concentrate income in the hands of a few. The budget redistributes income through: (a) PROGRESSIVE TAXATION — higher incomes taxed at higher rates (e.g., Income Tax in India — 5% for ₹3-6 lakhs, 30% for ₹15+ lakhs) → reduces inequality. (b) SUBSIDIES AND WELFARE TRANSFERS — free/subsidised food (Public Distribution System), healthcare, education for the poor → raises real income of lower groups.',
-      'Objective 3 — Stabilisation Function: The government uses its budget to stabilise the economy against booms (inflation) and busts (recession): During INFLATION (excess demand): CONTRACTIONARY FISCAL POLICY — Reduce Government Expenditure (G) + Increase Taxes (T) → Aggregate Demand falls → inflationary pressure eases. During RECESSION (deficient demand): EXPANSIONARY FISCAL POLICY — Increase Government Expenditure (G) + Reduce Taxes (T) → Aggregate Demand rises → unemployment falls. This active management of Aggregate Demand through the budget was Keynes\'s key contribution — replacing the laissez-faire view that economies self-correct.',
-      'Types of Budget — Balanced, Surplus, and Deficit: BALANCED BUDGET: Total Estimated Receipts = Total Estimated Expenditure. Classical economists preferred this. Limitation: Restricts government\'s ability to respond to economic crises. SURPLUS BUDGET: Estimated Receipts > Estimated Expenditure. Appropriate during INFLATION — reduces Aggregate Demand. Rare in practice. DEFICIT BUDGET: Estimated Expenditure > Estimated Receipts. Appropriate during RECESSION — government spends more than it earns, financed by borrowing. Most common in practice in India. A deficit budget increases money supply and stimulates Aggregate Demand.'
+      {
+        type: 'concept',
+        title: 'Government Budget',
+        text: 'An annual financial statement (April 1 to March 31) estimating expected receipts and expenditure.',
+        points: [
+          '**Primary Instrument**: It is the government\'s main tool for **Fiscal Policy**.',
+          '**Estimates**: It shows expected, not actual, values for the coming year.'
+        ],
+        tags: ['DEFINITION']
+      },
+      {
+        type: 'concept',
+        title: 'Objective 1: Reallocation of Resources',
+        text: 'Corrects market failures by providing public goods and influencing production.',
+        points: [
+          '**Public Goods**: Providing defense, streetlights (Non-rivalrous & Non-excludable).',
+          '**Tax/Subsidies**: Taxing "sin goods" (tobacco) and subsidizing essentials.'
+        ],
+        tags: ['ALLOCATION']
+      },
+      {
+        type: 'concept',
+        title: 'Objective 2: Redistribution of Income',
+        text: 'Reducing inequality through a progressive tax structure.',
+        points: [
+          '**Progressive Tax**: Higher tax rates for higher income earners.',
+          '**Transfers**: Using tax revenue for welfare (food, health) for the poor.'
+        ],
+        tags: ['EQUITY']
+      },
+      {
+        type: 'concept',
+        title: 'Objective 3: Economic Stabilisation',
+        text: 'Using the budget to manage aggregate demand and price stability.',
+        points: [
+          '**Inflation**: Use contractionary policy (↑T, ↓G).',
+          '**Recession**: Use expansionary policy (↓T, ↑G).'
+        ],
+        tags: ['STABILITY']
+      },
+      {
+        type: 'comparison',
+        subPoints: [
+          { label: 'BALANCED', text: 'Receipts = Expenditure. Neutral effect.' },
+          { label: 'SURPLUS', text: 'Receipts > Expenditure. Used to control inflation.' },
+          { label: 'DEFICIT', text: 'Expenditure > Receipts. Used to fight recession.' }
+        ]
+      }
     ],
     visualizations: [
       {
@@ -65,15 +105,47 @@ export const TOPICS: TheoryTopic[] = [
     title: 'Classification of Budget — Receipts and Expenditure',
     description: 'The complete hierarchical breakdown of government receipts and expenditure into revenue and capital components, with all sub-types.',
     content: [
-      'The Two Sides of the Budget: The Government Budget has two sides: (1) RECEIPTS (sources of funds — what the government earns/borrows) and (2) EXPENDITURE (uses of funds — what the government spends). Each side is further divided into REVENUE and CAPITAL. The golden test: Revenue items do NOT change long-term asset or liability positions; Capital items DO.',
-      'REVENUE RECEIPTS — what they are: Revenue Receipts are those government receipts that NEITHER create a liability NOR cause a reduction in government assets. They are regular, recurring income. The government does not owe back money for revenue receipts and does not lose any asset in receiving them. Sources: (a) TAX REVENUE; (b) NON-TAX REVENUE.',
-      'Tax Revenue: Tax revenue is compulsory monetary contributions received by government from taxpayers. Two broad categories: (1) DIRECT TAXES: Taxes where the burden CANNOT be shifted to others — the person who pays IS the person who bears the burden. Example: Income Tax, Corporate Tax (Corporation Tax), Wealth Tax. (2) INDIRECT TAXES: Taxes where the burden CAN BE SHIFTED from the producer/seller to the final consumer through price mechanism. Example: Goods and Services Tax (GST — replaced Excise Duty, Value Added Tax, and Service Tax in 2017), Customs Duty (on imports/exports). When a firm pays GST on a product, it adds the tax to the price — so the consumer ultimately pays.',
-      'Types of Tax by Rate Structure — Progressive, Regressive, Proportional: PROGRESSIVE TAX: The tax RATE INCREASES as income increases — higher earners pay a larger percentage. Most equitable. Example: India\'s Income Tax slabs (5% up to ₹6 lakh → 20% → 30% above ₹15 lakh). REGRESSIVE TAX: The tax RATE DECREASES as income rises — lower incomes pay a higher proportion. Considered inequitable. Often indirect taxes are regressive — a poor person and rich person pay the same GST on rice, but it is a higher share of the poor person\'s income. PROPORTIONAL TAX: The SAME RATE is charged at all income levels — a flat rate. Example: A flat 20% corporate tax. Neither progressive nor regressive.',
-      'Types of Tax by Levy — Specific Tax and Ad Valorem Tax: SPECIFIC TAX: Levied per unit of quantity — based on weight, size, number. Example: ₹5 per kg of sugar. Does not depend on price. AD VALOREM TAX: Levied as a percentage of the VALUE of the commodity. Example: 18% GST on electronics. Rises with price inflation automatically.',
-      'Non-Tax Revenue: Revenue received by government from sources OTHER than taxes. Major sources: (a) Fees and Fines — court fees, parking fines, electricity board charges; (b) Interest receipts — interest on loans given by central government to State Governments or public sector companies; (c) Dividends and Profits — profits from Public Sector Undertakings (PSUs) like Indian Railways, ONGC, LIC; (d) Grants — unilateral transfers received by the Indian government from international organisations (like World Bank, International Monetary Fund) or foreign governments; (e) Escheat — income from property of persons who die without any legal heir (their property passes to the government).',
-      'CAPITAL RECEIPTS — what they are: Capital Receipts are government receipts that EITHER create a liability (borrowings — must be repaid) OR cause a reduction in government assets (selling assets). They are non-recurring. Sources: (a) BORROWINGS — from Reserve Bank of India, public (through bonds), foreign governments, international institutions → creates a FUTURE LIABILITY (must be repaid with interest); (b) DISINVESTMENT — sale of government equity in Public Sector Undertakings (PSUs) like BPCL, Air India → reduces a government ASSET; (c) RECOVERY OF LOANS — when the government receives back loans previously given to State Governments or PSUs → reduces a financial asset (debtors). EXAM RULE: Borrowing = Capital Receipt (creates liability). Recovery of loans = Capital Receipt (reduces asset). Dividends from PSUs = Revenue Receipt (not affecting assets).',
-      'REVENUE EXPENDITURE: Expenditure that NEITHER creates an asset NOR reduces a liability. It is recurrent — happens every year. Examples: Salaries and Pensions of government employees, interest payments on past borrowings (largest single item), subsidies (food, fertiliser, fuel), grants to State governments for current use, spending on day-to-day administration.',
-      'CAPITAL EXPENDITURE: Expenditure that EITHER creates an asset OR reduces a liability. Non-recurrent — long-term. Examples: Construction of roads, bridges, highways, hospitals, schools (creates assets); Purchase of machinery for public sector companies; Loans given to State governments or foreign governments (creates a financial asset — debtors); Repayment of past loans (reduces a liability). EXAM RULE: Asset created = Capital Expenditure. Liability reduced = Capital Expenditure.'
+      {
+        type: 'concept',
+        title: 'The Budget Taxonomy',
+        text: 'The budget is divided into two parts: **Revenue Account** (Current) and **Capital Account** (Asset/Liability affecting).',
+        tags: ['STRUCTURE']
+      },
+      {
+        type: 'concept',
+        title: 'Revenue Receipts',
+        text: 'Receipts that NEITHER create liability NOR reduce assets. Regular and recurring.',
+        points: [
+          '**Tax Revenue**: Compulsory payments (GST, Income Tax).',
+          '**Non-Tax Revenue**: Interest, Dividends, Fees, Fines, Escheat.'
+        ],
+        tags: ['RECURRING INCOME']
+      },
+      {
+        type: 'comparison',
+        subPoints: [
+          { label: 'DIRECT TAX', text: 'Burden cannot be shifted (Income Tax, Corp Tax).' },
+          { label: 'INDIRECT TAX', text: 'Burden shifted to consumers (GST, Customs Duty).' }
+        ]
+      },
+      {
+        type: 'concept',
+        title: 'Capital Receipts',
+        text: 'Receipts that EITHER create liability OR reduce assets. Non-recurring.',
+        points: [
+          '**Borrowings**: Create a future liability.',
+          '**Disinvestment**: Selling govt stakes in PSUs (reduces assets).',
+          '**Recovery of Loans**: Receiving back principal (reduces debtors/assets).'
+        ],
+        tags: ['LONG-TERM FUNDS']
+      },
+      {
+        type: 'comparison',
+        subPoints: [
+          { label: 'REVENUE EXPENDITURE', text: 'Recurring; doesn\'t create assets (Salaries, Interest, Subsidies).' },
+          { label: 'CAPITAL EXPENDITURE', text: 'Non-recurring; creates assets or reduces liability (Infrastructure, Loan repayment).' }
+        ]
+      }
     ],
     visualizations: [
       {
@@ -127,13 +199,42 @@ export const TOPICS: TheoryTopic[] = [
     title: 'Budget Deficits — Revenue, Fiscal and Primary',
     description: 'Formulae, implications, and relationships between the three measures of government deficit, and the concept of government debt.',
     content: [
-      'Revenue Deficit (RD) — Definition and Formula: Revenue Deficit is the excess of REVENUE EXPENDITURE over REVENUE RECEIPTS. It indicates that the government\'s day-to-day income is insufficient to cover its day-to-day spending. Formula: Revenue Deficit (RD) = Revenue Expenditure (RE) − Revenue Receipts (RR). IMPLICATIONS: (1) Government DISSAVING — the government is borrowing to fund CONSUMPTION spending (not capital investment), which is unhealthy. (2) Future taxpayers pay the bill — debt accumulated now to fund current consumption must be repaid with interest. (3) Crowds out capital spending — limited borrowing capacity is used for consumption rather than investment.',
-      'Fiscal Deficit (FD) — Definition and Formula: Fiscal Deficit is the excess of TOTAL EXPENDITURE (Revenue + Capital) over TOTAL RECEIPTS EXCLUDING BORROWINGS (i.e., Revenue Receipts + Non-Debt Capital Receipts). Non-Debt Capital Receipts = Recovery of Loans + Disinvestment (sources that do not create new debt). Formula: Fiscal Deficit (FD) = Total Expenditure − (Revenue Receipts + Non-Debt Capital Receipts) = Total Expenditure − Total Receipts (excluding borrowings). KEY IDENTITY: Fiscal Deficit ≡ Borrowings. The Fiscal Deficit measures the amount the government NEEDS TO BORROW in a given year. It is the most widely watched deficit measure. IMPLICATIONS: (1) Inflationary pressure — if deficit is financed by printing money (Reserve Bank of India buying government bonds), money supply rises → inflation. (2) Crowding out — government borrowing from markets pushes up interest rates → private investment is displaced. (3) Future tax burden — current borrowing = future repayment + interest.',
-      'Primary Deficit (PD) — Definition and Formula: Primary Deficit is the Fiscal Deficit MINUS Interest Payments on past borrowings. Formula: Primary Deficit (PD) = Fiscal Deficit (FD) − Interest Payments. PRIMARY DEFICIT shows how much the government is borrowing for purposes OTHER THAN servicing past debt. INTERPRETATION: If Primary Deficit = 0: The government is only borrowing to pay interest on old loans (no new borrowing for spending). If Primary Deficit > 0: The government is borrowing both to pay interest AND to fund current spending (worse situation). If Primary Deficit = 0 but Fiscal Deficit > 0: The ENTIRE fiscal deficit is due to interest payments on accumulated past debt.',
-      'Relationship Between the Three Deficits: Revenue Deficit ⊂ Fiscal Deficit ⊃ Primary Deficit. Revenue Deficit tells us about the current account imbalance. Fiscal Deficit tells us the total borrowing need. Primary Deficit = Fiscal Deficit − Interest = measures fresh borrowing beyond debt servicing. FORMULA CHAIN: FD = Revenue Deficit + Capital Expenditure (net of non-debt capital receipts). PD = FD − Interest Payments. FD = PD + Interest Payments.',
-      'Debt vs Deficit — Stock and Flow Distinction: DEFICIT is a FLOW concept — it measures the excess of expenditure over receipts in ONE YEAR. DEBT (Government Debt / National Debt) is a STOCK concept — it is the CUMULATIVE TOTAL of all past deficits (minus any surpluses). Just as a bank balance grows by adding each year\'s savings, government debt grows by adding each year\'s deficit. If the government runs a deficit every year, debt accumulates — and rising debt means rising interest payments, which increases future revenue expenditure, potentially creating a DEBT TRAP.',
-      'The Debt Trap: A vicious cycle where: Government borrows (deficit) → Debt rises → Interest payments rise → Revenue expenditure rises → Revenue deficit widens → More borrowing needed → Debt rises further. When Primary Deficit > 0 year after year, the government is borrowing to pay interest on interest — a debt spiral that can become unsustainable. India has historically had high interest payments as % of total expenditure (20-25%) — partly due to past debt accumulation.',
-      'Measures to Correct Fiscal Deficit: (a) INCREASE TAXES — raises revenue receipts → reduces deficit; (b) REDUCE GOVERNMENT EXPENDITURE — reduces spending; (c) DISINVESTMENT — sell PSU equity → reduces capital receipts gap; (d) REDUCE SUBSIDIES — reduces revenue expenditure; (e) INCREASE NON-TAX REVENUE — improve PSU profits, raise fees.'
+      {
+        type: 'concept',
+        title: 'Revenue Deficit (RD)',
+        text: 'Excess of Revenue Expenditure over Revenue Receipts (RE − RR).',
+        points: [
+          '**Implication**: Indicates government **dissaving** — borrowing to fund current consumption.',
+          '**Result**: Future burden on taxpayers without creating any assets.'
+        ],
+        tags: ['CURRENT ACCOUNT GAP']
+      },
+      {
+        type: 'concept',
+        title: 'Fiscal Deficit (FD)',
+        text: 'Total Expenditure − (Revenue Receipts + Non-Debt Capital Receipts).',
+        points: [
+          '**Identity**: Fiscal Deficit ≡ **Total Borrowings** required for the year.',
+          '**Implication**: High FD can lead to inflation (if money-financed) and crowding out of private investment.'
+        ],
+        tags: ['TOTAL BORROWING']
+      },
+      {
+        type: 'concept',
+        title: 'Primary Deficit (PD)',
+        text: 'Fiscal Deficit − Interest Payments on past debt.',
+        points: [
+          '**Significance**: Shows borrowing needs for purposes *other than* servicing old debt.',
+          '**PD = 0**: Means the govt is only borrowing to pay interest on past loans.'
+        ],
+        tags: ['FRESH BORROWING']
+      },
+      {
+        type: 'warning',
+        title: 'The Debt Trap',
+        text: 'A vicious cycle where the govt borrows to pay interest on past interest, leading to unsustainable debt levels.',
+        tags: ['RISK']
+      }
     ],
     visualizations: [
       {
@@ -200,10 +301,27 @@ export const TOPICS: TheoryTopic[] = [
     title: 'Fiscal Multipliers and Automatic Stabilisers',
     description: 'The Government Expenditure Multiplier, Tax Multiplier, Balanced Budget Multiplier, and how taxes act as automatic stabilisers.',
     content: [
-      'Government Expenditure Multiplier (k_G): When the government increases its spending by ΔG, the total increase in national income is MULTIPLIED (just like the Investment Multiplier). Formula: k_G = 1 / (1 − MPC) = 1 / MPS. This is IDENTICAL to the Investment Multiplier — because government spending directly becomes someone\'s income, which they in turn spend (MPC fraction) and so on. Example: If MPC = 0.8 and Government increases spending by ₹100 crore → ΔY = ₹100 × 5 = ₹500 crore.',
-      'Tax Multiplier (k_T): When the government INCREASES TAXES by ΔT, households\' disposable income falls by ΔT. But households do not reduce consumption by the full ΔT — they reduce consumption by MPC × ΔT (they also reduce saving). So the impact on Aggregate Demand is only MPC × ΔT, not the full ΔT. Formula: k_T = −MPC / (1 − MPC) = −MPC / MPS. The NEGATIVE SIGN shows that tax INCREASE reduces income. IMPORTANT: |k_T| < k_G (Tax Multiplier is SMALLER in absolute value than Govt Expenditure Multiplier). Why? Govt spending DIRECTLY adds to Aggregate Demand; a tax cut only INDIRECTLY adds to Aggregate Demand (through increased consumption by MPC fraction). Example: MPC = 0.8 → k_G = 5, but k_T = −0.8/0.2 = −4. A ₹100 crore tax cut raises income by ₹400 crore (vs ₹500 crore from direct spending).',
-      'Balanced Budget Multiplier (k_BB): If the government simultaneously increases BOTH Government Expenditure (G) and Taxes (T) by the SAME AMOUNT (ΔG = ΔT), what is the net effect on national income? k_BB = k_G + k_T = 1/(1−MPC) + (−MPC)/(1−MPC) = (1 − MPC) / (1 − MPC) = 1. The Balanced Budget Multiplier is ALWAYS EQUAL TO 1, regardless of the value of MPC. INTERPRETATION: If the government raises taxes and spending by equal amounts, national income rises by exactly that amount (₹100 crore increase in G financed by ₹100 crore increase in T → ΔY = ₹100 crore). This is because the spending effect (k_G) always exceeds the tax effect (k_T) by exactly 1.',
-      'Automatic Stabilisers — Taxes as Built-In Stabilisers: Automatic Stabilisers are features of the tax and transfer system that automatically offset economic fluctuations WITHOUT any deliberate government action. PROGRESSIVE INCOME TAX as a stabiliser: During a BOOM (income rises): Tax revenues automatically RISE (more people move into higher brackets) → reduces disposable income → dampens consumption → prevents overheating. During a RECESSION (income falls): Tax revenues automatically FALL → disposable income falls by less than pre-tax income → cushions the fall in consumption → reduces the depth of recession. MATHEMATICAL EFFECT: With a proportional tax rate t, the effective multiplier becomes: k_with tax = 1 / (1 − MPC(1−t)). Example: MPC = 0.8, t = 0.25 → effective MPC = 0.8 × 0.75 = 0.6 → k = 1/(1−0.6) = 2.5. Without tax: k = 5. Tax HALVES the multiplier → economy is less sensitive to shocks. Other automatic stabilisers: Unemployment benefits (transfers automatically rise when people lose jobs, cushioning income loss).'
+      {
+        type: 'concept',
+        title: 'Fiscal Multipliers',
+        text: 'Changes in govt spending or taxes lead to a multiplied effect on national income.',
+        points: [
+          '**Govt Expenditure Multiplier (k_G)**: 1 / (1 − MPC). Direct impact on AD.',
+          '**Tax Multiplier (k_T)**: −MPC / (1 − MPC). Indirect impact via consumption.',
+          '**Balanced Budget Multiplier (k_BB)**: k_G + k_T = 1. Equal ↑G and ↑T raises income by exactly ΔG.'
+        ],
+        tags: ['MULTIPLIERS']
+      },
+      {
+        type: 'concept',
+        title: 'Automatic Stabilisers',
+        text: 'System features that automatically adjust AD without deliberate policy changes.',
+        points: [
+          '**Progressive Taxes**: Revenues rise automatically in booms and fall in recessions.',
+          '**Result**: Cushions the economy against extreme fluctuations.'
+        ],
+        tags: ['STABILISERS']
+      }
     ],
     visualizations: [
       {
@@ -233,6 +351,24 @@ export const TOPICS: TheoryTopic[] = [
         }
       }
     ]
+  },
+  {
+    id: 'u4-m1',
+    title: 'Master Interrelationships — Government Budget',
+    description: 'The core connections between budget objectives, classifications, and deficit impacts.',
+    content: [
+      {
+        type: 'concept',
+        title: 'The Budget Logic Chain',
+        points: [
+          '**Revenue Deficit** → Dissaving → Forces **Capital borrowing** (Fiscal Deficit).',
+          '**Fiscal Deficit** → Increases **Government Debt** → Higher **Interest Payments**.',
+          '**Interest Payments** → Increases **Revenue Expenditure** → Worsens Revenue Deficit.'
+        ],
+        tags: ['UNIT SUMMARY']
+      }
+    ],
+    visualizations: []
   },
   MASTER_INTERRELATIONSHIPS_TOPIC
 ];
