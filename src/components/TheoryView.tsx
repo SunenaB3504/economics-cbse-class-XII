@@ -48,6 +48,29 @@ const ModernContentRenderer: React.FC<{ item: string | TheoryContentItem }> = ({
         </div>
       );
     case 'comparison':
+      if (item.headers && item.rows) {
+        return (
+          <div className="bg-white rounded-3xl border border-gray-100 shadow-sm overflow-hidden">
+            {title && <div className="px-6 py-4 bg-gray-50 border-b border-gray-100 font-black text-indigo-900 text-sm uppercase tracking-widest">{title}</div>}
+            <div className="overflow-x-auto">
+              <table className="w-full text-left text-sm">
+                <thead className="bg-indigo-900 text-white">
+                  <tr>
+                    {item.headers.map((h, i) => <th key={i} className="px-4 py-3 font-black whitespace-nowrap">{h}</th>)}
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-100">
+                  {item.rows.map((row, i) => (
+                    <tr key={i} className="hover:bg-indigo-50/30 transition-colors">
+                      {row.map((cell, j) => <td key={j} className="px-4 py-4 text-gray-700 font-medium">{cell}</td>)}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        );
+      }
       return (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {subPoints?.map((sp, i) => (

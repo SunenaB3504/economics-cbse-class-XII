@@ -31,6 +31,8 @@ export interface TheoryContentItem {
   text?: string;
   points?: string[];
   subPoints?: { label: string; text: string }[];
+  headers?: string[];
+  rows?: string[][];
   tags?: string[];
 }
 
