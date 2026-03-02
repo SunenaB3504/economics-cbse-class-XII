@@ -1,9 +1,97 @@
 
 import React, { useState } from 'react';
-import { Zap, ChevronRight } from 'lucide-react';
+import { Zap, ChevronRight, Brain } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { Chapter, TheoryTopic } from '../types';
+import { Chapter, TheoryTopic, TheoryContentItem } from '../types';
+
+const ModernContentRenderer: React.FC<{ item: string | TheoryContentItem }> = ({ item }) => {
+  if (typeof item === 'string') {
+    return (
+      <div className="flex gap-4 p-4 bg-gray-50 rounded-2xl border-l-4 border-indigo-600 transition-all hover:bg-gray-100/80">
+        <div className="mt-1 h-2 w-2 rounded-full bg-indigo-600 flex-shrink-0" />
+        <div className="text-gray-800 font-medium">
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>{item}</ReactMarkdown>
+        </div>
+      </div>
+    );
+  }
+
+  const { type = 'concept', title, text, points, subPoints, tags } = item;
+
+  switch (type) {
+    case 'concept':
+      return (
+        <div className="bg-white p-6 rounded-[2rem] border-2 border-indigo-50 shadow-sm relative overflow-hidden group hover:border-indigo-200 transition-all">
+          <div className="absolute top-0 right-0 w-24 h-24 bg-indigo-50 rounded-full -mr-12 -mt-12 group-hover:bg-indigo-100 transition-colors" />
+          {tags && tags.length > 0 && (
+            <div className="flex gap-2 mb-3">
+              {tags.map((tag, i) => (
+                <span key={i} className="px-2.5 py-1 bg-indigo-100 text-indigo-700 text-[10px] font-black uppercase tracking-wider rounded-md">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+          {title && <h3 className="text-xl font-black text-indigo-900 mb-3">{title}</h3>}
+          {text && <div className="text-gray-700 font-medium leading-relaxed italic"><ReactMarkdown remarkPlugins={[remarkGfm]}>{text}</ReactMarkdown></div>}
+          {points && (
+            <ul className="mt-4 space-y-2">
+              {points.map((p, i) => (
+                <li key={i} className="flex gap-3 text-sm font-medium text-gray-600">
+                  <span className="text-indigo-400 font-black">▸</span>
+                  <ReactMarkdown remarkPlugins={[remarkGfm]}>{p}</ReactMarkdown>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      );
+    case 'comparison':
+      return (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {subPoints?.map((sp, i) => (
+            <div key={i} className={`p-6 rounded-3xl border ${i % 2 === 0 ? 'bg-emerald-50/50 border-emerald-100 text-emerald-900' : 'bg-rose-50/50 border-rose-100 text-rose-900'}`}>
+              <h4 className="font-black uppercase tracking-widest text-xs mb-3 flex items-center gap-2">
+                <div className={`h-1.5 w-1.5 rounded-full ${i % 2 === 0 ? 'bg-emerald-500' : 'bg-rose-500'}`} />
+                {sp.label}
+              </h4>
+              <p className="text-sm font-medium leading-relaxed">{sp.text}</p>
+            </div>
+          ))}
+        </div>
+      );
+    case 'context':
+      return (
+        <details className="group bg-gray-50 rounded-2xl border border-gray-100 transition-all overflow-hidden">
+          <summary className="flex items-center justify-between p-4 cursor-pointer font-bold text-gray-600 hover:text-indigo-600 select-none">
+            <span className="flex items-center gap-2">
+              <div className="h-6 w-6 rounded-lg bg-gray-200 flex items-center justify-center text-[10px] group-open:bg-indigo-100 group-open:text-indigo-600 transition-colors">
+                ?
+              </div>
+              {title || 'Historical Context'}
+            </span>
+            <ChevronRight className="w-4 h-4 transition-transform group-open:rotate-90 text-gray-400" />
+          </summary>
+          <div className="p-5 pt-0 text-gray-600 text-sm font-medium border-t border-gray-100/50 leading-relaxed">
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>{text || ''}</ReactMarkdown>
+            {points && (
+              <ul className="mt-4 space-y-2">
+                {points.map((p, i) => (
+                  <li key={i} className="flex gap-3 text-sm font-medium text-gray-500">
+                    <span className="text-indigo-300 font-black">•</span>
+                    <ReactMarkdown remarkPlugins={[remarkGfm]}>{p}</ReactMarkdown>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        </details>
+      );
+    default:
+      return null;
+  }
+};
 
 export const TheoryView: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
   const [selectedTopic, setSelectedTopic] = useState<TheoryTopic | null>(chapter.topics[0]);
@@ -32,13 +120,8 @@ export const TheoryView: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
 
             <div className="grid gap-6">
               {Array.isArray(selectedTopic.content) ? (
-                selectedTopic.content.map((p, i) => (
-                  <div key={i} className="flex gap-4 p-4 bg-gray-50 rounded-2xl border-l-4 border-indigo-600">
-                    <div className="mt-1 h-2 w-2 rounded-full bg-indigo-600 flex-shrink-0" />
-                    <div className="text-gray-800 font-medium">
-                      <ReactMarkdown remarkPlugins={[remarkGfm]}>{p}</ReactMarkdown>
-                    </div>
-                  </div>
+                selectedTopic.content.map((item, i) => (
+                  <ModernContentRenderer key={i} item={item} />
                 ))
               ) : (
                 <div className="prose prose-indigo max-w-none">

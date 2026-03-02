@@ -25,11 +25,20 @@ export interface Visualization {
   aiExplanation?: string[];
 }
 
+export interface TheoryContentItem {
+  type?: 'concept' | 'comparison' | 'list' | 'context' | 'warning' | 'tip';
+  title?: string;
+  text?: string;
+  points?: string[];
+  subPoints?: { label: string; text: string }[];
+  tags?: string[];
+}
+
 export interface TheoryTopic {
   id: string;
   title: string;
   description: string;
-  content: string | string[];
+  content: string | string[] | TheoryContentItem[];
   visualizations: Visualization[];
 }
 
