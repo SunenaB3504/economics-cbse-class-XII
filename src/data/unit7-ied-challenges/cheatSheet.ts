@@ -5,106 +5,49 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
     id: 'u7-cs1',
     title: '🧠 Human Capital Formation (HCF)',
     points: [
-      '**Definition:** Stock of skills, expertise, and knowledge embodied in people at a point in time.',
-      '**HCF vs. Human Development:** **Human Capital** treats man as a **means** to an end (productivity); **Human Development** treats man as an **end** in himself (better life/well-being).',
-      '**Sources of HCF:** Education, Health, On-the-job Training, Migration, and Information.',
-      '**Health Components:** Preventive (Vaccines), Curative (Treatment), and Social (Literacy) medicine.',
-      '**Education Target:** **1966 Commission** recommended **6% of GDP** (India still spends ~4-4.5%).',
-      '**Regulatory Bodies:** **UGC** (Higher Ed), **NCERT** (Schooling), **AICTE** (Technical), **ICMR** (Medical).',
-      '**Brain Drain:** Loss of skilled professionals to developed nations; a major challenge for HCF.'
+      '**HCF vs. Human Development:** **Human Capital** (Means/Productivity) vs **Human Development** (End/Well-being).',
+      '**Sources:** Education, Health, Training, Migration, Information.',
+      '**Regulatory Bodies:** NCERT (Schools), UGC (Higher Ed), AICTE (Technical), ICMR (Medical).',
+      '**Tapas Majumdar (1999):** Estimated Rs 1.37 lakh crore over 10 years for Universal Education.',
+      '**Expenditure Trends:** Rose from 0.64% (1952) to 4.13% (2014) of GDP. Still below **6% Kothari target**.',
+      '**Education Cess:** **2% levy** on Union taxes for primary education.',
+      '**Literacy (2017-18):** Male (82%), Female (66%). Gender equity remains a concern.'
     ]
   },
   {
     id: 'u7-cs2',
     title: '🚜 Rural Development & Credit',
     points: [
-      '**Rural Credit Lifeline:** Shifting from moneylenders to Institutional sources (Banks, RRBs, Cooperatives).',
-      '**1969 Nationalisation:** 14 major banks nationalised to force credit flow into rural areas.',
-      '**NABARD (1982):** Apex body for coordinating and monitoring rural credit in India.',
-      '**SHGs (Self-Help Groups):** Focus on **Micro-Credit** for women; minimal documentation, high recovery.',
-      '**Jan-Dhan Yojana:** Financial inclusion via zero-balance accounts and direct subsidy transfers (DBT).',
-      '**Credit Defects:** High default rates and failure of cooperatives to mobilise deposits.'
+      '**Credit Apex:** **NABARD (1982)** coordinating all rural credit.',
+      '**SHGs:** **Kudumbashree (Kerala)** - largest informal bank in Asia. Over 6 crore women in 54 lakh SHGs.',
+      '**Jan-Dhan:** 50 crore accounts milestone; promoting financial inclusion.',
+      '**Marketing Channels:** **Apni Mandi** (PHR), **Rythu Bazars** (AP), **Uzhavar Sandies** (TN).',
+      '**Diversification:** Livestock (Poultry 61%), Fisheries (Inland 65%), Horticulture (Golden Revolution).',
+      '**TANWA (TN):** Training women in sustainable organic farming/vermicompost.'
     ]
   },
   {
     id: 'u7-cs3',
-    title: '🍎 Agricultural Marketing & Diversification',
+    title: '💼 Employment: Trends & Challenges',
     points: [
-      '**Marketing Process:** Assembling, storage, processing, transport, grading, and distribution.',
-      '**Govt Measures:** Regulated Markets, Infrastructure (Cold storage), MSP, FCI (Buffer Stocks), and PDS.',
-      '**Alternate Channels:** Apni Mandi, Rythu Bazars, Uzhavar Sandies (Direct farmer-to-consumer sales).',
-      '**Diversification:** Shifting from crops to **Livestock**, **Fisheries** (Blue), and **Horticulture** (Golden).',
-      '**Golden Revolution (1991-2003):** Surge in production of honey, fruits, and vegetables.',
-      '**Organic Farming:** Sustainable, non-chemical farming; improves soil health and food safety.'
+      '**Worker:** Includes self-employed, helpers, and those temporarily absent.',
+      '**Workforce:** 545 million (2022-23). Rural WPR (42%) > Urban (38%).',
+      '**Informalisation:** Ahmedabad Mill Case (1.5 lakh jobs lost). Stark **94%** in informal sector.',
+      '**Jobless Growth:** GDP growth >5% vs Employment growth <2% since 1950s.',
+      '**Casualisation:** Shift from regular salary to casual wage labour (instability).',
+      '**MGNREGA:** Guaranteed **100 days** unskilled wage work for rural households.'
     ]
   },
   {
     id: 'u7-cs4',
-    title: '💼 Employment: Concepts & Trends',
+    title: '🌱 Environment & Sustainable Dev',
     points: [
-      '**Labour Force:** Persons working + Persons seeking work.',
-      '**Workforce:** Persons actually working (Excludes those seeking work).',
-      '**WPR (Worker-Population Ratio):** Indicator of employment levels; higher in rural areas due to poverty.',
-      '**Self-Employed (52%):** Largest segment of the Indian workforce (Farming, small shops).',
-      '**Casualisation:** Transition of workforce from regular salaried employment to casual wage work.',
-      '**Informalisation:** Moving from formal sector (organized) to informal (unorganized, no social security). 🎯 **SQP Trap Keyword!**',
-      '**Jobless Growth:** When GDP grows due to technology but employment does not increase.'
-    ]
-  },
-  {
-    id: 'u7-cs5',
-    title: '🔍 Unemployment Types & Programs',
-    points: [
-      '**Disguised Unemployment:** Too many people on one task (Marginal Productivity = **Zero**). Common in Agri.',
-      '**Seasonal Unemployment:** Lack of work during specific harvest cycles.',
-      '**Open Unemployment:** Willing/able to work but finding **Zero** opportunities.',
-      '**MGNREGA (2005):** Statutory guarantee of **100 days** unskilled wage work to rural households.',
-      '**Skill India / PMKVY:** Addressing structural unemployment via industry-linked vocational training.'
-    ]
-  },
-  {
-    id: 'u7-cs6',
-    title: '🌱 Environment & Sustainable Development',
-    points: [
-      '**Functions:** Supplies resources, assimilates waste, sustains life (biodiversity), aesthetics.',
-      '**Carrying Capacity:** Resources extraction rate < regeneration rate; waste < absorptive capacity.',
-      '**Absorptive Capacity:** Environment\'s ability to handle waste without permanent damage.',
-      '**Opportunity Cost:** Spending on health/remediation rather than growth due to pollution.',
-      '**Global Warming:** Greenhouse effect (CO2, Methane, CFCs) raising average Earth temperature.',
-      '**Ozone Depletion:** Stratosphere thinning due to **CFCs**; regulated by **Montreal Protocol (1987)**.'
-    ]
-  },
-  {
-    id: 'u7-cs7',
-    title: '🇮🇳 India-Specific Environmental Context',
-    points: [
-      '**Land Burden:** Supports **17%** of world population on only **2.4%** of world land.',
-      '**Land Degradation:** Soil erosion, deforestation, and overgrazing are the biggest threats.',
-      '**Poverty-Environment Link:** Poor cut trees for fuel; degradation further worsens poverty.',
-      '**CPCB:** Central Pollution Control Board (Apex body for air/water pollution management).',
-      '**Chipko Movement:** Famous forest conservation movement in Uttarakhand; local action power.'
-    ]
-  },
-  {
-    id: 'u7-cs8',
-    title: '🛰️ Strategies for Sustainability',
-    points: [
-      '**Energy Shift:** Thermal/Hydro to Solar and Wind energy (Renewable transition).',
-      '**Mini-hydel Plants:** Small-scale mountain turbines to provide rural power without displacement.',
-      '**Traditional Knowledge:** Rainwater harvesting (Johads), traditional seeds, and eco-friendly farming.',
-      '**Biocomposting:** Converting organic waste to manure; essential for Organic Farming.',
-      '**Biopest Control:** Using Neem-based products or birds/animals to control pests naturally.'
-    ]
-  },
-  {
-    id: 'u7-cs9',
-    title: '🎯 SQP Exam Hacks: Quick Tips',
-    points: [
-      '**Intergenerational Equity:** Key principle that says resources belong to future generations too.',
-      '**Worker vs. Owner:** A factory owner is also a "Worker" in economics if they engage in the activity.',
-      '**AYUSH:** Acronym for Indian medical systems (Ayurveda, Yoga, Unani, Siddha, Homeopathy).',
-      '**Distress Sale:** Forced sale of crops at low prices due to lack of storage or debt pressure.',
-      '**Buffer Stock:** Grain stored by **FCI** (Food Corp of India) for price stability and the PDS.'
+      '**Functions:** Resources, Waste Assimilation, Life Sustenance, **Aesthetic Services**.',
+      '**Carrying Capacity:** Extraction rate < Regeneration; Waste < Absorptive capacity.',
+      '**Daly\'s Rules:** Herman Daly\'s 5 rules (Population, Input efficiency, Regeneration, etc.).',
+      '**Global Warming:** CFCs and Green House Gases. Montreal Protocol (1987) for Ozone.',
+      '**Appiko Movement (1983):** Southern counterpart of Chipko in Karnataka.',
+      '**Soil Erosion:** 5.3 billion tonnes per year. CPCB regulates 17 highly polluting industry categories.'
     ]
   }
 ];
