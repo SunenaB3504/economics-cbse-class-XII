@@ -1,6 +1,6 @@
 import { TOPICS } from './topics';
 import { FLASHCARDS } from './flashcards';
-import { SQP } from './sqp';
+import { SQP_QUESTIONS } from './sqp';
 import { MIND_MAP } from './mindMap';
 import { CHEAT_SHEET } from './cheatSheet';
 import { Chapter } from '../../types';
@@ -12,7 +12,7 @@ export const unit7_ch4: Chapter = {
     description: 'Sources of human capital, physical vs human capital, and education in India.',
     topics: TOPICS,
     flashcards: FLASHCARDS,
-    sqp: SQP,
+    sqp: SQP_QUESTIONS,
     mindMap: MIND_MAP,
     cheatSheet: CHEAT_SHEET
 };

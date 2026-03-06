@@ -1,6 +1,6 @@
 import { SQPQuestion } from '../../types';
 
-export const SQP: SQPQuestion[] = [
+export const SQP_QUESTIONS: SQPQuestion[] = [
     {
         id: 'u7-hcf-q1-sqp-2025-26-mcq',
         year: '2025-26',

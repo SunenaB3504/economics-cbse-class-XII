@@ -26,17 +26,23 @@ export const SQPArchives: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
 
   return (
     <div className="animate-in fade-in duration-700">
-      <div className="flex items-center gap-4 mb-8 overflow-x-auto pb-2">
-        <h4 className="text-xs font-black text-gray-400 border-b-2 border-indigo-600 pb-1 uppercase tracking-widest mr-4 flex-shrink-0">Filter by Year</h4>
-        {years.map(y => (
-          <button
-            key={y}
-            onClick={() => setFilterYear(y)}
-            className={`px-4 py-2 rounded-lg text-sm font-bold transition-all whitespace-nowrap ${filterYear === y ? 'bg-indigo-900 text-white shadow-md' : 'bg-white text-gray-600 hover:bg-indigo-50 border border-gray-100'}`}
-          >
-            {y}
-          </button>
-        ))}
+      <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
+        <div className="flex items-center gap-4 overflow-x-auto pb-2">
+          <h4 className="text-xs font-black text-gray-400 border-b-2 border-indigo-600 pb-1 uppercase tracking-widest mr-4 flex-shrink-0">Filter by Year</h4>
+          {years.map(y => (
+            <button
+              key={y}
+              onClick={() => setFilterYear(y)}
+              className={`px-4 py-2 rounded-lg text-sm font-bold transition-all whitespace-nowrap ${filterYear === y ? 'bg-indigo-900 text-white shadow-md' : 'bg-white text-gray-600 hover:bg-indigo-50 border border-gray-100'}`}
+            >
+              {y}
+            </button>
+          ))}
+        </div>
+        {/* Debug Info (Only visible if you know where to look or via inspector) */}
+        <div className="opacity-0 hover:opacity-100 text-[8px] text-gray-300">
+          Ch ID: {chapter.id} | SQP Items: {chapter.sqp.length}
+        </div>
       </div>
 
       <div className="grid gap-6">
@@ -50,7 +56,25 @@ export const SQPArchives: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-6 leading-snug whitespace-pre-wrap">{q.questionNumber ? `${q.questionNumber}. ` : ''}{q.question}</h3>
 
-              {/* ... Rest of the toggle logic ... */}
+              {q.imageUrl && (
+                <div className="mb-6 rounded-xl overflow-hidden border border-gray-100 bg-white inline-block">
+                  <img src={q.imageUrl.startsWith('/') ? `${import.meta.env.BASE_URL}${q.imageUrl.slice(1)}` : q.imageUrl} alt="Question Figure" className="max-w-full h-auto object-contain" />
+                </div>
+              )}
+
+              {(q.optionA || q.optionB || q.optionC || q.optionD) && (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6">
+                  {[q.optionA, q.optionB, q.optionC, q.optionD].map((opt, i) => opt && (
+                    <div key={i} className="flex items-center gap-3 p-3 rounded-xl bg-gray-50 border border-gray-100 text-sm font-medium text-gray-700">
+                      <span className="flex-shrink-0 w-6 h-6 flex items-center justify-center rounded-full bg-gray-200 text-gray-600 font-bold text-xs">
+                        {String.fromCharCode(65 + i)}
+                      </span>
+                      <span>{opt}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+
               {expandedQuestions.has(q.id) ? (
                 <div className="grid md:grid-cols-2 gap-8 animate-in fade-in duration-300">
                   <button onClick={() => toggleExpand(q.id)} className="absolute top-8 right-8 p-2 hover:bg-gray-100 rounded-lg transition-colors">
