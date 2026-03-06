@@ -145,5 +145,152 @@ Human Capital refers to the **stock of skill, ability, expertise, education, and
                 ]
             }
         ]
+    },
+    {
+        id: 'u7-ch4-master',
+        title: '📊 Expert Teacher Analysis: The Whole Chapter',
+        description: 'Comprehensive Terms Table and Master Chain using the Growing Orchard analogy.',
+        content: `
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 PART 1 — COMPREHENSIVE TERMS TABLE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| S.No. | Term | Abbr. | Brief Explanation | Formula | Interrelationship |
+|-------|------|--------------|-------------------|---------|-------------------|
+| **BASIC CONCEPTS** | | | | | |
+| 1 | Human Resource | HR | The raw population of a country available to work. | — | HR → Education/Health → Human Capital. |
+| 2 | Human Capital | HC | The stock of skills, knowledge, and expertise held by people. | — | HC → Increases productivity → Higher Income. |
+| 3 | Human Capital Formation | HCF | The process of adding to the stock of human capital over time. | ΔHC / Δt | Investment in Edu/Health → HCF → Economic Growth. |
+| 4 | Physical Capital | PC | Tangible assets like machines, buildings, and factories. | — | PC needs HC to operate it (e.g., a tractor needs a trained farmer). |
+| 5 | Physical Capital Formation | PCF | The process of adding to the stock of physical assets. | ΔPC / Δt | Higher Savings → Investment → PCF. |
+| **SOURCES OF HCF** | | | | | |
+| 6 | Expenditure on Education | — | Spending on schools and colleges to build future skills. | — | Edu Spend → Skill acquisition → Higher earning capacity. |
+| 7 | Expenditure on Health | — | Spending on vaccines and medicine to keep people fit for work. | — | Health Spend → Healthy workforce → Continuous labor supply. |
+| 8 | Preventive Medicine | — | Medical intervention taken BEFORE illness (like vaccines). | — | Vaccines → Reduced disease spread → Steady production. |
+| 9 | Curative Medicine | — | Medical intervention taken DURING illness (medicines). | — | Cure → Faster return to work → Reduced man-day loss. |
+| 10 | Social Medicine | — | Spreading health literacy and hygiene awareness. | — | Literacy → Better personal hygiene → Prevents epidemics. |
+| 11 | On-the-job Training | OJT | Training while working in the office/factory. | — | OJT → Better utilization of machines → Higher output. |
+| 12 | Migration | — | Moving from one place to another for better jobs. | — | Extra salary must outweigh migration costs. |
+| 13 | Information | — | Data about job markets, salaries, and skills. | — | Info → Better decisions on HCF → Efficient utilization. |
+| **HCF & GROWTH** | | | | | |
+| 14 | Economic Growth | — | Increase in the Real National Income (GDP). | %Δ Nominal GDP - %Δ Prices | HCF → Innovations → Higher Real GDP. |
+| 15 | Human Development | HD | Human well-being as an end, not just for productivity. | — | Basic Edu/Health → HD → Expanded choices. |
+| 16 | Knowledge Economy | — | Economy based on production/use of knowledge. | — | IT/AI/Big Data → Multi-disciplinary demand. |
+| **EDUCATION SECTOR** | | | | | |
+| 17 | NCERT | NCERT | Sets curricula and publishes textbooks. | — | NCERT → Quality school education → Base for HCF. |
+| 18 | UGC | UGC | Regulates and funds university education. | — | UGC → Standardized degrees → Professional HC. |
+| 19 | AICTE | AICTE | Regulates technical and management education. | — | AICTE → Engineering/MBA skills → Technical manpower. |
+| 20 | ICMR | ICMR | Apex body for biomedical research. | — | ICMR → Medical research → Better health HCF. |
+| 21 | Education Cess | — | A 2% surcharge for funding elementary education. | 0.02 × Union Tax | Cess → Elementary Edu funding → Foundation. |
+| 22 | Right to Education | RTE | Legal act for free education (ages 6-14). | — | RTE → Compulsory schooling → Universal HCF. |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 PART 2 — MASTER CHAIN OF INTERRELATIONSHIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+### SUB-PART A — VISUAL CHAIN DIAGRAM
+
+\`\`\`text
+    RAW HUMAN RESOURCES (Ramu the student)
+          ↓
+    INVESTMENT IN SOURCES (EH-TMI)
+    (Edu + Health + OJT + Migration + Info)
+          ↓
+    HUMAN CAPITAL FORMATION (HCF)
+    (The Skill stock: 🎓 + 🏥 + ⚙️)
+          ↓
+    INCREASED PRODUCTIVITY
+    (Faster work + Fewer leaves)
+          ↓
+    INNOVATIONS & TECHNOLOGY ABSORPTION
+    (Absorbing AI, Big Data, New tech)
+          ↓
+    ECONOMIC GROWTH
+    (Higher Real National Income / GDP)
+          ↓
+    IMPROVED HUMAN DEVELOPMENT (HD)
+    (Better choices + Longer life + Well-being)
+\`\`\`
+
+### SUB-PART B — SIMPLE ENGLISH EXPANSION
+
+#### 🌳 THE ANALOGY: "THE GROWING ORCHARD"
+Think of our Indian economy as a massive **Mango Orchard in Ratnagiri**.
+1. **Human Resources** are the raw saplings (young plants).
+2. **Human Capital Formation** is the process of watering, manuring, and protection.
+3. **Economic Growth** is the harvest of delicious Alphonso mangoes we can sell!
+
+---
+
+#### ⚙️ STEP 1: PREPARING THE SOIL
+"Why your parents pay Swiggy for food but Zomato for the delivery guy's skill"
+In our orchard, before a sapling becomes a tree, we must invest in it. This is exactly what your parents do when they pay school fees for **Priya** or take **Ali** for a polio vaccine. We call this **Human Capital Formation**.
+
+| Topic | Explanation | Example |
+|-------|-------------|---------|
+| **Physical Capital** | The tractor, the pump, and the fence. | Tata Steel buying a new blast furnace. |
+| **Human Capital** | The gardener's skill and knowledge. | A software engineer at **Infosys** Chennai. |
+
+> 🎯 Key Insight: Just as an orchard needs good soil and fences (Physical Capital), it absolutely fails without a skilled gardener who knows when to prune and water (Human Capital).
+
+---
+
+#### ⚙️ STEP 2: THE 5 FERTILIZERS (SOURCES)
+"The EH-TMI Formula for a Bumper Crop"
+To turn a simple sapling into a fruit-bearing tree, we use five fertilizers:
+1. **Education**: Schooling at **Kendriya Vidyalaya**. It's the primary water.
+2. **Health**: Preventive vaccines (like Pulse Polio) and clean water. A sick gardener can't work.
+3. **On-the-job Training**: Imagine a senior gardener at **Reliance Jamnagar** teaching a junior.
+4. **Migration**: A farmer moving from a dry village in Bihar to a lush farm in Punjab.
+5. **Information**: Knowing which market (Zomato or Mandi) gives the best price.
+
+> 💡 Remember: Migration is only useful if the "Extra Salary" in Delhi is bigger than the cost!
+
+---
+
+#### ⚙️ STEP 3: MAN vs. OUTPUT
+"The Human Capital Seesaw"
+Here is the twist: Human Capital is not just a tool; it's the person themselves!
+- **Physical Capital** can be sold separately (you can sell your tractor).
+- **Human Capital** can NEVER be sold separately (A doctor's skill stays inside the doctor!).
+
+| Basis | Physical | Human |
+|-------|----------|-------|
+| Separability | Can be sold without owner. | Requires owner to be present. |
+| Mobility | Can be exported easily. | Restricted by visas/languages. |
+
+> 🎯 Key Insight: You can't send your 'coding skill' to Bengaluru while you stay in Kerala; you have to physically go there!
+
+---
+
+#### ⚙️ STEP 4: MEANS vs. ENDS
+"Is education just for a higher Salary?"
+This is the most important insight of the chapter. Economists used to think education was just a **Means** (Human Capital) to earn money. But now we realize it's the **End** (Human Development).
+- **Human Capital**: "If Jaspal learns to code, he will produce ₹1 lakh more for Google."
+- **Human Development**: "Jaspal should learn to read because it makes his life better and gives him dignity."
+
+> ⚠️ Warning: Treating humans only as "Human Capital" is like looking at a tree only for its wood, but "Human Development" is enjoying its shade and beauty too.
+
+---
+
+#### ⚙️ STEP 5: THE INDIAN EDUCATION PYRAMID
+"The Steep Climb from Primary to PhD"
+In India, the education structure looks like a steep hill. Many children start at **Primary School**, but very few reach **IITs** or **IIMs**.
+1. **Elementary Edu**: The focus of **Sarva Shiksha Abhiyan**.
+2. **Higher Edu**: Where the **UGC** and **AICTE** make sure standards are high.
+3. **The Cess**: That extra 2% tax you see on your restaurant bill? That goes straight to primary schools!
+
+> 🎯 Key Insight: The Tapas Majumdar Committee told us in 1999 that we need to spend heavily for 10 years to get every child into school.
+
+---
+
+#### 🎯 GOLDEN RULES OF CHAPTER 4
+> Rule 1 — Human Capital is "Intangible" — you can't touch a doctor's knowledge, but you can see its results in the patient.
+> Rule 2 — Education and Health create "Social Benefits" — if you don't have a cough, I won't catch one!
+> Rule 3 — The Kothari Commission target is **6% of GDP** for education. India is still catching up.
+> Rule 4 — Human Development is BROADER than Human Capital because it includes welfare and rights.
+> Rule 5 — Migration and Information are "Investments" because they help you utilize your skills in the best market.
+        `,
+        visualizations: []
     }
 ];
