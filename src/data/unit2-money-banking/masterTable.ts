@@ -96,7 +96,23 @@ export const MASTER_INTERRELATIONSHIPS_TOPIC: TheoryTopic = {
                     ['65', 'Transaction Motive', '—', 'Holding money to meet day-to-day expenses between income receipts', 'MdT = kPY', 'Primary reason people hold money — directly linked to income level and GDP'],
                     ['66', 'Speculative Motive', '—', 'Holding money as an asset to benefit from future changes in bond prices', 'MdS = (rmax − r) ÷ (r − rmin)', 'Secondary reason people hold money — inversely linked to interest rate — causes liquidity trap'],
                     ['67', 'Face Value', 'FV', 'Value printed on a bond or currency note — may differ from market value', 'FV = Principal amount of bond', 'Starting point for bond valuation — market price of bond may be above or below face value depending on interest rate'],
-                    ['68', 'Maturity Period', '—', 'Time period after which the issuer of a bond repays the principal to bond holder', 'No formula — contractual term', 'Determines how long money is locked in a bond — longer maturity means more interest rate risk']
+                    ['68', 'Maturity Period', '—', 'Time period after which the issuer of a bond repays the principal to bond holder', 'No formula — contractual term', 'Determines how long money is locked in a bond — longer maturity means more interest rate risk'],
+                    ['69', 'Central Bank Digital Currency', 'CBDC', 'The official digital sovereign currency that reduces dependency on physical printed/minted cash and ensures faster settlements', 'No formula — digital currency', 'Introduces purely digital efficiency but comes with severe cyber vulnerabilities and sophisticated risks.'],
+                    ['70', 'Supervisory Role of RBI', '—', 'RBI conducting routine or periodic inspections and audits to protect depositors from frauds', 'No formula — regulatory function', 'Identifies deficiencies in compliance and demands corrective actions or imposes heavy punitive penalties.'],
+                    ['71', 'Deficit Financing Manager', '—', 'RBI smoothly managing government accounts and uninterrupted remittances during operational emergencies', 'No formula — banking for government', 'RBI acts strictly on behalf of the nation handling complex processing exchanges, never for ordinary citizens.']
+                ]
+            }
+        },
+        {
+            id: 'v-sqp-traps-u2',
+            title: 'SQP Examiner Traps & Edge Cases',
+            type: 'table',
+            data: {
+                headers: ['Examiner Trap Area', 'The Trap / Common Confusion', 'CBSE / Mathematical Verdict'],
+                rows: [
+                    ['CBDC Vulnerabilities', 'Assuming digital currency is flawless', 'While highly efficient, purely digital CBDC inherently introduces new severe vulnerabilities like sophisticated cyber attacks requiring robust macroeconomic preparedness and grid technology.'],
+                    ['Routine Inspections vs Currency Issue', 'Confusing RBI\'s roles', 'Identifying deficiencies in bank compliance is strictly part of the RBI\'s **Supervisory/Regulatory** body function, distinctly separate from merely issuing notes.'],
+                    ['Managing Government Accounts', 'Thinking RBI manages citizen deficits', 'The RBI strictly handles complex processing, uninterrupted remittances, and sudden deficit financing exchanges purely on behalf of the nation/government, never for ordinary citizens.']
                 ]
             }
         }

@@ -9,11 +9,11 @@
     },
     "unit2-money-banking": {
         "total_questions": 14,
-        "covered_questions": 11,
+        "covered_questions": 14,
         "total_marks": 41,
-        "covered_marks": 28,
-        "marks_coverage_percent": 68.3,
-        "question_coverage_percent": 78.6
+        "covered_marks": 41,
+        "marks_coverage_percent": 100.0,
+        "question_coverage_percent": 100.0
     },
     "unit3-income-determination": {
         "total_questions": 22,
@@ -49,11 +49,11 @@
     },
     "unit7-ied-challenges": {
         "total_questions": 18,
-        "covered_questions": 11,
+        "covered_questions": 18,
         "total_marks": 55,
-        "covered_marks": 37,
-        "marks_coverage_percent": 67.3,
-        "question_coverage_percent": 61.1
+        "covered_marks": 55,
+        "marks_coverage_percent": 100.0,
+        "question_coverage_percent": 100.0
     },
     "unit8-ied-comparison": {
         "total_questions": 8,

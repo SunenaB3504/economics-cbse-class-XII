@@ -8,7 +8,7 @@ def get_keywords(text):
     words = re.findall(r'\b[a-z]{4,}\b', text.lower()) 
     return set([w for w in words if w not in stop_words])
 
-units = ['unit4-govt-budget', 'unit6-ied-intro']
+units = ['unit2-money-banking', 'unit7-ied-challenges']
 base_path = r'c:\Users\Admin\Neil\economics-cbse-class-XII\src\data'
 
 for unit in units:
