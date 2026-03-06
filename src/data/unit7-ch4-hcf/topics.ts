@@ -36,7 +36,50 @@ Human Capital refers to the **stock of skill, ability, expertise, education, and
 | Investment is "unproductive" if it doesn't increase output. | Human welfare should increase even if productivity doesn't. |
 | Treats humans as a means to an end. | Based on the right to be literate and healthy. |
         `,
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v4-hcf-comparison',
+                title: 'Physical vs. Human Capital',
+                type: 'table',
+                caption: 'NCERT Box 4.1: Key differences between the two forms of capital.',
+                data: {
+                    headers: ['Basis', 'Physical Capital', 'Human Capital'],
+                    rows: [
+                        ['Nature', 'Tangible (seen/touched)', 'Intangible (expertise/skills)'],
+                        ['Separability', 'Separable from owner', 'Inseparable from owner'],
+                        ['Mobility', 'Completely mobile', 'Restricted mobility'],
+                        ['Formation', 'Economic/Technical process', 'Social/Policy process'],
+                        ['Depreciation', 'Physical wear & tear', 'Ageing (reduced by health)'],
+                        ['Benefits', 'Private benefits only', 'Private and Social benefits']
+                    ]
+                }
+            },
+            {
+                id: 'v4-hcf-sources',
+                title: '5 Sources of HCF',
+                type: 'grid',
+                caption: 'The primary drivers of Human Capital Formation in a nation.',
+                data: [
+                    { label: 'Education', desc: 'Increases future income and productivity.' },
+                    { label: 'Health', desc: 'Reduces loss of labor due to illness.' },
+                    { label: 'OJT', desc: 'On-the-job training enhances skills.' },
+                    { label: 'Migration', desc: 'Moving to better labor markets.' },
+                    { label: 'Information', desc: 'Decisions based on labor market data.' }
+                ]
+            },
+            {
+                id: 'v4-hcf-growth-cycle',
+                title: 'HCF & Economic Growth Cycle',
+                type: 'process',
+                caption: 'The reciprocal relationship between human capital and national income.',
+                data: [
+                    { title: 'Higher Income', description: 'Leads to higher investment in education and health.' },
+                    { title: 'Human Capital Formation', description: 'Builds a skilled and healthy workforce.' },
+                    { title: 'Enhanced Productivity', description: 'Innovation and efficient use of physical capital.' },
+                    { title: 'Economic Growth', description: 'Increase in Real National Income (GDP).' }
+                ]
+            }
+        ]
     },
     {
         id: 'u7-ch4-t2',
@@ -72,6 +115,35 @@ Human Capital refers to the **stock of skill, ability, expertise, education, and
 - **Indian Education Pyramid**: Very steep; few reach higher education.
 - **Educated Unemployment**: Higher among rural females (~30% vs 3-6% for primary level).
         `,
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v4-hcf-indicators',
+                title: 'Development Indicators (1951 vs 2021)',
+                type: 'table',
+                caption: 'Comparative analysis of India educational and health attainment.',
+                data: {
+                    headers: ['Indicator', '1951', '2018-21'],
+                    rows: [
+                        ['Per Capita Income', '₹7,651', '₹94,054'],
+                        ['IMR (per 1000)', '146', '28'],
+                        ['Life Expectancy (M)', '37.2 yrs', '68.6 yrs'],
+                        ['Life Expectancy (F)', '36.2 yrs', '71.4 yrs'],
+                        ['Literacy Rate', '16.67%', '74%+']
+                    ]
+                }
+            },
+            {
+                id: 'v4-hcf-regulatory',
+                title: 'Regulatory Infrastructure',
+                type: 'grid',
+                caption: 'Apex bodies facilitating education and health sectors in India.',
+                data: [
+                    { label: 'NCERT', desc: 'School education curricula and research.' },
+                    { label: 'UGC', desc: 'University standards and funding.' },
+                    { label: 'AICTE', desc: 'Technical and management education.' },
+                    { label: 'ICMR', desc: 'Biomedical research and health standards.' }
+                ]
+            }
+        ]
     }
 ];
