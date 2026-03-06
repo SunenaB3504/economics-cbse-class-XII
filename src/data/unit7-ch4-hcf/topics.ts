@@ -12,22 +12,29 @@ Human Capital refers to the **stock of skill, ability, expertise, education, and
 - It is **inseparable** from its owner.
 - It is **imperfectly mobile** (restricted by nationality/culture).
 
-### 2. Physical vs. Human Capital: 6 Key Bases
+### 2. Physical vs. Human Capital (NCERT Box 4.1)
 | Basis | Physical Capital | Human Capital |
 |-------|-----------------|---------------|
 | **Nature** | Tangible (can be seen/touched) | Intangible (expertise/skills) |
 | **Separability** | Separable from owner | Inseparable from owner |
 | **Mobility** | Completely mobile between countries | Restricted mobility (needs/visas) |
 | **Formation** | Economic/Technical process | Social/Policy process |
-| **Depreciation** | Physical wear & tear | Ageing (can be reduced by health/edu) |
-| **Benefits** | Private benefits only | Both Private and Social benefits |
+| **Depreciation** | Physical wear & tear/obsolescence | Ageing (can be reduced by health/edu) |
+| **Benefits** | Private benefits (flows to owner) | Both Private and **Social (External) benefits** |
 
 ### 3. Sources of Human Capital Formation (EH-TMI)
 1.  **Expenditure on Education**: Most important source. Increases future income and productivity.
-2.  **Expenditure on Health**: Includes Preventive (vaccines), Curative (medicines), and Social (literacy) medicine. A sick worker is a liability.
+2.  **Expenditure on Health**: Includes **Preventive** (vaccines), **Curative** (medicines), **Social** (literacy), and provision of clean water/sanitation.
 3.  **On-the-job Training**: Enhances specialized skills; firms invest because productivity gains > training costs.
-4.  **Migration**: People move to better jobs. Investment includes transport and higher cost of living in cities.
-5.  **Information**: Spending to find out about labor markets and educational institutions.
+4.  **Migration**: People move in search of higher salaries. Costs involved: Transport, higher cost of living, and **psychic costs** of living in a strange setup.
+5.  **Information**: Spending to find out about labor markets and educational institutions (salaries, employable skills).
+
+### 4. Human Capital vs. Human Development
+| Human Capital | Human Development |
+|---------------|-------------------|
+| Education and health are **means to increase productivity**. | Education and health are **ends in themselves**. |
+| Investment is "unproductive" if it doesn't increase output. | Human welfare should increase even if productivity doesn't. |
+| Treats humans as a means to an end. | Based on the right to be literate and healthy. |
         `,
         visualizations: []
     },
@@ -36,22 +43,34 @@ Human Capital refers to the **stock of skill, ability, expertise, education, and
         title: 'Education Sector in India',
         description: 'Regulatory bodies and educational milestones in India.',
         content: `
-### 1. Regulatory Bodies
-- **NCERT**: Curricula and textbooks for schools.
-- **UGC**: Higher education standards and funding.
-- **AICTE**: Technical and management education.
-- **ICMR**: Biomedical research and health standards.
+### 1. Growth in Government Expenditure
+- **Total Expenditure %**: Indicates importance in government scheme (increased from 7.9% to 16.5% during 1952-2020).
+- **GDP %**: Indicates commitment of people's income (increased from 0.6% to 4.4% in the same period).
+- **Education Cess**: 2% surcharge on Union taxes for elementary education.
 
-### 2. Key Statistics & Milestones
-- **6% of GDP**: Recommended by **Kothari Commission (1964-66)**. India still hovers around 4%.
-- **Tapas Majumdar Committee (1998)**: Estimated ₹1.37 lakh crore needed over 10 years to bring all children (6-14) into school.
-- **Education Cess**: 2% surcharge on all Union taxes earmarked for elementary education.
-- **RTE Act (2009)**: Made free and compulsory education a fundamental right for children aged 6-14.
+### 2. Select Indicators of Development (1951-2021)
+| Particulars | 1951 | 2018-21 |
+|-------------|------|---------|
+| Real Per Capita Income (Rs) | 7,651 | 94,054 |
+| Crude Death Rate (per 1000) | 25.1 | 6.0 |
+| Infant Mortality Rate (IMR) | 146 | 28 |
+| Life Expectancy (Male) | 37.2 | 68.6 |
+| Life Expectancy (Female) | 36.2 | 71.4 |
+| Literacy Rate (%) | 16.67 | 74+ |
 
-### 3. Challenges in Education
-- **Gender Equity**: Better than before, but drop-out rates for girls remain higher in rural areas.
-- **Higher Education**: Only a small percentage reach the tertiary level.
-- **Privatization**: Leading to a gap in quality between those who can pay and those who can't.
+### 3. Key Regulatory Bodies & Committees
+- **NCERT/UGC/AICTE/ICMR**: Facilitate institutions in their respective sectors.
+- **Kothari Commission (1964-66)**: Recommended **6% of GDP** for education.
+- **Tapas Majumdar Com. (1999)**: Estimated **₹1.37 lakh crore** needed over 10 years for universal school education.
+
+### 4. Seventh Five Year Plan Perspective
+> "Human resources development... has necessarily to be assigned a key role in any development strategy... Trained and educated on sound lines, a large population can itself become an asset in accelerating economic growth."
+
+### 5. Future Prospects & Challenges
+- **Education for All**: Absolute number of illiterates is still as high as India's population at independence.
+- **Gender Equity**: Narrowing gaps, but women's education remains imminent for status and fertility control.
+- **Indian Education Pyramid**: Very steep; few reach higher education.
+- **Educated Unemployment**: Higher among rural females (~30% vs 3-6% for primary level).
         `,
         visualizations: []
     }
