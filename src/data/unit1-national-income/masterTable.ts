@@ -33,6 +33,7 @@ export const MASTER_INTERRELATIONSHIPS_TOPIC: TheoryTopic = {
           ['2', 'Consumption Goods / Consumer Goods', 'CG', 'Goods like food and clothing that are consumed when purchased by their ultimate consumers', 'Part of Final Goods', 'Included in GDP through expenditure method as component C (consumption)'],
           ['3', 'Consumer Durables', 'CD', 'Goods meant for consumption but have a long life like TV, car, mobile phone', 'Subset of Consumption Goods', 'Part of C in GDP formula — also undergo depreciation like capital goods'],
           ['4', 'Capital Goods', 'KG', 'Durable goods used in production like machines, tools, factory buildings', 'Part of Final Goods', 'Form the basis of Gross Investment — contribute to GDP and future production capacity'],
+          ['4A', 'Economic Nature of Use', '—', 'The end-use purpose of a good that strictly determines if it is classified as a Consumption Good or Capital Good', 'Depends entirely on buyer\'s intent', 'Key SQP Concept — A car bought for family use = Consumption Good. The identical car bought by a taxi firm to earn fares = Capital Good.'],
           ['5', 'Intermediate Goods', 'IG', 'Goods used as raw material in production of other commodities', 'Value Added = Output − Intermediate Goods', 'Excluded from GDP to avoid double counting — deducted while calculating GVA'],
           ['6', 'Input', '—', 'Any resource used in the production process', 'Output = Input + Value Added', 'Inputs include intermediate goods and factor services — their cost is deducted to get value added'],
           ['7', 'Stocks', '—', 'Variables measured at a particular point of time', 'Stock = Cumulative sum of past flows', 'Capital stock, inventory stock are examples — change in stock = flow'],
@@ -43,12 +44,14 @@ export const MASTER_INTERRELATIONSHIPS_TOPIC: TheoryTopic = {
           ['12', 'Gross Investment', 'GI', 'Total value of capital goods produced including replacement of worn out capital', 'Gross Investment = Net Investment + Depreciation', 'Component I in GDP expenditure method — GI includes both new capital and replacement capital'],
           ['13', 'Net Investment', 'NI', 'Actual addition to capital stock after deducting depreciation', 'Net Investment = Gross Investment − Depreciation', 'Links GDP to NDP — Net Investment shows real growth in productive capacity of economy'],
           ['14', 'Depreciation / Consumption of Fixed Capital', 'D / CFC', 'Annual allowance for wear and tear of capital goods', 'Depreciation = Cost of Capital Good ÷ Years of Useful Life', 'Key link between Gross and Net measures — GDP − Depreciation = NDP; GNP − Depreciation = NNP'],
+          ['14A', 'Capital Loss', 'CL', 'Absolute loss in value of fixed assets exclusively due to unforeseen circumstances like natural disasters, theft, or fires', 'Not included in Depreciation deductions', 'Key SQP Concept — Unlike normal expected depreciation, destruction of a factory by floods is legally classified strictly as a Capital Loss.'],
           ['15', 'Fixed Business Investment', 'FBI', 'Addition to machinery, factory buildings and equipment', 'Part of Gross Investment', 'Sub-component of I in GDP formula — along with inventory investment and residential investment'],
           ['16', 'Residential Investment', 'RI', 'Addition to housing and residential facilities', 'Part of Gross Investment', 'Sub-component of I in GDP formula — treated as capital formation not consumption'],
           ['17', 'Wage', 'W', 'Remuneration paid to labour', 'GDP = W + P + In + R (Income Method)', 'One of four factor incomes — together W + P + In + R = GDP by income method'],
           ['18', 'Interest', 'In', 'Remuneration paid to capital owners', 'GDP = W + P + In + R (Income Method)', 'One of four factor incomes — paid by firms to households who provide capital'],
           ['19', 'Profit', 'P', 'Remuneration earned by entrepreneurs', 'GDP = W + P + In + R (Income Method)', 'One of four factor incomes — includes both distributed profits and undistributed profits'],
           ['20', 'Rent', 'R', 'Remuneration paid to owners of land and natural resources', 'GDP = W + P + In + R (Income Method)', 'One of four factor incomes — together all four add up to GDP by income method'],
+          ['20A', 'Operating Surplus', 'OS', 'Sum total of non-wage income including rent, royalties, interest, and profits', 'Operating Surplus = Rent + Royalty + Interest + Profit', 'Component of Income Method — frequently given directly in CBSE numerical problems instead of individual parts'],
           ['21', 'Undistributed Profits', 'UP', 'Part of profit retained by firms and not distributed to households', 'PI = NI − UP − CT − NIH + TrH', 'Deducted from NI to arrive at Personal Income — reduces income available to households'],
           ['22', 'Transfer Payments', 'TrH', 'Payments received without productive service — pensions, scholarships', 'PI = NI − UP − CT − NIH + TrH', 'Added to NI to arrive at Personal Income — increases income available to households'],
           ['23', 'Corporate Tax', 'CT', 'Tax on profits of firms paid to government', 'PI = NI − UP − CT − NIH + TrH', 'Deducted from NI to arrive at Personal Income — does not reach households'],
@@ -96,6 +99,20 @@ export const MASTER_INTERRELATIONSHIPS_TOPIC: TheoryTopic = {
           ['65', 'Non-Monetary Exchanges', 'NME', 'Activities not evaluated in money — like household work', 'Not included in GDP', 'Causes GDP to underestimate actual economic activity — especially significant in developing countries like India'],
           ['66', 'Barter Exchanges', 'BE', 'Direct exchange without money', 'Not included in GDP', 'Part of non-monetary exchanges — excluded from GDP calculation causing underestimation'],
           ['67', 'Double Counting', 'DC', 'Error of counting intermediate goods twice in GDP', 'Avoided by: GDP = Σ Value Added (not Σ Total Output)', 'The reason why product method uses value added approach — counting only final goods prevents this error']
+        ]
+      }
+    },
+    {
+      id: 'v-sqp-traps-u1',
+      title: 'SQP Examiner Traps & Edge Cases',
+      type: 'table',
+      data: {
+        headers: ['S.No.', 'SQP Edge Case Scenario', 'Examiner\'s Verdict', 'Reasoning required for Marks'],
+        rows: [
+          ['1', 'Payment made by an American tourist for goods purchased in India', 'YES, Include in Domestic Income', 'The expenditure by a foreign tourist is explicitly classified as an Export of goods/services, becoming part of GDP.'],
+          ['2', 'Tomatoes grown by a household in their kitchen garden for self-consumption', 'NO, Do not include', 'It is virtually impossible to ascertain true market value, and it is strictly undertaken for self-consumption rather than monetary consideration.'],
+          ['3', 'A family purchasing a brand new machine (like a sewing machine) for home use', 'It is a Consumption Good', 'The "Economic Nature of Use" rules here. Since it satisfies immediate human wants at home and is not used for further commercial production, it is a consumption good.'],
+          ['4', 'Massive destruction of capital assets due to a hurricane or earthquake', 'It is a Capital Loss (not Depreciation)', 'Depreciation strictly accounts for normal, expected wear-and-tear. Unforeseen natural disasters or fires exclusively cause absolute Capital Loss.']
         ]
       }
     }

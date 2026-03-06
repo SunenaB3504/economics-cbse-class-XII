@@ -1,0 +1,8 @@
+
+======== UNIT4-GOVT-BUDGET ========
+
+u4-q17-sqp-2023 (0.44): Missing: ['refuse', 'stated', 'products', 'panels', 'massively', 'encouraged', 'streetlights', 'heavy', 'deeply', 'solar', 'jumped', 'charge', 'forcefully', 'entirely', 'increased', 'flatly', 'optimally', 'water', 'discourage', 'liquor', 'beneficial', 'guarantees', 'view', 'socially', 'injurious', 'simple', 'tobacco', 'initiative', 'sharply', 'dropped', 'ones', 'charts', 'follows', 'discouraged', 'november', 'sanitation', 'markingscheme', 'aiexplanation', 'khadi', 'resources', 'spiked', 'diagram', 'certain', 'differences', 'spot', 'strongly', 'violently', 'basics', 'mark', 'skyrocketed', 'trend', 'represented', 'desirable', 'investors', 'encourage', 'reporting', 'allocate', 'resource', 'gone', 'lakh', 'severely', 'away', 'take', 'alarming', 'profitable', 'considering', 'boldly', 'crashing', 'comparison', 'safely', 'sections', 'seeks']
+
+======== UNIT6-IED-INTRO ========
+
+u6-q22-sqp-2023 (0.35): Missing: ['match', 'leap', 'cultural', 'special', 'zones', 'pricing', 'aiexplanation', 'explicitly', 'answer', 'attract', 'great', 'pair', 'sending', 'farming', 'matching', 'collective', 'work', 'perfectly', 'sezs', 'professionals', 'forward', 'correctly', 'applies', 'students', 'commune', 'proletarian', 'china', 'involved']

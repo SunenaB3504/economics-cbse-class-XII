@@ -65,7 +65,24 @@ export const MASTER_INTERRELATIONSHIPS_TOPIC: TheoryTopic = {
                     ['38', 'Deficient Demand (Employment Context)', '—', 'Equilibrium income is less than full employment income — economy producing below its potential — unemployment exists', 'Y* < Yf → Deficient Demand', 'Requires government intervention to boost AD — solution is to increase G or reduce T or encourage investment'],
                     ['39', 'Excess Demand (Employment Context)', '—', 'Equilibrium income exceeds full employment income — demand is more than what economy can produce at full employment', 'Y* > Yf → Excess Demand', 'Leads to inflation since real output cannot increase beyond full employment — prices rise instead'],
                     ['40', 'Effective Demand Principle', 'EDP', 'Keynesian principle that in the short run with fixed prices equilibrium output is determined entirely by the level of aggregate demand', 'Y* = AD at equilibrium', 'Core of Keynesian economics — supply adjusts to match demand (not the classical view of demand adjusting to supply) — aggregate supply is perfectly elastic'],
-                    ['41', 'Paradox of Thrift', 'PoT', 'Counter-intuitive result that if all individuals try to save more simultaneously the total savings of the economy does not increase — it stays same or falls', 'If MPS ↑ → Y* ↓ proportionally → S remains unchanged', 'Derived from multiplier — higher MPS means lower multiplier means lower equilibrium income — income falls by enough to keep total savings unchanged — individually rational but collectively self-defeating']
+                    ['41', 'Paradox of Thrift', 'PoT', 'Counter-intuitive result that if all individuals try to save more simultaneously the total savings of the economy does not increase — it stays same or falls', 'If MPS ↑ → Y* ↓ proportionally → S remains unchanged', 'Derived from multiplier — higher MPS means lower multiplier means lower equilibrium income — income falls by enough to keep total savings unchanged — individually rational but collectively self-defeating'],
+                    ['42', 'Break-Even Point', '—', 'Level of income where entirely all income is consumed and saving is strictly zero', 'C = Y; S = 0; APC = 1', 'Critically marks the precise x-intercept of the saving curve (projected straight down from C=Y).'],
+                    ['43', 'Effective Demand', 'ED', 'That specific aggregate demand which becomes effective because it intrinsically equals aggregate supply determining actual output', 'AD = AS at equilibrium', 'If AD > AS, the adjustment mechanism to attain Effective Demand is for firms to rapidly hire labor to intuitively expand production until AD cleanly equals AS.'],
+                    ['44', 'Deflationary Gap', '—', 'The exact gap by which ex-ante Aggregate Demand structurally falls short of the Aggregate Demand required to establish full employment equilibrium.', 'Ex-ante AD < Required AD', 'Strictly measured using *ex-ante* (planned/intended) variables rather than ex-post defaults.']
+                ]
+            }
+        },
+        {
+            id: 'v-sqp-traps-u3',
+            title: 'SQP Examiner Traps & Edge Cases',
+            type: 'table',
+            data: {
+                headers: ['Examiner Trap Area', 'The Trap / Common Confusion', 'CBSE / Mathematical Verdict'],
+                rows: [
+                    ['Values of Propensities', 'Can APC or MPC be greater than one?', '**APC CAN be > 1** (at low incomes where C > Y due to past saving extraction). **MPC CANNOT be > 1** (its maximum limit is strictly 1/unity; you cannot indefinitely spend more than 100% of an *extra* rupee earned).'],
+                    ['Ex-ante vs Ex-post', 'Equating definitions or using ex-post for macro gaps.', '**"Ex-post"** means actual/realized. **"Ex-ante"** means planned/intended. Macro gaps (like Deflationary Gap) are strictly measured using purely ex-ante AD.'],
+                    ['Deriving Saving Curve', 'Missing the exact starting intercept value.', 'The Saving curve fundamentally initiates deep in the negative Y-axis precisely at **−c̅** (negative autonomous consumption). It hits zero exactly vertically below the Break-Even Point (where C=Y).'],
+                    ['Multiplier Terminology', 'MPS value causing Income variations', 'If MPS falls (e.g., 0.25 to 0.10), the multiplier jumps up (e.g., 4 to 10). The *increase* in income is the explicit mathematical difference between the absolute new income generation and the old income generation.']
                 ]
             }
         }

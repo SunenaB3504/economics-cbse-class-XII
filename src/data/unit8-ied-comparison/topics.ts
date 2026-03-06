@@ -6,37 +6,52 @@ export const TOPICS: TheoryTopic[] = [
     id: 'u8-t1',
     title: 'Development Path: India, China & Pakistan',
     description: 'Historical comparison and economic milestones since 1947.',
-    content: `
-# Comparative Development Journeys
-
-### 1. Historical Timeline and Chronology
-The three neighboring nations started their development journeys around the same time but chose different models:
-- **Founding Years**: **India** (1947), **Pakistan** (1947), and **China** (1949).
-- **First Five-Year Plans**: 
-    - **India**: 1951–56 (Focus on Agriculture/Heavy Industry).
-    - **China**: 1953–57 (Soviet-style heavy industry focus).
-    - **Pakistan**: 1956 (Medium-term plans).
-- **Economic Reforms (The Sequence)**: 
-    - **China (1978)**: Early starter, phased approach (Agriculture first, then Industry).
-    - **Pakistan (1988)**: "Denationalisation" and structural adjustment.
-    - **India (1991)**: "New Economic Policy" (LPG) triggered by a BoP crisis.
-
-### 2. China's Transformation: GLF and Communes
-China's industrialization was driven by state-led massive campaigns:
-- **Great Leap Forward (GLF) (1958)**: 
-    - **Aim**: Industrializing the country by encouraging household-level steel production.
-    - **Commune System**: Collective farming where 26,000 communes covered the entire rural population.
-    - **Result**: Mixed. It laid the manufacturing base but caused a catastrophic famine.
-- **Great Proletarian Cultural Revolution (1966-76)**: Mao introduced this to protect socialist values; it sent professionals to work in the countryside.
-- **Institutional Reforms (1978)**: 
-    - **Special Economic Zones (SEZs)**: Established to attract foreign investment.
-    - **Dual Pricing Policy**: A unique transition mechanic where a fixed portion of output was sold at regulated prices and the surplus at market prices.
-
-### 3. Pakistan's Economic Trajectory
-- **Mixed Economy**: Initially followed India's path of public sector dominance.
-- **Import Substitution**: High protectionism to foster local industries.
-- **Remittance Economy**: Pakistan's growth relies heavily on remittances from workers abroad and international financial aid, leading to vulnerability.
-    `,
+    content: [
+      {
+        type: 'context',
+        title: 'Comparative Development Journeys',
+        text: 'India, China, and Pakistan started their development journeys around the same time but chose different models. Think of them as three neighbors who left for their careers in the same decade.',
+        points: [
+          '**Founding Years**: India (1947), Pakistan (1947), and China (1949).',
+          '**Five-Year Plans**: India (1951), China (1953), Pakistan (1956).',
+          '**Reform Sequence**: China (1978), Pakistan (1988), India (1991).'
+        ],
+        tags: ['HISTORY', 'CHRONOLOGY']
+      },
+      {
+        type: 'concept',
+        title: "China's Transformation: GLF and Communes",
+        text: "Before the 1978 reforms, China followed a strict state-led socialist model characterized by mass mobilization.",
+        subPoints: [
+          { label: 'Great Leap Forward (GLF) (1958)', text: 'Aim: Rapid industrialization through household-level steel production (backyard furnaces).' },
+          { label: 'Commune System', text: 'Collective farming where 26,000 communes covered the entire rural population.' },
+          { label: 'Cultural Revolution (1966-76)', text: 'Introduced by Mao to protect socialist values; sent professionals to work in the countryside.' }
+        ],
+        tags: ['CHINA', 'MAO-ERA']
+      },
+      {
+        type: 'concept',
+        title: "China's Institutional Reforms (1978)",
+        text: "The Deng Xiaoping era introduced pragmatic shifts that made China the 'Factory of the World'.",
+        subPoints: [
+          { label: 'Agriculture', text: 'Household Responsibility System (HRS) gave land-use rights to families.' },
+          { label: 'Dual Pricing Policy', text: 'Fixed portion of output sold at regulated prices; surplus sold at market prices.' },
+          { label: 'Special Economic Zones (SEZs)', text: 'Tax incentives and infrastructure to attract Foreign Direct Investment (FDI).' }
+        ],
+        tags: ['CHINA', 'MODERN']
+      },
+      {
+        type: 'concept',
+        title: "Pakistan's Economic Trajectory",
+        text: "Pakistan initially grew faster than India in the 1960s but faced structural vulnerabilities later.",
+        points: [
+          'Followed a **Mixed Economy** model with public sector dominance.',
+          'Adopted **Import Substitution** to protect local industries.',
+          'Developed a **Remittance Economy** where growth relies heavily on workers abroad and foreign aid.'
+        ],
+        tags: ['PAKISTAN']
+      }
+    ],
     visualizations: [
       {
         id: 'u8-v1',
@@ -57,25 +72,41 @@ China's industrialization was driven by state-led massive campaigns:
     id: 'u8-t2',
     title: 'Demographic and Economic Indicators',
     description: 'Comparing growth rates, population density, and sectoral shifts.',
-    content: `
-# Comparative Indicators
-
-### 1. Demographic Indicators (Size vs. Density)
-- **Population Growth**: **Pakistan** has the highest growth rate (~2%). **China** has the lowest due to the 1979 One-Child Policy.
-- **Density**: **China** has the lowest population density (per sq km) despite the largest population because of its massive land area. **India** is the most densely populated.
-- **Urbanisation**: **China** leads significantly (~60%) compared to India and Pakistan (~35-37%).
-- **Sex Ratio**: All three countries show a skewed sex ratio preference for males.
-
-### 2. Sectoral Contribution: The Service Bypass
-- **Structural Shift**: 
-    - **China**: Followed the textbook path (Agri -> Industry -> Services). Manufacturing remains strong.
-    - **India & Pakistan**: Moved directly from Agri to Services, bypassing the intensive manufacturing phase.
-- **Employment vs GDP**: In India, agriculture employs ~42% but contributes <20% to GDP.
-
-### 3. Human Development (HDI) Targets
-- **China** is in the "High" HDI category, while India is "Medium" and Pakistan is "Low-Medium".
-- **Health**: China has lower IMR (Infant Mortality Rate) and higher life expectancy.
-    `,
+    content: [
+      {
+        type: 'comparison',
+        title: 'Demographic Indicators (Size vs. Density)',
+        text: 'Comparing population growth, density, and urbanisation across the three nations.',
+        subPoints: [
+          { label: 'Growth', text: 'Pakistan has the highest growth rate (~2%). China has the lowest due to the 1979 One-Child Policy.' },
+          { label: 'Density', text: 'China has the lowest density (148/sq km) due to large land area. India is most dense (455/sq km).' },
+          { label: 'Urbanisation', text: 'China leads (~60%) compared to India and Pakistan (~35-37%).' }
+        ],
+        tags: ['DEMOGRAPHICS']
+      },
+      {
+        type: 'concept',
+        title: 'The Service Sector Bypass',
+        text: 'While China followed the typical Agri -> Industry -> Services path, India and Pakistan moved directly from Agriculture to Services.',
+        points: [
+          '**China**: Manufacturing remains the backbone of the economy.',
+          '**India & Pakistan**: Bypassed the intensive manufacturing phase.',
+          '**Employment Paradox**: In India, agriculture employs 43% but contributes <20% to GDP, indicating low productivity.'
+        ],
+        tags: ['ECONOMY', 'STRUCTURAL']
+      },
+      {
+        type: 'comparison',
+        title: 'Human Development (HDI) Targets',
+        text: 'China outperforms its neighbors on most human development metrics.',
+        subPoints: [
+          { label: 'HDI Category', text: 'China (High), India (Medium), Pakistan (Low-Medium).' },
+          { label: 'Health', text: 'China has lower IMR (7.4) and higher life expectancy (77 years) than India and Pakistan.' },
+          { label: 'Education', text: 'Mean years of schooling are highest in China (8.1 years).' }
+        ],
+        tags: ['HDI', 'WELFARE']
+      }
+    ],
     visualizations: [
       {
         id: 'u8-v2-t1',
@@ -125,27 +156,36 @@ China's industrialization was driven by state-led massive campaigns:
     id: 'u8-t3',
     title: 'Appraisal and Liberty Indicators',
     description: 'Evaluating development beyond just GDP and math.',
-    content: `
-# Appraisal of Development
-
-### 1. Successes and Failures
-- **China**: Successfully moved millions out of poverty but at the cost of political transparency.
-- **India**: Maintained democratic stability and leadership in services, but faces infrastructure challenges.
-- **Pakistan**: Faced political instability and excessive dependency on foreign aid/remittances.
-
-### 2. Liberty Indicators: The Missing Dimension
-Unlike **Human Development Indicators** (which measure literacy, health, and income), **Liberty Indicators** measure the extent of democratic participation and civil liberties.
-- **Examples**:
-    - Freedom of expression and speech.
-    - Independence of the judiciary.
-    - Democratic/Political participation.
-- **Comparison**: India and Pakistan often rank better on **Liberty Indicators** than China, despite China having much higher GDP and HDI scores.
-
-### 3. Conclusion
-- Development is not just about GDP growth; it is also about the quality of life and the freedom people enjoy.
-- China's success shows the power of early reforms (1978), the **Great Leap Forward (1958)**, and the **Commune System**.
-- India's path highlights the potential of technology and services.
-    `,
+    content: [
+      {
+        type: 'concept',
+        title: 'Appraisal: Successes & Failures',
+        text: 'Evaluating the performance of the three economies over seven decades.',
+        points: [
+          '**China**: Successfully eliminated extreme poverty but lacks political transparency.',
+          '**India**: Maintained democratic stability and leadership in services, but lags in manufacturing and infrastructure.',
+          '**Pakistan**: Faced political instability and excessive dependency on foreign aid and remittances.'
+        ],
+        tags: ['APPRAISAL']
+      },
+      {
+        type: 'tip',
+        title: 'Liberty Indicators: The Missing Dimension',
+        text: 'Development is not just about GDP; it is also about the freedom people enjoy. Liberty indicators measure democratic participation.',
+        points: [
+          'Freedom of expression and speech.',
+          'Independence of the judiciary.',
+          'Democratic and political participation.'
+        ],
+        tags: ['LIBERTY', 'GOVERNANCE']
+      },
+      {
+        type: 'context',
+        title: 'The Democracy-Development Debate',
+        text: 'India and Pakistan often rank better on Liberty Indicators than China, despite China having higher GDP and HDI scores. This raises the question: Is economic growth more important than individual freedom?',
+        tags: ['DEBATE']
+      }
+    ],
     visualizations: [
       {
         id: 'u8-v3-t1',
