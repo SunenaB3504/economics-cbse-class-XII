@@ -55,3 +55,46 @@ I have performed a cross-audit between the **Theory Content (`topics.ts`)** and 
 ## 🚀 Remediation Plan
 1.  **Update `topics.ts`**: Inject sections for "Brain Drain", "Vocational Ed", and "Regional Disparities" into the education/migration blocks.
 2.  **Update `flashcards.ts`**: Add 5-7 "Expert Analyst" cards focused on the Orchard analogy and "Means vs Ends" logic.
+
+## 🚀 Remediation Plan
+1.  **Update `topics.ts`**: Inject sections for "Alternate Marketing Channels", "Contract Farming", and "SAGY" into the existing theory blocks.
+2.  **Update `flashcards.ts`**: Add 3-5 "Expert Analyst" cards focused on the Rural Bicycle analogy and Golden Rules.
+3.  **Align Terms**: Ensure the Terms Table in Theory exactly matches the classification cards (e.g., Land Development Banks).
+
+- [x] Gap Analysis: Ch 4 (Human Capital Formation) <!-- id: 77 -->
+- [/] Gap Analysis: Ch 6 (Employment) <!-- id: 78 -->
+
+---
+
+# Gap Analysis: Chapter 6 (Employment)
+
+I have performed a cross-audit between the **Theory Content (`topics.ts`)** and the **Flashcards (`flashcards.ts`)** for Chapter 6. Below are the identified gaps and a critical technical correction required.
+
+## ⚠️ Critical Technical Correction
+*   **Contradiction**: The theory content incorrectly states that the **Formal Sector** has `< 10 workers`. 
+*   **Fact**: The Formal (Organized) sector consists of all public sector establishments and private sector establishments which employ **10 or more hired workers**. The Informal sector is `< 10`.
+*   **Flashcard Alignment**: Flashcard `u7-emp-f9` is correct, but the theory must be fixed to match.
+
+## 🔍 Gaps in Flashcards (Missing Concept Reinforcement)
+These concepts are explained in the theory but have no corresponding flashcards.
+
+| Topic | Missing Concept | Theory Ref |
+|-------|-----------------|------------|
+| **Unemployment** | **Educated Unemployment**: Graduates without relevant skills. | Topic 2, Sec 4 |
+| **Stats** | **Sectoral Distribution**: Primary sector still employs ~45%. | Topic 2, Sec 1 |
+| **Master Chain** | **Fuel & Filter**: Population growth and Skill/Education links. | Topic 3, Part 2 |
+
+## 🔍 Gaps in Theory (Missing Context/Examples)
+These concepts or examples exist in flashcards but lack detailed explanation in the theory.
+
+| Concept | Flashcard Ref | Status |
+|---------|---------------|--------|
+| **Ahmedabad Textile Mills** | `u7-emp-f16` | **Missing in Theory**: Needs to be added as a case study example of Informalisation. |
+| **Contract Policy** | `u7-emp-f17` | **Sync Required**: Add specific mention of "1-year contract" trends in the theory. |
+
+## 🛠️ Remediation Plan
+1.  **Fix Theory**: Correct the `< 10` typo to `>= 10` for the Formal sector.
+2.  **Add Case Study**: Inject the Ahmedabad Textile Mill example into Topic 2.
+3.  **New Flashcards**: Add cards for Educated Unemployment and the full Master Chain.
+4.  **Sync Stats**: Ensure the 45% primary sector stat is tested in flashcards.
+d "Means vs Ends" logic.
