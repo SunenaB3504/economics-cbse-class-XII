@@ -22,7 +22,7 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
             '**Drain of Wealth:** Systematic outflow of India\'s surplus to pay for British administrative and war costs.',
             '**Suez Canal (1869):** Direct sea route to Britain; intensified colonial extraction/market dominance.',
             '**Year of Great Divide (1921):** Transition from unstable population to sustained growth stage.',
-            '**Colonial Metrics (~1947):** Literacy **<16%**; Life Expectancy **32 years**; IMR **218/1000**.',
+            '**Colonial Metrics (~1947):** Literacy **<16%**; Life Expectancy **44 years**; IMR **218/1000**.',
             '**Infrastructure Motive:** Railways (1850) built for troop movement and raw material extraction, not welfare.'
         ]
     }

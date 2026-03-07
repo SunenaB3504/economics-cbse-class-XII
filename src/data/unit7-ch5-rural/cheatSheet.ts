@@ -5,7 +5,7 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
         id: 'u7-ch5-c1',
         title: 'Rural Credit Hierarchy',
         points: [
-            '**NABARD (July 1982)**: Apex Body. Coordinates all rural financing. REFINDING agency.',
+            '**NABARD (July 1982)**: Apex Body. Coordinates all rural financing. REFINANCING agency.',
             '**Institutional Sources**: Commercial Banks (48%), Cooperatives (32%), RRBs (15%).',
             '**SHGs (Social Banking)**: Micro-credit for the poor (e.g., Kudumbashree). Focus on "Social Collateral" and Women Empowerment.'
         ]

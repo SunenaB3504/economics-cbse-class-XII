@@ -40,12 +40,12 @@
         "question_coverage_percent": 100.0
     },
     "unit6-ied-intro": {
-        "total_questions": 18,
-        "covered_questions": 18,
-        "total_marks": 57,
-        "covered_marks": 57,
-        "marks_coverage_percent": 100.0,
-        "question_coverage_percent": 100.0
+        "total_questions": 0,
+        "covered_questions": 0,
+        "total_marks": 0,
+        "covered_marks": 0,
+        "marks_coverage_percent": 0,
+        "question_coverage_percent": 0
     },
     "unit7-ied-challenges": {
         "total_questions": 18,
