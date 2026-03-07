@@ -192,7 +192,7 @@ export const MockExamSimulator: React.FC<{ onBack: () => void }> = ({ onBack }) 
                                 </span>
                             </div>
 
-                            <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-6 leading-snug whitespace-pre-wrap">{q.questionNumber.replace(/^Q\d+\.\s*/, '')} {q.question}</h3>
+                            <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-6 leading-snug whitespace-pre-wrap">{(q.questionNumber || '').replace(/^Q\d+\.\s*/, '')} {q.question}</h3>
 
                             {q.imageUrl && (
                                 <div className="mb-6 rounded-xl overflow-hidden border border-gray-100 bg-white inline-block">
@@ -231,8 +231,8 @@ export const MockExamSimulator: React.FC<{ onBack: () => void }> = ({ onBack }) 
                                                 className={btnClass}
                                             >
                                                 <span className={`flex-shrink-0 w-6 h-6 flex items-center justify-center rounded-full font-bold text-xs mt-0.5 ${isSubmitted && isCorrect ? 'bg-emerald-200 text-emerald-800' :
-                                                        isSubmitted && isSelected && !isCorrect ? 'bg-red-200 text-red-800' :
-                                                            isSelected ? 'bg-indigo-200 text-indigo-800' : 'bg-gray-200 text-gray-600'
+                                                    isSubmitted && isSelected && !isCorrect ? 'bg-red-200 text-red-800' :
+                                                        isSelected ? 'bg-indigo-200 text-indigo-800' : 'bg-gray-200 text-gray-600'
                                                     }`}>
                                                     {isSubmitted && isCorrect ? <CheckCircle2 className="w-4 h-4" /> :
                                                         isSubmitted && isSelected && !isCorrect ? <XCircle className="w-4 h-4" /> :
