@@ -420,5 +420,66 @@ export const FLASHCARDS: Flashcard[] = [
         answer: 'Because knowledge is the primary factor of production in the modern world.',
         category: 'Theory',
         aiExplanation: 'Without HCF, a nation cannot participate in global high-tech growth.'
+    },
+    // --- SECTION 5: EXPERT ANALYST (Premium Concepts & Logic) ---
+    {
+        id: 'u7-hcf-f61',
+        question: 'In the "Growing Orchard" analogy, what do the "Mango Saplings" represent?',
+        answer: 'Human Resources (the raw population before investment in education and health).',
+        category: 'Analogy'
+    },
+    {
+        id: 'u7-hcf-f62',
+        question: 'In the "Growing Orchard" analogy, what is the "Harvest of Alphonso Mangoes"?',
+        answer: 'Economic Growth (increased Real National Income/GDP).',
+        category: 'Analogy'
+    },
+    {
+        id: 'u7-hcf-f63',
+        question: 'Explain the "Swiggy vs. Zomato" logic for Human Capital.',
+        answer: 'You pay for the food (Physical Product), but you also pay for the delivery/app expertise (Human Capital/Skill). HC is the skill that makes the service possible.',
+        category: 'Analogy'
+    },
+    {
+        id: 'u7-hcf-f64',
+        question: 'Why is Human Capital considered a "Means" and Human Development an "End"?',
+        answer: 'HC is a tool to increase productivity/output (Means); HD is the actual well-being and dignity of the person (End).',
+        category: 'Theory'
+    },
+    {
+        id: 'u7-hcf-f65',
+        question: 'What is the "Human Capital Seesaw" regarding separability?',
+        answer: 'Physical Capital (tractor) can be sold without the owner; Human Capital (doctor\'s skill) can NEVER be sold without the owner being present.',
+        category: 'Analogy'
+    },
+    {
+        id: 'u7-hcf-f66',
+        question: 'True or False: If Jaspal learns to read just to enjoy life, it is Human Capital.',
+        answer: 'False. It is Human Development. It becomes Human Capital only if it is used to increase productivity/income.',
+        category: 'True/False'
+    },
+    {
+        id: 'u7-hcf-f67',
+        question: 'Why is treating humans only as "Human Capital" compared to looking at a tree only for its wood?',
+        answer: 'Because it ignores the "shade and beauty" (well-being/Human Development) and only values the "commodity" (output).',
+        category: 'Analogy'
+    },
+    {
+        id: 'u7-hcf-f68',
+        question: 'According to the "Golden Rules," why is HCF essential for a Knowledge Economy?',
+        answer: 'Because information and innovation are the primary factors of production today, which require highly skilled human capital.',
+        category: 'Theory'
+    },
+    {
+        id: 'u7-hcf-f69',
+        question: 'Define "Functional Literacy" as per the Expert Analysis.',
+        answer: 'The ability to read and write well enough to handle daily life and job tasks effectively (manuals, bank forms, etc.).',
+        category: 'Definition'
+    },
+    {
+        id: 'u7-hcf-f70',
+        question: 'What happens if Economic Growth increases but Human Development doesn\'t?',
+        answer: 'It leads to a "Rich but Unhealthy/Illiterate" nation where income isn\'t translated into actual welfare.',
+        category: 'Theory'
     }
 ];

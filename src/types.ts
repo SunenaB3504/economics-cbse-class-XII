@@ -48,7 +48,7 @@ export interface Flashcard {
   id: string;
   question: string;
   answer: string;
-  category: 'Definition' | 'Classification' | 'Calculation' | 'True/False' | 'Theory' | 'Technical' | 'Application';
+  category: 'Definition' | 'Classification' | 'Calculation' | 'True/False' | 'Theory' | 'Technical' | 'Application' | 'Analogy';
   aiExplanation?: string;
 }
 

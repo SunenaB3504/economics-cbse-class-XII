@@ -27,6 +27,7 @@ Human Capital refers to the **stock of skill, ability, expertise, education, and
 2.  **Expenditure on Health**: Includes **Preventive** (vaccines), **Curative** (medicines), **Social** (literacy), and provision of clean water/sanitation.
 3.  **On-the-job Training**: Enhances specialized skills; firms invest because productivity gains > training costs.
 4.  **Migration**: People move in search of higher salaries. Costs involved: Transport, higher cost of living, and **psychic costs** of living in a strange setup.
+    - **Brain Drain**: The migration of highly skilled and educated people (doctors, engineers) to developed countries. This represents a loss of human capital for the home country.
 5.  **Information**: Spending to find out about labor markets and educational institutions (salaries, employable skills).
 
 ### 4. Human Capital vs. Human Development
@@ -90,6 +91,9 @@ Human Capital refers to the **stock of skill, ability, expertise, education, and
 - **Total Expenditure %**: Indicates importance in government scheme (increased from 7.9% to 16.5% during 1952-2020).
 - **GDP %**: Indicates commitment of people's income (increased from 0.6% to 4.4% in the same period).
 - **Education Cess**: 2% surcharge on Union taxes for elementary education.
+- **Vocational Education**: Training that focuses on specific trades (plumbing, IT, hospitality) to improve employability and reduce educated unemployment.
+- **Secondary Dropout**: Significant issue in India; dropout rates are often highest at the secondary level due to economic pressures.
+- **Cost Differential**: Per capita expenditure on tertiary (higher) education is much higher than primary because it requires specialized labs, high-end equipment, and specialized professors.
 
 ### 2. Select Indicators of Development (1951-2021)
 | Particulars | 1951 | 2018-21 |
@@ -112,7 +116,9 @@ Human Capital refers to the **stock of skill, ability, expertise, education, and
 ### 5. Future Prospects & Challenges
 - **Education for All**: Absolute number of illiterates is still as high as India's population at independence.
 - **Gender Equity**: Narrowing gaps, but women's education remains imminent for status and fertility control.
-- **Indian Education Pyramid**: Very steep; few reach higher education.
+- **Indian Education Pyramid**: Very steep; many enter primary school, but very few reach higher education.
+- **Regional Disparities**: Massive gaps exist between states. For example, **Kerala** has near 100% literacy, while states like **Bihar** struggle with much lower rates (~70%).
+- **Functional Literacy**: The ability to read/write well enough to handle daily life tasks (reading manuals, bank forms). Basic literacy isn't enough for a Knowledge Economy.
 - **Educated Unemployment**: Higher among rural females (~30% vs 3-6% for primary level).
         `,
         visualizations: [

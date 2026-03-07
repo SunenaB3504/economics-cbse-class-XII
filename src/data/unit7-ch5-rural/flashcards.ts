@@ -367,5 +367,66 @@ export const FLASHCARDS: Flashcard[] = [
         question: 'Define "Sustainable Development" in the context of agriculture.',
         answer: 'Farming practices that meet current food needs without compromising the ability of future generations to meet theirs.',
         category: 'Definition'
+    },
+    // --- SECTION 5: EXPERT ANALYST (Premium Concepts & Logic) ---
+    {
+        id: 'u7-ch5-f61',
+        question: 'In the "Rural Bicycle" analogy, what does the "Chain" represent?',
+        answer: 'Rural Credit. If the credit flow snaps, the rural economy cannot move forward.',
+        category: 'Analogy'
+    },
+    {
+        id: 'u7-ch5-f62',
+        question: 'In the "Rural Bicycle" analogy, which component provides the "Push" (income)?',
+        answer: 'Diversification (shifting to allied/non-farm sectors).',
+        category: 'Analogy'
+    },
+    {
+        id: 'u7-ch5-f63',
+        question: 'Define "Marketed Surplus".',
+        answer: 'The portion of total agricultural output that is sold in the market by farmers after meeting their own consumption needs.',
+        category: 'Definition'
+    },
+    {
+        id: 'u7-ch5-f64',
+        question: 'Distinguish between Workforce Diversification and Cropping Pattern Diversification.',
+        answer: 'Workforce diversification is shifting labor from farming to allied activities (livestock/IT), while cropping pattern diversification is shifting from single crops to multiple/high-value crops.',
+        category: 'Theory'
+    },
+    {
+        id: 'u7-ch5-f65',
+        question: 'What is the "Grandpa of Rural Banks" (Refinancing apex)?',
+        answer: 'NABARD.',
+        category: 'Analogy'
+    },
+    {
+        id: 'u7-ch5-f66',
+        question: 'Which institution provides "Long-term" credit for land improvements?',
+        answer: 'Land Development Banks (LDBs).',
+        category: 'Technical'
+    },
+    {
+        id: 'u7-ch5-f67',
+        question: 'What is the "Model Village" scheme led by MPs?',
+        answer: 'Saansad Adarsh Gram Yojana (SAGY).',
+        category: 'Technical'
+    },
+    {
+        id: 'u7-ch5-f68',
+        question: 'True or False: The "Golden Revolution" refers to the growth in Food Grain production.',
+        answer: 'False. It refers to the growth in Horticulture (Fruits, Honey, etc.).',
+        category: 'True/False'
+    },
+    {
+        id: 'u7-ch5-f69',
+        question: 'Why is Organic Farming called "Home-cooked food" for the soil?',
+        answer: 'Because it uses natural manure/compost, restoring health without the "fast-food" style chemical fertilizers.',
+        category: 'Analogy'
+    },
+    {
+        id: 'u7-ch5-f70',
+        question: 'According to the "Golden Rules," what is the primary cure for overcrowding in agriculture?',
+        answer: 'Diversification of the workforce into non-farm and allied activities.',
+        category: 'Theory'
     }
 ];

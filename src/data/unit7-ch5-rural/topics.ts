@@ -28,6 +28,10 @@ When banks asked for "collateral" (security), the poor had nothing. **Self-Help 
 | **Food Security**: Famines are history; we have massive buffer stocks. | **Recovery Crisis**: High default rates (farmers not paying back). |
 | **Jan-Dhan Yojana**: 50cr+ accounts; direct benefit transfers (DBT). | **Shrinking Institutional Credit**: Post-reforms, banks are slightly hesitant. |
 | **Jan-Dhan Milestones**: Accidental insurance (1-2L) & Overdraft (10k). | **Informal Grip**: Moneylenders still exist where banks are slow. |
+| **Community Support**: **CISF (Community Investment Support Fund)** provides revolving funds to SHGs. | **Intentional Default**: Some farmers refuse to pay despite ability. |
+
+#### D. Saansad Adarsh Gram Yojana (SAGY)
+Under this scheme (est. 2014), Members of Parliament (MPs) identify and develop one village in their constituency as a **Model Village**, focusing on social, cultural, and economic infrastructure.
 
 > [!TIP]
 > **The NABARD Trap**: In exams, don't say NABARD gives loans to farmers. It gives loans to **banks** (Refinancing), which then lend to farmers.
@@ -69,20 +73,29 @@ Marketing isn't just selling; it's a chain: **Assembling → Processing → Grad
 
 #### The 4-Pillar Support System
 1.  **Regulated Markets**: Creating "Yards" where weights are fair and prices are transparent. (e.g., APMC Mandis).
-2.  **Infrastructure**: Building the "links" — cold storages, railways, and rural roads.
+2.  **Infrastructure**: Building the "links" — cold storages, railways, and rural roads. This is critical because **more than 10%** of farm produce is wasted due to lack of storage, often forcing farmers into **Distress Sales** (selling at very low prices due to urgent need for cash).
 3.  **Cooperative Marketing**: Strength in unity. **Operation Flood (Amul)** is the legend here.
-4.  **Policy Instruments**: 
+4.  **Grading & Standardization**: Sorting produce based on quality or size to fetch better prices in the market.
+5.  **Policy Instruments**: 
     - **MSP (Minimum Support Price)**: The safety net for farmers.
     - **Buffer Stocks (FCI)**: Ensuring we don't starve during droughts.
     - **PDS (Public Distribution System)**: Grains for the poor at ₹2-3/kg.
+
+#### Alternate Marketing Channels (Direct Marketing)
+To bypass middlemen (traders/brokers), farmers increasingly use direct channels:
+- **Apni Mandi** (Punjab, Haryana, Rajasthan).
+- **Hadaspar Mandi** (Pune).
+- **Rythu Bazars** (Andhra Pradesh, Telangana).
+- **Uzhavar Sandies** (Tamil Nadu).
+- **Contract Farming**: Multinational companies (like PepsiCo) provide seeds/inputs and guarantee a pre-decided price to farmers.
 
 ### 2. Diversification: Don't Put All Eggs in One Basket
 Why diversify? Because crop farming is risky and seasonal (overcrowded).
 
 #### Allied Activities (The 3 Revolutions)
-1.  **Animal Husbandry (Livestock)**: Operation Flood transformed India into a milk-surplus nation. 70 million small farmers depend on it.
-2.  **Fisheries (Blue Revolution)**: Inland sources (rivers/lakes) contribute **65%**, while Marine (sea) contributes **35%**. Kerala and Andhra are leaders.
-3.  **Horticulture (Golden Revolution)**: Focused on fruits, vegetables, and honey. India is the 2nd largest producer globally (leaders in Mangoes/Bananas).
+1.  **Animal Husbandry (Livestock)**: Operation Flood transformed India into a milk-surplus nation. 70 million small farmers depend on it. **Poultry** accounts for the largest share (~61% of total livestock).
+2.  **Fisheries (Blue Revolution)**: Inland sources (rivers/lakes) contribute **65%**, while Marine (sea) contributes **35%**. Kerala and Andhra are leaders. The fishing community regards water bodies as **"Mother" or "Provider"**.
+3.  **Horticulture (Golden Revolution)**: Focused on fruits, vegetables, and honey (1991-2003). India is the 2nd largest producer globally. Horticulture contributes around **6% to India's GDP**.
 
 ### 3. IT: The Digital Harvester
 IT isn't just for software companies; it's for the village!
@@ -180,12 +193,14 @@ Organic farming replaces chemical poisons (pesticides/fertilisers) with life-giv
 | 2 | Institutional Credit | — | Loans from banks/cooperatives rather than moneylenders. | Reduces farmer exploitation. |
 | 3 | NABARD | NABARD | Apex bank for rural financing (est. 1982). | Refinances banks, not farmers directly. |
 | 4 | RRBs | RRBs | Banks specifically for remote rural areas. | Bridges the "Remote-Banking" gap. |
-| 5 | SHGs | SHGs | 10-20 members pooling savings to take bank loans. | Micro-credit; Women empowerment. |
-| 6 | Kudumbashree | — | Kerala's massive SHG-based women's network. | Model for micro-credit success. |
-| 7 | Multi-Agency Approach| — | System involving Comm. Banks, RRBs, and Cooperatives. | Ensures wider credit reach. |
+| 5 | Land Development Banks| LDBs | Banks providing long-term credit for land improvement. | Essential for capital investment. |
+| 6 | SHGs | SHGs | 10-20 members pooling savings to take bank loans. | Micro-credit; Women empowerment. |
+| 7 | Kudumbashree | — | Kerala's massive SHG-based women's network. | Model for micro-credit success. |
+| 8 | Multi-Agency Approach| — | System involving Comm. Banks, RRBs, and Cooperatives. | Ensures wider credit reach. |
 | **MARKETING** | | | | |
-| 8 | Agricultural Marketing| — | Chain from harvest to consumer (storage, grading, etc.). | Crucial for "Market-ed Surplus" value. |
-| 9 | APMC / Mandi | — | Regulated market yards for transparent pricing. | Protects from middlemen. |
+| 9 | Agricultural Marketing| — | Chain from harvest to consumer (storage, grading, etc.). | Crucial for "Marketed Surplus" value. |
+| 10 | Marketed Surplus | — | Portion of produce sold in market after self-consumption. | Key indicator of farm commercialization. |
+| 11 | APMC / Mandi | — | Regulated market yards for transparent pricing. | Protects from middlemen. |
 | 10 | MSP | MSP | Minimum Support Price guaranteed by Govt. | Acts as a "Safety Net" for farmers. |
 | 11 | Buffer Stock | — | Grains stored by FCI for emergencies (famines). | Ensures National Food Security. |
 | 12 | PDS | PDS | Distribution of grain to poor via Fair Price Shops. | Social welfare via subsidization. |
