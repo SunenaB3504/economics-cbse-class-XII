@@ -87,7 +87,7 @@ export const TOPICS: TheoryTopic[] = [
         tags: ['DEMAND', 'FOREX']
       },
       {
-        type: 'key_relationship',
+        type: 'concept',
         title: 'Demand Curve for Foreign Exchange',
         text: 'SLOPES DOWNWARD — as the exchange rate (price of foreign currency) rises, imports become expensive → demand for foreign goods/services falls → demand for foreign currency falls.',
         points: ['Inverse relationship between exchange rate and demand for foreign exchange.']
@@ -107,7 +107,7 @@ export const TOPICS: TheoryTopic[] = [
         tags: ['SUPPLY', 'FOREX']
       },
       {
-        type: 'key_relationship',
+        type: 'concept',
         title: 'Supply Curve for Foreign Exchange',
         text: 'SLOPES UPWARD — as the exchange rate rises (rupee weakens), Indian exports become cheaper for foreigners → they buy more from India → more foreign currency flows in.',
         points: ['Direct relationship between exchange rate and supply of foreign exchange.']

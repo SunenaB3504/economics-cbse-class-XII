@@ -411,7 +411,6 @@ export const FLASHCARDS: Flashcard[] = [
   },
   {
     id: 'u8-fc58',
-    compare: 'Compare the HDI category of China and India.',
     question: 'Compare the HDI category of China and India.',
     answer: 'China is in the "High" HDI category, while India is in the "Medium" HDI category.',
     category: 'Theory',

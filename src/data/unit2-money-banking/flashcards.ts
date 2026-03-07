@@ -348,49 +348,49 @@ export const FLASHCARDS: Flashcard[] = [
     id: 'u2-fc51',
     question: 'How does money act as a "Store of Value"?',
     answer: 'It acts as an asset that can be used to transfer purchasing power from the present to the future. Stability in value is a prerequisite.',
-    category: 'Functions',
+    category: 'Theory',
     aiExplanation: 'If you want to buy a car in a year, you can save money today. It "Stores" your hard work for future use. Inflation is the greatest enemy of this function.'
   },
   {
     id: 'u2-fc52',
     question: 'What is the "Liquidity Trap"?',
     answer: 'A situation where interest rates are so low that individuals expect them to rise, making money demand infinitely elastic (the curve becomes horizontal).',
-    category: 'Demand for Money',
+    category: 'Theory',
     aiExplanation: 'At very low rates, people think "Bonds are too expensive and interest is too low, let\'s just keep cash." Even if the RBI prints money, interest rates won\'t fall further.'
   },
   {
     id: 'u2-fc53',
     question: 'Define Speculative Demand for Money.',
     answer: 'The demand for money held as an alternative to assets like bonds, based on expectations of future interest rates.',
-    category: 'Demand for Money',
+    category: 'Theory',
     aiExplanation: 'If you think interest rates will RISE in future (meaning bond prices will fall), you will hold "Cash" today to buy bonds later at a lower price.'
   },
   {
     id: 'u2-fc54',
     question: 'What is the relationship between the Purchasing Power of Money and the Price Level?',
     answer: 'Inverse relationship (1/P). As prices rise, the value of money falls.',
-    category: 'Equations',
+    category: 'Theory',
     aiExplanation: 'If a chocolate costs ₹10, ₹100 buys 10. If price rises to ₹20, ₹100 buys only 5. The "Power" of the same ₹100 has fallen.'
   },
   {
     id: 'u2-fc55',
     question: 'State the Transaction Motive for holding money.',
     answer: 'It is the demand for money to carry out day-to-day transactions due to the time gap between receipt of income and expenses.',
-    category: 'Demand for Money',
+    category: 'Theory',
     aiExplanation: 'You get salary on the 1st, but buy groceries every day. You need to keep "Cash" in hand to bridge this gap.'
   },
   {
     id: 'u2-fc56',
     question: 'What is the "Lender of Last Resort" function?',
     answer: 'The RBI\'s commitment to provide emergency credit to commercial banks in financial distress when they have no other options.',
-    category: 'RBI Functions',
+    category: 'Theory',
     aiExplanation: 'This prevents a single bank failure from causing a "Systemic Collapse" where people panic and withdraw money from all banks.'
   },
   {
     id: 'u2-fc57',
     question: 'Components of Broad Money (M3)?',
     answer: 'M1 + Net Time Deposits (Fixed Deposits) with Commercial Banks.',
-    category: 'Money Supply',
+    category: 'Theory',
     aiExplanation: 'M3 captures the "Savings" power of the country. While you can\'t spend an FD instantly, it is a very important part of the total money stock.'
   },
   {

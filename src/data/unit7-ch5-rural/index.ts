@@ -1,6 +1,6 @@
 import { TOPICS } from './topics';
 import { FLASHCARDS } from './flashcards';
-import { SQP } from './sqp';
+import { SQP_QUESTIONS as SQP } from './sqp';
 import { MIND_MAP } from './mindMap';
 import { CHEAT_SHEET } from './cheatSheet';
 import { Chapter } from '../../types';

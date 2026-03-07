@@ -355,28 +355,28 @@ export const FLASHCARDS: Flashcard[] = [
     id: 'u3-fc51',
     question: 'Define "Break-Even Point" in the context of the Consumption Function.',
     answer: 'It is the point where National Income (Y) equals Consumption (C), resulting in Zero Saving (S=0).',
-    category: 'Concepts',
+    category: 'Theory',
     aiExplanation: 'At this point, you are "Breaking Even" — every Rupee you earn is spent. No new savings, no old dissavings.'
   },
   {
     id: 'u3-fc52',
     question: 'Distinguish between Ex-Ante and Ex-Post values.',
     answer: 'Ex-Ante refers to planned or intended values; Ex-Post refers to actual or realized values at the end of the year.',
-    category: 'Analysis',
+    category: 'Theory',
     aiExplanation: 'Ex-Ante is the "Budget." Ex-Post is the "Actual Account statement." We use Ex-Ante for equilibrium theory.'
   },
   {
     id: 'u3-fc53',
     question: 'What is Autonomous Investment?',
     answer: 'Investment that is independent of the level of income, often made by the government for social welfare.',
-    category: 'Investment',
+    category: 'Theory',
     aiExplanation: 'In our basic model, all "I" is assumed autonomous. It is shown as a horizontal line parallel to the X-axis.'
   },
   {
     id: 'u3-fc54',
     question: 'What is Induced Consumption?',
     answer: 'That part of consumption which varies directly with the level of income (bY).',
-    category: 'Consumption',
+    category: 'Theory',
     aiExplanation: 'This is the "Income-dependent" part. If salary is 10k, spending is 8k. If salary is 20k, spending is 15k. The *increase* is induced.'
   },
   {

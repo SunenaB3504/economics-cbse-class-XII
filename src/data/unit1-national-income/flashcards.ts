@@ -5,70 +5,70 @@ export const FLASHCARDS: Flashcard[] = [
     id: 'u1-fc1',
     question: 'Define National Income (NNP at FC).',
     answer: 'It is the sum total of factor incomes (rent, wages, interest, profit) earned by normal residents of a country during a year.',
-    category: 'Basic Concepts',
+    category: 'Theory',
     aiExplanation: 'Think of National Income as the "Total Earnings" of a country\'s residents, regardless of where they earned it. It must be at Factor Cost (FC) because we only want the actual income earned by factors of production, excluding taxes.'
   },
   {
     id: 'u1-fc2',
     question: 'Difference between Gross and Net investment?',
     answer: 'Gross Investment includes depreciation, while Net Investment excludes it (Net = Gross - Depreciation).',
-    category: 'Basic Concepts',
+    category: 'Theory',
     aiExplanation: 'Gross is the "Total" spent on new assets. Net is what actually "adds" to the stock of capital after accounting for the wear and tear (Depreciation) of existing machines.'
   },
   {
     id: 'u1-fc3',
     question: 'What is a "Stock" variable?',
     answer: 'A variable measured at a particular point of time (e.g., Wealth, Capital).',
-    category: 'Basic Concepts',
+    category: 'Theory',
     aiExplanation: 'Imagine a "Still Photo." Wealth at 5 PM on Dec 31st is a stock. It is a quantity accumulated over time but measured at an instant.'
   },
   {
     id: 'u1-fc4',
     question: 'What is a "Flow" variable?',
     answer: 'A variable measured over a period of time (e.g., Income, Expenditure).',
-    category: 'Basic Concepts',
+    category: 'Theory',
     aiExplanation: 'Imagine a "Video." Income earned *during* the year 2023 is a flow. It has a time dimension (per month, per year).'
   },
   {
     id: 'u1-fc5',
     question: 'Name the two sectors in a simple circular flow model.',
     answer: 'Households (owners of factors) and Firms (producers of goods).',
-    category: 'Circular Flow',
+    category: 'Theory',
     aiExplanation: 'In this closed 2-sector model, Households provide services (labor, land) and Firms provide goods. Money flows in the opposite direction as payments.'
   },
   {
     id: 'u1-fc6',
     question: 'Define Normal Residents.',
     answer: 'Individuals/Institutions who ordinarily reside in a country for more than a year and whose center of economic interest lies in that country.',
-    category: 'Basic Concepts',
+    category: 'Theory',
     aiExplanation: 'Note the "Economic Interest" part. Even a foreigner living in India for 2 years is a normal resident if they earn, spend, and save here.'
   },
   {
     id: 'u1-fc7',
     question: 'Formula for GDP at MP to NNP at FC?',
     answer: 'GDP at MP (-) Depreciation (+) NFIA (-) NIT = NNP at FC.',
-    category: 'Aggregates',
+    category: 'Theory',
     aiExplanation: 'The 3 Golden Rules: 1. Gross -> Net (-Dep), 2. Domestic -> National (+NFIA), 3. MP -> FC (-NIT). Apply them step-by-step.'
   },
   {
     id: 'u1-fc8',
     question: 'What are Intermediate Goods?',
     answer: 'Goods used for resale or as raw material in the same year. Not included in National Income.',
-    category: 'Basic Concepts',
+    category: 'Theory',
     aiExplanation: 'Example: Flour used by a baker. If we count the flour *and* the bread, we are double-counting. We only count the final "Bread."'
   },
   {
     id: 'u1-fc9',
     question: 'What are Transfer Payments?',
     answer: 'Unilateral payments received without any productive service (e.g., Old age pension, scholarships).',
-    category: 'Basic Concepts',
+    category: 'Theory',
     aiExplanation: 'These are "Gifts" or "Charity." Since no new good or service was produced in return, they are excluded from National Income.'
   },
   {
     id: 'u1-fc10',
     question: 'What is Real GDP?',
     answer: 'GDP valued at constant prices (base year prices). It measures physical output change.',
-    category: 'Aggregates',
+    category: 'Theory',
     aiExplanation: 'Real GDP is the "Truth." It ignores price inflation and only shows if we are actually producing MORE goods and services.'
   },
   {
@@ -166,14 +166,14 @@ export const FLASHCARDS: Flashcard[] = [
     id: 'u1-fc24',
     question: 'Define Money Flow.',
     answer: 'Flow of money across different sectors (e.g., payments for goods).',
-    category: 'Circular Flow',
+    category: 'Theory',
     aiExplanation: 'In the circular flow, money moves from Firms to Households as Wages/Rent, and back to Firms as Consumption spending.'
   },
   {
     id: 'u1-fc25',
     question: 'Define Real Flow.',
     answer: 'Flow of factor services and goods/services across sectors without money involvement.',
-    category: 'Circular Flow',
+    category: 'Theory',
     aiExplanation: 'If you work for a firm, you provide a "Real Service." If the firm gives you a product, it is a "Real Good." This is the physical side of the economy.'
   },
   {
@@ -194,7 +194,7 @@ export const FLASHCARDS: Flashcard[] = [
     id: 'u1-fc28',
     question: 'Difference between Domestic and National product?',
     answer: 'National Product = Domestic Product + NFIA.',
-    category: 'Basic Concepts',
+    category: 'Theory',
     aiExplanation: 'Domestic = "Inside our Borders." National = "Our People (Residents)." The difference is the net income earned from the rest of the world.'
   },
   {
@@ -208,7 +208,7 @@ export const FLASHCARDS: Flashcard[] = [
     id: 'u1-fc30',
     question: 'Define Nominal GDP.',
     answer: 'GDP valued at current market prices.',
-    category: 'Aggregates',
+    category: 'Theory',
     aiExplanation: 'Nominal GDP can look very high if prices are rising rapidly (Inflation), even if the number of goods produced stays the same.'
   },
   {
@@ -285,7 +285,7 @@ export const FLASHCARDS: Flashcard[] = [
     id: 'u1-fc41',
     question: 'What is Net National Product at Market Price (NNP at MP)?',
     answer: 'NNP at FC + Net Indirect Taxes.',
-    category: 'Aggregates',
+    category: 'Theory',
     aiExplanation: 'Market Price is always more than Factor Cost by the amount of taxes (minus subsidies).'
   },
   {
@@ -355,21 +355,21 @@ export const FLASHCARDS: Flashcard[] = [
     id: 'u1-fc51',
     question: 'In which year did the Great Depression start?',
     answer: '1929. It led to high unemployment and fall in GDP in Europe and North America.',
-    category: 'History',
+    category: 'Theory',
     aiExplanation: 'This event was the "Birth of Macroeconomics." Traditional theories failed to explain it, leading to the rise of Keynesian economics.'
   },
   {
     id: 'u1-fc52',
     question: 'Who is the author of "The General Theory of Employment, Interest and Money"?',
     answer: 'John Maynard Keynes. Published in 1936, it laid the foundation of modern Macroeconomics.',
-    category: 'History',
+    category: 'Theory',
     aiExplanation: 'Keynes argued that government intervention is necessary during recessions to boost Aggregate Demand.'
   },
   {
     id: 'u1-fc53',
     question: 'Name two major macroeconomic decision makers in India.',
     answer: 'The Reserve Bank of India (RBI) and the Securities and Exchange Board of India (SEBI).',
-    category: 'Basic Concepts',
+    category: 'Theory',
     aiExplanation: 'Macro decisions aren\'t made by firms/households but by institutions that care about the whole economy (Inflation, Stock Market, Interest Rates).'
   },
   {
