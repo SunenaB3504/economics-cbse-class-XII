@@ -31,7 +31,9 @@ When banks asked for "collateral" (security), the poor had nothing. **Self-Help 
 | **Community Support**: **CISF (Community Investment Support Fund)** provides revolving funds to SHGs. | **Intentional Default**: Some farmers refuse to pay despite ability. |
 
 #### D. Saansad Adarsh Gram Yojana (SAGY)
-Under this scheme (est. 2014), Members of Parliament (MPs) identify and develop one village in their constituency as a **Model Village**, focusing on social, cultural, and economic infrastructure.
+Under this scheme (est. 2014), Members of Parliament (MPs) identify and develop one village in their constituency as a **Model Village**. 
+- **Target**: MPs were to develop three villages as model villages, covering over 2,500 villages nationally.
+- **Focus**: Social, cultural, and economic infrastructure including health, nutrition, and education.
 
 > [!TIP]
 > **The NABARD Trap**: In exams, don't say NABARD gives loans to farmers. It gives loans to **banks** (Refinancing), which then lend to farmers.

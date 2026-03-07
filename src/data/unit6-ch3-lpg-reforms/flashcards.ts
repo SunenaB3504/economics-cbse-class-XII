@@ -422,5 +422,19 @@ export const FLASHCARDS: Flashcard[] = [
         answer: 'A mix of both; precipitated by internal inefficiency and "forced" by external crisis/IMF conditions.',
         category: 'Theory',
         aiExplanation: 'A key debate in Indian economics.'
+    },
+    {
+        id: 'u6-ch3-fc61',
+        question: 'What was the exact amount of the loan India sought from the IMF and World Bank in 1991?',
+        answer: '$7 Billion.',
+        category: 'Theory',
+        aiExplanation: 'The loan came with strict conditions for economic restructuring.'
+    },
+    {
+        id: 'u6-ch3-fc62',
+        question: 'When was the General Agreement on Tariffs and Trade (GATT) established?',
+        answer: 'In 1948.',
+        category: 'Theory',
+        aiExplanation: 'It was the predecessor to the WTO (established in 1995).'
     }
 ];

@@ -399,5 +399,19 @@ export const FLASHCARDS: Flashcard[] = [
     answer: 'Fiat money has no intrinsic value (govt order). Legal tender means it cannot be refused for debt settlement.',
     category: 'Classification',
     aiExplanation: 'Most fiat money IS legal tender. But things like Cheques are fiduciary money (not fiat) and NOT legal tender (you can refuse a cheque).'
+  },
+  {
+    id: 'u2-fc59',
+    question: 'What is CBDC?',
+    answer: 'Central Bank Digital Currency (CBDC) is a digital form of legal tender issued by the central bank (RBI in India).',
+    category: 'Definition',
+    aiExplanation: 'It is the digital equivalent of physical cash. It is a sovereign liability and appears on the RBI\'s balance sheet.'
+  },
+  {
+    id: 'u2-fc60',
+    question: 'Mention two benefits of CBDC.',
+    answer: '1. Reduced dependency on physical cash. 2. Lower transaction costs and reduced settlement risk.',
+    category: 'Application',
+    aiExplanation: 'CBDC makes payments faster and cheaper while keeping the safety of Central Bank money.'
   }
 ];

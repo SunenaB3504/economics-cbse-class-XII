@@ -306,60 +306,74 @@ export const FLASHCARDS: Flashcard[] = [
     id: 'u4-fc51',
     question: 'Define Public Goods.',
     answer: 'Goods that are non-rivalrous (one person\'s use doesn\'t reduce others\') and non-excludable (cannot prevent non-payers from using).',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u4-fc52',
     question: 'What is the "Free Rider" problem?',
     answer: 'The situation where consumers benefit from a public good without paying for it, leading to market failure.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u4-fc53',
     question: 'State the Government Expenditure Multiplier formula.',
     answer: 'k_g = 1 / (1 - c) (where c is the Marginal Propensity to Consume).',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u4-fc54',
     question: 'State the Tax Multiplier formula.',
     answer: 'k_t = -c / (1 - c) (where c is the Marginal Propensity to Consume).',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u4-fc55',
     question: 'Why is the Tax Multiplier smaller than the Expenditure Multiplier?',
     answer: 'Because a tax cut increases consumption by only a fraction (c) of the tax change, whereas spending impacts demand directly.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u4-fc56',
     question: 'What is the Balanced Budget Multiplier?',
     answer: 'It measures the effect of an equal increase in G and T. Its value is always 1 (k_g + k_t = 1).',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u4-fc57',
     question: 'Define the "Stabilisation Function" of the budget.',
     answer: 'The government\'s attempt to maintain price stability and high employment by managing Aggregate Demand.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u4-fc58',
     question: 'How do proportional taxes act as "Automatic Stabilisers"?',
     answer: 'They reduce the size of the multiplier (k = 1 / [1-c(1-t)]), making the economy less sensitive to shocks.',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u4-fc59',
     question: 'Compare "Debt" and "Deficit".',
     answer: 'Deficit is a flow (accrued in one year); Debt is a stock (accumulation of all past deficits).',
-    category: 'Master'
+    category: 'Theory'
   },
   {
     id: 'u4-fc60',
     question: 'What was the significance of the 1929 Great Depression for Govt Budgeting?',
     answer: 'It exposed the failure of classical "laissez-faire" and led to the Keynesian focus on active government intervention via the budget.',
-    category: 'Master'
+    category: 'Theory'
+  },
+  {
+    id: 'u4-fc61',
+    question: 'What is PMGKAY?',
+    answer: 'Pradhan Mantri Garib Kalyan Anna Yojana is a welfare scheme that provides free food grains to the poor to ensure food security.',
+    category: 'Application',
+    aiExplanation: 'It is a prime example of the "Redistribution of Income" objective of the budget.'
+  },
+  {
+    id: 'u4-fc62',
+    question: 'What is the objective of Ayushmaan Bharat?',
+    answer: 'To provide free healthcare cover up to ₹5 lakh per family for secondary and tertiary care hospitalization to the poor.',
+    category: 'Application',
+    aiExplanation: 'This scheme helps in "Social Welfare" and redistribution of resources towards health equity.'
   }
 ];

@@ -422,5 +422,12 @@ export const FLASHCARDS: Flashcard[] = [
         answer: 'Yes, known as "Golden Bird" (Sone Ki Chidiya), famous for its textile, spice, and handicraft exports.',
         category: 'Theory',
         aiExplanation: 'British rule shifted India from a rich manufacturing hub to a poor raw material supplier.'
+    },
+    {
+        id: 'u6-ch1-fc61',
+        question: 'What was the annual growth rate of per capita real output as estimated by Dr. V.K.R.V. Rao?',
+        answer: 'Only 0.5% (pathetic improvement).',
+        category: 'Theory',
+        aiExplanation: 'Teacher\'s Voice: While total output grew <2%, the per capita growth was even lower, reflecting stagnant living standards.'
     }
 ];

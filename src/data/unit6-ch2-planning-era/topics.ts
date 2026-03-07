@@ -9,12 +9,12 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'concept',
                 title: 'The GMSE Framework',
-                text: 'India’s five-year plans had four core objectives, established by the Planning Commission (1950) under the leadership of P.C. Mahalanobis.',
+                text: 'India’s five-year plans had four core objectives, established by the Planning Commission (1950-2015) under the leadership of P.C. Mahalanobis. In 2015, the Commission was replaced by NITI Aayog.',
                 points: [
-                    '**Growth:** Increasing GDP and production capacity.',
+                    '**Growth:** Increasing GDP. The **First Five Year Plan (1951-56)** focused on agriculture, while the **Second Five Year Plan (1956-61)** shifted to heavy industry.',
                     '**Modernisation:** Adoption of new technology and changing social outlook (e.g. gender equality).',
-                    '**Self-reliance:** Reducing dependence on imports (especially food/capital goods).',
-                    '**Equity:** Ensuring benefits of growth reach the poor and reduce inequalities.'
+                    '**Self-reliance:** Reducing dependence on imports. Assisted by the **Foreign Exchange Regulation Act (FERA)** to conserve reserves.',
+                    '**Equity:** Ensuring benefits reach the poor. A goal of the **"Socialist Pattern of Society"**.'
                 ],
                 tags: ['STRATEGY']
             }
@@ -47,7 +47,8 @@ export const TOPICS: TheoryTopic[] = [
                 text: 'The government aimed to remove the colonial legacy of exploitation through land reforms.',
                 points: [
                     '**Abolition of Intermediaries:** Zamindari was abolished, benefiting ~20 million tenants.',
-                    '**Land Ceiling:** Fixing the maximum land ownership to redistribute surplus to the landless.'
+                    '**Land Ceiling:** Fixing the maximum land ownership. However, landlords used **"Benami Holdings"** (registering land in others\' names) to evade this.',
+                    '**Tenancy Reforms:** To stop evictions and fix fair rents.'
                 ],
                 tags: ['LAND_REFORMS']
             },
@@ -89,7 +90,8 @@ export const TOPICS: TheoryTopic[] = [
                 points: [
                     '**Schedule A:** 17 industries exclusively owned by the State (e.g. Arms, Atomic energy, Railways).',
                     '**Schedule B:** 12 industries where state leads and private supplements.',
-                    '**Schedule C:** Remaining industries left for the private sector, governed by Licensing.'
+                    '**Schedule C:** Remaining industries left for the private sector, governed by Licensing.',
+                    '**SSI Protection:** Based on the Karve Committee (1955) report.'
                 ],
                 tags: ['IPR_1956']
             },
@@ -139,11 +141,12 @@ export const TOPICS: TheoryTopic[] = [
             },
             {
                 type: 'list',
-                title: 'Examiner Focus: Karve Committee (1955)',
+                title: 'Examiner Focus: Strategic Milestones',
                 points: [
-                    'Recommended promoting SSI to solve rural poverty.',
-                    'Emphasized that SSIs need "Protection" and "Reservation".',
-                    'Highlighted the higher employment potential per rupee invested.'
+                    '**Karve Committee (1955):** Recommended promoting SSI to solve rural poverty.',
+                    '**Plan Holiday (1966-69):** A break from 5-year plans due to war and drought.',
+                    '**William Gaud:** Coined the term "Green Revolution".',
+                    '**Command Economy:** An economy where production/distribution is state-controlled (India\'s pre-1991 model).'
                 ],
                 tags: ['KEY_FACTOR']
             }

@@ -15,7 +15,7 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'concept',
                 title: 'Notable Researchers',
-                text: 'Among the notable estimators — Dadabhai Naoroji, William Digby, Findlay Shirras, V.K.R.V. Rao and R.C. Desai — it was the estimates of Dr. Rao, which were considered very significant.',
+                text: 'Among the notable estimators — Dadabhai Naoroji, William Digby, Findlay Shirras, V.K.R.V. Rao and R.C. Desai — it was the estimates of Dr. Rao, which were considered very scientific and significant. He estimated that while aggregate real output grew at less than 2%, per capita output growth was a pathetic 0.5% per year.',
                 tags: ['DATA']
             }
         ],
@@ -74,17 +74,18 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'warning',
                 title: 'Two-fold De-industrialisation',
-                text: 'The primary motive of the colonial government behind this policy was two-fold:',
+                text: 'The primary motive of the colonial government behind this policy was two-fold: (1) To reduce India to an exporter of raw materials (Cotton, Silk, Wool, Indigo, Jute) and (2) To turn India into a market for British finished goods. They destroyed the "Sovereignty" of the Indian producer.',
                 points: [
-                    'To reduce India to the status of a mere exporter of important raw materials for the upcoming modern industries in Britain.',
-                    'To turn India into a sprawling market for the finished products of those industries.'
+                    '**Handicraft Decay:** World-famous Muslin was replaced by cheap mill-made British cloth.',
+                    '**TISCO (1907):** The Tata Iron and Steel Company was incorporated in 1907 (began production in 1912), standing as a rare exception in a backward industrial base.',
+                    '**Modern Industry:** Remained confined to cotton/jute textiles and a few sugar/paper mills with no capital goods sector.'
                 ],
                 tags: ['INDUSTRY']
             },
             {
                 type: 'concept',
                 title: 'Drain of Wealth',
-                text: 'India was a net exporter of raw materials and an importer of finished goods. This generated a huge export surplus, but it was used to make payments for the costs of administration set up by the British government in India, expenses on war, etc. This is known as the Drain of Wealth.',
+                text: 'India was a net exporter. The export surplus was used to pay for "Invisible Items" (shipping/banking/insurance), administrative expenses in London, and British war costs.',
                 tags: ['TRADE']
             }
         ],
@@ -129,13 +130,14 @@ export const TOPICS: TheoryTopic[] = [
             },
             {
                 type: 'list',
-                title: '1921: The Demographic Milestone',
+                title: 'Demographic & Infrastructure Milestones',
                 points: [
-                    'Before 1921: Population was unstable (High birth, very high/fluctuating death).',
-                    'After 1921: Population started growing steadily.',
-                    'Milestone: Known as the "Year of Great Divide".'
+                    '**Census 1881:** The first official census revealed high birth/death rates and massive illiteracy.',
+                    '**1921:** The "Year of Great Divide" marking the transition to stable population growth.',
+                    '**Railways (1850):** First train ran from Mumbai to Thane in 1853, primarily for raw material transport and troop movement.',
+                    '**Occupational Structure:** Agriculture (70–75%), Manufacturing (10%), and Services (15–20%).'
                 ],
-                tags: ['CHRONOLOGY']
+                tags: ['CHRONOLOGY', 'INFRASTRUCTURE']
             }
         ],
         visualizations: [

@@ -33,7 +33,9 @@ export const TOPICS: TheoryTopic[] = [
         text: 'Reducing inequality through a progressive tax structure.',
         points: [
           '**Progressive Tax**: Higher tax rates for higher income earners.',
-          '**Transfers**: Using tax revenue for welfare (food, health) for the poor.'
+          '**Transfers/Subsidies**: Using tax revenue for welfare (food, health, housing) for the poor.',
+          '**PMGKAY**: Pradhan Mantri Garib Kalyan Anna Yojana provides free food grains (80cr+ beneficiaries).',
+          '**Ayushmaan Bharat**: Provides free healthcare cover up to ₹5 lakh per family for the poor.'
         ],
         tags: ['EQUITY']
       },
@@ -65,7 +67,7 @@ export const TOPICS: TheoryTopic[] = [
           headers: ['Objective', 'Function', 'Mechanism', 'Indian Example'],
           rows: [
             ['Reallocation of Resources', 'Correct market failure — provide public goods', 'Tax harmful goods; subsidise social goods; fund public goods', 'MNREGA, National Defence, National Highways'],
-            ['Redistribution of Income', 'Reduce inequality', 'Progressive taxation; welfare transfers and subsidies', 'Income Tax slabs; PM-KISAN, food subsidies'],
+            ['Redistribution of Income', 'Reduce inequality', 'Progressive taxation; welfare transfers and subsidies', 'Income Tax slabs, PMGKAY (Food), Ayushmaan Bharat (Health)'],
             ['Economic Stabilisation', 'Prevent boom-bust cycles', 'Expansionary budget in recession; contractionary in inflation', '2020 COVID stimulus package; 2010s fiscal consolidation']
           ]
         }

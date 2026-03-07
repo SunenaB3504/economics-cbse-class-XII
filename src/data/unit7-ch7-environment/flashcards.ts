@@ -372,5 +372,19 @@ export const FLASHCARDS: Flashcard[] = [
         question: 'Conclusion: Why is India\'s environmental state called "Paradoxical"?',
         answer: 'Because we are rich in resources but poor in managing them, leading to severe depletion amidst growth.',
         category: 'Theory'
+    },
+    {
+        id: 'u7-env-f61',
+        question: 'What is Mission LiFE?',
+        answer: '"Lifestyle for Environment" — a movement for mindful and deliberate utilization instead of mindless and wasteful consumption.',
+        category: 'Definition',
+        aiExplanation: 'Launched by India at COP26, it emphasizes individual action for global environmental sustainability.'
+    },
+    {
+        id: 'u7-env-f62',
+        question: 'What is India\'s target year for achieving "Net Zero" emissions?',
+        answer: '2070.',
+        category: 'Technical',
+        aiExplanation: 'Net Zero means balancing the amount of greenhouse gases produced with the amount removed from the atmosphere.'
     }
 ];

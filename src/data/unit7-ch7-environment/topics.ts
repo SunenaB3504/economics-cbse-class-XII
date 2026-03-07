@@ -109,6 +109,8 @@ Correction for environmental damages involves **High Opportunity Costs**. Govern
 - **Urban Areas**: **CNG** in public transport (Delhi's success story).
 - **Traditional Knowledge**: Returning to **Medicinal Plants** (Ayurveda) and **Organic Farming** (Biocomposting).
 - **Biopest Control**: Using **Neem** and birds (owls/peacocks) instead of chemicals.
+- **Mission LiFE**: "Lifestyle for Environment" — a movement for mindful consumption and reducing individual carbon footprints.
+- **Net Zero 2070**: India's commitment to achieving zero net carbon emissions by 2070.
         `,
         visualizations: [
             {
@@ -135,6 +137,8 @@ Correction for environmental damages involves **High Opportunity Costs**. Govern
 | **Absorptive Cap.** | Waste processing limit | The Earth's "Digestive System". | Confused with "Carrying Capacity". |
 | **Carrying Capacity** | Resource-Waste health | The "Plimsoll Line" (load limit) of a ship. | Extraction must be < Regeneration! |
 | **Sustainable Dev.** | Intergenerational Equity | Not spending your grandkids' inheritance. | Barbier vs Brundtland definitions. |
+| **Mission LiFE** | Mindful Consumption | "Lifestyle for Environment" — Individual action. | To be linked with Sustainable Dev. |
+| **Net Zero 2070** | Carbon Neutrality | Balancing emissions and absorption by 2070. | India's global climate commitment. |
 | **Appiko Movement** | Sirsi, Karnataka (1983) | "Hug the trees" (Similar to Chipko). | Location: South India (Karnataka). |
 | **Biocomposting** | Earthworms / Organic | Using "Nature's Recyclers" for soil. | Alternative to Chemical Fertilizers. |
 

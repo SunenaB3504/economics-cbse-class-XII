@@ -8,12 +8,12 @@ export const TOPICS: TheoryTopic[] = [
         content: [
             {
                 type: 'concept',
-                title: 'The Perfect Storm',
-                text: 'By 1991, India’s economic situation had become unsustainable. The government was unable to make repayments on its borrowings from abroad.',
+                title: 'The Perfect Storm (July 1991)',
+                text: 'By 1991, under PM P.V. Narasimha Rao and FM Dr. Manmohan Singh, India launched the NEP to combat a severe crisis.',
                 points: [
-                    '**Foreign Exchange Crisis:** Reserves fell to a level that was not sufficient even to pay for two weeks of imports.',
-                    '**Fiscal Deficit:** Government expenditure rose much faster than revenue.',
-                    '**Inflation:** Prices of essential goods were rising sharply (double digits).',
+                    '**Foreign Exchange Crisis:** $7 Billion loan from IMF/World Bank was sought as reserves fell to 2 weeks.',
+                    '**Fiscal Deficit:** Government borrowing was unsustainable, leading to a **Vicious Circle of Debt**.',
+                    '**Inflation:** Soaring double-digit prices (13-17%).',
                     '**Gulf War (1990-91):** Spiked oil prices and reduced remittances.'
                 ],
                 tags: ['CRISIS']
@@ -49,9 +49,9 @@ export const TOPICS: TheoryTopic[] = [
                 type: 'concept',
                 title: 'Industrial Sector Reforms',
                 points: [
-                    '**Abolition of Licensing:** Ended for almost all except alcohol, cigarettes, drugs, hazardous chemicals, electronics/aerospace, explosives.',
-                    '**De-reservation:** Many goods reserved for SSI were opened to large firms.',
-                    '**Price Deregulation:** Market forces allowed to determine prices of many goods.'
+                    '**Compulsory Licensing:** Retained for only 6 industries (Alcohol, Cigarettes, Hazardous Chemicals, Drugs, Explosives, Aerospace).',
+                    '**Public Sector Role:** Strategic disinvestment to end **Soft Budget Constraints**. PSUs given status like **Maharatna** (NTPC, ONGC) and **Navratna** (SAIL).',
+                    '**Price Deregulation:** Ended **Dual Pricing** (where govt and market both set prices).'
                 ],
                 tags: ['LIBERALISATION']
             },
@@ -59,9 +59,10 @@ export const TOPICS: TheoryTopic[] = [
                 type: 'concept',
                 title: 'Financial & External Sector',
                 points: [
+                    '**Fiscal Consolidation:** Policies to reduce the fiscal deficit.',
                     '**RBI Role:** Shift from **Regulator** to **Facilitator** (Banks can decide rates).',
                     '**Rupee Devaluation:** Done to boost exports and attract forex.',
-                    '**Trade Policy:** Removal of Quotas (QRs) and sharp reduction in Import Tariffs.'
+                    '**Trade Policy:** Removal of Quotas (QRs) finished by **2001**.'
                 ],
                 tags: ['REFORMS']
             }
@@ -86,15 +87,9 @@ export const TOPICS: TheoryTopic[] = [
         content: [
             {
                 type: 'concept',
-                title: 'Outsourcing: India’s Global Edge',
-                text: 'Because of low wage rates and availability of skilled English-speaking manpower, India became a major destination for Business Process Outsourcing (BPO).',
-                tags: ['GLOBALISATION']
-            },
-            {
-                type: 'concept',
-                title: 'World Trade Organisation (WTO)',
-                text: 'Successor to GATT, established in 1995. India is a founding member. WTO promotes free trade and non-discriminatory MFN (Most Favoured Nation) principles.',
-                tags: ['WTO']
+                title: 'Outsourcing & WTO',
+                text: 'India became a global hub for BPO and **KPO** (Knowledge Process Outsourcing) due to skilled manpower. The World Trade Organisation (WTO), established in 1995 as successor to **GATT (1948)**, further integrated India into global trade.',
+                tags: ['GLOBALISATION', 'WTO']
             }
         ],
         visualizations: [

@@ -408,7 +408,7 @@ export const FLASHCARDS: Flashcard[] = [
     {
         id: 'u7-ch5-f67',
         question: 'What is the "Model Village" scheme led by MPs?',
-        answer: 'Saansad Adarsh Gram Yojana (SAGY).',
+        answer: 'Saansad Adarsh Gram Yojana (SAGY), where MPs were tasked to develop three villages into model villages by 2019.',
         category: 'Technical'
     },
     {

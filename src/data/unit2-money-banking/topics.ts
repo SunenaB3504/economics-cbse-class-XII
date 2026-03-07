@@ -54,6 +54,17 @@ export const TOPICS: TheoryTopic[] = [
           '**Limited**: Coins (legal limit on payment amount).'
         ],
         tags: ['STATUTORY STATUS']
+      },
+      {
+        type: 'concept',
+        title: 'Central Bank Digital Currency (CBDC)',
+        text: 'A digital form of paper currency issued by the Central Bank (RBI in India).',
+        points: [
+          '**Nature**: It is a legal tender, a liability of the Central Bank, and an asset for the public.',
+          '**Benefits**: Reduced dependency on cash, lower transaction costs, and reduced settlement risk.',
+          '**Risks**: Cyber-attacks, technology preparedness, and privacy concerns.'
+        ],
+        tags: ['MODERN MONEY', 'RBI']
       }
     ],
     visualizations: [
@@ -81,7 +92,8 @@ export const TOPICS: TheoryTopic[] = [
             ['Intrinsic Value', 'Full-Bodied (commodity value = face value)', 'Credit Money (face value > commodity value)', 'Old gold coins vs ₹500 paper note'],
             ['Basis of Acceptance', 'Fiat Money (government decree)', 'Fiduciary Money (based on trust)', '₹100 note vs a personal cheque'],
             ['Legal Status', 'Legal Tender (cannot be refused)', 'Non-Legal Tender (can be refused)', 'Currency notes vs cheques'],
-            ['Extent of Legal Tender', 'Unlimited Legal Tender (any amount)', 'Limited Legal Tender (up to a limit only)', 'Paper notes vs coins']
+            ['Extent of Legal Tender', 'Unlimited Legal Tender (any amount)', 'Limited Legal Tender (up to a limit only)', 'Paper notes vs coins'],
+            ['Modern Form', 'CBDC (Digital Rupee)', 'Issued by RBI (2022-23)', 'Digital equivalent of cash']
           ]
         }
       }

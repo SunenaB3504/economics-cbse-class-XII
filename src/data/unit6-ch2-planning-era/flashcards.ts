@@ -422,5 +422,12 @@ export const FLASHCARDS: Flashcard[] = [
         answer: 'No, it led to soil salinity, water table depletion, and loss of biodiversity over time.',
         category: 'Theory',
         aiExplanation: 'Critical appraisal of GR.'
+    },
+    {
+        id: 'u6-ch2-fc61',
+        question: 'How many industries were exclusively owned by the state in Schedule A of IPR 1956?',
+        answer: '17 industries (including Railways, Arms, Atomic Energy).',
+        category: 'Theory',
+        aiExplanation: 'Schedule B had 12 industries where the state took the lead.'
     }
 ];
