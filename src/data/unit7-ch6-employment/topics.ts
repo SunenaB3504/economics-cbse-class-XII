@@ -4,26 +4,34 @@ export const TOPICS: TheoryTopic[] = [
     {
         id: 'u7-ch6-t1',
         title: 'Workforce & Participation',
-        description: 'Deep dive into the Indian labor market metrics and gender gaps.',
+        description: 'NCERT 6.1-6.4: The meaning of work, labor metrics, and gender participation.',
         content: `
+### 0. Introduction: The Meaning of Work
+Why do we work? Work is not just for "earning" a living; it provides:
+- **Self-Worth**: Employment gives us a sense of identity and relates us meaningfully to society.
+- **GDP Contribution**: Every worker contributes to the National Income (GDP/GNP).
+- **Inclusivity**: A "worker" includes the self-employed (farmers, shopkeepers) and even those temporarily away from work due to illness, injury, or festivals.
+
 ### 📊 Teacher's Voice: The "Job Market Seesaw"
-Imagine a seesaw. On one side, you have the **Population** (everyone). On the other, you have the **Workers** (those actually producing). The balance between these two is what we call the **Worker-Population Ratio (WPR)**.
+Imagine a seesaw. On one side, you have the **Population** (everyone). On the other, you have the **Workers** (those actually producing). The balance between these two is the **Worker-Population Ratio (WPR)**.
 
 ### 1. The Trinity of Metrics
-To master this chapter, you must distinguish between these three concepts:
-1.  **Labor Force**: Everyone who is **Willing + Able** to work. This includes both the employed and those looking for jobs.
+To master this chapter, distinguish between:
+1.  **Labor Force**: Everyone who is **Willing + Able** to work (Employed + Unemployed).
+    - **Formula (LFPR)**: $\text{LFPR} = \frac{\text{Labor Force}}{\text{Total Population}} \times 100$.
 2.  **Workforce**: Only those who are **Actually Working**.
 3.  **The Gap (Unemployment)**: Labor Force minus Workforce.
+    - **Unemployment Rate**: $\frac{\text{Unemployed}}{\text{Labor Force}} \times 100$.
 
 ### 2. The Participation Paradox (WPR)
 - **Calculation**: $\text{WPR} = \frac{\text{Total Workers}}{\text{Total Population}} \times 100$.
-- **Urban vs. Rural**: Rural WPR is higher. **Why?** Because rural poverty doesn't allow the "luxury" of staying at home; people are forced into low-productivity work.
-- **Gender Gap**: Female participation is significantly lower (~25% vs ~55% for males). Reasons include domestic burdens, social norms, and the "invisible work" (housework) not being counted in GDP.
+- **Urban vs. Rural**: Rural WPR is higher (~42%) because poverty doesn't allow the "luxury" of staying home. Urban WPR is lower (~38%).
+- **Gender Gap**: Female participation is significantly lower (~25% vs ~55% for males). Reasons include domestic burdens and "invisible work" not being counted in GDP.
 
 ### 3. Employment Status: The Three Pillars
-- **Self-Employed (~52%)**: Farmers, shopkeepers. The largest segment in India.
-- **Regular Salaried (~23%)**: Teachers, bankers. High social security but hard to get.
-- **Casual Wage Laborers (~25%)**: Construction workers. No security, daily wages.
+- **Self-Employed (~52%)**: The largest segment; comprises own-account workers (farmers, etc.).
+- **Regular Salaried (~23%)**: Higher security and social benefits (PF, Pension).
+- **Casual Wage Laborers (~25%)**: Daily wage workers with NO job security.
         `,
         visualizations: [
             {
@@ -53,33 +61,33 @@ To master this chapter, you must distinguish between these three concepts:
     {
         id: 'u7-ch6-t2',
         title: 'Sectoral Shifts & Informalisation',
-        description: 'Analyzing the movement from farms to factories and the rise of informal work.',
+        description: 'NCERT 6.5-6.8: Trends, Jobless Growth, and the Informalisation crisis.',
         content: `
 ### 📊 Teacher's Voice: The "Casualisation Trap"
-Over the decades, India has seen a shift. While we want workers to move from farms to factories (Formal Sector), they are often getting stuck in **Casual Labor**. This is like moving from a shaky boat (unstable farming) to a slippery slope (unstable construction work).
+India has seen a shift from farms to factories. However, many workers get stuck in **Casual Labor**—moving from unstable farming to unstable daily-wage construction.
 
 ### 1. Sectoral Distribution (The Shift)
-- **Primary (Agriculture)**: Still the largest employer (~45%), but its share is falling.
-- **Secondary (Industry)**: Slow growth.
-- **Tertiary (Services)**: Rapid growth, becoming the engine of the economy.
+- **Primary (Agriculture)**: Still the largest employer (~45%), but its share is falling (from 74% in the 1970s).
+- **Secondary (Industry)**: Slow but steady growth (around 24%).
+- **Tertiary (Services)**: The fastest-growing engine of the Indian economy.
 
 ### 2. Informalisation of Workforce
 - **Formal Sector**: **10 or more** hired workers + Social Security (Pension, PF). Only ~6% of India.
-- **Informal Sector**: Includes farmers, street vendors, and small workshops. **Less than 10** workers. ~94% of workforce. 
-- **The Trend**: Even formal firms (MNCs) are now hiring workers on short-term **"one-year contracts"**. Since these workers lack long-term security, this leads to the **Informalisation of the Formal Sector**.
+- **Informal Sector**: Includes farmers, street vendors, and workshops with **less than 10** workers. ~94% of workforce. 
+- **The Trend**: Even formal firms (MNCs) now hire on **"one-year contracts"** to avoid social security, leading to the **Informalisation of the Formal Sector**.
 
 ### 3. Case Study: The Ahmedabad Textile Crisis
-In the 1980s, the closure of massive textile mills in Ahmedabad illustrated the pain of Informalisation. Thousands of workers with secure "Formal" jobs were suddenly forced into "Informal" work like pushcart vending or construction to survive.
+The 1980s closure of massive textile mills in Ahmedabad forced 80,000+ secure "Formal" workers into "Informal" jobs like pushcart vending, leading to widespread poverty and alcoholism.
 
-### 3. Jobless Growth: The Paradox
-When GDP grows at a record 8-9% but employment grows at only 1%, we call it **Jobless Growth**. 
-- **The Cause**: Heavy reliance on technology/AI and capital-intensive methods rather than labor-intensive ones.
-- **The Result**: A "Rich but Unemployed" economy.
+### 4. Jobless Growth & Modern Trends
+- **Jobless Growth**: GDP grows (8-9%) but employment doesn't (1%). Driven by technology and capital-intensive bias.
+- **Home as Workplace**: Modern outsourcing and technology allow people to work from home, but often with the lack of stable contracts (NCERT Box 6.10).
 
-### 4. Types of Unemployment
-- **Disguised**: 5 people doing the work of 3. MP (Marginal Productivity) = 0.
-- **Seasonal**: Working only during harvest/sowing.
-- **Educated**: Graduates without relevant skills (The "Degree without Skill" gap).
+### 5. Types of Unemployment
+- **Disguised**: 5 people doing the work of 3. MP = 0. Common in agriculture.
+- **Seasonal**: Only working during harvesting seasons.
+- **Educated**: Graduates without relevant industry skills.
+- **Open**: Willing to work but can't find even one hour of work in a half-day.
         `,
         visualizations: [
             {
@@ -111,6 +119,38 @@ When GDP grows at a record 8-9% but employment grows at only 1%, we call it **Jo
     },
     {
         id: 'u7-ch6-t3',
+        title: 'Government & Employment Initiatives',
+        description: 'NCERT 6.9: Direct vs. Indirect goals and key schemes.',
+        content: `
+### 📊 Teacher's Voice: The Stimulus Effect
+When the government builds a dam, it creates jobs in two ways:
+1.  **Direct**: Hiring engineers and clerks for the project.
+2.  **Indirect**: Buying steel/cement from private firms, who then hire more people to meet that demand.
+
+### 1. Direct vs. Indirect Employment
+The government employs people directly in defense, railways, and banks. Indirect employment occurs when government policies and spending stimulate growth in the private sector.
+
+### 2. MGNREGA (2005)
+The **Mahatma Gandhi National Rural Employment Guarantee Act** is the backbone of rural employment generation:
+- **Right to Work**: Guaranteed **100 days** of unskilled manual work to rural households.
+- **Social Safety Net**: Aimed at poverty alleviation and creating durable rural assets (roads, dams).
+        `,
+        visualizations: [
+            {
+                id: 'v5-grid',
+                title: 'Govt Employment Stimulus',
+                type: 'grid',
+                data: [
+                    { label: 'Direct', desc: 'Government hiring in railways, banks, and defense.' },
+                    { label: 'Indirect', desc: 'Creation of private sector jobs through govt spending.' },
+                    { label: 'MGNREGA', desc: 'Right to 100 days of unskilled work.' },
+                    { label: 'Reform Shift', desc: 'Movement from public to private-led growth.' }
+                ]
+            }
+        ]
+    },
+    {
+        id: 'u7-ch6-t4',
         title: '📊 Expert Teacher Analysis',
         description: 'Premium insights, terms table, and the Master Chain for Chapter 6.',
         content: `
@@ -125,7 +165,6 @@ When GDP grows at a record 8-9% but employment grows at only 1%, we call it **Jo
 | **Self-Employed** | Own account workers | Being your own "Boss" (e.g. Farmer). | Largest employment category (52%). |
 
 ### PART 2 — THE MASTER CHAIN: The "Employment Engine"
-This chain connects the dots of the entire chapter:
 1.  **Fuel**: Population Growth (The raw human resource).
 2.  **Filter**: Education & Skill (Creating "Employable" people).
 3.  **The Engine**: Economic Growth (GDP rising).
