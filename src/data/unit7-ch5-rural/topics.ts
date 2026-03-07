@@ -35,13 +35,15 @@ When banks asked for "collateral" (security), the poor had nothing. **Self-Help 
         visualizations: [
             {
                 id: 'u7-ch5-v1-hero',
-                type: 'image',
-                title: 'Rural Credit Lifecycle',
-                caption: 'The Rural Credit Lifecycle: Visualizing the flow from NABARD to the Grassroots.',
-                data: {
-                    src: 'https://images.unsplash.com/photo-1595152772835-219674b2a8a6?auto=format&fit=crop&q=80&w=1000',
-                    alt: 'Rural Credit Lifecycle'
-                }
+                type: 'process',
+                title: 'The Rural Credit Flow',
+                caption: 'Structural hierarchy of institutional credit flow in rural India.',
+                data: [
+                    { title: 'NABARD (Apex)', description: 'Coordinates all rural financing and provides refinance facility.' },
+                    { title: 'Financial Institutions', description: 'Commercial Banks, RRBs, and Cooperative Banks receive funds.' },
+                    { title: 'Local Branches', description: 'Banking networks at the district and village level.' },
+                    { title: 'The Farmer', description: 'Direct credit access for seeds, equipment, and personal needs.' }
+                ]
             },
             {
                 id: 'u7-ch5-v2-grid',
@@ -159,6 +161,131 @@ Organic farming replaces chemical poisons (pesticides/fertilisers) with life-giv
                         ['Environment', 'Polluting', 'Sustainable']
                     ]
                 }
+            }
+        ]
+    },
+    {
+        id: 'u7-ch5-master',
+        title: '📊 Expert Teacher Analysis: The Whole Chapter',
+        description: 'Comprehensive Terms Table and Master Chain using the Rural Pulse analogy.',
+        content: `
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 PART 1 — COMPREHENSIVE TERMS TABLE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| S.No. | Term | Abbr. | Brief Explanation | Interrelationship |
+|-------|------|--------------|-------------------|-------------------|
+| **RURAL CREDIT** | | | | |
+| 1 | Rural Development | — | Action plan for social and economic growth of rural areas. | Base for all rural improvements. |
+| 2 | Institutional Credit | — | Loans from banks/cooperatives rather than moneylenders. | Reduces farmer exploitation. |
+| 3 | NABARD | NABARD | Apex bank for rural financing (est. 1982). | Refinances banks, not farmers directly. |
+| 4 | RRBs | RRBs | Banks specifically for remote rural areas. | Bridges the "Remote-Banking" gap. |
+| 5 | SHGs | SHGs | 10-20 members pooling savings to take bank loans. | Micro-credit; Women empowerment. |
+| 6 | Kudumbashree | — | Kerala's massive SHG-based women's network. | Model for micro-credit success. |
+| 7 | Multi-Agency Approach| — | System involving Comm. Banks, RRBs, and Cooperatives. | Ensures wider credit reach. |
+| **MARKETING** | | | | |
+| 8 | Agricultural Marketing| — | Chain from harvest to consumer (storage, grading, etc.). | Crucial for "Market-ed Surplus" value. |
+| 9 | APMC / Mandi | — | Regulated market yards for transparent pricing. | Protects from middlemen. |
+| 10 | MSP | MSP | Minimum Support Price guaranteed by Govt. | Acts as a "Safety Net" for farmers. |
+| 11 | Buffer Stock | — | Grains stored by FCI for emergencies (famines). | Ensures National Food Security. |
+| 12 | PDS | PDS | Distribution of grain to poor via Fair Price Shops. | Social welfare via subsidization. |
+| 13 | Cooperative Marketing| — | Farmers joining together to sell output (Amul model). | Bargaining power against traders. |
+| **DIVERSIFICATION** | | | | |
+| 14 | Crop Diversification | — | Shifting from one crop (Wheat) to multiple/high-value. | Reduces "Single-Crop" failure risk. |
+| 15 | Diversification of Workforce | — | Shifting from land to allied sectors (Livestock/IT). | Solves Disguised Unemployment. |
+| 16 | Animal Husbandry | — | Livestock farming (Cattle, Poultry, Sheep). | Provides year-round income. |
+| 17 | White Revolution | — | Operation Flood; India's milk surplus miracle. | Milk production ➔ Dairy wealth. |
+| 18 | Blue Revolution | — | Massive growth in fisheries (Inland + Marine). | Water-based livelihood growth. |
+| 19 | Golden Revolution | — | Period of growth in Horticulture (Fruits, Honey). | Fruits/Veggies ➔ Export/Nutrient value. |
+| 20 | Knowledge Economy | — | Using IT and info for rural growth. | IT ➔ Predicts weather/prices. |
+| **SUSTAINABILITY** | | | | |
+| 21 | Organic Farming | — | Farming using manure/compost, zero chemicals. | Restores soil health; Healthy food. |
+| 22 | Sustainable Development| — | Meeting today's needs without compromising future. | Core goal of Organic Farming. |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 PART 2 — MASTER CHAIN OF INTERRELATIONSHIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+### SUB-PART A — THE RURAL PULSE (PROCESS FLOW)
+
+\`\`\`text
+    VIBRANT RURAL ECONOMY (The Goal)
+          ↑
+    SUSTAINABLE LIVELIHOOD (Organic Farming)
+          ↑
+    DIVERSIFICATION (Horticulture/IT/Livestock)
+          ↑
+    MARKETING LINKS (Mandis/MSP/Storage)
+          ↑
+    FINANCIAL HEARTBEAT (Credit/NABARD/SHGs)
+          ↑
+    RURAL INFRASTRUCTURE (Roads/Electricity)
+\`\`\`
+
+### SUB-PART B — SIMPLE ENGLISH EXPANSION
+
+#### 🌾 THE ANALOGY: "THE RURAL BICYCLE"
+Think of the Rural Economy as a **Bicycle** trying to reach the "Village of Prosperity".
+1.  **Rural Credit** is the **Chain**. If it snaps, the bike doesn't move.
+2.  **Marketing** is the **Front Wheel**. It gives direction and ensures you reach the market.
+3.  **Diversification** is the **Back Wheel**. It provides the push (income) so you don't stall.
+4.  **Organic Farming** is the **Maintenance**. It ensures the bike (land) lasts for years to come.
+
+---
+
+#### 🚜 STEP 1: OIL THE CHAIN (CREDIT)
+"Why NABARD is the Grandpa of Rural Banks"
+Imagine a farmer, **Sompal**, who needs seeds. If he goes to a moneylender, he gets trapped in debt. If he goes to an **SHG (Self-Help Group)**, he joins 15 friends, pools ₹100 each, and gets a bank loan easily. This is **Micro-credit**.
+
+> 🎯 **Master Tip**: **NABARD** is like the reservoir. It fills the water tanks (**Banks**), which then provide water to the plants (**Farmers**).
+
+---
+
+#### 🏪 STEP 2: FIX THE DIRECTION (MARKETING)
+"From Farm-to-Fork: The 4 Pillars"
+Selling a crop is a maze. Farmers used to get lost. Now, we have:
+1.  **Regulated Markets (Mandis)**: No "cheating" with weights.
+2.  **Infrastructure**: Cold storage so tomatoes don't rot.
+3.  **Cooperatives**: Like **Amul**. One farmer is weak; 10,000 farmers are a superpower.
+4.  **The Safety Net (MSP)**: The Govt says, "If no one buys your wheat, we will buy it at this price."
+
+---
+
+#### 🥚 STEP 3: THE PUSH (DIVERSIFICATION)
+"Why a farmer shouldn't just be a farmer"
+Land is crowded. There are too many people doing "Disguised Unemployment".
+- ** वर्कफोर्स Diversification**: Moving from the field to the **Poultry Farm** (Livestock) or the **Rural BPO** (IT).
+- ** क्रॉप Diversification**: Moving from "Only Rice" to "Rice + Flowers + Grapes". It's the **Golden Revolution**.
+
+---
+
+#### 🍃 STEP 4: CLEAN THE BIKE (ORGANIC)
+"Sikkim: The First 100% Organic State"
+Chemical farming is like a "Fast Food Diet" for soil — it looks good initially but kills health. Organic farming is "Home-cooked food".
+- **Benefit**: It's **Labor Intensive** (Good for India's population).
+- **Risk**: Yield might be low for 2 years while the soil "detoxes".
+
+---
+
+#### 🎯 GOLDEN RULES OF CHAPTER 5
+> **Rule 1** — **NABARD** (1982) is for refinancing, not direct lending.
+> **Rule 2** — **SHGs** are for those who have no collateral (security) for loans.
+> **Rule 3** — **Diversification** is the only cure for overcrowded agriculture.
+> **Rule 4** — **Marketed Surplus** is what you sell *after* eating what you need.
+> **Rule 5** — **Organic Farming** is the only way to save the soil for our grandchildren.
+        `,
+        visualizations: [
+            {
+                id: 'u7-ch5-v5-analogy',
+                type: 'process',
+                title: 'The Rural Bicycle Chain',
+                caption: 'The logical flow of rural development components.',
+                data: [
+                    { title: 'Credit (The Chain)', description: 'Providing initial finance and liquidity.' },
+                    { title: 'Marketing (Direction)', description: 'Ensuring fair price and distribution.' },
+                    { title: 'Diversification (The Push)', description: 'Creating multiple income streams beyond crops.' },
+                    { title: 'Sustainability (Maintenance)', description: 'Preserving land health via Organic methods.' }
+                ]
             }
         ]
     }
