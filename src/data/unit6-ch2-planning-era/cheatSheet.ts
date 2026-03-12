@@ -31,12 +31,13 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
         ]
     },
     {
-        id: 'u6-ch2-c4',
-        title: '🏭 Industrial & Trade Policy',
-        points: [
-            '**IPR 1956**: 3 Schedules (A-Public, B-Mixed, C-Private Licensing).',
-            '**Karve Comm (1955)**: Rationale for SSI (Village & Small Industries).',
-            '**Trade Barrier**: Tariffs (Tax) and Quotas (Volume Limit).'
-        ]
-    }
+    id: 'u6-ch2-c4',
+    title: '🏭 Industrial & Trade Policy',
+    points: [
+      '**IPR 1956**: 3 Schedules: **A** (Exclusively Govt), **B** (Mixed, Govt takes lead), **C** (Private with licensing).',
+      '**Karve Comm (1955)**: Village & Small Industries (SSI) for employment and rural development.',
+      '**Land Ceiling Hurdles**: Zamindars used legislative loopholes (registering land in relatives\' names) to bypass limits.',
+      '**Trade Barrier**: Tariffs (Tax) and Quotas (Volume Limit) to protect domestic industry.'
+    ]
+  }
 ];

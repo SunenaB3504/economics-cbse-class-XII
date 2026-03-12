@@ -43,9 +43,10 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
         id: 'u7-env-c4',
         title: '🌱 Sustainable Development',
         points: [
-            '**Brundtland**: Intergenerational equity (Our Common Future).',
-            '**Edward Barbier**: Material standard of living of the poor.',
-            '**Daly\'s Rules**: 1. Renewable use ≤ regeneration. 2. Non-renewable use ≤ renewable substitute creation. 3. Pollution ≤ assimilation capacity.',
+            '**Brundtland**: Meeting present needs without compromising future (Our Common Future).',
+            '**Edward Barbier**: Strategy to increase material standard of living of the poor at grass root level.',
+            '**Organic vs Conventional**: Organic (High health focus, high labor, low yield initially) vs Conventional (High yield via chemicals, harmful externalities).',
+            '**Daly\'s Rules**: Renewable use ≤ regeneration; Pollution ≤ assimilation capacity.',
             '**SDGs**: 17 Goals formulated in 2015, aimed for 2030.'
         ]
     },

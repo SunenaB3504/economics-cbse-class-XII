@@ -25,13 +25,14 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
   },
   {
     id: 'u3-cs3',
-    title: '⚖️ Equilibrium Conditions',
+    title: '⚖️ Equilibrium & Effective Demand',
     points: [
       '**AD = AS Approach:** Planned spending equals planned output. **Y = C + I**.',
       '**S = I Approach:** Planned Leakage (Saving) equals Planned Injection (Investment).',
-      '**Break-Even Point:** Level of income where **C = Y** and **S = 0**. **APC = 1**.',
-      '**Equilibrium Y:** Solve **Y = C_bar + bY + I** for Y. (Y = (C_bar + I) / (1-b)).',
-      '**Unintended Inventory:** If **AS > AD**, stocks pile up, producers cut output. If **AD > AS**, stocks fall, producers increase output.'
+      '**Effective Demand:** Level of AD where it is exactly met by AS. All output is sold.',
+      '**Adjustment Mechanism (AD > AS):** Inventories fall below desired level → Producers increase output and employment until equality.',
+      '**Adjustment Mechanism (AS > AD):** Inventories rise (unintended) → Producers cut output and employment to restore balance.',
+      '**APC + APS = 1 Logic:** Since Total Income (Y) = Consumption (C) + Saving (S), dividing by Y gives C/Y + S/Y = 1.'
     ]
   },
   {

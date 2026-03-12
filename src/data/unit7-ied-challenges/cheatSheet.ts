@@ -32,6 +32,7 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
     points: [
       '**Worker:** Includes self-employed, helpers, and those temporarily absent.',
       '**Workforce:** 545 million (2022-23). Rural WPR (42%) > Urban (38%).',
+      '**ILO Role**: Pushed for modernization of informal sector enterprises in India.',
       '**Informalisation:** Ahmedabad Mill Case (1.5 lakh jobs lost). Stark **94%** in informal sector.',
       '**Jobless Growth:** GDP growth >5% vs Employment growth <2% since 1950s.',
       '**Casualisation:** Shift from regular salary to casual wage labour (instability).',
@@ -44,7 +45,8 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
     points: [
       '**Functions:** Resources, Waste Assimilation, Life Sustenance, **Aesthetic Services**.',
       '**Carrying Capacity:** Extraction rate < Regeneration; Waste < Absorptive capacity.',
-      '**Daly\'s Rules:** Herman Daly\'s 5 rules (Population, Input efficiency, Regeneration, etc.).',
+      '**Edward Barbier**: Strategy to increase material standard of living of the poor at grass root level.',
+      '**Organic vs Conventional**: Organic (Health/Labor focus, low initial yield) vs Conventional (High yield via chemicals, negative externalities).',
       '**Global Warming:** CFCs and Green House Gases. Montreal Protocol (1987) for Ozone.',
       '**Appiko Movement (1983):** Southern counterpart of Chipko in Karnataka.',
       '**Soil Erosion:** 5.3 billion tonnes per year. CPCB regulates 17 highly polluting industry categories.'

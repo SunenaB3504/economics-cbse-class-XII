@@ -43,6 +43,7 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
         title: '🛠️ Policy Highlights',
         points: [
             '**MGNREGA 2005**: 100 days guaranteed unskilled manual work.',
+            '**ILO Role**: International Labour Organisation pushed for modernization of informal sector enterprises in India.',
             '**Direct vs Indirect**: Gov hiring vs Gov-led demand creation.',
             '**Jobless Growth**: GDP increase > Employment increase.'
         ]
