@@ -12,23 +12,40 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
         ]
     },
     {
-        id: 'u6-ch3-cs2',
-        title: '🔓 Liberalisation & Privatisation',
+        id: 'u6-ch3-c1',
+        title: '🚨 The 1991 Emergency',
         points: [
-            '**Industrial:** Licensing abolished except for **6 industries** (Alcohol, Tobacco, etc.).',
-            '**Financial:** RBI role shifted from **Regulator** to **Facilitator**.',
-            '**Tax/Forex:** Reduced direct tax rates; **Rupee Devaluation** in 1991.',
-            '**Autonomy:** PSUs given **Maharatna**, **Navratna**, and **Miniratna** status.',
-            '**Disinvestment:** Selling PSU eqity to improve discipline/modernisation.'
+            '**Foreign Exchange**: Reserves dropped to 2 weeks of imports.',
+            '**Loan**: $7 Billion from IMF/World Bank secured by opening economy.',
+            '**Inflation**: Double digit (13-17%) causing severe hardship.',
+            '**Gulf War**: Remittances fell; oil import prices doubled.'
         ]
     },
     {
-        id: 'u6-ch3-cs3',
-        title: '🌍 Globalisation & WTO',
+        id: 'u6-ch3-c2',
+        title: '📂 Liberalisation (L)',
         points: [
-            '**Outsourcing:** India became BPO/KPO hub due to low wages and time-zone benefits.',
-            '**WTO (1995):** Founded as successor to **GATT** (1948) to ensure free trade.',
-            '**Trade Policy:** Removal of QRs (Quotas) and reduction in import tariffs.'
+            '**Remaining Licenses**: Alcohol, Cigarettes, Hazardous Chemicals, Explosives, Electronics/Drugs.',
+            '**RBI Shift**: Transitioned from Regulator to Facilitator.',
+            '**Forex**: Immediate Devaluation (1991) followed by market-determined rates.'
+        ]
+    },
+    {
+        id: 'u6-ch3-c3',
+        title: '🏢 Privatisation & Globalisation (P&G)',
+        points: [
+            '**Disinvestment**: Selling of PSU equity to raise funds/modernise.',
+            '**Ratnas**: Maharatnas (ONGC, SAIL), Navratnas (HPCL), Miniratnas.',
+            '**Outsourcing**: India\'s low wage + English skill hub status.',
+            '**WTO (1995)**: Succeeded GATT (1948); covers Services + IP.'
+        ]
+    },
+    {
+        id: 'u6-ch3-c4',
+        title: '⚖️ Post-1991 Appraisal',
+        points: [
+            '**Success**: Surge in Forex Reserves, FDI, and Service Sector GDP.',
+            '**Failure**: Neglect of Agriculture (Low public investment), Jobless Growth.'
         ]
     },
     {

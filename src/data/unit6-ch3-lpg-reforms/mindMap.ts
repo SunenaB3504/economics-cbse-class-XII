@@ -5,39 +5,31 @@ export const MIND_MAP: MindMapNode = {
     label: 'New Economic Policy (1991)',
     children: [
         {
-            id: 'u6-ch3-mm2',
-            label: 'Crisis & NEP',
+            id: 'u6-ch3-mm1',
+            label: 'The 1991 Crisis',
             children: [
-                { id: 'u6-ch3-mm3', label: '1991 Crisis (BoP & Fiscal)' },
-                { id: 'u6-ch3-mm4', label: 'NEP: Stabilisation & Structural' }
+                { id: 'u6-ch3-mm2', label: 'Background: Debt & Inflation' },
+                { id: 'u6-ch3-mm3', label: 'Triggers: BoP (2-week reserve) & Gulf War' },
+                { id: 'u6-ch3-mm4', label: 'NEP: Stabilisation vs Structural' }
             ]
         },
         {
             id: 'u6-ch3-mm5',
-            label: 'Liberalisation',
+            label: 'The LPG Strategy',
             children: [
-                { id: 'u6-ch3-mm6', label: 'Industrial (6 Licenses)' },
-                { id: 'u6-ch3-mm7', label: 'Financial (RBI: Facilitator)' },
-                { id: 'u6-ch3-mm8', label: 'Tax & Forex (Devaluation)' }
+                { id: 'u6-ch3-mm6', label: 'Liberalisation: Industrial, Financial, Tax, Forex' },
+                { id: 'u6-ch3-mm7', label: 'Privatisation: Disinvestment & Ratnas' },
+                { id: 'u6-ch3-mm8', label: 'Globalisation: Outsourcing & WTO' }
             ]
         },
         {
             id: 'u6-ch3-mm9',
-            label: 'Integration',
-            children: [
-                { id: 'u6-ch3-mm10', label: 'Privatisation (Maharatnas)' },
-                { id: 'u6-ch3-mm11', label: 'Globalisation (Outsourcing)' },
-                { id: 'u6-ch3-mm12', label: 'WTO (Successor to GATT)' }
-            ]
-        },
-        {
-            id: 'u6-ch3-mm13',
             label: 'Critical Appraisal',
             children: [
-                { id: 'u6-ch3-mm14', label: 'Success (GDP & Forex)' },
-                { id: 'u6-ch3-mm15', label: 'Failures (Agri & Jobs)' }
+                { id: 'u6-ch3-mm10', label: 'Success: GDP, Forex, FDI' },
+                { id: 'u6-ch3-mm11', label: 'Failures: Agri, Jobless Growth, Inequality' }
             ]
         }
+
     ]
 };
-

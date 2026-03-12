@@ -30,11 +30,11 @@ export const TOPICS: TheoryTopic[] = [
                 title: 'Comparative Systems Guide',
                 type: 'table',
                 data: {
-                    headers: ['Feature', 'Capitalism', 'Socialism'],
+                    headers: ['Feature', 'Capitalism', 'Socialism', 'Mixed Economy'],
                     rows: [
-                        ['Ownership', 'Private Persons', 'Government'],
-                        ['Objective', 'Profit Maximization', 'Social Welfare'],
-                        ['Distribution', 'Purchasing Power', 'According to Need']
+                        ['Ownership', 'Private Persons', 'Government', 'Both Public & Private'],
+                        ['Objective', 'Profit Maximization', 'Social Welfare', 'Both Profit & Welfare'],
+                        ['Distribution', 'Purchasing Power', 'According to Need', 'Mixed Rationale']
                     ]
                 }
             }
@@ -58,7 +58,18 @@ export const TOPICS: TheoryTopic[] = [
                 tags: ['POLICY']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch2-mixed-economy-vision',
+                title: 'Architects of the "Middle Path"',
+                type: 'grid',
+                data: [
+                    { label: 'Nehru\'s Stance', desc: 'Democracy with growth; rejected extreme Soviet-style state control.' },
+                    { label: 'Socialist Pattern', desc: 'Private sector incentivised to follow the national plan.' },
+                    { label: 'IPR 1948', desc: 'First official adoption of the Mixed Economy framework.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u6-ch2-planning-concept',
@@ -68,7 +79,7 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'concept',
                 title: 'The Planning Commission',
-                text: 'Set up in **1950** with the Prime Minister as Chairperson. Its job was to formulate five-year plans to ensure efficient resource allocation.',
+                text: 'Set up in **1950** with the Prime Minister as Chairperson. It was replaced by **NITI Aayog** on 1 January 2015.',
                 tags: ['COMMISSION']
             },
             {
@@ -81,7 +92,21 @@ export const TOPICS: TheoryTopic[] = [
                 tags: ['STRUCTURE']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch2-plan-types',
+                title: 'Comparison: FYP vs. Perspective Plans',
+                type: 'table',
+                data: {
+                    headers: ['Feature', 'Five-Year Plan', 'Perspective Plan'],
+                    rows: [
+                        ['Duration', '5 Years', '20 Years'],
+                        ['Detail', 'Highly detailed sectoral targets', 'Broad strategic goals'],
+                        ['Function', 'Implementation unit', 'Long-term roadmap']
+                    ]
+                }
+            }
+        ]
     },
     {
         id: 'u6-ch2-goals',
@@ -97,20 +122,32 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'concept',
                 title: 'Modernisation & Social Change',
-                text: 'Adoption of new technology is **Modernisation**, but it also includes social changes like the recognition that women should have the same rights as men.',
+                text: 'Modernisation has two dimensions: **Technical** (new technology like HYV) and **Social** (gender equality, breaking caste barriers).',
                 tags: ['MODERNISATION']
             },
             {
                 type: 'concept',
                 title: 'Self-Reliance & Equity',
                 points: [
-                    '**Self-reliance:** Avoiding imports of goods that could be produced domestically to reduce foreign interference.',
-                    '**Equity:** Ensuring that the benefits of economic prosperity reach even the poorest sections. Without equity, growth is meaningless.'
+                    '**Self-reliance:** Avoiding imports of goods that could be produced domestically to reduce foreign interference (especially food).',
+                    '**Equity:** Ensuring that the benefits of economic prosperity reach even the poorest sections.'
                 ],
                 tags: ['EQUITY']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch2-gmse-goals',
+                title: 'The 4 Pillars: GMSE Framework',
+                type: 'process',
+                data: [
+                    { title: 'Growth', description: 'Expanding the production capacity of the economy (higher GDP).' },
+                    { title: 'Modernization', description: 'Adopting new tech and shifting social mindsets (e.g., gender equality).' },
+                    { title: 'Self-Reliance', description: 'Reducing dependency on foreign nations for vital supplies.' },
+                    { title: 'Equity', description: 'Fair distribution of growth to reduce the gap between rich and poor.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u6-ch2-land-reforms',
@@ -129,7 +166,18 @@ export const TOPICS: TheoryTopic[] = [
                 text: 'Land reforms were most successful in these states because the governments were committed to the policy of "land to the tiller".'
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch2-land-reforms-process',
+                title: 'Impact of Abolishing Intermediaries',
+                type: 'grid',
+                data: [
+                    { label: 'Direct Link', desc: 'Stopped the leak of surplus from farmers to landlords.' },
+                    { label: 'Ownership', desc: 'Incentivized long-term investment in land quality.' },
+                    { label: 'Social Justice', desc: 'Redistributed the "commanding height" of the rural economy.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u6-ch2-land-ceiling',
@@ -145,11 +193,22 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'warning',
                 title: 'The "Benami" Loophole',
-                text: 'Many big landlords registered their lands in the name of close relatives or servants to escape the ceiling. In some states, landlords challenged the law in courts, delaying implementation until they could "manage" their holdings.',
+                text: 'Many big landlords registered their lands in the name of close relatives or servants to escape the ceiling. In some states, landlords challenged the law in courts, delaying implementation.',
                 tags: ['HURDLES']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch2-ceiling-hurdles',
+                title: 'Why Ceiling Often Failed',
+                type: 'grid',
+                data: [
+                    { label: 'Legal Delay', desc: 'Court challenges gave landlords time to redistribute land on paper.' },
+                    { label: 'Benami Transfers', desc: 'Registering land under names of servants or distant relatives.' },
+                    { label: 'Political Will', desc: 'Lack of sincere implementation in certain states.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u6-ch2-green-rev',
@@ -159,10 +218,10 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'concept',
                 title: 'The HYV Miracle',
-                text: 'High Yielding Variety (HYV) seeds required reliable irrigation and fertilisers. Two phases:',
+                text: 'High Yielding Variety (HYV) seeds required reliable irrigation and fertilisers. This period (Mid-60s) ended India\'s "begging bowl" status.',
                 points: [
-                    '**First Phase (Mid-60s to Mid-70s):** Restricted to wheat-rich states like Punjab and Haryana.',
-                    '**Second Phase (Mid-70s to Mid-80s):** Spread to more crops and regions.'
+                    '**Phase 1 (Mid-60s to Mid-70s):** Restricted to wheat-rich states (Punjab, Haryana, TN).',
+                    '**Phase 2 (Mid-70s to Mid-80s):** Widespread adoption of more crops and more states.'
                 ],
                 tags: ['TECHNOLOGY']
             },
@@ -173,7 +232,20 @@ export const TOPICS: TheoryTopic[] = [
                 tags: ['SECURITY']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch2-green-rev-phases',
+                title: 'Two Phases of Green Revolution',
+                type: 'table',
+                data: {
+                    headers: ['Timeline', 'Coverage', 'Primary States'],
+                    rows: [
+                        ['Mid-60s to Mid-70s', 'Wheat intensive', 'Punjab, Haryana, Western UP'],
+                        ['Mid-70s to Mid-80s', 'Broad crop range', 'Across India (East and South)']
+                    ]
+                }
+            }
+        ]
     },
     {
         id: 'u6-ch2-ipr1956',
@@ -183,7 +255,7 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'concept',
                 title: 'The Mahalanobis Model',
-                text: 'PRASANTA CHANDRA MAHALANOBIS is known as the architect of Indian planning. IPR 1956 formed the basis of the **Second Plan**, aiming for a socialist pattern of society.',
+                text: 'PRASANTA CHANDRA MAHALANOBIS is the architect. IPR 1956 formed the basis of the **Second Plan**, aiming for a socialist pattern of society.',
                 tags: ['ARCHITECTURE']
             },
             {
@@ -191,8 +263,8 @@ export const TOPICS: TheoryTopic[] = [
                 title: 'The Three Schedules',
                 points: [
                     '**Schedule A:** 17 industries exclusively owned by the government.',
-                    '**Schedule B:** 12 industries where the state would take the lead, supplemented by the private sector.',
-                    '**Schedule C:** Remaining industries left to the private sector but regulated by **Licensing**.'
+                    '**Schedule B:** 12 industries where state takes lead (e.g., Mining).',
+                    '**Schedule C:** Remaining industries for private sector (regulated by Licensing).'
                 ],
                 tags: ['IPR_1956']
             }
@@ -218,40 +290,68 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'concept',
                 title: 'The Karve Committee (1955)',
-                text: 'Also known as the Village and Small-Scale Industries Committee. It noted that small-scale industries are more **labour-intensive** and thus create more employment.',
+                text: 'Also known as the Village and Small-Scale Industries Committee. It noted that small-scale industries are more **labour-intensive**.',
                 tags: ['EMPLOYMENT']
             },
             {
                 type: 'concept',
                 title: 'Protection of SSI',
-                text: 'The government "reserved" certain products for the small-scale sector. They also received concessions like lower excise duty and bank loans at lower interest rates.',
+                text: 'The government **reserved** certain products for the small-scale sector to protect them from large firms.',
                 tags: ['PROTECTION']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch2-ssi-rationale',
+                title: 'Why Support Small-Scale Industry?',
+                type: 'grid',
+                data: [
+                    { label: 'Labour Intensive', desc: 'Uses more labour per unit of capital than large firms.' },
+                    { label: 'Employment', desc: 'Crucial for distributing income in a populous country.' },
+                    { label: 'Reservation', desc: 'Over 800 products were once reserved for SSI alone.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u6-ch2-trade-policy',
-        title: '2.10 Trade Policy & Critical Appraisal',
-        description: 'Inward-looking strategy and the License Raj.',
+        title: '2.10 Trade Policy: Inward Strategy',
+        description: 'Import substitution and protectionism.',
         content: [
             {
                 type: 'concept',
                 title: 'Import Substitution',
-                text: 'India adopted an "Inward Looking Trade Strategy". Protection from foreign competition was provided via **Tariffs** (taxes) and **Quotas** (limits).',
+                text: 'India adopted an "Inward Looking Trade Strategy". This means protecting domestic industries from foreign competition.',
+                points: [
+                    '**Tariffs:** High taxes on imported goods to make them expensive.',
+                    '**Quotas:** Fixing the maximum quantity of goods that can be imported.'
+                ],
                 tags: ['PROTECTIONISM']
             },
             {
                 type: 'tip',
                 title: 'Critical Appraisal (1950-1990)',
                 points: [
-                    '**Achievements:** Industrial diversification and food self-sufficiency.',
-                    '**Failures:** "License Raj" created corruption; loss-making PSUs continued due to political pressure; lack of competition led to poor quality (outdated cars).'
+                    '**Achievements:** Industrial diversification; food self-sufficiency.',
+                    '**Failures:** "License Raj" corruption; loss-making PSUs; outdated tech.'
                 ],
                 tags: ['EVALUATION']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch2-trade-barrier-comp',
+                title: 'Tariffs vs. Quotas',
+                type: 'table',
+                data: {
+                    headers: ['Feature', 'Tariffs', 'Quotas'],
+                    rows: [
+                        ['Mechanism', 'Hidden Tax (Cost)', 'Direct Cap (Quantity)'],
+                        ['Objective', 'Discourage Imports', 'Control absolute Flow'],
+                        ['Impact', 'Raises Prices', 'Restricts Availability']
+                    ]
+                }
+            }
+        ]
     }
 ];
-

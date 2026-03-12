@@ -13,7 +13,18 @@ export const TOPICS: TheoryTopic[] = [
                 tags: ['CONTEXT']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch3-crisis-atmosphere',
+                title: 'Economy on the Edge (1991)',
+                type: 'grid',
+                data: [
+                    { label: 'Fiscal Crisis', desc: 'Expenditure >> Revenue; government living beyond its means.' },
+                    { label: 'Inflation', desc: 'Prices of essential goods rising by 13–17%.' },
+                    { label: 'BoP Crisis', desc: 'Record deficits in the Balance of Payments.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u6-ch3-triggers',
@@ -24,15 +35,31 @@ export const TOPICS: TheoryTopic[] = [
                 type: 'concept',
                 title: 'BoP and Fiscal Crisis',
                 points: [
-                    '**Foreign Exchange Crisis:** Reserves fell to a level only sufficient to pay for Two Weeks of imports.',
+                    '**Foreign Exchange Crisis:** Reserves fell to a level only sufficient to pay for **Two Weeks** of imports.',
                     '**Fiscal Deficit:** Huge government borrowing led to a massive internal debt.',
-                    '**High Inflation:** Prices of essential goods rose sharply (13-17%).',
-                    '**Gulf War (1990-91):** Led to a spike in oil prices and a drop in remittances from Indian workers abroad.'
+                    '**High Inflation:** Prices of essential goods rose sharply.',
+                    '**Gulf War (1990-91):** Spike in oil prices and drop in remittances.'
                 ],
                 tags: ['CRISIS']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch3-emergency-markers',
+                title: 'Economic Emergency Markers',
+                type: 'list',
+                data: [
+                    'Forex reserves for only 14 days',
+                    '7 Billion dollar loan requirement',
+                    'Double-digit inflation (17%)',
+                    'Failure of public sector revenue'
+                ],
+                aiExplanation: [
+                    'The two-week reserve limit is the most cited fact for the 1991 crisis.',
+                    'Inflation was so high that it threatened social stability.'
+                ]
+            }
+        ]
     },
     {
         id: 'u6-ch3-nep',
@@ -49,13 +76,27 @@ export const TOPICS: TheoryTopic[] = [
                 type: 'concept',
                 title: 'Two Prongs of NEP',
                 points: [
-                    '**Stabilisation Measures:** Short-term measures intended to correct the Balance of Payments (BoP) and control inflation.',
-                    '**Structural Reform Policies:** Long-term measures aimed at improving efficiency and increasing international competitiveness.'
+                    '**Stabilisation Measures:** Short-term measures to correct BoP and control inflation.',
+                    '**Structural Reform Policies:** Long-term measures to improve efficiency and competitiveness.'
                 ],
                 tags: ['STRATEGY']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch3-reform-logic',
+                title: 'Stabilisation vs. Structural Reforms',
+                type: 'table',
+                data: {
+                    headers: ['Feature', 'Stabilisation (Short-term)', 'Structural (Long-term)'],
+                    rows: [
+                        ['Goal', 'Control Inflation & Fix BoP', 'Increase Efficiency & Competitiveness'],
+                        ['Logic', 'Demand management', 'Supply-side improvements'],
+                        ['Tools', 'Foreign exchange management', 'Liberalisation & Privatisation']
+                    ]
+                }
+            }
+        ]
     },
     {
         id: 'u6-ch3-liberalisation-ind',
@@ -66,14 +107,28 @@ export const TOPICS: TheoryTopic[] = [
                 type: 'concept',
                 title: 'Deregulation Measures',
                 points: [
-                    '**Abolition of Licensing:** Industrial licensing was abolished for almost all but five industriy groups: (1) Alcohol, (2) Cigarettes, (3) Hazardous Chemicals, (4) Industrial Explosives, (5) Electronics, Aerospace and Drugs.',
-                    '**Public Sector Contraction:** Reserved industries for the public sector were reduced initially from 17 to 8, and now even fewer (Railways, Atomic Energy).',
-                    '**SSI De-reservation:** Small-scale industries lost their "reserved" status for many products.'
+                    '**Abolition of Licensing:** Abolished for almost all but five industry groups.',
+                    '**Public Sector Contraction:** Reserved industries reduced (now only Railways and Atomic Energy).',
+                    '**SSI De-reservation:** Most products opened for all firms.',
+                    '**Price Determination:** Market forces allowed to determine prices.'
                 ],
                 tags: ['DEREGULATION']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch3-licensed-industries',
+                title: 'The 5 Remaining Licensed Groups',
+                type: 'grid',
+                data: [
+                    { label: 'Group 1', desc: 'Alcohol (Potable/Industrial)' },
+                    { label: 'Group 2', desc: 'Cigarettes & Tobacco' },
+                    { label: 'Group 3', desc: 'Hazardous Chemicals' },
+                    { label: 'Group 4', desc: 'Industrial Explosives' },
+                    { label: 'Group 5', desc: 'Electronics, Aerospace & Drugs' }
+                ]
+            }
+        ]
     },
     {
         id: 'u6-ch3-financial',
@@ -83,17 +138,31 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'concept',
                 title: 'RBI: From Regulator to Facilitator',
-                text: 'The major aim was to reduce the role of RBI from being a **Regulator** to a **Facilitator**. This meant the financial sector could take decisions without consulting the RBI on every step.',
+                text: 'Major aim was to reduce the role of RBI from being a **Regulator** to a **Facilitator**. Financial sector could make more independent decisions.',
                 tags: ['FINANCE']
             },
             {
                 type: 'concept',
-                title: 'Private and Foreign Banks',
-                text: 'Reforms allowed the establishment of private sector banks (both Indian and foreign), increasing competition and efficiency.',
+                title: 'Reforms Summary',
+                points: [
+                    'Establishing private sector banks (Indian and Foreign).',
+                    'Increase in Foreign Investment limit in banks to 74%.',
+                    'Ease of opening new branches without prior RBI permission.'
+                ],
                 tags: ['BANKING']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch3-rbi-shift',
+                title: 'RBI Role Transformation',
+                type: 'grid',
+                data: [
+                    { label: 'Pre-1991 (Regulator)', desc: 'RBI fixed interest rates and determined every operative detail.' },
+                    { label: 'Post-1991 (Facilitator)', desc: 'Markets determine rates; RBI focuses on stability and oversight.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u6-ch3-tax-forex',
@@ -103,17 +172,28 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'concept',
                 title: 'Fiscal Policy (Tax Reforms)',
-                text: 'Aimed at reducing tax rates and simplifying the system to encourage compliance. Direct tax rates (Income and Corporate tax) were significantly lowered.',
+                text: 'Aimed at reducing tax rates and simplifying the system. Corporate and income tax rates were lowered to encourage compliance.',
                 tags: ['FISCAL']
             },
             {
                 type: 'concept',
                 title: 'Rupee Devaluation',
-                text: 'In 1991, the Rupee was **Devalued** against foreign currencies to increase exports and attract foreign exchange inflows.',
+                text: 'In 1991, the Rupee was **Devalued** against foreign currencies. This led to a **Market-determined** exchange rate system.',
                 tags: ['FOREX']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch3-forex-shift',
+                title: 'Forex Regime Change',
+                type: 'process',
+                data: [
+                    { title: 'Devaluation', description: 'Intentional reduction in rupee value to boost exports.' },
+                    { title: 'Market Link', description: 'Moving from fixed rates to market-determined exchange rates.' },
+                    { title: 'Stability', description: 'Improved forex inflows due to realistic pricing.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u6-ch3-privatisation',
@@ -123,17 +203,32 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'concept',
                 title: 'Disinvestment',
-                text: 'Privatisation of the public sector enterprises by selling off part of the equity of PSUs to the public (Disinvestment). Aim: Improve financial discipline and facilitate modernisation.',
+                text: 'Selling off part of the equity of PSUs to the public. Aimed at improving financial discipline and modernisation.',
                 tags: ['DISINVESTMENT']
             },
             {
                 type: 'concept',
-                title: 'Navratnas and Maharatnas',
-                text: 'To improve efficiency, the government identified profitable PSUs and gave them greater managerial and financial autonomy. Status includes **Maharatnas** (e.g., Indian Oil), **Navratnas** (e.g., HPCL), and **Miniratnas**.',
+                title: 'Hierarchy of Autonomy',
+                points: [
+                    '**Maharatnas:** Top tier (e.g., ONGC, BHEL).',
+                    '**Navratnas:** Second tier (e.g., HPCL).',
+                    '**Miniratnas:** Profit-making with limited autonomy.'
+                ],
                 tags: ['AUTONOMY']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch3-ratna-hierarchy',
+                title: 'PSU Autonomy Hierarchy',
+                type: 'grid',
+                data: [
+                    { label: 'Maharatnas', desc: 'Highest autonomy (NTPC, ONGC, SAIL, GAIL, BHEL).' },
+                    { label: 'Navratnas', desc: 'Significant freedom (HPCL, MTNL, BEL).' },
+                    { label: 'Miniratnas', desc: 'Financial powers up to a certain limit.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u6-ch3-globalisation',
@@ -143,24 +238,21 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'concept',
                 title: 'The Outsourcing Hub',
-                text: 'India became a destination for **Outsourcing** (BPO/KPO) due to low wage rates and a high proficiency in English. A "Time-Zone" difference with the West also helped in round-the-clock service.',
+                text: 'India became a destination for outsourcing due to low wage rates and proficiency in English.',
                 tags: ['OUTSOURCING']
             }
         ],
         visualizations: [
             {
-                id: 'v-ch3-outsourcing-tree',
-                title: 'Drivers of Indian Outsourcing',
-                type: 'tree',
-                data: {
-                    root: 'India as Outsourcing Hub',
-                    children: [
-                        { name: 'Low Wage Cost' },
-                        { name: 'Skilled Manpower' },
-                        { name: 'English Proficiency' },
-                        { name: 'IT Infrastructure' }
-                    ]
-                }
+                id: 'v-ch3-outsourcing-grid',
+                title: 'Why India for Outsourcing?',
+                type: 'grid',
+                data: [
+                    { label: 'Wage Cost', desc: 'Significantly lower payroll compared to developed nations.' },
+                    { label: 'Skill Set', desc: 'Large pool of English-speaking technical graduates.' },
+                    { label: 'IT Capability', desc: 'Matured IT infrastructure and software ecosystem.' },
+                    { label: 'Connectivity', desc: 'Time-zone difference (24/7 service potential).' }
+                ]
             }
         ]
     },
@@ -171,22 +263,33 @@ export const TOPICS: TheoryTopic[] = [
         content: [
             {
                 type: 'concept',
-                title: 'Successor to GATT',
-                text: 'The **World Trade Organisation (WTO)** was established in **1995** as the successor to the General Agreement on Tariffs and Trade (GATT,est. 1948).',
+                title: 'Establishment',
+                text: 'The **WTO** (1995) succeeded the **GATT** (1948). It covers trade in services and intellectual property, unlike GATT.',
                 tags: ['WTO']
             },
             {
                 type: 'concept',
-                title: 'WTO Objectives',
+                title: 'Trade Facilitation',
                 points: [
-                    'Ensuring free trade through the removal of tariffs and non-tariff barriers.',
-                    'Enlarging production and trade of services.',
-                    'Ensuring optimum utilisation of world resources.'
+                    'Removal of Non-Tariff barriers (quotas).',
+                    'Reduction in Tariff rates.',
+                    'Opening up of the Service sector.'
                 ],
                 tags: ['TRADE_POLICY']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch3-wto-timeline',
+                title: 'Evolution of World Trade Trade',
+                type: 'process',
+                data: [
+                    { title: '1948', description: 'GATT established to regulate global trade in goods.' },
+                    { title: '1995', description: 'WTO replaces GATT; includes services and IP.' },
+                    { title: 'Present', description: '160+ members ensuring rules-based global trade.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u6-ch3-appraisal',
@@ -198,8 +301,7 @@ export const TOPICS: TheoryTopic[] = [
                 title: 'The Success Indicators',
                 points: [
                     'GDP growth rate rose significantly (Service sector focus).',
-                    'Forex reserves and FDI/FPI inflows saw a massive jump.',
-                    'India emerged as an exporter of auto parts, engineering goods, and IT.',
+                    'Forex reserves and FDI saw a massive jump.',
                     'Inflation was brought under control.'
                 ],
                 tags: ['SUCCESS']
@@ -208,26 +310,25 @@ export const TOPICS: TheoryTopic[] = [
                 type: 'warning',
                 title: 'The Failures',
                 points: [
-                    '**Neglect of Agriculture:** Public investment in agricultural infrastructure declined.',
-                    '**Jobless Growth:** Growth in GDP did not translate into proportional job creation.',
-                    '**Lopsided Industrial Growth:** Demand for industrial products decreased due to cheap imports.',
-                    '**Inequality:** Deepened the divide between urban and rural population.'
+                    '**Agri Neglect:** Decline in public investment infrastructure.',
+                    '**Jobless Growth:** GDP rose but employment didn\'t match.',
+                    '**Industrial Lag:** Cheap imports hit domestic demand.'
                 ],
                 tags: ['FAILURES']
             }
         ],
         visualizations: [
             {
-                id: 'v-ch3-appraisal-table',
-                title: 'Post-1991 Performance Metrics',
+                id: 'v-ch3-performance-table',
+                title: 'Post-1991 Appraisal Matrix',
                 type: 'table',
                 data: {
-                    headers: ['Macro Parameter', 'Positive Trend', 'Negative Trend'],
+                    headers: ['Macro Parameter', 'Positive Outlook', 'Concern Area'],
                     rows: [
-                        ['GDP Growth', '6-8% Average', 'Agri stagnation'],
-                        ['Forex Reserves', 'Record Levels', 'Volatility of FPI'],
-                        ['Industry', 'Diversified Export', 'Global competition hit'],
-                        ['Social', 'Global integration', 'Jobless growth']
+                        ['GDP Growth', '6-8% Average', 'Agri Sector Stagnation'],
+                        ['Forex/FDI', 'Record highs', 'High Volatility of FPI'],
+                        ['Industry', 'Global Integration', 'Cheap imports from China'],
+                        ['Employment', 'IT/Service Boom', 'Urban-Rural Divide']
                     ]
                 }
             }

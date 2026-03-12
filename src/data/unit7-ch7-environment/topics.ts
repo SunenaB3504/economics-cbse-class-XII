@@ -9,20 +9,23 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'concept',
                 title: 'Development vs Environment',
-                text: 'Economic development has come at a heavy price—environmental quality. As India globalises, it must consciously choose sustainable development to avoid the adverse consequences of past paths.',
+                text: 'Economic development has historically come at a heavy cost to environmental quality. India must consciously choose sustainable development to balance industrial growth with nature.',
                 tags: ['CONTEXT']
-            },
-            {
-                type: 'concept',
-                title: 'Chapter Focus',
-                points: [
-                    'Functions and role of environment.',
-                    'State of India\'s environment.',
-                    'Strategies for sustainable development.'
-                ]
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v7-dev-env-clash',
+                title: 'The Development Paradox',
+                type: 'grid',
+                data: [
+                    { label: 'Past Path', desc: 'Resource depletion and heavy pollution.' },
+                    { label: 'Current Era', desc: 'Globalisation and rapid industrialisation.' },
+                    { label: 'The Price', desc: 'Loss of biodiversity and climate change.' },
+                    { label: 'The Goal', desc: 'Sustainable development for future generations.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u7-ch7-functions',
@@ -31,39 +34,35 @@ export const TOPICS: TheoryTopic[] = [
         content: [
             {
                 type: 'concept',
-                title: 'Definition & Elements',
-                text: 'The total planetary inheritance and the totality of all resources. It includes both biotic (living) and abiotic (non-living) factors.',
-                tags: ['DEFINITION']
-            },
-            {
-                type: 'concept',
                 title: 'Four Key Functions',
                 points: [
-                    '**Supplies Resources**: Renewable (forests, fish) and Non-renewable (fossil fuels).',
-                    '**Assimilates Waste**: Absorbs and neutralises generated waste.',
-                    '**Sustains Life**: Provides genetic and biodiversity.',
-                    '**Aesthetic Services**: Provides scenery and natural beauty.'
+                    '**Supplies Resources**: Both renewable (forests) and non-renewable (fossil fuels).',
+                    '**Assimilates Waste**: The environment absorbs and neutralises waste.',
+                    '**Sustains Life**: Provides genetic diversity and life-support systems.',
+                    '**Aesthetics**: Offers natural beauty and psychological well-being.'
                 ],
                 tags: ['FUNCTIONS']
             },
             {
                 type: 'warning',
-                title: 'Environmental Crisis',
-                text: 'Occurs when demand exceeds **Carrying Capacity** (extraction > regeneration) or **Absorptive Capacity** (waste > digestive limit). Global warming and ozone depletion are modern markers of this crisis.',
+                title: 'Capacity Thresholds',
+                text: 'A crisis occurs when resource extraction exceeds **Carrying Capacity** or waste exceeds **Absorptive Capacity**. Global warming and ozone depletion are direct results of crossing these limits.',
                 tags: ['CRISIS']
-            },
-            {
-                type: 'comparison',
-                title: 'Global Warming vs Ozone Depletion',
-                headers: ['Feature', 'Global Warming', 'Ozone Depletion'],
-                rows: [
-                    ['Primary Cause', 'Greenhouse Gases ($CO_2$, CH$_4$)', 'CFCs and Halons'],
-                    ['Protocol', 'Kyoto Protocol (1997)', 'Montreal Protocol'],
-                    ['Major Impact', 'Rising Sea Levels / Melting Ice', 'Skin Cancer / UV Radiation']
-                ]
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v7-env-functions',
+                title: '4 Fundamental Functions',
+                type: 'grid',
+                data: [
+                    { label: 'Resource Supply', desc: 'Renewable and non-renewable inputs.' },
+                    { label: 'Waste Manager', desc: 'Assimilation and neutralisation of waste.' },
+                    { label: 'Life Support', desc: 'Maintenance of genetic/biodiversity.' },
+                    { label: 'Aesthetics', desc: 'Provision of scenic beauty and services.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u7-ch7-india-state',
@@ -72,23 +71,29 @@ export const TOPICS: TheoryTopic[] = [
         content: [
             {
                 type: 'concept',
-                title: 'Natural Resource Wealth',
-                text: 'India is rich in soil (Black soil for Cotton), fertile plains (Indo-Gangetic), and minerals (8% of world iron-ore).',
-                tags: ['WEALTH']
-            },
-            {
-                type: 'warning',
-                title: 'Priority Issues',
+                title: 'Resources vs. Degradation',
                 points: [
-                    '**Land Degradation**: 5.3 billion tonnes of soil erosion per year.',
-                    '**Forest Loss**: Per capita forest land is only 0.06 hectare (need 0.47).',
-                    '**Air Pollution**: Vehicles increased from 3 lakh (1951) to **35 crores (2022)**.',
-                    '**CPCB (1974)**: Set up to monitor 125 rivers and set emission standards.'
+                    '**Soil**: India loses 5.3 billion tonnes of soil to erosion annually.',
+                    '**Air**: Vehicles increased from 3 lakh (1951) to **35 crores (2022)**.',
+                    '**Water**: CPCB (1974) monitors 125 rivers to check pollution.',
+                    '**Forests**: Forest land per capita is 0.06 hectare (NCERT goal: 0.47).'
                 ],
-                tags: ['URGENT']
+                tags: ['STATE']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v7-india-threats',
+                title: "India's Environmental Burden",
+                type: 'grid',
+                data: [
+                    { label: 'Soil Loss', desc: '5.3 Billion tonnes erosion per year.' },
+                    { label: 'Vehicle Surge', desc: '3 Lakh (1951) to 35 Crore (2022).' },
+                    { label: 'Forest Gap', desc: '0.06 ha per capita (actual) vs 0.47 ha (ideal).' },
+                    { label: 'Water Check', desc: '125 Rivers monitored by CPCB (est. 1974).' }
+                ]
+            }
+        ]
     },
     {
         id: 'u7-ch7-sustainable-def',
@@ -97,29 +102,35 @@ export const TOPICS: TheoryTopic[] = [
         content: [
             {
                 type: 'concept',
-                title: 'Brundtland Definition (UNCED)',
-                text: '"Development that meets the need of the present generation without compromising the ability of the future generation to meet their own needs."',
+                title: 'Brundtland Definition',
+                text: 'Meeting present needs without compromising the future generation\'s ability to meet their own needs.',
                 tags: ['DEFINITION']
             },
             {
                 type: 'concept',
-                title: 'Herman Daly\'s Conditions',
+                title: 'Herman Daly\'s Rules',
                 points: [
-                    'Limit population within carrying capacity.',
-                    'Input-efficient technological progress.',
                     'Extraction rate ≤ Regeneration rate.',
-                    'Depletion rate of non-renewables ≤ Creation of renewable substitutes.'
+                    'Waste generation ≤ Absorptive capacity.',
+                    'Population within carrying capacity.',
+                    'Technological progress must be input-efficient.'
                 ],
                 tags: ['RULES']
-            },
-            {
-                type: 'tip',
-                title: 'Goal 2030',
-                text: 'In 2015, the UN formulated **17 Sustainable Development Goals (SDGs)** to be achieved by 2030.',
-                tags: ['SDGs']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v7-daly-rules',
+                title: "Herman Daly's Sustainability Rules",
+                type: 'grid',
+                data: [
+                    { label: 'Regeneration', desc: 'Extraction must not exceed regrowth.' },
+                    { label: 'Absorption', desc: 'Waste must remain within digestive limits.' },
+                    { label: 'Substitution', desc: 'Non-renewables replaced by renewables.' },
+                    { label: 'Efficiency', desc: 'Shift to input-efficient technology.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u7-ch7-strategies',
@@ -128,40 +139,53 @@ export const TOPICS: TheoryTopic[] = [
         content: [
             {
                 type: 'list',
-                title: 'Energy & Fuel Shifts',
+                title: 'Systemic Shifts',
                 points: [
-                    '**Non-conventional Sources**: Wind power and Solar energy (ISA leadership).',
-                    '**LPG & Gobar Gas**: Subsidised fuel for rural areas to reduce deforestation.',
-                    '**CNG**: Using Compressed Natural Gas for urban transport (Delhi success).'
+                    '**Energy**: Solar (ISA leadership), Wind, and Mini-Hydel for mountains.',
+                    '**Urban Transport**: Delhi\'s success with CNG.',
+                    '**Rural Solutions**: LPG and Gobar gas to reduce biomass usage.',
+                    '**Pest Control**: Using Neem and natural predators (snakes/owls).'
                 ],
-                tags: ['ENERGY']
-            },
-            {
-                type: 'list',
-                title: 'Local & Organic Solutions',
-                points: [
-                    '**Mini-Hydel Plants**: Powering remote mountainous regions via perennial streams.',
-                    '**Traditional Knowledge**: Utilizing 15,000 medicinal plants; Ayurveda/Unani.',
-                    '**Biocomposting**: Returning to organic fertilizers; Vermicomposting.',
-                    '**Biopest Control**: Using Neem products and natural controllers (snakes, owls).'
-                ],
-                tags: ['TRADITION']
+                tags: ['STRATEGIES']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v7-green-strategies',
+                title: 'Pathway to Green Growth',
+                type: 'grid',
+                data: [
+                    { label: 'Solar & Wind', desc: 'Leveraging ISA for renewable power.' },
+                    { label: 'CNG / LPG', desc: 'Cleaner fuels for urban and rural areas.' },
+                    { label: 'Biopesticides', desc: 'Neem-based control vs chemical toxins.' },
+                    { label: 'Mini-Hydel', desc: 'Small-scale perennial stream power.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u7-ch7-conclusion',
         title: '7.6 Conclusion',
-        description: 'A genuine paradigm shift.',
+        description: 'Balanced welfare.',
         content: [
             {
                 type: 'concept',
-                title: 'Lasting Development',
-                text: 'Adherence to a sustainable path ensures non-declining welfare for all by balancing the reversal of the supply-demand relationship for resources.',
-                tags: ['VISION']
+                title: 'Sustainable Future',
+                text: 'A genuine shift involves reversing the supply-demand relationship: making resource regeneration faster than harvesting.',
+                tags: ['CONCLUSION']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v7-welfare-sync',
+                title: 'Welfare and Environment',
+                type: 'process',
+                data: [
+                    { title: 'Information', description: 'Traditional knowledge and IT synergy.' },
+                    { title: 'Infrastructure', description: 'Investment in green tech and energy.' },
+                    { title: 'Result', description: 'Non-declining welfare for all generations.' }
+                ]
+            }
+        ]
     }
 ];

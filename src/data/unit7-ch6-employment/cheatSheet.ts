@@ -11,30 +11,40 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
         ]
     },
     {
-        id: 'u7-emp-c2',
-        title: '🏢 Industrial Sectors',
+        id: 'u7-ch6-c1',
+        title: '📊 Workforce Metrics',
         points: [
-            '**Primary**: 46.1% (Largest employer; 64% for women).',
-            '**Secondary**: ~25%; **Tertiary**: ~29%.',
-            '**Jobless Growth**: GDP grows faster than employment growth (late 1990s trend).'
+            '**Total Workforce**: ~545 million workers (2/3rd Rural).',
+            '**WPR**: ~41% (Rural 42% > Urban 38% due to poverty).',
+            '**Self-Employed**: 57% (Major segment; agri-dependent).',
+            '**Casual / Regular**: 22% Casual; 21% Regular Salaried.'
         ]
     },
     {
-        id: 'u7-emp-c3',
-        title: '⚠️ Informalisation Crisis',
+        id: 'u7-ch6-c2',
+        title: '🏗️ Informalisation Crisis',
         points: [
-            '**Formal (Organised)**: Only 6% of workers. Public + Private (10+ workers). Social security exists.',
-            '**Informal (Unorganised)**: 94% of workers; lack regular income and legal protection.',
-            '**Casualisation**: Process where workers shift from regular to casual labor.'
+            '**Informal Sector**: 94% of total workforce; lacks social security.',
+            '**Formal Sector**: Only 6% of workers; enjoyed social security.',
+            '**Trend**: Shift from permanent to casual work is informalisation.'
         ]
     },
     {
-        id: 'u7-emp-c4',
-        title: '🛠️ Unemployment Types',
+        id: 'u7-ch6-c3',
+        title: '⚠️ Unemployment Types',
         points: [
-            '**Open**: No work at all.',
-            '**Disguised**: Marginal product is zero (extra hands on farm).',
-            '**Seasonal**: Work exists only in sowing/harvest seasons.'
+            '**Disguised**: Marginal productivity = Zero (Agri).',
+            '**Seasonal**: Employment in peaks; idle in off-seasons.',
+            '**Open**: Willing/able but no job found.'
+        ]
+    },
+    {
+        id: 'u7-ch6-c4',
+        title: '🛠️ Policy Highlights',
+        points: [
+            '**MGNREGA 2005**: 100 days guaranteed unskilled manual work.',
+            '**Direct vs Indirect**: Gov hiring vs Gov-led demand creation.',
+            '**Jobless Growth**: GDP increase > Employment increase.'
         ]
     },
     {

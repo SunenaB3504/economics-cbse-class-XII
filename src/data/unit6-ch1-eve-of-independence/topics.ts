@@ -12,7 +12,22 @@ export const TOPICS: TheoryTopic[] = [
                 text: 'The structure of India\'s present-day economy has its roots in the British colonial period, which lasted almost two centuries before independence on 15 August 1947. The sole purpose of British colonial rule was to reduce India to a raw material supplier for Britain\'s rapidly expanding modern industrial base.'
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch1-motive',
+                title: 'Two-Fold Motive of British Rule',
+                type: 'grid',
+                data: [
+                    { label: 'Role 1', desc: 'Transform India into a net supplier of raw materials for Britain\'s modern industries.' },
+                    { label: 'Role 2', desc: 'Turn India into a consumer of finished industrial products imported from Britain.' }
+                ],
+                aiExplanation: [
+                    'This dual strategy ensured India\'s own handicraft industries were crippled while Britain\'s industrial revolution flourished.',
+                    'The synergy between supply and demand was forced upon India for colonial gain.'
+                ]
+            }
+        ]
+
     },
     {
         id: 'u6-ch1-dev-level',
@@ -230,7 +245,26 @@ export const TOPICS: TheoryTopic[] = [
                 text: 'Madras Presidency, Bombay, and Bengal saw a shift toward manufacturing and services. Conversely, Orissa, Rajasthan, and Punjab saw increased dependence on agriculture.'
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch1-occ-stats',
+                title: 'Table 1.1: Sectoral Distribution of Workforce',
+                type: 'table',
+                data: {
+                    headers: ['Sector', 'Share of Workforce (%)', 'Status'],
+                    rows: [
+                        ['Agriculture', '70–75%', 'Severely Stagnant'],
+                        ['Manufacturing', '10%', 'Underdeveloped'],
+                        ['Services', '15–20%', 'Limited Context']
+                    ]
+                },
+                aiExplanation: [
+                    'Notice the overwhelming dependence on agriculture, which is characteristic of a backward economy.',
+                    'The lack of structural shift indicates that colonial rule did not foster industrial growth.'
+                ]
+            }
+        ]
+
     },
     {
         id: 'u6-ch1-infrastructure',
@@ -283,7 +317,20 @@ export const TOPICS: TheoryTopic[] = [
                 tags: ['SUMMARY']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v-ch1-inherited',
+                title: 'Summary: Inherited Challenges in 1947',
+                type: 'grid',
+                data: [
+                    { label: 'Agriculture', desc: 'Massive surplus labour; lowest per-acre productivity.' },
+                    { label: 'Industry', desc: 'Absence of capital goods; skewed sectoral focus.' },
+                    { label: 'Demography', desc: 'High mortality; low literacy; life expectancy of 32 years.' },
+                    { label: 'Trade', desc: 'Systemic Drain of Wealth to feed British interests.' }
+                ]
+            }
+        ]
+
     }
 ];
 

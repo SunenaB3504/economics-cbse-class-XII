@@ -8,16 +8,25 @@ export const TOPICS: TheoryTopic[] = [
         content: [
             {
                 type: 'concept',
-                title: 'The Need for Groupings',
-                text: 'In the era of globalisation, nations seek to strengthen their domestic economies by forming regional and global economic groupings.',
-                points: [
-                    '**Examples**: SAARC, European Union (EU), ASEAN, G-8, G-20, BRICS.',
-                    '**China\'s Lead**: China is often seen as a benchmark for India and Pakistan due to its rapid advancement.'
-                ],
+                title: 'Global Economic Groupings',
+                text: 'In the era of globalisation, nations form regional and global economic groupings to strengthen their domestic economies and benchmark progress.',
                 tags: ['CONTEXT']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v8-groupings-grid',
+                title: 'Major Global Groupings',
+                type: 'grid',
+                data: [
+                    { label: 'SAARC', desc: 'South Asian Association for Regional Cooperation.' },
+                    { label: 'European Union', desc: 'Integration of European economies.' },
+                    { label: 'ASEAN', desc: 'Association of Southeast Asian Nations.' },
+                    { label: 'BRICS', desc: 'Brazil, Russia, India, China, South Africa.' },
+                    { label: 'G-20', desc: 'Premier forum for international economic cooperation.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u8-paths',
@@ -25,17 +34,27 @@ export const TOPICS: TheoryTopic[] = [
         description: 'Independence to Reforms.',
         content: [
             {
-                type: 'comparison',
-                title: 'Key Milestones',
-                headers: ['Event', 'India', 'China', 'Pakistan'],
-                rows: [
-                    ['Independence', '1947', '1949 (PRC)', '1947'],
-                    ['First Five-Year Plan', '1951-56', '1953-57', '1956-61'],
-                    ['Economic Reforms', '1991', '1978', '1988']
-                ]
+                type: 'concept',
+                title: 'Common Beginnings',
+                text: 'All three nations started their developmental path at similar times but adopted different economic systems. India and Pakistan followed a mixed economy model, while China followed a command economy before reforms.',
+                tags: ['HISTORY']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v8-chronology-table',
+                title: 'Developmental Milestones',
+                type: 'table',
+                data: {
+                    headers: ['Milestone', 'India', 'China', 'Pakistan'],
+                    rows: [
+                        ['Independence / Republic', '1947', '1949 (PRC)', '1947'],
+                        ['First Five-Year Plan', '1951', '1953', '1956'],
+                        ['Economic Reforms', '1991', '1978', '1988']
+                    ]
+                }
+            }
+        ]
     },
     {
         id: 'u8-china-model',
@@ -45,27 +64,33 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'concept',
                 title: 'Great Leap Forward (GLF) - 1958',
-                text: 'A campaign aimed at industrialising the country on a massive scale.',
-                points: [
-                    '**Backyard Furnaces**: Households were encouraged to set up steel furnaces in backyards.',
-                    '**Commune System**: By 1958, there were **26,000 communes** covering almost the entire rural population.'
-                ],
+                text: 'A campaign aimed at industrialising the country on a massive scale. Key features included backyard steel furnaces and the commune system (26,000 communes).',
                 tags: ['GLF']
             },
             {
                 type: 'concept',
-                title: 'Great Proletarian Cultural Revolution (1966-76)',
-                text: 'Introduced by Mao Zedong, where students and professionals were sent to work and learn from the countryside.',
-                tags: ['HISTORY']
-            },
-            {
-                type: 'concept',
-                title: 'A Pragmatic Shift (1978)',
-                text: 'Reforms were first introduced in agriculture, then industry. Dual pricing and **Special Economic Zones (SEZs)** were used to attract foreign investment.',
+                title: 'Stages of Reform (1978)',
+                points: [
+                    '**Initial Phase**: Reforms in agriculture, foreign trade, and investment.',
+                    '**Later Phase**: Reforms in the industrial sector and private ownership.',
+                    '**Dual Pricing**: Setting prices for fixed quantities while allowing market pricing for the surplus.'
+                ],
                 tags: ['REFORMS']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v8-china-milestones',
+                title: "China's Structural Milestones",
+                type: 'grid',
+                data: [
+                    { label: 'GLF (1958)', desc: 'Backyard furnaces & 26k Rural communes.' },
+                    { label: 'Cultural Rev (66)', desc: 'Students sent to learn from the countryside.' },
+                    { label: 'Reforms (1978)', desc: 'Shift toward a market-oriented economy.' },
+                    { label: 'SEZ Strategy', desc: 'Special Economic Zones to attract FDI.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u8-demographics',
@@ -73,24 +98,28 @@ export const TOPICS: TheoryTopic[] = [
         description: 'Population, Density, and Urbanization.',
         content: [
             {
-                type: 'comparison',
-                title: 'Demographic Comparison (2017-18)',
-                headers: ['Indicator', 'India', 'China', 'Pakistan'],
-                rows: [
-                    ['Population Growth (%)', '1.03', '0.46', '2.05'],
-                    ['Density (per sq. km)', '455', '148', '275'],
-                    ['Urbanisation (%)', '34', '59', '37'],
-                    ['Sex Ratio (per 1000)', '924', '949', '943']
-                ]
-            },
-            {
                 type: 'warning',
-                title: 'The One-Child Norm',
-                text: 'Introduced by China in 1979 to control population. It successfully lowered growth but led to a skewed sex ratio and an aging population.',
-                tags: ['CRITICAL']
+                title: 'The One-Child Policy',
+                text: 'Introduced by China in 1979, it successfully lowered the population growth rate (now ~0.46%) but led to a skewed sex ratio and an aging population.',
+                tags: ['DEMOGRAPHICS']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v8-demo-comparison',
+                title: 'Demographic Snapshot (2017-18)',
+                type: 'table',
+                data: {
+                    headers: ['Indicator', 'India', 'China', 'Pakistan'],
+                    rows: [
+                        ['Growth Rate (%)', '1.03', '0.46', '2.05'],
+                        ['Density (sq km)', '455', '148', '275'],
+                        ['Urbanisation (%)', '34', '59', '37'],
+                        ['Sex Ratio (m:f)', '924', '949', '943']
+                    ]
+                }
+            }
+        ]
     },
     {
         id: 'u8-sectoral',
@@ -99,16 +128,24 @@ export const TOPICS: TheoryTopic[] = [
         content: [
             {
                 type: 'concept',
-                title: 'The Manufacturing vs Services Debate',
-                points: [
-                    '**China**: Direct transition from Agriculture to Manufacturing ("Factory of the World").',
-                    '**India & Pakistan**: "Bypassed" manufacturing, shifting directly from Agriculture to Services.',
-                    '**Agriculture Paradox**: Employs ~43% in India but contributes only ~16% to GVA.'
-                ],
+                title: 'The "Bypass" Phenomenon',
+                text: 'While China successfully transitioned from Agriculture to Manufacturing, India and Pakistan experienced a direct shift from Agriculture to the Services sector.',
                 tags: ['STRUCTURE']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v8-sector-bypass',
+                title: 'The Shift Paradox',
+                type: 'grid',
+                data: [
+                    { label: 'China', desc: 'Direct transition: Agri → Manufacturing → Service.' },
+                    { label: 'India/Pak', desc: 'Bypassed Manufacturing: Agri → Services.' },
+                    { label: 'India Agri', desc: 'Employs 43% but contributes only 16% GVA.' },
+                    { label: 'Efficiency', desc: 'China remains the "Factory of the World".' }
+                ]
+            }
+        ]
     },
     {
         id: 'u8-hdi',
@@ -116,24 +153,28 @@ export const TOPICS: TheoryTopic[] = [
         description: 'Life Expectancy and Poverty.',
         content: [
             {
-                type: 'comparison',
-                title: 'HDI Snapshot',
-                headers: ['Indicator', 'India', 'China', 'Pakistan'],
-                rows: [
-                    ['HDI Value', '0.645', '0.761', '0.557'],
-                    ['Infant Mortality Rate', '29.9', '7.4', '57.2'],
-                    ['Maternal Mortality Rate', '133', '29', '140'],
-                    ['Mean Years of Schooling', '6.5', '8.1', '5.2']
-                ]
-            },
-            {
-                type: 'tip',
-                title: 'Poverty Reduction',
-                text: 'China has remarkably reduced poverty (approaching 0%), while India (21.9%) and Pakistan (24.3%) still face significant challenges.',
-                tags: ['ECONOMY']
+                type: 'concept',
+                title: 'Performance Evaluation',
+                text: 'China leads in almost all HDI parameters, while India and Pakistan lag, specifically in sanitation and maternal health.',
+                tags: ['HDI']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v8-hdi-table',
+                title: 'HDI Comparison (2019)',
+                type: 'table',
+                data: {
+                    headers: ['Indicator', 'India', 'China', 'Pakistan'],
+                    rows: [
+                        ['HDI Value', '0.645', '0.761', '0.557'],
+                        ['Poverty (%)', '21.9', 'Approaching 0', '24.3'],
+                        ['Infant Mortality', '29.9', '7.4', '57.2'],
+                        ['Maternal Mortality', '133', '29', '140']
+                    ]
+                }
+            }
+        ]
     },
     {
         id: 'u8-conclusion',
@@ -143,15 +184,22 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'concept',
                 title: 'Liberty Indicators',
-                text: 'Measures the extent of democratic participation and individual freedom.',
-                points: [
-                    'Freedom of expression.',
-                    'Independence of the judiciary.',
-                    'Fair elections and political participation.'
-                ],
+                text: 'True development includes political and civil freedoms. China, despite economic success, lags in liberty compared to the democratic structures of India.',
                 tags: ['GOVERNANCE']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v8-liberty-grid',
+                title: 'Development Beyond Income',
+                type: 'grid',
+                data: [
+                    { label: 'Political', desc: 'Freedom of expression and fair elections.' },
+                    { label: 'Judiciary', desc: 'Independence of legal institutions.' },
+                    { label: 'Participation', desc: 'Extent of democratic involvement.' },
+                    { label: 'Rule of Law', desc: 'Constititional protections for citizens.' }
+                ]
+            }
+        ]
     }
 ];

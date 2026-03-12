@@ -5,35 +5,38 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
         id: 'u7-ch5-c1',
         title: '💰 Rural Credit & Inclusion',
         points: [
-            '**NABARD (1982)**: Apex body for rural financing; shift to Social Banking in 1969.',
-            '**Jan-Dhan Yojana**: 50cr+ accounts; mobilized ₹2,00,000 crore; accidental insurance (₹1-2L).',
-            '**SHGs**: 6cr women in 54 lakh groups; empowers via micro-credit.'
+            '**NABARD (1982)**: Apex body for rural financing.',
+            '**SHGs**: 6 crore women in 54 lakh groups; focus on micro-credit.',
+            '**Jan-Dhan**: Zero balance, ₹1-2L accidental insurance, ₹10k overdraft.',
+            '**Social Banking (1969)**: Multi-agency approach to credit.'
         ]
     },
     {
         id: 'u7-ch5-c2',
-        title: '🏪 Agricultural Marketing',
+        title: '🍏 Agricultural Marketing',
         points: [
-            '**Defects**: 10% produce wasted; lack of storage; distress sales.',
-            '**Measures**: Regulated Markets, Infrastructure, Cooperatives, MSP/Buffer Stocks (FCI).',
-            '**Alternate Channels**: Apni Mandi, Rythu Bazars, Contract Farming.'
+            '**Instruments**: MSP (price floor), Buffer Stocks (FCI), PDS (rations).',
+            '**Channels**: Rythu Bazars (AP), Uzhavar Sandies (TN), Apni Mandi (Pb).',
+            '**Wastage**: >10% of farm produce lost due to poor storage.'
         ]
     },
     {
         id: 'u7-ch5-c3',
-        title: '🥚 Diversification (Allied Sectors)',
+        title: '🌈 Revolutions & Exports',
         points: [
-            '**Animal Husbandry**: Operation Flood (Milk 12x increase); Livestock supports 70M farmers.',
-            '**Fisheries (Blue Revolution)**: Inland (65%) vs Marine (35%); 0.9% of GDP.',
-            '**Horticulture (Golden Revolution)**: 6% of GDP; 1/3 agricultural output value.'
+            '**White**: Milk (Operation Flood); India is world leader.',
+            '**Golden**: Horticulture; 1/3rd of agri output; First in Mango/Banana.',
+            '**Blue**: Fisheries; Inland sources generate 65% of value.',
+            '**Organic**: Low chemical input, high export demand, high labor.'
         ]
     },
     {
         id: 'u7-ch5-c4',
-        title: '🌱 Organic Farming',
+        title: '📉 Rural Realities',
         points: [
-            '**Benefits**: Eco-friendly, chemical-free, sustainable, requires more labor.',
-            '**Limitations**: Lower initial yields, shorter shelf life, inadequate infrastructure.'
+            '**Population**: 2/3rd dependent on agriculture.',
+            '**GVA growth**: Currently ~2% in agriculture (2023-24).',
+            '**Investment**: Declining public infra investment since 1991.'
         ]
     },
     {

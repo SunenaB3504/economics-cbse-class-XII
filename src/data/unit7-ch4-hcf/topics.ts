@@ -23,7 +23,19 @@ export const TOPICS: TheoryTopic[] = [
                 tags: ['EDUCATION']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v4-hcf-intro-valued',
+                title: 'Valued Outcomes of Education',
+                type: 'grid',
+                data: [
+                    { label: 'Economic', desc: 'Higher earning capacity and productivity.' },
+                    { label: 'Social', desc: 'Better social standing and participation.' },
+                    { label: 'Personal', desc: 'Improved life choices and understanding.' },
+                    { label: 'Technical', desc: 'Innovation and technology adaptation.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u7-ch4-whatis',
@@ -48,7 +60,18 @@ export const TOPICS: TheoryTopic[] = [
                 tags: ['QUESTIONS']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v4-hcf-conversion',
+                title: 'The Conversion Process',
+                type: 'process',
+                data: [
+                    { title: 'Human Resource', description: 'Raw manpower (students, workers).' },
+                    { title: 'Investment', description: 'Spending on Education and Health.' },
+                    { title: 'Human Capital', description: 'Productive assets (Engineers, Doctors).' }
+                ]
+            }
+        ]
     },
     {
         id: 'u7-ch4-sources',
@@ -96,7 +119,7 @@ export const TOPICS: TheoryTopic[] = [
                     '**Separability**: Physical capital is separable from owner; Human capital is inseparable.',
                     '**Mobility**: Physical capital is completely mobile; Human capital is restricted by nationality.',
                     '**Depreciation**: Physical capital depreciates via use; Human capital depreciates with age but grows with investment.',
-                    '**Benefits**: Physical capital creates private benefits; Human capital creates both private and social benefits.'
+                    '**Benefits**: Physical capital creates private benefits; Human capital creates both private and social consequences.'
                 ],
                 tags: ['COMPARISON']
             }
@@ -126,7 +149,7 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'concept',
                 title: 'Productivity and Innovation',
-                text: 'Educated and healthy persons contribute more to national income. Human capital stimulates innovations and helps absorb new technologies like AI, big data, and machine learning.',
+                text: 'Educated and healthy persons contribute more to national income. Human capital stimulates innovations and helps absorb new technologies like AI and Green Tech.',
                 tags: ['GROWTH']
             },
             {
@@ -142,14 +165,13 @@ export const TOPICS: TheoryTopic[] = [
                 title: 'Select Indicators of Development',
                 type: 'table',
                 data: {
-                    headers: ['Indicator', '1951', '1981', '1991', '2001', '2018-21'],
+                    headers: ['Indicator', '1951', '2011', '2018-21'],
                     rows: [
-                        ['Real Per Capita Income (₹)', '7,651', '12,174', '15,748', '23,095', '94,054'],
-                        ['Crude Death Rate (per 1,000)', '25.1', '12.5', '9.8', '8.1', '6.0'],
-                        ['Infant Mortality Rate', '146', '110', '80', '63', '28'],
-                        ['Life Expectancy - Male (yrs)', '37.2', '54.1', '59.7', '63.9', '68.6'],
-                        ['Life Expectancy - Female (yrs)', '36.2', '54.7', '60.9', '66.9', '71.4'],
-                        ['Literacy Rate (%)', '16.67', '43.57', '52.21', '65.20', '78']
+                        ['Real Per Capita Income (₹)', '7,651', '60,000+', '94,054'],
+                        ['Infant Mortality Rate', '146', '44', '28'],
+                        ['Life Expectancy - Male (yrs)', '37.2', '64.0', '68.6'],
+                        ['Life Expectancy - Female (yrs)', '36.2', '66.0', '71.4'],
+                        ['Literacy Rate (%)', '16.67', '74.0', '78']
                     ]
                 }
             }
@@ -171,7 +193,21 @@ export const TOPICS: TheoryTopic[] = [
                 tags: ['PERSPECTIVE']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v4-hc-vs-hd-table',
+                title: 'Means vs. Ends Comparison',
+                type: 'table',
+                data: {
+                    headers: ['Dimension', 'Human Capital', 'Human Development'],
+                    rows: [
+                        ['Primary Focus', 'Productivity/Output', 'Human Wellbeing'],
+                        ['Nature of Education', 'Means (Instrument)', 'End (Right/Goal)'],
+                        ['Scope', 'Economic Centric', 'Welfare Centric']
+                    ]
+                }
+            }
+        ]
     },
     {
         id: 'u7-ch4-state',
@@ -193,13 +229,27 @@ export const TOPICS: TheoryTopic[] = [
                 type: 'concept',
                 title: 'Key Regulatory Bodies',
                 points: [
-                    '**Education**: NCERT, UGC, AICTE.',
-                    '**Health**: National Medical Commission, ICMR.'
+                    '**NCERT**: School education framework.',
+                    '**UGC**: University funding and standards.',
+                    '**AICTE**: Technical and engineering education.',
+                    '**ICMR**: Health research and medical guidelines.'
                 ],
                 tags: ['BODIES']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v4-regulatory-bodies',
+                title: 'Key Regulatory Bodies',
+                type: 'grid',
+                data: [
+                    { label: 'NCERT', desc: 'Syllabus and textbooks for schools.' },
+                    { label: 'UGC', desc: 'Grants and standards for Universities.' },
+                    { label: 'AICTE', desc: 'Regulation of Technical institutions.' },
+                    { label: 'ICMR', desc: 'Council for Medical Research.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u7-ch4-sector',
@@ -210,17 +260,11 @@ export const TOPICS: TheoryTopic[] = [
                 type: 'concept',
                 title: 'Spending and Legislation',
                 points: [
-                    '**GDP Share**: Increased from 0.64% (1952) to 4.47% (2020), still below the 6% recommendation.',
+                    '**GDP Share**: Increased from 0.64% (1952) to ~4.5% (2020), still below the 6% recommendation.',
                     '**Right to Education (RTE) 2009**: Free/compulsory education for children aged 6-14.',
                     '**Education Cess**: 2% surcharge on Union taxes for elementary education.'
                 ],
                 tags: ['POLICY']
-            },
-            {
-                type: 'concept',
-                title: 'Educational Attainment (Table 4.2)',
-                text: 'Improvement in literacy and completion rates across decades.',
-                tags: ['DATA']
             }
         ],
         visualizations: [
@@ -229,14 +273,11 @@ export const TOPICS: TheoryTopic[] = [
                 title: 'Educational Attainment in India',
                 type: 'table',
                 data: {
-                    headers: ['Indicator', '1990', '2000', '2011', '2017-18'],
+                    headers: ['Indicator', '1990', '2011', '2017-18'],
                     rows: [
-                        ['Adult Literacy Rate (M%)', '61.9', '68.4', '79', '82'],
-                        ['Adult Literacy Rate (F%)', '37.9', '45.4', '59', '66'],
-                        ['Primary Completion (M%)', '78', '85', '92', '93'],
-                        ['Primary Completion (F%)', '61', '69', '94', '96'],
-                        ['Youth Literacy Rate (M%)', '76.6', '79.7', '90', '93'],
-                        ['Youth Literacy Rate (F%)', '54.2', '64.8', '82', '90']
+                        ['Youth Literacy Rate (M%)', '76.6', '90', '93'],
+                        ['Youth Literacy Rate (F%)', '54.2', '82', '90'],
+                        ['Primary Completion (F%)', '61', '94', '96']
                     ]
                 }
             }
@@ -253,12 +294,24 @@ export const TOPICS: TheoryTopic[] = [
                 points: [
                     '**Education for All**: Still a dream; absolute illiterates remain high.',
                     '**Gender Equity**: Narrowing gap, but women\'s education is still critical.',
-                    '**Higher Education**: Steep pyramid; high unemployment among graduates (up to 30%).'
+                    '**Higher Education**: High unemployment among graduates (as high as 30% in some regions).'
                 ],
                 tags: ['CHALLENGES']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v4-educational-pyramid',
+                title: 'Educational Gaps in India',
+                type: 'grid',
+                data: [
+                    { label: 'Primary', desc: 'High enrollment but quality concerns.' },
+                    { label: 'Secondary', desc: 'Significant dropouts after grade 8.' },
+                    { label: 'Higher Ed', desc: 'Steep pyramid; mismatched skill vs jobs.' },
+                    { label: 'Employment', desc: 'Up to 30% graduate unemployment.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u7-ch4-conclusion',
@@ -272,6 +325,17 @@ export const TOPICS: TheoryTopic[] = [
                 tags: ['CONCLUSION']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v4-hcf-priority',
+                title: 'Core Priorities for India',
+                type: 'process',
+                data: [
+                    { title: 'Quality Manpower', description: 'Improving skills beyond just certification.' },
+                    { title: 'Inclusivity', description: 'Reaching the remote and rural poor.' },
+                    { title: 'Economic Growth', description: 'Sustainable productivity and innovation.' }
+                ]
+            }
+        ]
     }
 ];

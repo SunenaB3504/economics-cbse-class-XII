@@ -2,50 +2,42 @@ import { CheatSheetItem } from '../../types';
 
 export const CHEAT_SHEET: CheatSheetItem[] = [
     {
-        id: 'u7-hcf-c1',
-        title: '📖 Concepts & Sources',
+        id: 'u7-ch4-c1',
+        title: '📚 The 5 Sources of HCF',
         points: [
-            '**Human Capital**: Stock of skills, expertise, and knowledge.',
-            '**Sources (EH-TMI)**: Education, Health, Training, Migration, Information.',
-            '**Physical vs HC**: HC is intangible, inseparable, and creates social benefits.'
+            '**Education**: Increases future income capacity (Primary source).',
+            '**Health**: Preventive (vaccines), Curative (medicine), Social (Clean water).',
+            '**Training**: Increases productivity; benefits > cost.',
+            '**Migration**: Seek higher-paying jobs; covers transport/psychic cost.',
+            '**Information**: Data on labour markets/education needed for decision making.'
         ]
     },
     {
-        id: 'u7-hcf-c2',
-        title: '🎯 HC vs. Human Development',
+        id: 'u7-ch4-c2',
+        title: '🏛️ Regulatory Framework',
         points: [
-            '**HC**: Means to an end (productivity).',
-            '**HD**: End in itself (well-being and right to life/literacy).'
+            '**NCERT**: School education syllabus/framework.',
+            '**UGC**: University funding and educational standards.',
+            '**AICTE**: Technical and Engineering education regulation.',
+            '**NMC (ICMR)**: Health guidelines and medical research/standards.'
         ]
     },
     {
-        id: 'u7-hcf-c3',
-        title: '📊 India Development Snapshot',
+        id: 'u7-ch4-c3',
+        title: '📊 Key Education Policies',
         points: [
-            '**Per Capita Income**: ₹7,651 (1951) → ₹94,054 (2021).',
-            '**Literacy**: 16.67% (1951) → 78% (2021).',
-            '**IMR**: 146 (1951) → 28 (2021).',
-            '**Life Expectancy**: ~37 yrs (1951) → ~70 yrs (2021).'
+            '**RTE Act 2009**: Free/compulsory education for 6-14 year olds.',
+            '**6% Goal**: Kothari Comm recommended 6% of GDP for education.',
+            '**Education Cess**: 2% additional tax to fund primary education.',
+            '**Gender Equity**: Focus on reducing the gap in girl child education.'
         ]
     },
     {
-        id: 'u7-hcf-c4',
-        title: '🏛️ Policy & Governance',
+        id: 'u7-ch4-c4',
+        title: '🏗️ Capital Types',
         points: [
-            '**Bodies**: NCERT, UGC, AICTE (Education); NMC, ICMR (Health).',
-            '**Expenditure**: ~4.5% of GDP (Target 6% per Kothari Commission).',
-            '**RTE Act 2009**: Fundamental right to education (6-14 years).',
-            '**Education Cess**: 2% surcharge for elementary education.'
-        ]
-    },
-    {
-        id: 'u7-hcf-c5',
-        title: '⚖️ Challenges & Future',
-        points: [
-            '**Gender Gap**: Literacy narrowing but females still at 66% vs males 82%.',
-            '**Jobless Growth**: High unemployment among graduates (up to 30% rural females).',
-            '**NEP 2020**: Focus on AI, Big Data, and multi-disciplinary skills.'
+            '**Physical**: Tangible, separable from owner, mobile, wear/tear.',
+            '**Human**: Intangible, inseparable, restricted mobility, age-depreciation.'
         ]
     }
 ];
-

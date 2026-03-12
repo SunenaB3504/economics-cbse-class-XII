@@ -4,26 +4,38 @@ export const TOPICS: TheoryTopic[] = [
     {
         id: 'u7-ch6-intro',
         title: '6.1 Introduction',
-        description: 'Why do we work?',
+        description: 'Why do we work and why study workforce?',
         content: [
             {
                 type: 'concept',
                 title: 'The Significance of Work',
-                text: 'Work enables meaningful participation in society and provides a sense of self-worth. Every working person contributes to national income and the development of the country.',
-                tags: ['VISION']
+                text: 'Work is not just for earning a living; it provides self-worth and enables meaningful participation in society. Every working person contributes to the national income (GNP) and hence the development of the country.',
+                tags: ['SIGNIFICANCE']
             },
             {
                 type: 'concept',
                 title: 'Insights from Workforce Study',
                 points: [
-                    'Helps plan human resources.',
+                    'Helps in planning human resources and quality of employment.',
                     'Analyses contributions of different sectors to national income.',
-                    'Addresses social issues like child labour and exploitation.'
+                    'Addresses social issues like child labour and labor exploitation.'
                 ],
                 tags: ['ANALYSIS']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v6-significance-grid',
+                title: 'Why Study Workforce?',
+                type: 'grid',
+                data: [
+                    { label: 'Economic', desc: 'Contribution to GNP and sectoral growth.' },
+                    { label: 'Social', desc: 'Self-worth and societal participation.' },
+                    { label: 'Planning', desc: 'Resource allocation and HR management.' },
+                    { label: 'Reform', desc: 'Identifying issues like child labor.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u7-ch6-definitions',
@@ -35,23 +47,35 @@ export const TOPICS: TheoryTopic[] = [
                 title: 'Essential Terminology',
                 points: [
                     '**Economic activities**: Activities contributing to Gross National Product (GNP).',
-                    '**Worker**: Anyone engaged in economic activities, including self-employed and those temporarily absent.',
+                    '**Worker**: Anyone engaged in economic activities, including self-employed and those temporarily absent due to illness or injury.',
                     '**Unemployment**: A situation where one cannot get even one hour of work in half a day.'
                 ],
                 tags: ['DEFINITIONS']
             },
             {
                 type: 'concept',
-                title: 'India\'s Workforce (2022-23)',
+                title: 'India\'s Workforce Snapshot',
                 points: [
-                    'Total workforce: ~545 million.',
-                    'Rural workforce constitutes about two-thirds of the total.',
-                    'Men account for 77%; women for 1/4th (rural) and 1/5th (urban) of their respective areas.'
+                    'Total workforce: ~545 million (2022-23).',
+                    'Rural workforce constitutes about 2/3rd of the total.',
+                    'Gender Gap: Men account for 77%; Women for ~23%.'
                 ],
                 tags: ['DATA']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v6-workforce-grid',
+                title: 'India\'s Workforce at a Glance',
+                type: 'grid',
+                data: [
+                    { label: 'Total', desc: '545 million active workers.' },
+                    { label: 'Locality', desc: '2/3rd Rural vs 1/3rd Urban.' },
+                    { label: 'Gender', desc: '77% Men vs 23% Women.' },
+                    { label: 'Participation', desc: 'High female participation in rural areas.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u7-ch6-participation',
@@ -61,27 +85,31 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'concept',
                 title: 'WPR (Worker-Population Ratio)',
-                text: 'The proportion of the total population engaged in economic activities. Higher ratio = greater engagement.',
+                text: 'The proportion of the total population engaged in economic activities. Higher ratio = greater engagement of people in the production of goods and services.',
                 tags: ['RATIO']
             },
             {
                 type: 'concept',
-                title: 'Table 6.1: WPR in India (2022-23)',
-                headers: ['Sex', 'Total', 'Rural', 'Urban'],
-                rows: [
-                    ['Men', '54.4', '54.0', '55.6'],
-                    ['Women', '27.0', '30.0', '18.7'],
-                    ['Total', '41.1', '42.3', '37.7']
-                ]
-            },
-            {
-                type: 'concept',
                 title: 'Regional Differences',
-                text: 'Rural WPR (~42) is higher than urban (~38) because rural people cannot afford to stay unemployed and have limited resources for higher education.',
+                text: 'Rural WPR (~42) is higher than urban (~38). Higher female participation in rural areas is often a result of poverty; people in rural areas cannot afford to stay unemployed.',
                 tags: ['ANALYSIS']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v6-wpr-table',
+                title: 'Table 6.1: WPR in India (2022-23)',
+                type: 'table',
+                data: {
+                    headers: ['Sex', 'Total (%)', 'Rural (%)', 'Urban (%)'],
+                    rows: [
+                        ['Men', '54.4', '54.0', '55.6'],
+                        ['Women', '27.0', '30.0', '18.7'],
+                        ['Total', '41.1', '42.3', '37.7']
+                    ]
+                }
+            }
+        ]
     },
     {
         id: 'u7-ch6-status',
@@ -92,14 +120,25 @@ export const TOPICS: TheoryTopic[] = [
                 type: 'concept',
                 title: 'Employment Categories',
                 points: [
-                    '**Self-employed (57%)**: Major livelihood source for 54% men and 62% women.',
-                    '**Casual Wage Labourers (22%)**: Most vulnerable; engaged on daily wages.',
-                    '**Regular Salaried (21%)**: Engaged for regular wages; more common in urban areas (40%) vs rural (13%).'
+                    '**Self-employed (57%)**: Own and operate enterprises (e.g., Farmers, Shopkeepers).',
+                    '**Casual Wage Labourers (22%)**: Most vulnerable; engaged on daily wages without social security.',
+                    '**Regular Salaried (21%)**: Engaged for regular wages/salaries; enjoy some social security (more in urban).'
                 ],
                 tags: ['STATUS']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v6-status-grid',
+                title: 'Employment Status Breakdown',
+                type: 'grid',
+                data: [
+                    { label: 'Self-Employed', desc: '57.3% - Major segment (Agri/Trade).' },
+                    { label: 'Casual Labour', desc: '21.8% - Vulnerable daily wagers.' },
+                    { label: 'Regular Salaried', desc: '20.9% - Stable urban jobs.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u7-ch6-industry',
@@ -108,22 +147,26 @@ export const TOPICS: TheoryTopic[] = [
         content: [
             {
                 type: 'concept',
-                title: 'Table 6.2: Workforce by Industry (2022-23)',
-                headers: ['Industrial Category', 'Rural', 'Urban', 'Men', 'Female', 'Total'],
-                rows: [
-                    ['Primary', '57.8', '9.0', '37.5', '64.4', '46.1'],
-                    ['Secondary', '22.5', '32.7', '29.3', '19.3', '24.9'],
-                    ['Tertiary', '18.0', '60.4', '32.2', '24.7', '29.0']
-                ]
-            },
-            {
-                type: 'concept',
                 title: 'Primary Sector Dominance',
                 text: 'Employing 46.1% of the total workforce, the primary sector remains the largest employer, specifically for women (64%).',
                 tags: ['INSIGHT']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v6-industry-table',
+                title: 'Table 6.2: Workforce by Industry (2022-23)',
+                type: 'table',
+                data: {
+                    headers: ['Category', 'Rural (%)', 'Urban (%)', 'Total (%)'],
+                    rows: [
+                        ['Primary (Agri)', '57.8', '9.0', '46.1'],
+                        ['Secondary (Ind)', '22.5', '32.7', '24.9'],
+                        ['Tertiary (Serv)', '18.0', '60.4', '29.0']
+                    ]
+                }
+            }
+        ]
     },
     {
         id: 'u7-ch6-growth',
@@ -133,21 +176,25 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'warning',
                 title: 'Jobless Growth',
-                text: 'A situation in the late 1990s where GDP grew faster than employment growth, producing more value without proportionally creating jobs.',
+                text: 'A situation where GDP grows faster than employment growth. India experienced this significantly after 1991, where value was created without proportional job additions.',
                 tags: ['WARNING']
-            },
-            {
-                type: 'concept',
-                title: 'Sectoral Trends (1972-2023)',
-                headers: ['Sector', '1972-73', '1983', '2011-12', '2017-18'],
-                rows: [
-                    ['Primary', '74.3', '68.6', '48.9', '46.1'],
-                    ['Secondary', '10.9', '11.5', '24.3', '24.9'],
-                    ['Services', '14.8', '16.9', '26.8', '29.0']
-                ]
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v6-sectoral-trends',
+                title: 'Sectoral Shift (1972 - 2023)',
+                type: 'table',
+                data: {
+                    headers: ['Sector', '1972-73', '2011-12', '2022-23'],
+                    rows: [
+                        ['Primary', '74.3', '48.9', '46.1'],
+                        ['Secondary', '10.9', '24.3', '24.9'],
+                        ['Tertiary', '14.8', '26.8', '29.0']
+                    ]
+                }
+            }
+        ]
     },
     {
         id: 'u7-ch6-informalisation',
@@ -156,22 +203,37 @@ export const TOPICS: TheoryTopic[] = [
         content: [
             {
                 type: 'concept',
-                title: 'Scale of Informalisation',
+                title: 'The Unorganised Majority',
                 points: [
-                    '**94% of workers** are in the informal sector.',
-                    'Only ~6% are in the formal sector (Organised), enjoying social security.',
-                    'Formal sector grew from 30 million (2012) to 59 million (2022).'
+                    '**94% of workers** are in the informal sector (unorganised).',
+                    'Informal workers lack job security, labor law protection, and social security.',
+                    'Regular workers in informal enterprises (e.g., small tea stalls) are also considered informal.'
                 ],
                 tags: ['CHALLENGE']
             },
             {
                 type: 'warning',
-                title: 'Ahmedabad Textile Case Study',
-                text: 'Closure of textile mills in the 1980s converted 80,000 permanent workers to informal ones, leading to alcoholism and household distress.',
-                tags: ['CASE STUDY']
+                title: 'Social Risk',
+                text: 'Closure of formal industries (like the Ahmedabad textile mills) pushes workers into informal jobs, leading to lower income and social distress.',
+                tags: ['RISK']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v6-informal-logic',
+                title: 'Formal vs. Informal Sector',
+                type: 'table',
+                data: {
+                    headers: ['Feature', 'Formal Sector', 'Informal Sector'],
+                    rows: [
+                        ['Establishments', 'Entities with 10+ workers', 'Own-account or <10 workers'],
+                        ['Protection', 'Labor Laws apply', 'No labor law coverage'],
+                        ['Social Security', 'PF, Pension, Gratuity', 'No such benefits'],
+                        ['Workforce Size', 'Small (~6%)', 'Massive (~94%)']
+                    ]
+                }
+            }
+        ]
     },
     {
         id: 'u7-ch6-unemployment',
@@ -182,14 +244,26 @@ export const TOPICS: TheoryTopic[] = [
                 type: 'concept',
                 title: 'The Hidden Jobless',
                 points: [
-                    '**Disguised**: Marginal productivity is zero; common in agriculture (1/3rd workers).',
-                    '**Seasonal**: Employment only during specific harvest/sowing cycles.',
-                    '**Open**: Completely without work and actively seeking.'
+                    '**Disguised**: More workers than needed; removing some won\'t reduce output. Zero marginal productivity.',
+                    '**Seasonal**: Lack of year-round work; common in agriculture.',
+                    '**Open**: Willing/able to work but cannot find any (visible unemployment).'
                 ],
                 tags: ['TYPES']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v6-unemployment-types',
+                title: 'The Profile of Unemployment',
+                type: 'grid',
+                data: [
+                    { label: 'Disguised', desc: 'Hidden; zero marginal productivity (Agri).' },
+                    { label: 'Seasonal', desc: 'Occasional; based on crop cycles.' },
+                    { label: 'Open', desc: 'Visible; actively seeking but no job.' },
+                    { label: 'Educated', desc: 'Mismatched skills vs. available work.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u7-ch6-gov-init',
@@ -199,30 +273,56 @@ export const TOPICS: TheoryTopic[] = [
             {
                 type: 'concept',
                 title: 'MGNREGA (2005)',
-                text: 'Guarantees **100 days** of unskilled manual work to rural households. A landmark direct employment method.',
+                text: 'Guarantees **100 days** of unskilled manual work to rural households. This is a direct employment generation model.',
                 tags: ['POLICY']
             },
             {
                 type: 'concept',
-                title: 'Indirect Generation',
-                text: 'When govt enterprises increase output, private companies receiving inputs also grow, creating additional jobs indirectly.',
-                tags: ['ECONOMICS']
+                title: 'Multi-Pronged Approach',
+                points: [
+                    '**Direct**: Jobs in Government departments.',
+                    '**Indirect**: Growth in Gov enterprises driving demand for private sector inputs.',
+                    '**Self-employment**: Schemes like MGNREGA also build infrastructure for self-employment.'
+                ],
+                tags: ['GOVERNANCE']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v6-gov-strategy',
+                title: 'Government Job Strategy',
+                type: 'process',
+                data: [
+                    { title: 'Direct', description: 'Govt Departments & PSUs hiring.' },
+                    { title: 'Indirect', description: 'Enterprise growth creating supply-chain jobs.' },
+                    { title: 'Security', description: 'MGNREGA act as an employment safety net.' }
+                ]
+            }
+        ]
     },
     {
         id: 'u7-ch6-conclusion',
         title: '6.10 Conclusion',
-        description: 'The changing nature of work.',
+        description: 'The shifting workplace.',
         content: [
             {
                 type: 'concept',
-                title: 'Structural Shift',
-                text: 'Modern growth is service-driven and outsourcing-heavy. With increasing informalisation, the home is becoming the new workplace for many.',
-                tags: ['FUTURE']
+                title: 'Modern Growth Patterns',
+                text: 'Structural change shows a shift from Primary towards Services. Informalisation remains a massive hurdle, and growth is increasingly service-led rather than manufacturing-led.',
+                tags: ['CONCLUSION']
             }
         ],
-        visualizations: []
+        visualizations: [
+            {
+                id: 'v6-future-trends',
+                title: 'Future of Indian Work',
+                type: 'grid',
+                data: [
+                    { label: 'Service Hub', desc: 'Tertiary sector as the growth engine.' },
+                    { label: 'Informal Hub', desc: 'Need to formalise 94% of the workforce.' },
+                    { label: 'Work @ Home', desc: 'Increasing freelance and home-based work.' }
+                ]
+            }
+        ]
     }
 ];

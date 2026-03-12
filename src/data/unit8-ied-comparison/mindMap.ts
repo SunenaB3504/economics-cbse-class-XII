@@ -5,28 +5,29 @@ export const MIND_MAP: MindMapNode = {
     label: 'Comparative Development',
     children: [
         {
-            id: 'u8-mm2',
-            label: 'Foundations',
+            id: 'u8-mm1',
+            label: 'Chronology & Paths',
             children: [
-                { id: 'u8-mm3', label: 'Chronology (Plan/Reform)' },
-                { id: 'u8-mm4', label: 'China Model (GLF, 26k Communes)' }
+                { id: 'u8-mm2', label: 'Independence (47/49) & Reform (78/88/91)' },
+                { id: 'u8-mm3', label: "China's GLF (1958) & Commune System" }
             ]
         },
         {
-            id: 'u8-mm5',
-            label: 'Economic Comparison',
+            id: 'u8-mm4',
+            label: 'Demographics & Growth',
             children: [
-                { id: 'u8-mm6', label: 'Demographics (Pak 2.05% Growth)' },
-                { id: 'u8-mm7', label: 'Sectoral Bypass (India/Pak Services)' }
+                { id: 'u8-mm5', label: "One-child Poly (1979) & China's 0.46% Growth" },
+                { id: 'u8-mm6', label: 'Sectoral Bypass (Agri → Services in India/Pak)' }
             ]
         },
         {
-            id: 'u8-mm8',
-            label: 'Well-being',
+            id: 'u8-mm7',
+            label: 'Appraisal & HDI',
             children: [
-                { id: 'u8-mm9', label: 'HDI (IMR: China 7.4 vs Pak 57.2)' },
-                { id: 'u8-mm10', label: 'Poverty & Liberty Indicators' }
+                { id: 'u8-mm8', label: 'China leading HDI (0.761) vs India (0.645)' },
+                { id: 'u8-mm9', label: 'Liberty Indicators vs Economic Performance' }
             ]
         }
+
     ]
 };
