@@ -29,12 +29,21 @@ export const CHEAT_SHEET: CheatSheetItem[] = [
         id: 'u6-ch2-cs3',
         title: '🏭 Industrial & Trade Policy (Inward)',
         points: [
-            '**IPR 1956:** Classified industries into 3 Schedules (Schedule A: Govt Monopoly; B: Joint; C: Private).',
-            '**Licence Raj:** Compulsory licensing for starting, expanding, or diversifying any private unit.',
-            '**SSI (Karve Committee 1955):** Small-scale industries promoted for employment and rural development.',
-            '**Import Substitution:** Trade policy substituting foreign imports with domestic production.',
-            '**Infant Industry Argument:** Protecting new domestic firms from global competition using Tariffs/Quotas.',
-            '**Hindu Rate of Growth:** Mocking term for India\'s sluggish **~3.5%** GDP growth (1950–80s).'
+            '**IPR 1956:** Basis of 2nd Plan. Schedules: **A (17 items: State)**, **B (12 items: Mixed)**, **C (Private: Licensed)**.',
+            '**Licence Raj:** Government permission needed to start, expand, or diversify any business.',
+            '**SSI (Karve Committee 1955):** Small-scale industries promoted for high employment (labour-intensive).',
+            '**Import Substitution:** Protecting domestic "infant industries" via **Tariffs** (taxes) and **Quotas** (limits).',
+            '**Hindu Rate of Growth:** Term for India\'s sluggish **~3.5%** GDP growth during this era.'
+        ]
+    },
+    {
+        id: 'u6-ch2-cs4',
+        title: '📊 Evaluation (1950–1990)',
+        points: [
+            '**Success:** Massive domestic industrial diversification and food self-sufficiency.',
+            '**Failure:** Loss-making PSUs (Soft Budget Constraints) and corruption in Licensing.',
+            '**Structural Shift:** Industrial share of GDP rose from **11.8% (1950)** to **24.6% (1990)**.'
         ]
     }
 ];
+
