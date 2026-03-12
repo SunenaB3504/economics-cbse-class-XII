@@ -3,47 +3,48 @@ import { CheatSheetItem } from '../../types';
 export const CHEAT_SHEET: CheatSheetItem[] = [
     {
         id: 'u7-env-c1',
-        title: '🌍 4 Functions of Environment (SASA)',
+        title: '🌍 Environment Functions',
         points: [
-            '**S**upplies Resources (Renewable/Non-renewable)',
-            '**A**ssimilates Waste (Digestive system)',
-            '**S**ustains Life (Genetic diversity)',
-            '**A**esthetic Services (Scenery/Mental peace)'
+            '**4 Functions**: Supplies resources, Assimilates waste, Sustains life, Aesthetic services.',
+            '**Carrying Capacity**: Extraction < Regeneration AND Waste < Absorptive Capacity.',
+            '**Biotic (Living)** vs **Abiotic (Non-living)** factors.'
         ]
     },
     {
         id: 'u7-env-c2',
-        title: '⚖️ Capacity & Crisis',
+        title: '🔥 Global Crisis Facts',
         points: [
-            '**Absorptive Capacity**: Environment\'s waste processing limit.',
-            '**Carrying Capacity**: Extraction < Regeneration AND Waste < Absorptive Cap.',
-            '**Environmental Crisis**: When demand > supply factors (reversal of relationship).'
+            '**Global Warming**: GHGs (CO2, Methane); 1.1°F rise in last century; Kyoto Protocol.',
+            '**Ozone Depletion**: CFCs & Halons; 5% reduction (1979-90); Montreal Protocol.',
+            '**Land Degradation**: 5.3 billion tonnes soil erosion per year in India.'
         ]
     },
     {
         id: 'u7-env-c3',
-        title: '🔥 Global Warming vs Ozone',
+        title: '🏭 India\'s Pollution State',
         points: [
-            '**Global Warming**: GHGs (CO2, Methane) → Sea Level Rise → Kyoto Protocol.',
-            '**Ozone Depletion**: CFCs (ACs/Fridges) → UV Radiation → Montreal Protocol (1987).'
+            '**Vehicular Growth**: 3 lakh (1951) → 35 crores (2022).',
+            '**CPCB (1974)**: Set up to monitor 125 rivers and set emission standards.',
+            '**Forest Lack**: 0.06 hectare per capita vs 0.47 required.'
         ]
     },
     {
         id: 'u7-env-c4',
-        title: '🌱 Sustainable Toolbox',
+        title: '🌱 Sustainable Development',
         points: [
-            '**Brundtland (1987)**: Intergenerational Equity focus.',
-            '**Edward Barbier**: Material standard of "The Poor" logic.',
-            '**Strategies**: Solar (ISA), Mini-hydel, Biopest (Neem), traditional medicine (Ayurveda).'
+            '**Brundtland**: Intergenerational equity (Our Common Future).',
+            '**Edward Barbier**: Material standard of living of the poor.',
+            '**SDGs**: 17 Goals formulated in 2015, aimed for 2030.'
         ]
     },
     {
         id: 'u7-env-c5',
-        title: '🪤 Examiner Traps',
+        title: '🛠️ Green Strategies',
         points: [
-            '**Trap 1**: Environment does NOT "generate" waste, it *assimilates* it.',
-            '**Trap 2**: Appiko is in Karnataka (South), Chipko is in Himalayas (North).',
-            '**Trap 3**: CPCB setup in 1974, NOT after the Brundtland report.'
+            '**Clean Energy**: Solar (ISA), Wind, Mini-hydel, LPG & Gobar Gas (Rural), CNG (Urban).',
+            '**Organic**: Biocomposting (Vermicomposting) and Biopest Control (Neem/Natural predators).',
+            '**Health**: Traditional Knowledge (15,000 medicinal plant species).'
         ]
     }
+
 ];

@@ -2,180 +2,227 @@ import { TheoryTopic } from '../../types';
 
 export const TOPICS: TheoryTopic[] = [
     {
-        id: 'u7-ch6-t1',
-        title: 'Workforce & Participation',
-        description: 'NCERT 6.1-6.4: The meaning of work, labor metrics, and gender participation.',
-        content: `
-### 0. Introduction: The Meaning of Work
-Why do we work? Work is not just for "earning" a living; it provides:
-- **Self-Worth**: Employment gives us a sense of identity and relates us meaningfully to society.
-- **GDP Contribution**: Every worker contributes to the National Income (GDP/GNP).
-- **Inclusivity**: A "worker" includes the self-employed (farmers, shopkeepers) and even those temporarily away from work due to illness, injury, or festivals.
-
-### 📊 Teacher's Voice: The "Job Market Seesaw"
-Imagine a seesaw. On one side, you have the **Population** (everyone). On the other, you have the **Workers** (those actually producing). The balance between these two is the **Worker-Population Ratio (WPR)**.
-
-### 1. The Trinity of Metrics
-To master this chapter, distinguish between:
-1.  **Labor Force**: Everyone who is **Willing + Able** to work (Employed + Unemployed).
-    - **Formula (LFPR)**: $\text{LFPR} = \frac{\text{Labor Force}}{\text{Total Population}} \times 100$.
-2.  **Workforce**: Only those who are **Actually Working**.
-3.  **The Gap (Unemployment)**: Labor Force minus Workforce.
-    - **Unemployment Rate**: $\frac{\text{Unemployed}}{\text{Labor Force}} \times 100$.
-
-### 2. The Participation Paradox (WPR)
-- **Calculation**: $\text{WPR} = \frac{\text{Total Workers}}{\text{Total Population}} \times 100$.
-- **Urban vs. Rural**: Rural WPR is higher (~42%) because poverty doesn't allow the "luxury" of staying home. Urban WPR is lower (~38%).
-- **Gender Gap**: Female participation is significantly lower (~25% vs ~55% for males). Reasons include domestic burdens and "invisible work" not being counted in GDP.
-
-### 3. Employment Status: The Three Pillars
-- **Self-Employed (~52%)**: The largest segment; comprises own-account workers (farmers, etc.).
-- **Regular Salaried (~23%)**: Higher security and social benefits (PF, Pension).
-- **Casual Wage Laborers (~25%)**: Daily wage workers with NO job security.
-        `,
-        visualizations: [
+        id: 'u7-ch6-intro',
+        title: '6.1 Introduction',
+        description: 'Why do we work?',
+        content: [
             {
-                id: 'v1-hero',
-                title: 'The Indian Job Market Seesaw',
-                type: 'process',
-                data: [
-                    { title: 'Population', description: 'The entire human resource pool' },
-                    { title: 'Labor Force', description: 'Those willing & able (Employed + Searching)' },
-                    { title: 'Workforce', description: 'The actual producers (Contribution to GDP)' },
-                    { title: 'The Gap', description: 'Unemployment (Labor Force - Workforce)' }
+                type: 'concept',
+                title: 'The Significance of Work',
+                text: 'Work enables meaningful participation in society and provides a sense of self-worth. Every working person contributes to national income and the development of the country.',
+                tags: ['VISION']
+            },
+            {
+                type: 'concept',
+                title: 'Insights from Workforce Study',
+                points: [
+                    'Helps plan human resources.',
+                    'Analyses contributions of different sectors to national income.',
+                    'Addresses social issues like child labour and exploitation.'
+                ],
+                tags: ['ANALYSIS']
+            }
+        ],
+        visualizations: []
+    },
+    {
+        id: 'u7-ch6-definitions',
+        title: '6.2 Workers and Employment',
+        description: 'Key definitions and workforce facts.',
+        content: [
+            {
+                type: 'concept',
+                title: 'Essential Terminology',
+                points: [
+                    '**Economic activities**: Activities contributing to Gross National Product (GNP).',
+                    '**Worker**: Anyone engaged in economic activities, including self-employed and those temporarily absent.',
+                    '**Unemployment**: A situation where one cannot get even one hour of work in half a day.'
+                ],
+                tags: ['DEFINITIONS']
+            },
+            {
+                type: 'concept',
+                title: 'India\'s Workforce (2022-23)',
+                points: [
+                    'Total workforce: ~545 million.',
+                    'Rural workforce constitutes about two-thirds of the total.',
+                    'Men account for 77%; women for 1/4th (rural) and 1/5th (urban) of their respective areas.'
+                ],
+                tags: ['DATA']
+            }
+        ],
+        visualizations: []
+    },
+    {
+        id: 'u7-ch6-participation',
+        title: '6.3 Participation in Employment',
+        description: 'The Worker-Population Ratio (WPR).',
+        content: [
+            {
+                type: 'concept',
+                title: 'WPR (Worker-Population Ratio)',
+                text: 'The proportion of the total population engaged in economic activities. Higher ratio = greater engagement.',
+                tags: ['RATIO']
+            },
+            {
+                type: 'concept',
+                title: 'Table 6.1: WPR in India (2022-23)',
+                headers: ['Sex', 'Total', 'Rural', 'Urban'],
+                rows: [
+                    ['Men', '54.4', '54.0', '55.6'],
+                    ['Women', '27.0', '30.0', '18.7'],
+                    ['Total', '41.1', '42.3', '37.7']
                 ]
             },
             {
-                id: 'v2-grid',
-                title: 'Workforce Participation (WPR) Traps',
-                type: 'grid',
-                data: [
-                    { label: 'Rural Area', desc: 'Higher WPR: Poverty forces participation' },
-                    { label: 'Urban Area', desc: 'Lower WPR: More educational years taken' },
-                    { label: 'Females', desc: 'Low Participation: Social norms & invisible work' },
-                    { label: 'Males', desc: 'High Participation: Primary breadwinners' }
-                ]
+                type: 'concept',
+                title: 'Regional Differences',
+                text: 'Rural WPR (~42) is higher than urban (~38) because rural people cannot afford to stay unemployed and have limited resources for higher education.',
+                tags: ['ANALYSIS']
             }
-        ]
+        ],
+        visualizations: []
     },
     {
-        id: 'u7-ch6-t2',
-        title: 'Sectoral Shifts & Informalisation',
-        description: 'NCERT 6.5-6.8: Trends, Jobless Growth, and the Informalisation crisis.',
-        content: `
-### 📊 Teacher's Voice: The "Casualisation Trap"
-India has seen a shift from farms to factories. However, many workers get stuck in **Casual Labor**—moving from unstable farming to unstable daily-wage construction.
-
-### 1. Sectoral Distribution (The Shift)
-- **Primary (Agriculture)**: Still the largest employer (~45%), but its share is falling (from 74% in the 1970s).
-- **Secondary (Industry)**: Slow but steady growth (around 24%).
-- **Tertiary (Services)**: The fastest-growing engine of the Indian economy.
-
-### 2. Informalisation of Workforce
-- **Formal Sector**: **10 or more** hired workers + Social Security (Pension, PF). Only ~6% of India.
-- **Informal Sector**: Includes farmers, street vendors, and workshops with **less than 10** workers. ~94% of workforce. 
-- **The Trend**: Even formal firms (MNCs) now hire on **"one-year contracts"** to avoid social security, leading to the **Informalisation of the Formal Sector**.
-
-### 3. Case Study: The Ahmedabad Textile Crisis
-The 1980s closure of massive textile mills in Ahmedabad forced 80,000+ secure "Formal" workers into "Informal" jobs like pushcart vending, leading to widespread poverty and alcoholism.
-
-### 4. Jobless Growth & Modern Trends
-- **Jobless Growth**: GDP grows (8-9%) but employment doesn't (1%). Driven by technology and capital-intensive bias.
-- **Home as Workplace**: Modern outsourcing and technology allow people to work from home, but often with the lack of stable contracts (NCERT Box 6.10).
-
-### 5. Types of Unemployment
-- **Disguised**: 5 people doing the work of 3. MP = 0. Common in agriculture.
-- **Seasonal**: Only working during harvesting seasons.
-- **Educated**: Graduates without relevant industry skills.
-- **Open**: Willing to work but can't find even one hour of work in a half-day.
-        `,
-        visualizations: [
+        id: 'u7-ch6-status',
+        title: '6.4 Self-Employed and Hired Workers',
+        description: 'Distribution by employment status.',
+        content: [
             {
-                id: 'v3-table',
-                title: 'Formal vs. Informal: The Safety Net Gap',
-                type: 'table',
-                data: {
-                    headers: ['Feature', 'Formal Sector', 'Informal Sector'],
-                    rows: [
-                        ['Workers', 'More than 10', 'Less than 10'],
-                        ['Social Security', 'Yes (PF, Pension)', 'No (Daily Wage)'],
-                        ['Labor Laws', 'Strict Protection', 'Non-existent/Weak'],
-                        ['Economic Share', 'High Value Addition', 'Subsistence Living']
-                    ]
-                }
+                type: 'concept',
+                title: 'Employment Categories',
+                points: [
+                    '**Self-employed (57%)**: Major livelihood source for 54% men and 62% women.',
+                    '**Casual Wage Labourers (22%)**: Most vulnerable; engaged on daily wages.',
+                    '**Regular Salaried (21%)**: Engaged for regular wages; more common in urban areas (40%) vs rural (13%).'
+                ],
+                tags: ['STATUS']
+            }
+        ],
+        visualizations: []
+    },
+    {
+        id: 'u7-ch6-industry',
+        title: '6.5 Workers in Firms and Factories',
+        description: 'Sector-wise distribution of workforce.',
+        content: [
+            {
+                type: 'concept',
+                title: 'Table 6.2: Workforce by Industry (2022-23)',
+                headers: ['Industrial Category', 'Rural', 'Urban', 'Men', 'Female', 'Total'],
+                rows: [
+                    ['Primary', '57.8', '9.0', '37.5', '64.4', '46.1'],
+                    ['Secondary', '22.5', '32.7', '29.3', '19.3', '24.9'],
+                    ['Tertiary', '18.0', '60.4', '32.2', '24.7', '29.0']
+                ]
             },
             {
-                id: 'v4-flow',
-                title: 'The Process of Casualisation',
-                type: 'process',
-                data: [
-                    { title: 'Skill Gap', description: 'Lack of vocational training' },
-                    { title: 'Farm Exit', description: 'Distress migration from rural areas' },
-                    { title: 'Entry', description: 'Admission into low-end Service/Construction' },
-                    { title: 'Status', description: 'Casual Daily Wage (No Security)' }
-                ]
+                type: 'concept',
+                title: 'Primary Sector Dominance',
+                text: 'Employing 46.1% of the total workforce, the primary sector remains the largest employer, specifically for women (64%).',
+                tags: ['INSIGHT']
             }
-        ]
+        ],
+        visualizations: []
     },
     {
-        id: 'u7-ch6-t3',
-        title: 'Government & Employment Initiatives',
-        description: 'NCERT 6.9: Direct vs. Indirect goals and key schemes.',
-        content: `
-### 📊 Teacher's Voice: The Stimulus Effect
-When the government builds a dam, it creates jobs in two ways:
-1.  **Direct**: Hiring engineers and clerks for the project.
-2.  **Indirect**: Buying steel/cement from private firms, who then hire more people to meet that demand.
-
-### 1. Direct vs. Indirect Employment
-The government employs people directly in defense, railways, and banks. Indirect employment occurs when government policies and spending stimulate growth in the private sector.
-
-### 2. MGNREGA (2005)
-The **Mahatma Gandhi National Rural Employment Guarantee Act** is the backbone of rural employment generation:
-- **Right to Work**: Guaranteed **100 days** of unskilled manual work to rural households.
-- **Social Safety Net**: Aimed at poverty alleviation and creating durable rural assets (roads, dams).
-        `,
-        visualizations: [
+        id: 'u7-ch6-growth',
+        title: '6.6 Growth & Structural Change',
+        description: 'Jobless growth and sectoral trends.',
+        content: [
             {
-                id: 'v5-grid',
-                title: 'Govt Employment Stimulus',
-                type: 'grid',
-                data: [
-                    { label: 'Direct', desc: 'Government hiring in railways, banks, and defense.' },
-                    { label: 'Indirect', desc: 'Creation of private sector jobs through govt spending.' },
-                    { label: 'MGNREGA', desc: 'Right to 100 days of unskilled work.' },
-                    { label: 'Reform Shift', desc: 'Movement from public to private-led growth.' }
+                type: 'warning',
+                title: 'Jobless Growth',
+                text: 'A situation in the late 1990s where GDP grew faster than employment growth, producing more value without proportionally creating jobs.',
+                tags: ['WARNING']
+            },
+            {
+                type: 'concept',
+                title: 'Sectoral Trends (1972-2023)',
+                headers: ['Sector', '1972-73', '1983', '2011-12', '2017-18'],
+                rows: [
+                    ['Primary', '74.3', '68.6', '48.9', '46.1'],
+                    ['Secondary', '10.9', '11.5', '24.3', '24.9'],
+                    ['Services', '14.8', '16.9', '26.8', '29.0']
                 ]
             }
-        ]
+        ],
+        visualizations: []
     },
     {
-        id: 'u7-ch6-t4',
-        title: '📊 Expert Teacher Analysis',
-        description: 'Premium insights, terms table, and the Master Chain for Chapter 6.',
-        content: `
-### PART 1 — COMPREHENSIVE TERMS TABLE
-| Term | Examiner's Lens (Key Logic) | The "Simple English" Logic | Score Trap 🪤 |
-| :--- | :--- | :--- | :--- |
-| **Labor Force** | WPR + Unemployed | Everyone standing in the "Job Queue". | Does NOT include children/elderly. |
-| **Jobless Growth** | Output $\\uparrow$, Jobs $\\leftrightarrow$ | Growing the cake without hiring more bakers. | Confused with "Negative Growth". |
-| **Informalisation** | Loss of Social Security | Moving from an Office Desk to a Tea Stall. | Includes contract workers in MNCs! |
-| **Casualisation** | Status shift to Daily Wage | Moving from Monthly Salary to Daily Cash. | Don't confuse with Informalisation. |
-| **Disguised Unemp.** | MP = 0 | 10 people lifting a stone that 2 can lift. | Occurs mostly in Agriculture. |
-| **Self-Employed** | Own account workers | Being your own "Boss" (e.g. Farmer). | Largest employment category (52%). |
-
-### PART 2 — THE MASTER CHAIN: The "Employment Engine"
-1.  **Fuel**: Population Growth (The raw human resource).
-2.  **Filter**: Education & Skill (Creating "Employable" people).
-3.  **The Engine**: Economic Growth (GDP rising).
-4.  **The Exhaust (Problem)**: Technology Bias (Capital-intensive growth = No new jobs).
-5.  **The Breakdown**: Informalisation & Casualisation (Jobs exist, but they have no "Safety Net").
-
-### 💡 Golden Rules for Answer Writing
-1.  **The WPR Logic**: Always mention that a lower WPR indicates higher dependency (more people eating, fewer producing).
-2.  **The Casual vs Informal**: Use the "Safety Net" keyword to explain the difference. If there's no PF/Pension, it's Informal.
-3.  **Jobless Growth**: Never say "No Jobs." Say "Growth is independent of employment generation."
-        `,
+        id: 'u7-ch6-informalisation',
+        title: '6.7 Informalisation of Workforce',
+        description: 'Formal vs Informal sector challenges.',
+        content: [
+            {
+                type: 'concept',
+                title: 'Scale of Informalisation',
+                points: [
+                    '**94% of workers** are in the informal sector.',
+                    'Only ~6% are in the formal sector (Organised), enjoying social security.',
+                    'Formal sector grew from 30 million (2012) to 59 million (2022).'
+                ],
+                tags: ['CHALLENGE']
+            },
+            {
+                type: 'warning',
+                title: 'Ahmedabad Textile Case Study',
+                text: 'Closure of textile mills in the 1980s converted 80,000 permanent workers to informal ones, leading to alcoholism and household distress.',
+                tags: ['CASE STUDY']
+            }
+        ],
+        visualizations: []
+    },
+    {
+        id: 'u7-ch6-unemployment',
+        title: '6.8 Unemployment Types',
+        description: 'Open, Disguised, and Seasonal.',
+        content: [
+            {
+                type: 'concept',
+                title: 'The Hidden Jobless',
+                points: [
+                    '**Disguised**: Marginal productivity is zero; common in agriculture (1/3rd workers).',
+                    '**Seasonal**: Employment only during specific harvest/sowing cycles.',
+                    '**Open**: Completely without work and actively seeking.'
+                ],
+                tags: ['TYPES']
+            }
+        ],
+        visualizations: []
+    },
+    {
+        id: 'u7-ch6-gov-init',
+        title: '6.9 Govt Employment Initiatives',
+        description: 'Direct and indirect generation.',
+        content: [
+            {
+                type: 'concept',
+                title: 'MGNREGA (2005)',
+                text: 'Guarantees **100 days** of unskilled manual work to rural households. A landmark direct employment method.',
+                tags: ['POLICY']
+            },
+            {
+                type: 'concept',
+                title: 'Indirect Generation',
+                text: 'When govt enterprises increase output, private companies receiving inputs also grow, creating additional jobs indirectly.',
+                tags: ['ECONOMICS']
+            }
+        ],
+        visualizations: []
+    },
+    {
+        id: 'u7-ch6-conclusion',
+        title: '6.10 Conclusion',
+        description: 'The changing nature of work.',
+        content: [
+            {
+                type: 'concept',
+                title: 'Structural Shift',
+                text: 'Modern growth is service-driven and outsourcing-heavy. With increasing informalisation, the home is becoming the new workplace for many.',
+                tags: ['FUTURE']
+            }
+        ],
         visualizations: []
     }
 ];

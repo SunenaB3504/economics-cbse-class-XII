@@ -3,48 +3,47 @@ import { CheatSheetItem } from '../../types';
 export const CHEAT_SHEET: CheatSheetItem[] = [
     {
         id: 'u7-ch5-c1',
-        title: 'Rural Credit Hierarchy',
+        title: '💰 Rural Credit & Inclusion',
         points: [
-            '**NABARD (July 1982)**: Apex Body. Coordinates all rural financing. REFINANCING agency.',
-            '**Institutional Sources**: Commercial Banks (48%), Cooperatives (32%), RRBs (15%).',
-            '**SHGs (Social Banking)**: Micro-credit for the poor (e.g., Kudumbashree). Focus on "Social Collateral" and Women Empowerment.'
+            '**NABARD (1982)**: Apex body for rural financing; shift to Social Banking in 1969.',
+            '**Jan-Dhan Yojana**: 50cr+ accounts; mobilized ₹2,00,000 crore; accidental insurance (₹1-2L).',
+            '**SHGs**: 6cr women in 54 lakh groups; empowers via micro-credit.'
         ]
     },
     {
         id: 'u7-ch5-c2',
-        title: 'Agricultural Marketing (Mnemonic: R-I-C-P)',
+        title: '🏪 Agricultural Marketing',
         points: [
-            '**R**egulated Markets: Transparent pricing in Mandis (APMCs).',
-            '**I**nfrastructure: Roads, Cold Storages, Warehouses.',
-            '**C**ooperative Marketing: Amul (Success story); Fair prices via collective bargaining.',
-            '**P**olicy Instruments: MSP (Safety net), Buffer Stocks (FCI), PDS (Cheap food).'
+            '**Defects**: 10% produce wasted; lack of storage; distress sales.',
+            '**Measures**: Regulated Markets, Infrastructure, Cooperatives, MSP/Buffer Stocks (FCI).',
+            '**Alternate Channels**: Apni Mandi, Rythu Bazars, Contract Farming.'
         ]
     },
     {
         id: 'u7-ch5-c3',
-        title: 'The 3 Revolutions of Diversification',
+        title: '🥚 Diversification (Allied Sectors)',
         points: [
-            '**Animal Husbandry (Livestock)**: Operation Flood (Milk). 70M+ small farmers.',
-            '**Fisheries (Blue Revolution)**: Inland (65%) vs Marine (35%).',
-            '**Horticulture (Golden Revolution)**: Fruits, Veg, Honey (1991-2003).'
+            '**Animal Husbandry**: Operation Flood (Milk 12x increase); Livestock supports 70M farmers.',
+            '**Fisheries (Blue Revolution)**: Inland (65%) vs Marine (35%); 0.9% of GDP.',
+            '**Horticulture (Golden Revolution)**: 6% of GDP; 1/3 agricultural output value.'
         ]
     },
     {
         id: 'u7-ch5-c4',
-        title: 'Organic Farming & IT',
+        title: '🌱 Organic Farming',
         points: [
-            '**Organic**: Eco-friendly, chemical-free, sustainable. *Trap*: Initial yields are lower.',
-            '**IT Role**: Food security (predicting vulnerability) and direct information service.'
+            '**Benefits**: Eco-friendly, chemical-free, sustainable, requires more labor.',
+            '**Limitations**: Lower initial yields, shorter shelf life, inadequate infrastructure.'
         ]
     },
     {
         id: 'u7-ch5-c5',
-        title: 'Examiner Traps & Buzzwords',
+        title: '🚀 Key Stats & Future',
         points: [
-            '**NABARD Trap**: It REFINDANCES banks, does NOT lend directly to farmers.',
-            '**Gestation Period**: The "waiting time" between sowing and harvest.',
-            '**Distress Sale**: Forced selling at low prices due to lack of storage.',
-            '**Workforce vs Cropping**: workforce = moving to IT/Dairy; cropping = moving to Grapes/Flowers.'
+            '**Agri GVA**: ~2% growth (2023-24); decline in public investment since 1991.',
+            '**IT Role**: Vital for food security prediction and tech dissemination.',
+            '**Conclusion**: Gandhi\'s vision requires synergy between environment and development.'
         ]
     }
+
 ];

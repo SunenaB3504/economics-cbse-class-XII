@@ -3,68 +3,49 @@ import { CheatSheetItem } from '../../types';
 export const CHEAT_SHEET: CheatSheetItem[] = [
     {
         id: 'u7-hcf-c1',
-        title: 'Core Meanings',
+        title: '📖 Concepts & Sources',
         points: [
-            '**Human Capital**: Stock of skills, expertise, and knowledge embodied in people.',
-            '**Human Resource**: Raw population available to be turned into an asset.',
-            '**Intangible & Inseparable**: HC cannot be seen (intangible) and cannot be sold without the owner (inseparable).'
+            '**Human Capital**: Stock of skills, expertise, and knowledge.',
+            '**Sources (EH-TMI)**: Education, Health, Training, Migration, Information.',
+            '**Physical vs HC**: HC is intangible, inseparable, and creates social benefits.'
         ]
     },
     {
         id: 'u7-hcf-c2',
-        title: 'Comparison: Physical vs. Human Capital',
+        title: '🎯 HC vs. Human Development',
         points: [
-            '**PC**: Tangible, completely mobile, depreciates over time, private benefits only.',
-            '**HC**: Intangible, restricted mobility (visas), depreciates with age (but grows with use), both private and social benefits.'
+            '**HC**: Means to an end (productivity).',
+            '**HD**: End in itself (well-being and right to life/literacy).'
         ]
     },
     {
         id: 'u7-hcf-c3',
-        title: 'Sources of HCF (EH-TMI)',
+        title: '📊 India Development Snapshot',
         points: [
-            '**Education**: Most important source; increases future income capacity.',
-            '**Health**: Preventive (vaccines), Curative (medicine), Social (hygiene). Healthy people = steady labor.',
-            '**On-the-job Training (OJT)**: Firms invest because productivity gain > training cost.',
-            '**Migration**: Moving for better salaries; occurs if net gain > transport/psychic costs.',
-            '**Information**: Knowing about labor markets and institutional standards.'
+            '**Per Capita Income**: ₹7,651 (1951) → ₹94,054 (2021).',
+            '**Literacy**: 16.67% (1951) → 78% (2021).',
+            '**IMR**: 146 (1951) → 28 (2021).',
+            '**Life Expectancy**: ~37 yrs (1951) → ~70 yrs (2021).'
         ]
     },
     {
         id: 'u7-hcf-c4',
-        title: 'Human Capital vs. Human Development',
+        title: '🏛️ Policy & Governance',
         points: [
-            '**HC**: Education/health are MEANS to increase productivity (instrumental).',
-            '**HD**: Education/health are ENDS in themselves (well-being/rights-based).'
+            '**Bodies**: NCERT, UGC, AICTE (Education); NMC, ICMR (Health).',
+            '**Expenditure**: ~4.5% of GDP (Target 6% per Kothari Commission).',
+            '**RTE Act 2009**: Fundamental right to education (6-14 years).',
+            '**Education Cess**: 2% surcharge for elementary education.'
         ]
     },
     {
         id: 'u7-hcf-c5',
-        title: 'Macro Snapshot (1951 vs 2021)',
+        title: '⚖️ Challenges & Future',
         points: [
-            '**Literacy**: 16.67% → 74%+',
-            '**Life Expectancy**: ~37 years → ~70 years (M: 68.6, F: 71.4)',
-            '**IMR**: 146 → 28 per 1,000 live births.',
-            '**Expenditure**: 0.6% of GDP (1952) → ~4.4% of GDP (2020).'
-        ]
-    },
-    {
-        id: 'u7-hcf-c6',
-        title: 'Regulatory Infrastructure',
-        points: [
-            '**NCERT**: School education curricula.',
-            '**UGC**: University education and funding.',
-            '**AICTE**: Technical and management education.',
-            '**ICMR**: Biomedical research standards.'
-        ]
-    },
-    {
-        id: 'u7-hcf-c7',
-        title: 'Critical Milestones & Gaps',
-        points: [
-            '**Kothari Commission (1966)**: Recommended 6% of GDP for education.',
-            '**Tapas Majumdar Com. (1999)**: Estimated ₹1.37 lakh cr for universal schooling.',
-            '**Education Cess**: 2% surcharge for elementary education funding.',
-            '**Challenges**: Education Pyramid (steep dropouts), Gender equity gaps, Educated unemployment.'
+            '**Gender Gap**: Literacy narrowing but females still at 66% vs males 82%.',
+            '**Jobless Growth**: High unemployment among graduates (up to 30% rural females).',
+            '**NEP 2020**: Focus on AI, Big Data, and multi-disciplinary skills.'
         ]
     }
 ];
+

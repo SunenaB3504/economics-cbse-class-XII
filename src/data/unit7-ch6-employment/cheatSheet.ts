@@ -3,37 +3,48 @@ import { CheatSheetItem } from '../../types';
 export const CHEAT_SHEET: CheatSheetItem[] = [
     {
         id: 'u7-emp-c1',
-        title: 'The 52-25-23 Rule',
-        content: 'Status of India’s Workforce: Self-Employed (~52%), Casual Wage (~25%), Regular Salaried (~23%).'
+        title: '📊 Workforce Snapshot (2022-23)',
+        points: [
+            '**Total Workforce**: ~545 Million.',
+            '**WPR (Worker-Population Ratio)**: 41.1% (Rural 42.3% > Urban 37.7%).',
+            '**Status Rule**: Self-Employed (57%), Casual wage (22%), Regular Salaried (21%).'
+        ]
     },
     {
         id: 'u7-emp-c2',
-        title: 'WPR: Rural > Urban',
-        content: 'Rural WPR is higher because poverty forces participation early; Urban WPR is lower due to longer schooling.'
+        title: '🏢 Industrial Sectors',
+        points: [
+            '**Primary**: 46.1% (Largest employer; 64% for women).',
+            '**Secondary**: ~25%; **Tertiary**: ~29%.',
+            '**Jobless Growth**: GDP grows faster than employment growth (late 1990s trend).'
+        ]
     },
     {
         id: 'u7-emp-c3',
-        title: 'The Informalisation Trap 🪤',
-        content: 'Even MNC workers on 1-year contracts are "Informal" if they lack social security (PF/Pension).'
+        title: '⚠️ Informalisation Crisis',
+        points: [
+            '**Formal (Organised)**: Only 6% of workers. Public + Private (10+ workers). Social security exists.',
+            '**Informal (Unorganised)**: 94% of workers; lack regular income and legal protection.',
+            '**Casualisation**: Process where workers shift from regular to casual labor.'
+        ]
     },
     {
         id: 'u7-emp-c4',
-        title: 'Jobless Growth Paradox',
-        content: 'Output (GDP) ↑ while Employment ↔. Driven by capital-intensive technology bias.'
+        title: '🛠️ Unemployment Types',
+        points: [
+            '**Open**: No work at all.',
+            '**Disguised**: Marginal product is zero (extra hands on farm).',
+            '**Seasonal**: Work exists only in sowing/harvest seasons.'
+        ]
     },
     {
         id: 'u7-emp-c5',
-        title: 'Disguised Unemp. (MP=0)',
-        content: 'More workers than needed. Removing them has ZERO impact on total output. Common in agriculture.'
-    },
-    {
-        id: 'u7-emp-c6',
-        title: 'ILO Definition (Key)',
-        content: 'Informal sector = Unregulated enterprises + lack of social security/protection.'
-    },
-    {
-        id: 'u7-emp-c7',
-        title: 'Ahmedabad Case (1980s)',
-        content: 'Closure of textile mills led to massive informalisation as formal workers lost secure jobs.'
+        title: '📜 Govt & Policy',
+        points: [
+            '**Direct Methods**: Railways, Banks, Schools.',
+            '**MGNREGA (2005)**: Guaranteed 100 days of manual unskilled work for rural households.',
+            '**Indirect Methods**: Growth in govt enterprises stimulating private sector hiring.'
+        ]
     }
+
 ];

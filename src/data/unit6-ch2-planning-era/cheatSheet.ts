@@ -3,47 +3,54 @@ import { CheatSheetItem } from '../../types';
 export const CHEAT_SHEET: CheatSheetItem[] = [
     {
         id: 'u6-ch2-cs1',
-        title: '🏗️ Planning Era (1950–1990)',
+        title: '🏗️ Foundations of Planning',
         points: [
-            '**Economic System:** India adopted a **Mixed Economy** (Public + Private coexistence).',
-            '**Planning Commission (1950):** Established to formulate 5-Year Plans (Replaced by **NITI Aayog** in 2015).',
-            '**GMSE Framework (Plan Goals):** **G**rowth, **M**odernisation, **S**elf-reliance, **E**quity.',
-            '**Modernisation:** Adoption of new technology **AND** progressive social change (e.g., gender equality).',
-            '**Self-reliance:** Reducing dependence on foreign food (PL-480) and technology.',
-            '**Equity:** Ensuring benefits of growth reach the poor; reducing wealth concentration.'
+            '**3 Basic Questions:** What to produce? How? and For whom?',
+            '**Economic System:** India chose a **Mixed Economy** (Socialist Pattern).',
+            '**Planning Commission (1950):** Formulated plans; PM as Chairperson.',
+            '**Perspective Plan:** A long-term vision document spanning **20 years**.'
         ]
     },
     {
         id: 'u6-ch2-cs2',
-        title: '🌾 Agrarian & Land Reforms',
+        title: '🎯 Plan Goals (GMSE Framework)',
         points: [
-            '**Zamindari Abolition:** Removed intermediaries; ~20 million tenants became owners.',
-            '**Tenancy Reforms:** Provided security of tenure; fixed fair rents (1/4 to 1/5 of produce).',
-            '**Land Ceiling:** Max legal limit on land ownership; surplus redistributed (Success: Kerala/W. Bengal).',
-            '**Green Revolution (Mid-60s):** Package of **HYV Seeds**, Chemical Fertilisers, and Assured Irrigation.',
-            '**FCI & MSP:** Government procures grain at **Minimum Support Price** to build **Buffer Stocks** for PDS.',
-            '**Marketed Surplus:** Total output minus subsistence consumption; sold in market for growth.'
+            '**Growth:** Increase in GDP capacity; often with structural change.',
+            '**Modernisation:** New technology + social outlook (Gender equality).',
+            '**Self-reliance:** Reducing foreign dependence/interference.',
+            '**Equity:** Ensuring benefits reach even the poorest (Growth + Equity).'
         ]
     },
     {
         id: 'u6-ch2-cs3',
-        title: '🏭 Industrial & Trade Policy (Inward)',
+        title: '🌾 Agricultural Reforms',
         points: [
-            '**IPR 1956:** Basis of 2nd Plan. Schedules: **A (17 items: State)**, **B (12 items: Mixed)**, **C (Private: Licensed)**.',
-            '**Licence Raj:** Government permission needed to start, expand, or diversify any business.',
-            '**SSI (Karve Committee 1955):** Small-scale industries promoted for high employment (labour-intensive).',
-            '**Import Substitution:** Protecting domestic "infant industries" via **Tariffs** (taxes) and **Quotas** (limits).',
-            '**Hindu Rate of Growth:** Term for India\'s sluggish **~3.5%** GDP growth during this era.'
+            '**Land Reforms:** Abolition of intermediaries; ownership to tillers.',
+            '**Land Ceiling:** Max limit on ownership; hurdles like **Benami** holdings.',
+            '**Green Revolution:** **HYV Seeds**, irrigation, and fertilisers (Two phases).',
+            '**Marketed Surplus:** Output minus self-consumption; sold for profit.',
+            '**Buffer Stocks:** Maintained by **FCI** for food security.'
         ]
     },
     {
         id: 'u6-ch2-cs4',
+        title: '🏭 Industrial & Trade Policy',
+        points: [
+            '**Mahalanobis Model:** Architect of 2nd Plan; focused on heavy industry.',
+            '**IPR 1956:** 3 Schedules (**A: 17 state items**, **B: 12 mixed items**, **C: Private**).',
+            '**SSI (Karve Committee 1955):** Labour-intensive small-scale focus.',
+            '**Licensing:** Mandatory for production start, expansion, or new goods.',
+            '**Import Substitution:** Tariffs and quotas to protect "infant industries".'
+        ]
+    },
+    {
+        id: 'u6-ch2-cs5',
         title: '📊 Evaluation (1950–1990)',
         points: [
-            '**Success:** Massive domestic industrial diversification and food self-sufficiency.',
-            '**Failure:** Loss-making PSUs (Soft Budget Constraints) and corruption in Licensing.',
-            '**Structural Shift:** Industrial share of GDP rose from **11.8% (1950)** to **24.6% (1990)**.'
+            '**Success:** Industrial diversification; Food self-sufficiency.',
+            '**Failure:** "License Raj" corruption; inefficient PSUs; poor consumer quality.'
         ]
     }
 ];
+
 

@@ -2,221 +2,256 @@ import { TheoryTopic } from '../../types';
 
 export const TOPICS: TheoryTopic[] = [
     {
-        id: 'u6-ch2-intro',
-        title: '2.0 Introduction: Choice of Economic Systems',
-        description: 'Why India chose the Mixed Economy model post-independence.',
+        id: 'u6-ch2-systems',
+        title: '2.1 Types of Economic Systems',
+        description: 'Addressing the 3 central problems of an economy.',
         content: [
             {
                 type: 'concept',
-                title: 'Types of Economic Systems',
-                text: 'Every nation must answer three basic questions: What to produce? How to produce? and For whom to produce? The answers define the economic system:',
+                title: 'The Three Basic Questions',
+                text: 'Every society has to answer three questions to decide its economic system:',
                 points: [
-                    '**Capitalist Economy:** Market forces of supply and demand decide production. Goods are distributed based on purchasing power (Who can buy?), not need. Examples: USA.',
-                    '**Socialist Economy:** The government decides production based on the needs of society. Distribution is based on what people need. Examples: Former Soviet Union.',
-                    '**Mixed Economy:** A middle path where both the public and private sectors coexist. The government provides essential goods and services while the market handles the rest.'
+                    '**What** to produce? (Choice of goods and services)',
+                    '**How** to produce? (Labour-intensive vs. Capital-intensive)',
+                    '**For whom** to produce? (Distribution based on ability to pay vs. need)'
                 ],
                 tags: ['FUNDAMENTALS']
             },
             {
-                type: 'context',
-                title: 'The Indian Choice',
-                text: 'Jawaharlal Nehru and many other leaders were attracted to socialism but didn\'t want the total state control seen in the USSR. India opted for a **"Socialist Pattern of Society"** within a Mixed Economy framework, where the public sector would control the "commanding heights" of the economy.'
+                type: 'concept',
+                title: 'Market vs. Command vs. Mixed',
+                text: 'In a **Market Economy** (Capitalism), only those goods are produced that can be sold profitably. In a **Socialist Economy**, the government decides production based on social needs. India opted for a **Mixed Economy**.',
+                tags: ['SYSTEMS']
             }
         ],
         visualizations: [
             {
-                id: 'v-ch2-eco-systems',
-                title: 'Comparison of Economic Systems',
+                id: 'v-ch2-systems-table',
+                title: 'Comparative Systems Guide',
                 type: 'table',
                 data: {
-                    headers: ['Feature', 'Capitalism', 'Socialism', 'Mixed'],
+                    headers: ['Feature', 'Capitalism', 'Socialism'],
                     rows: [
-                        ['Ownership', 'Private', 'State/Public', 'Both'],
-                        ['Driving Force', 'Profit Motive', 'Social Welfare', 'Both'],
-                        ['Price Mechanism', 'Market Prices', 'Administered Prices', 'Guided Market'],
-                        ['Resource Allocation', 'Market', 'Central Planning', 'Dual focus']
+                        ['Ownership', 'Private Persons', 'Government'],
+                        ['Objective', 'Profit Maximization', 'Social Welfare'],
+                        ['Distribution', 'Purchasing Power', 'According to Need']
                     ]
                 }
             }
         ]
+    },
+    {
+        id: 'u6-ch2-choice',
+        title: '2.2 The Indian Choice: Mixed Economy',
+        description: 'Rationale for the "Socialist Pattern of Society".',
+        content: [
+            {
+                type: 'context',
+                title: 'Nehru\'s Vision',
+                text: 'Jawaharlal Nehru and other leaders were attracted to the Soviet model but favoured a system that didn\'t involve state ownership of all property. They wanted a system where the government would plan for the economy but the private sector would also play a role.',
+                tags: ['VISION']
+            },
+            {
+                type: 'concept',
+                title: 'The Industrial Policy Resolution 1948',
+                text: 'It reflected the goal of a **Socialist Pattern of Society**, where the government would control the "commanding heights" of the economy – the industries essential for development.',
+                tags: ['POLICY']
+            }
+        ],
+        visualizations: []
+    },
+    {
+        id: 'u6-ch2-planning-concept',
+        title: '2.3 What is a Plan?',
+        description: 'Perspective vs. Five-Year Plans.',
+        content: [
+            {
+                type: 'concept',
+                title: 'The Planning Commission',
+                text: 'Set up in **1950** with the Prime Minister as Chairperson. Its job was to formulate five-year plans to ensure efficient resource allocation.',
+                tags: ['COMMISSION']
+            },
+            {
+                type: 'concept',
+                title: 'Types of Plans',
+                points: [
+                    '**Five-Year Plans:** Short-term documents specifying objectives for a 5-year period.',
+                    '**Perspective Plans:** A long-term vision document (spanning 20 years) that provides the framework for individual five-year plans.'
+                ],
+                tags: ['STRUCTURE']
+            }
+        ],
+        visualizations: []
     },
     {
         id: 'u6-ch2-goals',
-        title: '2.1 The Goals of Five Year Plans',
-        description: 'The four fundamental objectives of Indian planning (1950–1990).',
+        title: '2.4 General Goals of Five Year Plans',
+        description: 'The GMSE Framework for shared prosperity.',
         content: [
             {
                 type: 'concept',
-                title: 'The GMSE Framework',
-                text: 'The Planning Commission (headed by the PM) formulated five-year plans to achieve four long-term goals:',
-                points: [
-                    '**Growth:** Increase in the capacity to produce (GDP). Real GDP is a good indicator of economic growth.',
-                    '**Modernisation:** Adoption of new technology (Technical) and changes in social outlook like gender equality (Social).',
-                    '**Self-reliance:** Avoiding imports of goods that could be produced domestically to reduce foreign dependence and interference.',
-                    '**Equity:** Ensuring the benefits of growth reach the poor. Without equity, growth and modernisation are meaningless for the masses.'
-                ],
-                tags: ['STRATEGY']
-            }
-        ],
-        visualizations: [
-            {
-                id: 'v-ch2-goals-summary',
-                title: 'Objectives of Planning: In-depth',
-                type: 'grid',
-                data: [
-                    { label: 'Growth', desc: 'Larger GDP to provide more goods and services.' },
-                    { label: 'Modernisation', desc: 'Not just new machines, but new mindsets (Equality).' },
-                    { label: 'Self-reliance', desc: 'First seven plans emphasized non-dependence on foreign aid.' },
-                    { label: 'Equity', desc: 'Reducing the gap between rich and poor.' }
-                ]
-            }
-        ]
-    },
-    {
-        id: 'u6-ch2-agri',
-        title: '2.2 Agricultural Reforms',
-        description: 'Institutional and technical changes to solve food scarcity.',
-        content: [
-            {
-                type: 'concept',
-                title: 'Institutional Reforms (Land Reforms)',
-                text: 'Aimed at equity and increasing productivity by changing the ownership structure.',
-                points: [
-                    '**Abolition of Intermediaries:** Zamindari was abolished, bringing 200 lakh tenants into direct contact with the government.',
-                    '**Land Ceiling:** Fixing the maximum size of land one could own. Surplus land was redistributed to landless laborers.',
-                    '**Loopholes:** Landlords used "Benami Holdings" (registering land in the names of relatives/servants) to evade the law.',
-                    '**Success Stories:** Highly successful in **Kerala** and **West Bengal** due to strong political will.'
-                ],
-                tags: ['LAND_REFORMS']
+                title: 'Growth & Structural Change',
+                text: 'Growth refers to the increase in **GDP**. A larger GDP means a larger "cake" (total output) for the people to share. It is often accompanied by **Structural Change** – a shift from agriculture to industry and services.',
+                tags: ['GROWTH']
             },
             {
                 type: 'concept',
-                title: 'The Green Revolution (Technical Reforms)',
-                text: 'The introduction of HYV (High Yielding Variety) seeds transformed India from a food-deficient to a food-surplus nation.',
+                title: 'Modernisation & Social Change',
+                text: 'Adoption of new technology is **Modernisation**, but it also includes social changes like the recognition that women should have the same rights as men.',
+                tags: ['MODERNISATION']
+            },
+            {
+                type: 'concept',
+                title: 'Self-Reliance & Equity',
                 points: [
-                    '**Phase 1 (Mid-60s to Mid-70s):** Restricted to wheat-growing regions like Punjab, Haryana, and Western UP.',
-                    '**Phase 2 (Mid-70s to Mid-80s):** Spread to a larger number of states and a variety of crops (Rice, etc.).',
-                    '**Marketed Surplus:** The portion of agricultural produce sold in the market after meeting self-consumption. It allowed the government to build **Buffer Stocks** for food security.'
+                    '**Self-reliance:** Avoiding imports of goods that could be produced domestically to reduce foreign interference.',
+                    '**Equity:** Ensuring that the benefits of economic prosperity reach even the poorest sections. Without equity, growth is meaningless.'
                 ],
-                tags: ['GREEN_REVOLUTION']
+                tags: ['EQUITY']
+            }
+        ],
+        visualizations: []
+    },
+    {
+        id: 'u6-ch2-land-reforms',
+        title: '2.5 Land Reforms: Institutional Change',
+        description: 'Abolishing intermediaries and empowering tillers.',
+        content: [
+            {
+                type: 'concept',
+                title: 'Abolition of Intermediaries',
+                text: 'The Zamindari system was abolished to bring about **200 lakh tenants** into direct contact with the government. Ownership gave them incentives to increase productivity.',
+                tags: ['EQUITY']
+            },
+            {
+                type: 'context',
+                title: 'The Success of Kerala and West Bengal',
+                text: 'Land reforms were most successful in these states because the governments were committed to the policy of "land to the tiller".'
+            }
+        ],
+        visualizations: []
+    },
+    {
+        id: 'u6-ch2-land-ceiling',
+        title: '2.6 Land Ceiling: Reducing Inequality',
+        description: 'Fixing ownership limits and legal hurdles.',
+        content: [
+            {
+                type: 'concept',
+                title: 'Definition and Rationale',
+                text: 'Land Ceiling means fixing the maximum size of land which could be owned by an individual. The purpose was to reduce the concentration of land ownership.',
+                tags: ['REFORM']
             },
             {
                 type: 'warning',
-                title: 'The Subsidy Debate',
-                text: 'Economists are divided on agricultural subsidies. Proponents say they are essential for poor farmers to adopt new technology. Critics argue they benefit big farmers more and huge subsidies put a burden on the government treasury.'
+                title: 'The "Benami" Loophole',
+                text: 'Many big landlords registered their lands in the name of close relatives or servants to escape the ceiling. In some states, landlords challenged the law in courts, delaying implementation until they could "manage" their holdings.',
+                tags: ['HURDLES']
             }
         ],
-        visualizations: [
-            {
-                id: 'v-ch2-gr-logic',
-                title: 'Stages of the Green Revolution',
-                type: 'steps',
-                data: [
-                    'Import of HYV Seeds (Wheat/Rice)',
-                    'Application of Chemical Fertilizers & Pesticides',
-                    'Expansion of Assured Irrigation Facilities',
-                    'Achievement of Self-sufficiency & Marketed Surplus',
-                    'Creation of National Buffer Stocks by FCI'
-                ]
-            }
-        ]
+        visualizations: []
     },
     {
-        id: 'u6-ch2-industry',
-        title: '2.3 Industrial Policy & Trade (1950–1990)',
-        description: 'State-led growth, protectionism, and the Karve Committee.',
+        id: 'u6-ch2-green-rev',
+        title: '2.7 The Green Revolution: Technical Change',
+        description: 'HYV seeds and food self-sufficiency.',
         content: [
             {
                 type: 'concept',
-                title: 'Industrial Policy Resolution (IPR) 1956',
-                text: 'This resolution formed the basis of the Second Five Year Plan and categorized industries into three schedules:',
+                title: 'The HYV Miracle',
+                text: 'High Yielding Variety (HYV) seeds required reliable irrigation and fertilisers. Two phases:',
                 points: [
-                    '**Schedule A:** 17 industries exclusively owned by the state (Railways, Atomic Energy, etc.).',
-                    '**Schedule B:** 12 industries where the state would lead and the private sector could supplement.',
-                    '**Schedule C:** All remaining industries, which were left to the private sector but governed by a system of **Licensing**.'
+                    '**First Phase (Mid-60s to Mid-70s):** Restricted to wheat-rich states like Punjab and Haryana.',
+                    '**Second Phase (Mid-70s to Mid-80s):** Spread to more crops and regions.'
+                ],
+                tags: ['TECHNOLOGY']
+            },
+            {
+                type: 'concept',
+                title: 'Marketed Surplus & Buffer Stocks',
+                text: '**Marketed Surplus** is the portion of agricultural produce sold by farmers in the market after their own consumption. This allowed the government to build **Buffer Stocks** using the FCI.',
+                tags: ['SECURITY']
+            }
+        ],
+        visualizations: []
+    },
+    {
+        id: 'u6-ch2-ipr1956',
+        title: '2.8 Industrial Policy Resolution (IPR) 1956',
+        description: 'The blueprint for the Second Five Year Plan.',
+        content: [
+            {
+                type: 'concept',
+                title: 'The Mahalanobis Model',
+                text: 'PRASANTA CHANDRA MAHALANOBIS is known as the architect of Indian planning. IPR 1956 formed the basis of the **Second Plan**, aiming for a socialist pattern of society.',
+                tags: ['ARCHITECTURE']
+            },
+            {
+                type: 'concept',
+                title: 'The Three Schedules',
+                points: [
+                    '**Schedule A:** 17 industries exclusively owned by the government.',
+                    '**Schedule B:** 12 industries where the state would take the lead, supplemented by the private sector.',
+                    '**Schedule C:** Remaining industries left to the private sector but regulated by **Licensing**.'
                 ],
                 tags: ['IPR_1956']
-            },
-            {
-                type: 'concept',
-                title: 'Small-Scale Industries (SSI)',
-                text: 'In 1955, the **Karve Committee** (Village and Small-Scale Industries Committee) recognized the potential of small industries for rural development.',
-                points: [
-                    '**Labour Intensive:** They use more labour than large-scale industries and create more jobs.',
-                    '**Protection:** Products were "Reserved" for SSI, and they received incentives like tax benefits and lower interest rates.'
-                ],
-                tags: ['SSI']
-            },
-            {
-                type: 'warning',
-                title: 'Trade Policy: Import Substitution',
-                text: 'India adopted an "Inward Looking Trade Strategy" to protect infant industries from foreign competition.',
-                points: [
-                    '**Tariffs:** High taxes on imported goods to make them expensive.',
-                    '**Quotas:** Physical limits on the quantity of goods that can be imported.'
-                ],
-                tags: ['TRADE']
             }
         ],
         visualizations: [
             {
-                id: 'v-ch2-industry-schedules',
-                title: 'Classification of Industries (IPR 1956)',
-                type: 'table',
-                data: {
-                    headers: ['Schedule', 'Count', 'Ownership / Control'],
-                    rows: [
-                        ['Schedule A', '17 Industries', 'Exclusive State Monopoly'],
-                        ['Schedule B', '12 Industries', 'State-led, Private Supplement'],
-                        ['Schedule C', 'Remainder', 'Private Sector + Compulsory Licensing']
-                    ]
-                }
+                id: 'v-ch2-ipr-summary',
+                title: 'Industrial Licensing System',
+                type: 'grid',
+                data: [
+                    { label: 'Start-up', desc: 'License needed to set up any new factory.' },
+                    { label: 'Expansion', desc: 'Permission required to increase production capacity.' },
+                    { label: 'Diversification', desc: 'Government approval for producing new goods.' }
+                ]
             }
         ]
     },
     {
-        id: 'u6-ch2-evaluation',
-        title: '2.4 Critical Evaluation (1950-1990)',
-        description: 'Analyzing the achievements and failures of the planning era.',
+        id: 'u6-ch2-ssi',
+        title: '2.9 Small-Scale Industries (SSI)',
+        description: 'The Karve Committee and employment generation.',
         content: [
             {
                 type: 'concept',
-                title: 'The Successes',
-                text: 'India achieved a diverse industrial base and became self-sufficient in food.',
-                points: [
-                    'Industrial share of GDP increased from 11.8% to 24.6%.',
-                    'Public sector provided infrastructure where private sector couldn\'t.',
-                    'Green Revolution eliminated the threat of famines.'
-                ],
-                tags: ['ACHIEVEMENTS']
+                title: 'The Karve Committee (1955)',
+                text: 'Also known as the Village and Small-Scale Industries Committee. It noted that small-scale industries are more **labour-intensive** and thus create more employment.',
+                tags: ['EMPLOYMENT']
+            },
+            {
+                type: 'concept',
+                title: 'Protection of SSI',
+                text: 'The government "reserved" certain products for the small-scale sector. They also received concessions like lower excise duty and bank loans at lower interest rates.',
+                tags: ['PROTECTION']
+            }
+        ],
+        visualizations: []
+    },
+    {
+        id: 'u6-ch2-trade-policy',
+        title: '2.10 Trade Policy & Critical Appraisal',
+        description: 'Inward-looking strategy and the License Raj.',
+        content: [
+            {
+                type: 'concept',
+                title: 'Import Substitution',
+                text: 'India adopted an "Inward Looking Trade Strategy". Protection from foreign competition was provided via **Tariffs** (taxes) and **Quotas** (limits).',
+                tags: ['PROTECTIONISM']
             },
             {
                 type: 'tip',
-                title: 'The Failures & Bottlenecks',
-                text: 'The excessive regulation led to "License Raj" and inefficiencies.',
+                title: 'Critical Appraisal (1950-1990)',
                 points: [
-                    '**Inefficient PSUs:** Public sector units continued to run despite huge losses (Soft Budget Constraints).',
-                    '**License Raj:** Misused by big industrialists to prevent new competitors from entering.',
-                    '**Poor Quality:** Lack of competition meant consumers had to buy low-quality domestic goods (e.g., outdated cars).'
+                    '**Achievements:** Industrial diversification and food self-sufficiency.',
+                    '**Failures:** "License Raj" created corruption; loss-making PSUs continued due to political pressure; lack of competition led to poor quality (outdated cars).'
                 ],
-                tags: ['LIMITATIONS']
+                tags: ['EVALUATION']
             }
         ],
-        visualizations: [
-            {
-                id: 'v-ch2-planning-legacy',
-                title: 'Historical Legacy (1950-1990)',
-                type: 'table',
-                data: {
-                    headers: ['Component', 'Positive Outcome', 'Negative Outcome'],
-                    rows: [
-                        ['Agriculture', 'Self-sufficiency', 'Subsidy burden'],
-                        ['Industry', 'Diversified base', 'Inefficient PSUs'],
-                        ['Trade', 'Conserved Forex', 'Lack of Global Competition'],
-                        ['Regulatory', 'Prevention of Monopoly', 'Corruption / Red Tape']
-                    ]
-                }
-            }
-        ]
+        visualizations: []
     }
 ];
+

@@ -2,147 +2,232 @@ import { TheoryTopic } from '../../types';
 
 export const TOPICS: TheoryTopic[] = [
     {
-        id: 'u6-ch3-crisis',
-        title: '3.1 The 1991 Economic Crisis',
-        description: 'The triggers that forced India into the New Economic Policy.',
+        id: 'u6-ch3-background',
+        title: '3.1 Background: The Economy in 1991',
+        description: 'The state of the Indian economy leading to reforms.',
         content: [
             {
                 type: 'concept',
-                title: 'The Perfect Storm (July 1991)',
-                text: 'By 1991, under PM P.V. Narasimha Rao and FM Dr. Manmohan Singh, India launched the NEP to combat a severe crisis.',
+                title: 'Stagnation and Inefficiency',
+                text: 'By the late 1980s, the Indian economy was facing severe problems due to the "License Raj" and inefficient public sector units. Government expenditure exceeded its revenue by such a large margin that even meeting the interest payments became difficult.',
+                tags: ['CONTEXT']
+            }
+        ],
+        visualizations: []
+    },
+    {
+        id: 'u6-ch3-triggers',
+        title: '3.2 Triggers of the 1991 Crisis',
+        description: 'Direct causes of the economic emergency.',
+        content: [
+            {
+                type: 'concept',
+                title: 'BoP and Fiscal Crisis',
                 points: [
-                    '**Foreign Exchange Crisis:** $7 Billion loan from IMF/World Bank was sought as reserves fell to 2 weeks.',
-                    '**Fiscal Deficit:** Government borrowing was unsustainable, leading to a **Vicious Circle of Debt**.',
-                    '**Inflation:** Soaring double-digit prices (13-17%).',
-                    '**Gulf War (1990-91):** Spiked oil prices and reduced remittances.'
+                    '**Foreign Exchange Crisis:** Reserves fell to a level only sufficient to pay for Two Weeks of imports.',
+                    '**Fiscal Deficit:** Huge government borrowing led to a massive internal debt.',
+                    '**High Inflation:** Prices of essential goods rose sharply (13-17%).',
+                    '**Gulf War (1990-91):** Led to a spike in oil prices and a drop in remittances from Indian workers abroad.'
                 ],
                 tags: ['CRISIS']
             }
         ],
-        visualizations: [
-            {
-                id: 'v-ch3-emergency-loan',
-                title: 'The IMF Bailout Logic',
-                type: 'flow',
-                data: {
-                    nodes: [
-                        { id: 'crisis', label: '1991 Crisis (BoP/FD)' },
-                        { id: 'loan', label: 'IMF/World Bank ($7 Billion)' },
-                        { id: 'cond', label: 'Conditions (NEP 1991)' },
-                        { id: 'lpg', label: 'LPG Framework' }
-                    ],
-                    edges: [
-                        { from: 'crisis', to: 'loan', label: 'Applied for' },
-                        { from: 'loan', to: 'cond', label: 'Granted with' },
-                        { from: 'cond', to: 'lpg', label: 'Led to' }
-                    ]
-                }
-            }
-        ]
+        visualizations: []
     },
     {
-        id: 'u6-ch3-liberalisation',
-        title: '3.2 Liberalisation (The 1991 Focus)',
-        description: 'Opening the economy by removing government controls.',
+        id: 'u6-ch3-nep',
+        title: '3.3 The New Economic Policy (NEP)',
+        description: 'Stabilisation vs. Structural reforms.',
         content: [
             {
                 type: 'concept',
-                title: 'Industrial Sector Reforms',
-                points: [
-                    '**Compulsory Licensing:** Retained for only 6 industries (Alcohol, Cigarettes, Hazardous Chemicals, Drugs, Explosives, Aerospace).',
-                    '**Public Sector Role:** Strategic disinvestment to end **Soft Budget Constraints**. PSUs given status like **Maharatna** (NTPC, ONGC) and **Navratna** (SAIL).',
-                    '**Price Deregulation:** Ended **Dual Pricing** (where govt and market both set prices).'
-                ],
-                tags: ['LIBERALISATION']
+                title: 'IMF/World Bank Intervention',
+                text: 'India approached the IBRD (World Bank) and IMF for a **$7 Billion** loan. They agreed on the condition that India liberalise and open up its economy.',
+                tags: ['BAILOUT']
             },
             {
                 type: 'concept',
-                title: 'Financial & External Sector',
+                title: 'Two Prongs of NEP',
                 points: [
-                    '**Fiscal Consolidation:** Policies to reduce the fiscal deficit.',
-                    '**RBI Role:** Shift from **Regulator** to **Facilitator** (Banks can decide rates).',
-                    '**Rupee Devaluation:** Done to boost exports and attract forex.',
-                    '**Trade Policy:** Removal of Quotas (QRs) finished by **2001**.'
+                    '**Stabilisation Measures:** Short-term measures intended to correct the Balance of Payments (BoP) and control inflation.',
+                    '**Structural Reform Policies:** Long-term measures aimed at improving efficiency and increasing international competitiveness.'
                 ],
-                tags: ['REFORMS']
+                tags: ['STRATEGY']
             }
         ],
-        visualizations: [
-            {
-                id: 'v-ch3-lpg-pillars',
-                title: 'LPG: The Three Pillars',
-                type: 'grid',
-                data: [
-                    { label: 'Liberalisation', desc: 'Removal of the License Raj and trade barriers. Competitive markets.' },
-                    { label: 'Privatisation', desc: 'Disinvestment of PSUs. Navratna/Maharatna autonomy.' },
-                    { label: 'Globalisation', desc: 'Integrating with world trade (WTO). Outsourcing hub.' }
-                ]
-            }
-        ]
+        visualizations: []
     },
     {
-        id: 'u6-ch3-globalisation',
-        title: '3.3 Globalisation & WTO',
-        description: 'Integrating India with the global marketplace.',
+        id: 'u6-ch3-liberalisation-ind',
+        title: '3.4 Liberalisation: Industrial Sector',
+        description: 'Deregulation and the end of License Raj.',
         content: [
             {
                 type: 'concept',
-                title: 'Outsourcing & WTO',
-                text: 'India became a global hub for BPO and **KPO** (Knowledge Process Outsourcing) due to skilled manpower. The World Trade Organisation (WTO), established in 1995 as successor to **GATT (1948)**, further integrated India into global trade.',
-                tags: ['GLOBALISATION', 'WTO']
+                title: 'Deregulation Measures',
+                points: [
+                    '**Abolition of Licensing:** Industrial licensing was abolished for almost all but five industriy groups: (1) Alcohol, (2) Cigarettes, (3) Hazardous Chemicals, (4) Industrial Explosives, (5) Electronics, Aerospace and Drugs.',
+                    '**Public Sector Contraction:** Reserved industries for the public sector were reduced initially from 17 to 8, and now even fewer (Railways, Atomic Energy).',
+                    '**SSI De-reservation:** Small-scale industries lost their "reserved" status for many products.'
+                ],
+                tags: ['DEREGULATION']
+            }
+        ],
+        visualizations: []
+    },
+    {
+        id: 'u6-ch3-financial',
+        title: '3.5 Financial Sector Reforms',
+        description: 'RBI\'s new role and private banking.',
+        content: [
+            {
+                type: 'concept',
+                title: 'RBI: From Regulator to Facilitator',
+                text: 'The major aim was to reduce the role of RBI from being a **Regulator** to a **Facilitator**. This meant the financial sector could take decisions without consulting the RBI on every step.',
+                tags: ['FINANCE']
+            },
+            {
+                type: 'concept',
+                title: 'Private and Foreign Banks',
+                text: 'Reforms allowed the establishment of private sector banks (both Indian and foreign), increasing competition and efficiency.',
+                tags: ['BANKING']
+            }
+        ],
+        visualizations: []
+    },
+    {
+        id: 'u6-ch3-tax-forex',
+        title: '3.6 Tax and Foreign Exchange Reforms',
+        description: 'Fiscal policy and Rupee stability.',
+        content: [
+            {
+                type: 'concept',
+                title: 'Fiscal Policy (Tax Reforms)',
+                text: 'Aimed at reducing tax rates and simplifying the system to encourage compliance. Direct tax rates (Income and Corporate tax) were significantly lowered.',
+                tags: ['FISCAL']
+            },
+            {
+                type: 'concept',
+                title: 'Rupee Devaluation',
+                text: 'In 1991, the Rupee was **Devalued** against foreign currencies to increase exports and attract foreign exchange inflows.',
+                tags: ['FOREX']
+            }
+        ],
+        visualizations: []
+    },
+    {
+        id: 'u6-ch3-privatisation',
+        title: '3.7 Privatisation: Disinvestment & Autonomy',
+        description: 'Transfer of ownership and "Ratna" status.',
+        content: [
+            {
+                type: 'concept',
+                title: 'Disinvestment',
+                text: 'Privatisation of the public sector enterprises by selling off part of the equity of PSUs to the public (Disinvestment). Aim: Improve financial discipline and facilitate modernisation.',
+                tags: ['DISINVESTMENT']
+            },
+            {
+                type: 'concept',
+                title: 'Navratnas and Maharatnas',
+                text: 'To improve efficiency, the government identified profitable PSUs and gave them greater managerial and financial autonomy. Status includes **Maharatnas** (e.g., Indian Oil), **Navratnas** (e.g., HPCL), and **Miniratnas**.',
+                tags: ['AUTONOMY']
+            }
+        ],
+        visualizations: []
+    },
+    {
+        id: 'u6-ch3-globalisation',
+        title: '3.8 Globalisation: Integrating the World',
+        description: 'Outsourcing and boundary-less trade.',
+        content: [
+            {
+                type: 'concept',
+                title: 'The Outsourcing Hub',
+                text: 'India became a destination for **Outsourcing** (BPO/KPO) due to low wage rates and a high proficiency in English. A "Time-Zone" difference with the West also helped in round-the-clock service.',
+                tags: ['OUTSOURCING']
             }
         ],
         visualizations: [
             {
-                id: 'v-ch3-outsourcing',
-                title: 'Why India for Outsourcing?',
+                id: 'v-ch3-outsourcing-tree',
+                title: 'Drivers of Indian Outsourcing',
                 type: 'tree',
                 data: {
-                    root: 'Outsourcing Determinants',
+                    root: 'India as Outsourcing Hub',
                     children: [
-                        { name: 'Low Wage Rates' },
-                        { name: 'Skilled English-Speaking Experts' },
-                        { name: 'Favorable Time Zone' },
-                        { name: 'Advanced Communication (IT)' }
+                        { name: 'Low Wage Cost' },
+                        { name: 'Skilled Manpower' },
+                        { name: 'English Proficiency' },
+                        { name: 'IT Infrastructure' }
                     ]
                 }
             }
         ]
     },
     {
-        id: 'u6-ch3-expert',
-        title: '🎓 Expert Teacher Analysis: The LPG Scorecard',
-        description: 'Master assessment of the post-reform era.',
+        id: 'u6-ch3-wto',
+        title: '3.9 WTO and Trade Policy',
+        description: 'Transition from GATT to WTO.',
+        content: [
+            {
+                type: 'concept',
+                title: 'Successor to GATT',
+                text: 'The **World Trade Organisation (WTO)** was established in **1995** as the successor to the General Agreement on Tariffs and Trade (GATT,est. 1948).',
+                tags: ['WTO']
+            },
+            {
+                type: 'concept',
+                title: 'WTO Objectives',
+                points: [
+                    'Ensuring free trade through the removal of tariffs and non-tariff barriers.',
+                    'Enlarging production and trade of services.',
+                    'Ensuring optimum utilisation of world resources.'
+                ],
+                tags: ['TRADE_POLICY']
+            }
+        ],
+        visualizations: []
+    },
+    {
+        id: 'u6-ch3-appraisal',
+        title: '3.10 Critical Appraisal of LPG',
+        description: 'Growth performance and lopsided development.',
         content: [
             {
                 type: 'concept',
                 title: 'The Success Indicators',
-                text: 'GDP growth rose from 3.5% (Hindu Rate) to 6-8%. Forex reserves and FDI inflows exploded. Consumers gained access to world-class goods.',
-                tags: ['PROS']
+                points: [
+                    'GDP growth rate rose significantly (Service sector focus).',
+                    'Forex reserves and FDI/FPI inflows saw a massive jump.',
+                    'India emerged as an exporter of auto parts, engineering goods, and IT.',
+                    'Inflation was brought under control.'
+                ],
+                tags: ['SUCCESS']
             },
             {
                 type: 'warning',
-                title: 'The "Lopsided" Growth',
+                title: 'The Failures',
                 points: [
-                    '**Jobless Growth:** The secondary and tertiary sectors grew, but failed to absorb surplus labour from agriculture effectively.',
-                    '**Agricultural Slowdown:** Shift in focus away from rural infrastructure led to stagnation in farm incomes.',
-                    '**Inequality:** The benefits of globalization were skewed toward urban/skilled population.'
+                    '**Neglect of Agriculture:** Public investment in agricultural infrastructure declined.',
+                    '**Jobless Growth:** Growth in GDP did not translate into proportional job creation.',
+                    '**Lopsided Industrial Growth:** Demand for industrial products decreased due to cheap imports.',
+                    '**Inequality:** Deepened the divide between urban and rural population.'
                 ],
-                tags: ['CONS']
+                tags: ['FAILURES']
             }
         ],
         visualizations: [
             {
-                id: 'v-ch3-summary',
-                title: 'LPG Critical Appraisal Summary',
+                id: 'v-ch3-appraisal-table',
+                title: 'Post-1991 Performance Metrics',
                 type: 'table',
                 data: {
-                    headers: ['Parameter', 'Success / Positive', 'Failure / Negative'],
+                    headers: ['Macro Parameter', 'Positive Trend', 'Negative Trend'],
                     rows: [
-                        ['GDP Growth', 'Reached 7-8%', 'Uneven across sectors'],
-                        ['Forex / FDI', 'Record highs (> $600bn)', 'High volatility of FPI'],
-                        ['Employment', 'New service sector jobs', 'Jobless growth trend'],
-                        ['Agriculture', 'Commercialisation', 'Public investment decay']
+                        ['GDP Growth', '6-8% Average', 'Agri stagnation'],
+                        ['Forex Reserves', 'Record Levels', 'Volatility of FPI'],
+                        ['Industry', 'Diversified Export', 'Global competition hit'],
+                        ['Social', 'Global integration', 'Jobless growth']
                     ]
                 }
             }
